@@ -1,0 +1,402 @@
+event_id,exchange,symbol,analysis,reason
+H0007,OKX,ALLO,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0124,OKX,OFC,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0203,OKX,RE,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0219,OKX,NES,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0220,OKX,CARDS,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0245,OKX,AEON,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0254,OKX,GRVT,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0296,OKX,CP,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0315,OKX,XDP,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0319,OKX,CT,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0450,OKX,XAMGN,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0451,OKX,XBAC,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0452,OKX,XSKDD,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0453,OKX,XADI,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0454,OKX,XNVDL,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0455,OKX,XABBV,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0456,OKX,XBIDU,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0457,OKX,XSKUU,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0458,OKX,XIBKR,trading_open,24h window not complete (too recent) or data gap
+X0458,OKX,XIBKR,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0459,OKX,XCEG,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0460,OKX,XFLEX,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0461,OKX,XGE,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0462,OKX,XMPWR,trading_open,24h window not complete (too recent) or data gap
+X0462,OKX,XMPWR,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0463,OKX,XMP,trading_open,24h window not complete (too recent) or data gap
+X0463,OKX,XMP,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0464,OKX,XCVNA,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0465,OKX,XGILD,trading_open,24h window not complete (too recent) or data gap
+X0465,OKX,XGILD,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0005,Binance,STABLE,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0009,Binance,BEAT,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0013,Binance,SENT,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0016,Binance,BOB,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0022,Binance,POWER,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0027,Binance,US,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0028,Binance,CYS,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0029,Binance,RAVE,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0032,Binance,GUA,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0033,Binance,IR,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0034,Binance,LIT,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0037,Binance,BREV,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0038,Binance,COLLECT,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0044,Binance,XAG,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0047,Binance,ZAMA,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0048,Binance,FOGO,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0052,Binance,SPORTFUN,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0053,Binance,AIA,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0056,Binance,ACU,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0061,Binance,SPACE,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0064,Binance,TSLA,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0068,Binance,GWEI,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0070,Binance,XPT,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0071,Binance,XPD,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0072,Binance,INTC,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0073,Binance,HOOD,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0081,Binance,ESP,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0082,Binance,AZTEC,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0091,Binance,KAT,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0094,Binance,COPPER,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0098,Binance,EWY,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0101,Binance,EWJ,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0105,Binance,PAYP,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0109,Binance,XAUt,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing)
+H0112,Binance,BZ,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0113,Binance,NATGAS,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0118,Binance,QQQ,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0119,Binance,SPY,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0120,Binance,AAPL,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0121,Binance,TSM,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0122,Binance,MU,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0123,Binance,SNDK,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0128,Binance,GENIUS,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0129,Binance,CHIP,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0130,Binance,MSFT,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0131,Binance,AVGO,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0132,Binance,BABA,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0139,Binance,CHIP,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged"
+H0151,Binance,AIGENSYN,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0157,Binance,AMD,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0158,Binance,QCOM,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0159,Binance,USAR,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0173,Binance,PHAROS,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0174,Binance,STAR,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0192,Binance,ZEST,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0193,Binance,BTW,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0193,Binance,BTW,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged"
+H0204,Binance,RE,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0232,Binance,DATAIP,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0236,Binance,SKHY,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0240,Binance,POPMART,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0259,Binance,GIGADEV,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0297,Binance,MARSCOIN,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0344,Binance,PREDICT,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0345,Binance,PREDICT,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing)
+X0445,Binance,APPB,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0446,Binance,BSPB,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0447,Binance,GEVB,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0448,Binance,SKDDB,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0449,Binance,SKUUB,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0003,Upbit,MMT,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0003,Upbit,MMT,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged"
+H0004,Upbit,TRUST,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0035,Upbit,YB,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0115,Upbit,USDS,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0137,Upbit,CHIP,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged"
+H0189,Upbit,SLX,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0196,Upbit,CTR,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0198,Upbit,OPG,trading_open,no trade in the 5 minutes after the entry minute (thin market)
+H0198,Upbit,OPG,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0205,Upbit,PEAQ,trading_open,no trade in the 5 minutes after the entry minute (thin market)
+H0205,Upbit,PEAQ,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0206,Upbit,LIT,trading_open,no trade in the 5 minutes after the entry minute (thin market)
+H0206,Upbit,LIT,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0207,Upbit,KMNO,trading_open,no trade in the 5 minutes after the entry minute (thin market)
+H0207,Upbit,KMNO,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0208,Upbit,MORPHO,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing)
+H0208,Upbit,MORPHO,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0209,Upbit,GRAM,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing)
+H0209,Upbit,GRAM,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0210,Upbit,LDO,trading_open,no trade in the 5 minutes after the entry minute (thin market)
+H0210,Upbit,LDO,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0211,Upbit,PAXG,trading_open,no trade in the 5 minutes after the entry minute (thin market)
+H0211,Upbit,PAXG,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0212,Upbit,OSMO,trading_open,no trade in the 5 minutes after the entry minute (thin market)
+H0212,Upbit,OSMO,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0213,Upbit,AMP2,trading_open,no trade in the 5 minutes after the entry minute (thin market)
+H0213,Upbit,AMP2,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0228,Upbit,MPLX,trading_open,no trade in the 5 minutes after the entry minute (thin market)
+H0228,Upbit,MPLX,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0229,Upbit,NEX,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0263,Upbit,QUID,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0270,Upbit,CYS,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0270,Upbit,CYS,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged"
+H0271,Upbit,ICNT,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing)
+H0271,Upbit,ICNT,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0272,Upbit,XAN,trading_open,no trade in the 5 minutes after the entry minute (thin market)
+H0272,Upbit,XAN,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0273,Upbit,EDEN,trading_open,no trade in the 5 minutes after the entry minute (thin market)
+H0273,Upbit,EDEN,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0274,Upbit,AIOZ,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0275,Upbit,ALLO,trading_open,no trade in the 5 minutes after the entry minute (thin market)
+H0275,Upbit,ALLO,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0277,Upbit,DOS,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0283,Upbit,BICO,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0284,Upbit,BMT,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0285,Upbit,NIL,trading_open,no trade in the 5 minutes after the entry minute (thin market)
+H0285,Upbit,NIL,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0286,Upbit,GWEI,trading_open,no trade in the 5 minutes after the entry minute (thin market)
+H0286,Upbit,GWEI,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0289,Upbit,NEXO,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0289,Upbit,NEXO,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged"
+H0290,Upbit,FOLD,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0293,Upbit,EURC,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0304,Upbit,USELESS,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0304,Upbit,USELESS,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged"
+H0306,Upbit,REZ,conclusions,"Upbit BTC/USDT-only market: thin, excluded from conclusions"
+H0311,Upbit,JPYC,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0322,Upbit,POD,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0341,Upbit,AXIS,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0353,Upbit,SANC,trading_open,24h window not complete (too recent) or data gap
+H0353,Upbit,SANC,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0002,Bybit,MMT,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged"
+H0012,Bybit,PIEVERSE,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0015,Bybit,GAIB,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0026,Bybit,ALMANAK,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0042,Bybit,WHITEWHALE,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0054,Bybit,SKR,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged"
+H0063,Bybit,PYBOBO,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0065,Bybit,USAT,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0066,Bybit,BIRB,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0077,Bybit,PENGUIN,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0092,Bybit,BSB,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0142,Bybit,BLEND,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0197,Bybit,SPCXX,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0221,Bybit,CAP,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0255,Bybit,GRVT,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0281,Bybit,KII,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0346,Bybit,KOR,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+X0354,Coinbase,AI,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0355,Coinbase,ZKP,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0356,Coinbase,TON,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0357,Coinbase,MEZO,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0358,Coinbase,WHUF,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0359,Coinbase,DIEM,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0360,Coinbase,VIRTUAL,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0361,Coinbase,SUP,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0362,Coinbase,KAT,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0363,Coinbase,BLEND,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0364,Coinbase,CT,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0365,Coinbase,OPG,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0366,Coinbase,ASTER,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0367,Coinbase,CTR,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0368,Coinbase,GRVT,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0369,Coinbase,BASED1,trading_open,no trade in the 5 minutes after the entry minute (thin market)
+X0369,Coinbase,BASED1,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0370,Coinbase,FUN1,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0371,Coinbase,CHIP,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0372,Coinbase,WMTX,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0373,Coinbase,PROS,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0374,Coinbase,RE,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0375,Coinbase,AZTEC,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0376,Coinbase,META,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0377,Coinbase,ICNT,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0378,Coinbase,BIRB,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0379,Coinbase,O,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0380,Coinbase,ZAMA,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0381,Coinbase,ROBO,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0382,Coinbase,GRASS,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0383,Coinbase,RLS,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0383,Coinbase,RLS,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged"
+X0384,Coinbase,STABLE,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0385,Coinbase,WET,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0386,Coinbase,KITE,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0387,Coinbase,MEGA,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0388,Coinbase,ALIGN,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0389,Coinbase,THQ,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0390,Coinbase,TRUST,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0391,Coinbase,DRV,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0392,Coinbase,RAY,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0393,Coinbase,EDGEX,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0394,Coinbase,LIGHTER,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0395,Coinbase,PRL,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0396,Coinbase,CAP,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0397,Coinbase,WRON,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0397,Coinbase,WRON,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged"
+X0398,Coinbase,WAL,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0399,Coinbase,RITUAL,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0400,Coinbase,NOM,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0401,Coinbase,RNBW,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0402,Coinbase,DATA,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0403,Coinbase,SENT,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0404,Coinbase,GROVE,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0405,Coinbase,BASECAT,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0406,Coinbase,BILL,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0407,Coinbase,JUPITER,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0408,Coinbase,BLUECHIP,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0409,Coinbase,DRB,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0410,Coinbase,ALLO,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0411,Coinbase,ARX,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0412,Coinbase,IRYS,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0413,Coinbase,CHECK,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0414,Coinbase,INX,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0415,Coinbase,FLUID,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0416,Coinbase,BEAM,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0417,Coinbase,NEX,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0418,Coinbase,ESP,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0419,Coinbase,BREV,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0420,Coinbase,HYPER,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0421,Coinbase,IMU,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0422,Coinbase,XPL,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0423,Coinbase,ELSA,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0424,Coinbase,PONS,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0425,Coinbase,HYPE,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0426,Coinbase,SKR,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0426,Coinbase,SKR,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged"
+X0427,Coinbase,PLUME,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0428,Coinbase,OPN,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0429,Coinbase,CP,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0429,Coinbase,CP,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged"
+X0430,Coinbase,BOBBOB,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0431,Coinbase,RAVE,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0432,Coinbase,KAIO,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0433,Coinbase,MON,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0434,Coinbase,AXIS,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0435,Coinbase,FIGHT,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0436,Coinbase,CARD,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0437,Coinbase,GWEI,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0438,Coinbase,UP,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0439,Coinbase,SIGN,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0440,Coinbase,LMTS,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0441,Coinbase,DEEP,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0442,Coinbase,DOOD,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0443,Coinbase,TRIA,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0444,Coinbase,GEOD,announcement,no announcement time (Coinbase: listing derived from first daily candle)
+X0466,Coinbase,PEARL,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing)
+X0466,Coinbase,PEARL,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0138,Bithumb,CHIP,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged"
+H0178,Bithumb,AIGENSYN,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing)
+H0190,Bithumb,SLX,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0264,Bithumb,QUID,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0276,Bithumb,DOS,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0294,Bithumb,EURC,announcement,coin not trading on any external venue in the 3h before the announcement (new token)
+H0354,Bithumb,DNA,trading_open,24h window not complete (too recent) or data gap
+,Upbit,HEMI,event_build,listing cancelled before trading (notice 6558)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-11-12)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-29)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-28
+,Binance,,event_build,"tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds Applovin Corp (APPB), Bending Spoons (BSPB), GE Vernova Inc (GEVB), GraniteShares 2x Short SK Hyni"
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-26)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Will Add 5 bStocks Tokenized Securities as Collateral Asset - 2026-10-21
+,Binance,,event_build,"tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds RoboStrategy Inc (BOTB), Berkshire Hathaway (BRKBB), KraneShares STAR Market 50 ETF (KSTRB), Direx"
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-21)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-14
+,Binance,,event_build,"tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds Blackberry (BBB), Mongodb Inc (MDBB), Penguin Solutions Inc (PENGB) and ProShares Ultra VIX Short-"
+,Binance,RWUSD,event_build,"stablecoin listing with zero-fee promo, excluded"
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-12)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-10-07
+,Binance,,event_build,"tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds JPMorgan Chase (JPMB), Eli Lilly (LLYB), Securitize Corp (SECZB) and StablecoinX Inc (USDEB) bStoc"
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-10-06)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Will Add 7 bStocks Tokenized Securities as Collateral Asset - 2026-09-30
+,Binance,,event_build,"tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds Adobe (ADBEB), Forward Industries (FWDIB), Hewlett Packard (HPEB), PDD Holdings (PDDB), SharonAI ("
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-29)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Adds 5 Stocks on Binance Stock Trading - 2026-09-28
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple TradFi USDⓈ-Margined Perpetual Contracts (2026-09-28)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch OURAUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-23)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Will Add 3 bStocks Tokenized Securities as Collateral Asset - 2026-09-23
+,Binance,,event_build,"tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds Axe Compute (AGPUB), AMC Entertainment (AMCB) and Cypherpunk Technologies (CYPHB) bStocks Trading "
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch MOONSHOTUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-09-22)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Adds 25 Stocks on Binance Stock Trading - 2026-09-21
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch USDBRLUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-09-21)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined Perpetual Contracts (2026-09-18)
+,Binance,,event_build,"tokenized-stock (bStocks) announcement not parsed: Binance Will Support the Broadcom (AVGO), Invesco QQQ Trust (QQQ), Meta (META), and Seagate (STX) Cash Dividend Distribu"
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Will Add 2 bStocks Tokenized Securities as Collateral Asset - 2026-09-16
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds GoPro (GPROB) and Reddit (RDDTB) bStocks Trading Pairs on Binance Spot/Convert - 2026-09-16
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Will Add BNCB bStocks Tokenized Securities as Collateral Asset - 2026-09-14
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds CEA Industries (BNCB) bStocks Trading Pair on Binance Spot/Convert - 2026-09-14
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Will Add 2 bStocks Tokenized Securities as Collateral Asset - 2026-09-09
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds Salesforce (CRMB) and Hims & Hers Health (HIMSB) bStocks Trading Pairs on Binance Spot/Convert - 2
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-09-07)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Will Add 4 bStocks Tokenized Securities as Collateral Asset - 2026-09-02
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-09-02)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds 4 bStocks Trading Pairs on Binance Spot/Convert - 2026-09-02
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch HK0625USDT USDⓈ-Margined Quanto Perpetual Contract (2026-09-01)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-28)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Adds bStocks to Spot Trading Bots and Extends Zero Maker Fee Promotion - 2026-08-28
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-26
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds Trump Media & Technology Group (DJTB) bStocks on Binance Spot - 2026-08-26
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-25)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-17 & 2026-08-18)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-14)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Will Add 1 bStocks Tokenized Securities as Collateral Asset - 2026-08-12
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds 1 bStocks Trading Pair on Binance Spot - 2026-08-12
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-11)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-08-06)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets - 2026-08-05
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds 10 bStocks Trading Pairs on Binance Spot - 2026-08-05
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds 10 bStocks Trading Pairs on Binance Spot - 2026-07-29
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-29)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-27)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets- 2026-07-22
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-22
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-21)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-17)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-16)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Will Add 10 bStocks Tokenized Securities as Collateral Assets
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-15
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds bStocks Tokenized Securities SK Hynix (SKHYB) on Binance Spot - 2026-07-13
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-10)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-09)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds 10 bStocks Trading Pair(s) on Binance Spot - 2026-07-07
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-07-02)
+,Binance,,event_build,"tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds bStocks Lumentum (LITEB), Meta (METAB), Microsoft (MSFTB), Palantir (PLTRB) and Invesco QQQ Trust "
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-29)
+,Binance,,event_build,"tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds bStocks Advanced Micro Devices (AMDB), iShares MSCI South Korea ETF (EWYB), Intel (INTCB) and Stra"
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-22)
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds bStocks Tokenized Securities SpaceX (SPCXB) on Binance Spot - 2026-06-12
+,Binance,,event_build,tokenized-stock (bStocks) announcement not parsed: Binance Exchange Adds bStocks Tokenized Securities Trading Pair(s) & Trading Bots Services on Binance Spot - 2026-06-11
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-11)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-10)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-09)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-08)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-03)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch ANTHROPICUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-06-02)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-02)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-06-01)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch QNTXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-29)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch OPENAIUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-26)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-26)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch USDⓈ-Margined SPCXUSDT USDⓈ-Margined Perpetual Contract Pre-IPO Trading (2026-05-21)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch CBRSUSDT USDⓈ-Margined TradFi Perpetual Contract (2026-05-19)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-18)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15 & 2026-05-18)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined TradFi Perpetual Contracts (2026-05-15)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined Equity Perpetual Contracts (2026-03-26)
+,Binance,,event_build,perp batch/TradFi/pre-IPO/quanto announcement excluded: Binance Futures Will Launch Multiple USDⓈ-Margined Equity Perpetual Contracts (2026-02-09)
+,,,coinsentry_log,"alert 1: other provider (cryptocurrencyalerting), dropped 2026-10-27"
+,nan,nan,coinsentry_log,alert 2: test (not a listing)
+,,,coinsentry_log,"alert 3: other provider (cryptocurrencyalerting), dropped 2026-10-27"
+,nan,nan,coinsentry_log,alert 4: test (not a listing)
+,,,coinsentry_log,"alert 5: other provider (cryptocurrencyalerting), dropped 2026-10-27"
+,,,coinsentry_log,"alert 6: other provider (cryptocurrencyalerting), dropped 2026-10-27"
+,,,coinsentry_log,"alert 7: other provider (cryptocurrencyalerting), dropped 2026-10-27"
+,,,coinsentry_log,"alert 8: other provider (cryptocurrencyalerting), dropped 2026-10-27"
+,,,coinsentry_log,"alert 9: other provider (cryptocurrencyalerting), dropped 2026-10-27"
+,,,coinsentry_log,"alert 10: other provider (cryptocurrencyalerting), dropped 2026-10-27"
+,,,coinsentry_log,"alert 11: other provider (cryptocurrencyalerting), dropped 2026-10-27"
+,,,coinsentry_log,"alert 12: other provider (cryptocurrencyalerting), dropped 2026-10-27"
+,,,coinsentry_log,"alert 13: other provider (cryptocurrencyalerting), dropped 2026-10-27"
+,,,coinsentry_log,"alert 14: other provider (cryptocurrencyalerting), dropped 2026-10-27"
+,,,coinsentry_log,"alert 15: other provider (cryptocurrencyalerting), dropped 2026-10-27"
+,,,coinsentry_log,"alert 16: other provider (cryptocurrencyalerting), dropped 2026-10-27"
+,OKX,TEST002,coinsentry_log,alert 17: delisting (not a listing)
+,Bybit,HFT,coinsentry_log,alert 19: delisting (not a listing)
+,test-exchange,ZZTEST61979,coinsentry_log,alert 25: test record
+,Bithumb,D,coinsentry_log,alert 27: delisting (not a listing)
+,Bithumb,HOOK,coinsentry_log,alert 28: delisting (not a listing)
+,OKX,VELODROME,coinsentry_log,alert 30: delisting (not a listing)
+,Upbit,CARDS,coinsentry_log,alert 34: delisting (not a listing)
+,Bithumb,ACX,coinsentry_log,alert 59: delisting (not a listing)

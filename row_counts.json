@@ -1,0 +1,17 @@
+{
+ "events_metrics": 467,
+ "events": 467,
+ "excluded_events": 401,
+ "korean_perp_status": 177,
+ "perp_candles_1m": 534943,
+ "spot_candles_1m": 268279,
+ "funding_history": 2773,
+ "aggtrades_index": 161,
+ "aggtrades": 2596728,
+ "coinsentry_latency": 59,
+ "coinsentry_alerts": 69,
+ "speed_test_tick_entry": 57,
+ "speed_test_1m_entry": 243,
+ "exit_rule_grid_trades": 51825,
+ "events_source_list": 467
+}

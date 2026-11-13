@@ -1,0 +1,468 @@
+event_id,exchange,symbol,market_type,quote,markets_opened,announcement_ms,announcement_source,trading_open_ms,measurement_venue,measurement_market,external_venue_at_announcement,external_market,already_trading_elsewhere,outlier_flag,record_source,notice_url
+H0007,OKX,ALLO,spot,USDT,USDT,1762846211292,okx_api,1762866000000,okx,ALLO-USDT,,,False,False,historical,https://www.okx.com/en-ar/help/okx-to-list-allo-allora-for-spot-trading
+H0075,OKX,ZAMA,spot,USDT,USDT,1769778024936,okx_api,1770037200000,okx,ZAMA-USDT,binance_perp,ZAMAUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-will-launch-zama-usds-for-spot-trading
+H0102,OKX,KAT,spot,USDT,USDT,1773725409569,okx_api,1773838800000,okx,KAT-USDT,binance_perp,KATUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-will-launch-kat-usds-for-spot-trading
+H0106,OKX,MON,spot,USDT,USDT,1774231209576,okx_api,1774263600000,okx,MON-USDT,binance_perp,MONUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-will-launch-mon-usds-for-spot-trading
+H0124,OKX,OFC,spot,USDT,USDT,1775700009881,okx_api,1775729400000,okx,OFC-USDT,,,False,False,historical,https://www.okx.com/en-ar/help/okx-to-list-ofc-onefootball-credits-for-spot-trading
+H0134,OKX,USDS,spot,USDT,USDT,1776411020131,okx_api,1776416400000,okx,USDS-USDT,binance,USDSUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-will-launch-usds-usds-for-spot-trading
+H0143,OKX,CHIP,spot,USDT,USDT,1777014015856,okx_api,1777028400000,okx,CHIP-USDT,binance,CHIPUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-to-list-chip-usd-ai-for-spot-trading
+H0144,OKX,GRASS,spot,USDT,USDT,1777028412433,okx_api,1777039200000,okx,GRASS-USDT,binance_perp,GRASSUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-to-list-grass-grass-for-spot-trading
+H0150,OKX,RLUSD,spot,USDT,USDT,1777460410097,okx_api,1777474800000,okx,RLUSD-USDT,binance,RLUSDUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-to-list-rlusd-ripple-usd-for-spot-trading
+H0156,OKX,MEGA,spot,USDT,USDT,1777544108773,okx_api,1777546800000,okx,MEGA-USDT,binance_perp,MEGAUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-to-list-mega-megaeth-for-spot-trading
+H0162,OKX,EDGE,spot,USDT,USDT,1778043610064,okx_api,1778065200000,okx,EDGE-USDT,binance_perp,EDGEUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-will-launch-edge-usds-for-spot-trading
+H0169,OKX,PROS,spot,USDT,USDT,1778644810127,okx_api,1778666400000,okx,PROS-USDT,upbit,KRW-PROS,True,False,historical,https://www.okx.com/en-ar/help/okx-to-list-pros-usdt-pharos-for-spot-trading
+H0183,OKX,AI,spot,USDT,USDT,1779435009521,okx_api,1779444000000,okx,AI-USDT,binance,AIUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-to-list-ai-usdt-gensyn-for-spot-trading
+H0184,OKX,IRYS,spot,USDT,USDT,1779858013331,okx_api,1779876000000,okx,IRYS-USDT,binance_perp,IRYSUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-will-launch-irys-usds-for-spot-trading
+H0202,OKX,GRAM,spot,USDT,USDT,1781681412904,okx_api,1781690400000,okx,GRAM-USDT,bithumb,KRW-GRAM,True,False,historical,https://www.okx.com/en-ar/help/okx-will-launch-gram-usds-for-spot-trading
+H0203,OKX,RE,spot,USDT,USDT,1781748010326,okx_api,1781791200000,okx,RE-USDT,,,False,False,historical,https://www.okx.com/en-ar/help/okx-will-launch-re-usds-for-spot-trading
+H0219,OKX,NES,spot,USDT,USDT,1782291609679,okx_api,1782306000000,okx,NES-USDT,,,False,False,historical,https://www.okx.com/en-ar/help/okx-to-list-nes-usdt-nesa-for-spot-trading
+H0220,OKX,CARDS,spot,USDT,USDT,1782352806026,okx_api,1782388800000,okx,CARDS-USDT,,,False,False,historical,https://www.okx.com/en-ar/help/okx-to-list-cards-usdt-collector-crypt-for-spot-trading
+H0225,OKX,TAO,spot,USDT,USDT,1782788404917,okx_api,1782820800000,okx,TAO-USDT,binance,TAOUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-will-launch-tao-usds-for-spot-trading
+H0227,OKX,DATA,spot,USDT,USDT,1782984609694,okx_api,1782993600000,okx,DATA-USDT,upbit,KRW-DATA,True,False,historical,https://www.okx.com/en-ar/help/okx-will-launch-data-usds-for-spot-trading
+H0235,OKX,SLX,spot,USDT,USDT,1783648810138,okx_api,1783684800000,okx,SLX-USDT,binance_perp,SLXUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-will-launch-slx-usds-for-spot-trading
+H0245,OKX,AEON,spot,USDT,USDT,1785121204905,okx_api,1785150000000,okx,AEON-USDT,,,False,False,historical,https://www.okx.com/en-ar/help/okx-to-list-aeon-usdt-aeon-for-spot-trading
+H0254,OKX,GRVT,spot,USDT,USDT,1785380407137,okx_api,1785420000000,okx,GRVT-USDT,,,False,False,historical,https://www.okx.com/en-ar/help/okx-will-launch-grvt-usds-for-spot-trading
+H0280,OKX,DOS,spot,USDT,USDT,1786590014591,okx_api,1786615200000,okx,DOS-USDT,binance_perp,DOSUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-will-launch-dos-usds-for-spot-trading
+H0296,OKX,CP,spot,USDT,USDT,1788238814257,okx_api,1788359400000,okx,CP-USDT,,,False,False,historical,https://www.okx.com/en-ar/help/okx-to-list-cp-usdt-cluster-protocol-for-spot-trading
+H0308,OKX,VVV,spot,USDT,USDT,1789455636348,okx_api,1789480800000,okx,VVV-USDT,binance_perp,VVVUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-to-list-vvv-usdt-venice-for-spot-trading
+H0309,OKX,PONS,spot,USDT,USDT,1789459209983,okx_api,1789482600000,okx,PONS-USDT,binance_perp,PONSUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-to-list-pons-usdt-pons-family-for-spot-trading
+H0315,OKX,XDP,spot,USDT,USDT,1790564410799,okx_api,1790600400000,okx,XDP-USDT,,,False,False,historical,https://www.okx.com/en-ar/help/okx-to-list-xdp-usdt-doppler-finance-for-spot-trading
+H0319,OKX,CT,spot,USDT,USDT,1790740812658,okx_api,1790762400000,okx,CT-USDT,,,False,False,historical,https://www.okx.com/en-ar/help/okx-to-list-ct-usdt-concrete-for-spot-trading
+H0352,OKX,AERO,spot,USDT,USDT,1794389409337,okx_api,1794405600000,okx,AERO-USDT,binance,AEROUSDT,True,False,historical,https://www.okx.com/en-ar/help/okx-will-launch-aero-usdc-for-spot-trading
+X0450,OKX,XAMGN,spot,USDT,XAMGN-USDT,1794215403034,coinsentry_listing_announced,1794382200000,okx,XAMGN-USDT,,,False,False,coinsentry,
+X0451,OKX,XBAC,spot,USDT,XBAC-USDT,1794215403034,coinsentry_listing_announced,1794384000000,okx,XBAC-USDT,,,False,False,coinsentry,
+X0452,OKX,XSKDD,spot,USDT,XSKDD-USDT,1794215403034,coinsentry_listing_announced,1794295800000,okx,XSKDD-USDT,,,False,False,coinsentry,
+X0453,OKX,XADI,spot,USDT,XADI-USDT,1794215403034,coinsentry_listing_announced,1794380400000,okx,XADI-USDT,,,False,False,coinsentry,
+X0454,OKX,XNVDL,spot,USDT,XNVDL-USDT,1794215403034,coinsentry_listing_announced,1794294000000,okx,XNVDL-USDT,,,False,False,coinsentry,
+X0455,OKX,XABBV,spot,USDT,XABBV-USDT,1794215403034,coinsentry_listing_announced,1794299400000,okx,XABBV-USDT,,,False,False,coinsentry,
+X0456,OKX,XBIDU,spot,USDT,XBIDU-USDT,1794215403034,coinsentry_listing_announced,1794385800000,okx,XBIDU-USDT,,,False,False,coinsentry,
+X0457,OKX,XSKUU,spot,USDT,XSKUU-USDT,1794215403034,coinsentry_listing_announced,1794297600000,okx,XSKUU-USDT,,,False,False,coinsentry,
+X0458,OKX,XIBKR,spot,USDT,XIBKR-USDT,1794388203104,coinsentry_listing_announced,1794555000000,okx,XIBKR-USDT,,,False,False,coinsentry,
+X0459,OKX,XCEG,spot,USDT,XCEG-USDT,1794388203104,coinsentry_listing_announced,1794466800000,okx,XCEG-USDT,,,False,False,coinsentry,
+X0460,OKX,XFLEX,spot,USDT,XFLEX-USDT,1794388203104,coinsentry_listing_announced,1794470400000,okx,XFLEX-USDT,,,False,False,coinsentry,
+X0461,OKX,XGE,spot,USDT,XGE-USDT,1794388203104,coinsentry_listing_announced,1794472200000,okx,XGE-USDT,,,False,False,coinsentry,
+X0462,OKX,XMPWR,spot,USDT,XMPWR-USDT,1794388203104,coinsentry_listing_announced,1794558600000,okx,XMPWR-USDT,,,False,False,coinsentry,
+X0463,OKX,XMP,spot,USDT,XMP-USDT,1794388203104,coinsentry_listing_announced,1794556800000,okx,XMP-USDT,,,False,False,coinsentry,
+X0464,OKX,XCVNA,spot,USDT,XCVNA-USDT,1794388203104,coinsentry_listing_announced,1794468600000,okx,XCVNA-USDT,,,False,False,coinsentry,
+X0465,OKX,XGILD,spot,USDT,XGILD-USDT,1794388203104,coinsentry_listing_announced,1794553200000,okx,XGILD-USDT,,,False,False,coinsentry,
+H0005,Binance,STABLE,perp,USDT,USDT-M,1762429474151,binance_cms,1762430400000,binance_perp,STABLEUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/6d4f42086ec1430eaf505f8e6bcf4127
+H0008,Binance,CLANKER,perp,USDT,USDT-M,1762942539520,binance_cms,1762948800000,binance_perp,CLANKERUSDT,bybit_perp,CLANKERUSDT,True,False,historical,https://www.binance.com/en/support/announcement/15f01e2861ac46e2b698212cb220f4d7
+H0009,Binance,BEAT,perp,USDT,USDT-M,1762942539520,binance_cms,1762949700000,binance_perp,BEATUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/15f01e2861ac46e2b698212cb220f4d7
+H0010,Binance,BANK,spot,USDT,USDT,1763028026501,binance_cms,1763042400000,binance,BANKUSDT,binance_perp,BANKUSDT,True,False,historical,https://www.binance.com/en/support/announcement/fd835b4cd95f4af89c461070994e684d
+H0011,Binance,MET,spot,USDT,USDT,1763028026501,binance_cms,1763042400000,binance,METUSDT,binance_perp,METUSDT,True,False,historical,https://www.binance.com/en/support/announcement/fd835b4cd95f4af89c461070994e684d
+H0013,Binance,SENT,perp,USDT,USDT-M,1763123409013,binance_cms,1763124300000,binance_perp,SENTUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/fb2efc4fe76842f4a3eec950ca62b13e
+H0016,Binance,BOB,perp,USDT,USDT-M,1763717331171,binance_cms,1763721900000,binance_perp,BOBUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/36c4f838c82b4f81920d5adc958d9a53
+H0020,Binance,IRYS,perp,USDT,USDT-M,1764168236086,binance_cms,1764172800000,binance_perp,IRYSUSDT,coinbase,IRYS-USD,True,False,historical,https://www.binance.com/en/support/announcement/302095391f0f43c0a6d206b3a10c4e78
+H0021,Binance,RLS,perp,USDT,USDT-M,1764665000303,binance_cms,1764669600000,binance_perp,RLSUSDT,coinbase,RLS-USD,True,False,historical,https://www.binance.com/en/support/announcement/76379c0d6b7f4fc4861a734db668803a
+H0022,Binance,POWER,perp,USDT,USDT-M,1765006814266,binance_cms,1765011600000,binance_perp,POWERUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/97c003f1e70f497e98f606ae8b3f1822
+H0024,Binance,WET,perp,USDT,USDT-M,1765345514302,binance_cms,1765350000000,binance_perp,WETUSDT,bybit,WETUSDT,True,False,historical,https://www.binance.com/en/support/announcement/070db7effe984b69bd4bf2240cee4487
+H0025,Binance,NIGHT,perp,USDT,USDT-M,1765359869769,binance_cms,1765364400000,binance_perp,NIGHTUSDT,bybit,NIGHTUSDT,True,False,historical,https://www.binance.com/en/support/announcement/675d519f99d34af29b4225a70a7995fa
+H0027,Binance,US,perp,USDT,USDT-M,1765531048292,binance_cms,1765536300000,binance_perp,USUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/5fa5a39fec7044838d4aad92e9cf13fe
+H0028,Binance,CYS,perp,USDT,USDT-M,1765531048292,binance_cms,1765537200000,binance_perp,CYSUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/5fa5a39fec7044838d4aad92e9cf13fe
+H0029,Binance,RAVE,perp,USDT,USDT-M,1765721889439,binance_cms,1765726200000,binance_perp,RAVEUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/51aa167664c542eb857533e11eb213bc
+H0031,Binance,ZKP,perp,USDT,USDT-M,1766306007340,binance_cms,1766311200000,binance_perp,ZKPUSDT,bybit,ZKPUSDT,True,False,historical,https://www.binance.com/en/support/announcement/9e90affc1f364000b4ed299a64f3f5bc
+H0032,Binance,GUA,perp,USDT,USDT-M,1766306007340,binance_cms,1766312100000,binance_perp,GUAUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/9e90affc1f364000b4ed299a64f3f5bc
+H0033,Binance,IR,perp,USDT,USDT-M,1766306007340,binance_cms,1766313000000,binance_perp,IRUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/9e90affc1f364000b4ed299a64f3f5bc
+H0034,Binance,LIT,perp,USDT,USDT-M,1766498015803,binance_cms,1766511000000,binance_perp,LITUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/6a33be00231c4539b3a4a625538e4d1e
+H0037,Binance,BREV,perp,USDT,USDT-M,1767090609767,binance_cms,1767091500000,binance_perp,BREVUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/4f44a54be06444ea9510d4db3d5fb9c3
+H0038,Binance,COLLECT,perp,USDT,USDT-M,1767181510384,binance_cms,1767186900000,binance_perp,COLLECTUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/f5765e4f306042bd8a0cebf546fafd78
+H0039,Binance,MAGMA,perp,USDT,USDT-M,1767181510384,binance_cms,1767187800000,binance_perp,MAGMAUSDT,bybit_perp,MAGMAUSDT,True,False,historical,https://www.binance.com/en/support/announcement/f5765e4f306042bd8a0cebf546fafd78
+H0044,Binance,XAG,perp,USDT,USDT-M,1767769249961,binance_cms,1767780000000,binance_perp,XAGUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/bd92dee1018f421fae1ace119fc2f706
+H0045,Binance,币安人生,spot,USDT,USDT,1767782346580,binance_cms,1767794400000,binance,币安人生USDT,binance_perp,币安人生USDT,True,False,historical,https://www.binance.com/en/support/announcement/51881f9d018242ce80bed6ce015de2a7
+H0046,Binance,ZKP,spot,USDT,USDT,1767782346580,binance_cms,1767794400000,binance,ZKPUSDT,binance_perp,ZKPUSDT,True,False,historical,https://www.binance.com/en/support/announcement/51881f9d018242ce80bed6ce015de2a7
+H0047,Binance,ZAMA,perp,USDT,USDT-M,1767948118055,binance_cms,1767949200000,binance_perp,ZAMAUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/1d5735f9aab24740b65de16d1499c705
+H0048,Binance,FOGO,perp,USDT,USDT-M,1768052538059,binance_cms,1768053600000,binance_perp,FOGOUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/6abc74c125ff4addb36576bf76ba5658
+H0049,Binance,U,spot,USDT,USDT,1768203007638,binance_cms,1768291200000,binance,UUSDT,bybit,UUSDT,True,False,historical,https://www.binance.com/en/support/announcement/54de0a1147d04cf382707002a30901fd
+H0050,Binance,FOGO,spot,USDT,USDT,1768222253294,binance_cms,1768485600000,binance,FOGOUSDT,binance_perp,FOGOUSDT,True,False,historical,https://www.binance.com/en/support/announcement/4ba222e6a62e4544a408ff1689682404
+H0052,Binance,SPORTFUN,perp,USDT,USDT-M,1768565878954,binance_cms,1768571100000,binance_perp,SPORTFUNUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/31ec31401a8f43ae821f80351fa94857
+H0053,Binance,AIA,perp,USDT,USDT-M,1768565878954,binance_cms,1768907700000,binance_perp,AIAUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/31ec31401a8f43ae821f80351fa94857
+H0055,Binance,RLUSD,spot,USDT,USDT,1768984201712,binance_cms,1769068800000,binance,RLUSDUSDT,bybit,RLUSDUSDT,True,False,historical,https://www.binance.com/en/support/announcement/29ba8e4cfa1b45ea88653c029cedd0cd
+H0056,Binance,ACU,perp,USDT,USDT-M,1768994235066,binance_cms,1768999500000,binance_perp,ACUUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/7736f9a5aae24206b17884e5de02dabc
+H0057,Binance,SENT,spot,USDT,USDT,1769059554238,binance_cms,1769086800000,binance,SENTUSDT,binance_perp,SENTUSDT,True,False,historical,https://www.binance.com/en/support/announcement/85af9e52f60547dd8f7b67fd3dc2f7b4
+H0059,Binance,ELSA,perp,USDT,USDT-M,1769064429007,binance_cms,1769066700000,binance_perp,ELSAUSDT,bybit,ELSAUSDT,True,False,historical,https://www.binance.com/en/support/announcement/4afa6aa807234762b141920847b4fe0b
+H0060,Binance,SKR,perp,USDT,USDT-M,1769073274832,binance_cms,1769078700000,binance_perp,SKRUSDT,bybit,SKRUSDT,True,False,historical,https://www.binance.com/en/support/announcement/c0f1a2163493429eab17fa8d1540e6f4
+H0061,Binance,SPACE,perp,USDT,USDT-M,1769163362322,binance_cms,1769168700000,binance_perp,SPACEUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/3edd59bc38c147259945b634a1d2c039
+H0062,Binance,FIGHT,perp,USDT,USDT-M,1769163362322,binance_cms,1769170500000,binance_perp,FIGHTUSDT,bybit,FIGHTUSDT,True,False,historical,https://www.binance.com/en/support/announcement/3edd59bc38c147259945b634a1d2c039
+H0064,Binance,TSLA,perp,USDT,USDT-M,1769426975659,binance_cms,1769610600000,binance_perp,TSLAUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/40c76b4deaa247f09774e5d1ee747cb8
+H0067,Binance,BIRB,perp,USDT,USDT-M,1769657388656,binance_cms,1769663700000,binance_perp,BIRBUSDT,bybit,BIRBUSDT,True,False,historical,https://www.binance.com/en/support/announcement/f36f2df72ca44c53bed7b9c08f303788
+H0068,Binance,GWEI,perp,USDT,USDT-M,1769657388656,binance_cms,1769664600000,binance_perp,GWEIUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/f36f2df72ca44c53bed7b9c08f303788
+H0070,Binance,XPT,perp,USDT,USDT-M,1769750169670,binance_cms,1769767200000,binance_perp,XPTUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/0217a404bf984c028ebf9f92e083052c
+H0071,Binance,XPD,perp,USDT,USDT-M,1769750169670,binance_cms,1769768100000,binance_perp,XPDUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/0217a404bf984c028ebf9f92e083052c
+H0072,Binance,INTC,perp,USDT,USDT-M,1769762825258,binance_cms,1770042540000,binance_perp,INTCUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/d592f6ba938746cbadaaf5a8a714abd6
+H0073,Binance,HOOD,perp,USDT,USDT-M,1769762825258,binance_cms,1770043500000,binance_perp,HOODUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/d592f6ba938746cbadaaf5a8a714abd6
+H0074,Binance,MEGA,perp,USDT,USDT-M,1769769359414,binance_cms,1769775300000,binance_perp,MEGAUSDT,bybit_perp,MEGAUSDT,True,False,historical,https://www.binance.com/en/support/announcement/367887bc291d43f8a94877e101e17813
+H0076,Binance,INX,perp,USDT,USDT-M,1769794397965,binance_cms,1769799840000,binance_perp,INXUSDT,bybit_perp,INXUSDT,True,False,historical,https://www.binance.com/en/support/announcement/01825e017ab34771aa8634505745ef7e
+H0078,Binance,ZAMA,spot,USDT,USDT,1770006523224,binance_cms,1770037200000,binance,ZAMAUSDT,binance_perp,ZAMAUSDT,True,False,historical,https://www.binance.com/en/support/announcement/c411646abd94488bba084537c5563beb
+H0080,Binance,TRIA,perp,USDT,USDT-M,1770373050892,binance_cms,1770380100000,binance_perp,TRIAUSDT,bybit,TRIAUSDT,True,False,historical,https://www.binance.com/en/support/announcement/466fc5b69ff0407a96285327761edcf0
+H0081,Binance,ESP,perp,USDT,USDT-M,1770710418198,binance_cms,1770711000000,binance_perp,ESPUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/d60d3f7a16144a26ade3e9a84cd9156f
+H0082,Binance,AZTEC,perp,USDT,USDT-M,1770783239091,binance_cms,1770784140000,binance_perp,AZTECUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/2bf6526552a8464da4420fd0d5a412a9
+H0083,Binance,ESP,spot,USDT,USDT,1770881303176,binance_cms,1770901200000,binance,ESPUSDT,binance_perp,ESPUSDT,True,False,historical,https://www.binance.com/en/support/announcement/c8f9e4e1e7de458482a2af3cf64c9093
+H0086,Binance,OPN,perp,USDT,USDT-M,1771684885775,binance_cms,1771686000000,binance_perp,OPNUSDT,bybit_perp,OPNUSDT,True,False,historical,https://www.binance.com/en/support/announcement/10096321bd8f49658a749fe00d8ea4ff
+H0090,Binance,ROBO,perp,USDT,USDT-M,1772179222463,binance_cms,1772181900000,binance_perp,ROBOUSDT,bybit_perp,ROBOUSDT,True,False,historical,https://www.binance.com/en/support/announcement/35787d4177b84f1bbe32aeeb94232e86
+H0091,Binance,KAT,perp,USDT,USDT-M,1772425000299,binance_cms,1772427600000,binance_perp,KATUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/d07ab8a296854013992d336e1d1f7488
+H0094,Binance,COPPER,perp,USDT,USDT-M,1772627404241,binance_cms,1772787600000,binance_perp,COPPERUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/44a37bb537b3460aafed58b8d68f5313
+H0095,Binance,ROBO,spot,USDT,USDT,1772629994452,binance_cms,1772641800000,binance,ROBOUSDT,binance_perp,ROBOUSDT,True,False,historical,https://www.binance.com/en/support/announcement/82c9c8166a2a434681c20a23a346a5b8
+H0098,Binance,EWY,perp,USDT,USDT-M,1773325803959,binance_cms,1773667800000,binance_perp,EWYUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/ce8f84ad8b6e4307becb06758017cb02
+H0099,Binance,KAT,spot,USDT,USDT,1773366336337,binance_cms,1773838800000,binance,KATUSDT,binance_perp,KATUSDT,True,False,historical,https://www.binance.com/en/support/announcement/01f1ef18ab314cc78cd3744760e4dc1f
+H0100,Binance,CFG,spot,USDT,USDT,1773656559260,binance_cms,1773666000000,binance,CFGUSDT,bybit,CFGUSDT,True,False,historical,https://www.binance.com/en/support/announcement/bcd4473a511948bf8b305f0f6a695313
+H0101,Binance,EWJ,perp,USDT,USDT-M,1773657001277,binance_cms,1773927000000,binance_perp,EWJUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/521c39a39f3d4910af0835d477277299
+H0104,Binance,EDGE,perp,USDT,USDT-M,1773926963305,binance_cms,1773928800000,binance_perp,EDGEUSDT,upbit,KRW-EDGE,True,False,historical,https://www.binance.com/en/support/announcement/f4038a3dbd6d49318c2ee201051fe43e
+H0105,Binance,PAYP,perp,USDT,USDT-M,1774015109010,binance_cms,1774276200000,binance_perp,PAYPUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/eb32c90a26fd405d97ea0c4174d41d74
+H0107,Binance,BSB,perp,USDT,USDT-M,1774433658121,binance_cms,1774439100000,binance_perp,BSBUSDT,bybit,BSBUSDT,True,False,historical,https://www.binance.com/en/support/announcement/25ad30a9e9b84f6eb81294cebfe7c247
+H0109,Binance,XAUt,spot,USDT,USDT,1774521928143,binance_cms,,binance,XAUtUSDT,upbit,KRW-XAUt,True,False,historical,https://www.binance.com/en/support/announcement/20861b38a9c246ff92db218bae2e83fa
+H0110,Binance,BASED,perp,USDT,USDT-M,1774863642485,binance_cms,1774864800000,binance_perp,BASEDUSDT,bybit_perp,BASEDUSDT,True,False,historical,https://www.binance.com/en/support/announcement/63341635f7b94af2835eba2dc72d07d4
+H0111,Binance,CL,perp,USDT,USDT-M,1774875635673,binance_cms,1775034000000,binance_perp,CLUSDT,bybit_perp,CLUSDT,True,False,historical,https://www.binance.com/en/support/announcement/e7a10ca855524655ab3dea73add40ef4
+H0112,Binance,BZ,perp,USDT,USDT-M,1774875635673,binance_cms,1775034600000,binance_perp,BZUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/e7a10ca855524655ab3dea73add40ef4
+H0113,Binance,NATGAS,perp,USDT,USDT-M,1774875635673,binance_cms,1775035200000,binance_perp,NATGASUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/e7a10ca855524655ab3dea73add40ef4
+H0117,Binance,PRL,perp,USDT,USDT-M,1775037060284,binance_cms,1775039400000,binance_perp,PRLUSDT,bybit_perp,PRLUSDT,True,False,historical,https://www.binance.com/en/support/announcement/0116dd83010043bd95c37626e2277bbe
+H0118,Binance,QQQ,perp,USDT,USDT-M,1775121303208,binance_cms,1775482200000,binance_perp,QQQUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/4cde981dc32d4268b7645e9d16e8d63a
+H0119,Binance,SPY,perp,USDT,USDT-M,1775121303208,binance_cms,1775482800000,binance_perp,SPYUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/4cde981dc32d4268b7645e9d16e8d63a
+H0120,Binance,AAPL,perp,USDT,USDT-M,1775121303208,binance_cms,1775483400000,binance_perp,AAPLUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/4cde981dc32d4268b7645e9d16e8d63a
+H0121,Binance,TSM,perp,USDT,USDT-M,1775121303208,binance_cms,1775484000000,binance_perp,TSMUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/4cde981dc32d4268b7645e9d16e8d63a
+H0122,Binance,MU,perp,USDT,USDT-M,1775223007828,binance_cms,1775568540000,binance_perp,MUUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/80549fadb3e447d1a859b8cedd0ccd69
+H0123,Binance,SNDK,perp,USDT,USDT-M,1775223007828,binance_cms,1775569200000,binance_perp,SNDKUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/80549fadb3e447d1a859b8cedd0ccd69
+H0128,Binance,GENIUS,perp,USDT,USDT-M,1776304988861,binance_cms,1776310200000,binance_perp,GENIUSUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/741ea1c99c1e4897a5bd77aa5db4abc4
+H0129,Binance,CHIP,perp,USDT,USDT-M,1776320055403,binance_cms,1776323700000,binance_perp,CHIPUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/9db6d823933341f1abcc04ed9ceab35d
+H0130,Binance,MSFT,perp,USDT,USDT-M,1776332696813,binance_cms,1776691800000,binance_perp,MSFTUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/16fe15060947481ab240fb398230a3ee
+H0131,Binance,AVGO,perp,USDT,USDT-M,1776332696813,binance_cms,1776692400000,binance_perp,AVGOUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/16fe15060947481ab240fb398230a3ee
+H0132,Binance,BABA,perp,USDT,USDT-M,1776332696813,binance_cms,1776693000000,binance_perp,BABAUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/16fe15060947481ab240fb398230a3ee
+H0139,Binance,CHIP,spot,USDT,USDT,1776772832132,binance_cms,1776778200000,binance,CHIPUSDT,binance_perp,CHIPUSDT,True,True,historical,https://www.binance.com/en/support/announcement/fd57a395639b466ab8bfc792670c679d
+H0140,Binance,OPG,perp,USDT,USDT-M,1776869515953,binance_cms,1776871800000,binance_perp,OPGUSDT,bybit,OPGUSDT,True,False,historical,https://www.binance.com/en/support/announcement/e4b4751f7ee845dd9df5c1bfd94ade51
+H0151,Binance,AIGENSYN,perp,USDT,USDT-M,1777469224104,binance_cms,1777472100000,binance_perp,AIGENSYNUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/524345e64dd14a23989bfe1e547760b5
+H0155,Binance,MEGA,spot,USDT,USDT,1777540049704,binance_cms,1777546800000,binance,MEGAUSDT,binance_perp,MEGAUSDT,True,False,historical,https://www.binance.com/en/support/announcement/506a7482e6b94bc58f3e275cb15c2861
+H0157,Binance,AMD,perp,USDT,USDT-M,1777876197125,binance_cms,1778074200000,binance_perp,AMDUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/9f61baed332542118387bb161030df01
+H0158,Binance,QCOM,perp,USDT,USDT-M,1777876197125,binance_cms,1778074500000,binance_perp,QCOMUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/9f61baed332542118387bb161030df01
+H0159,Binance,USAR,perp,USDT,USDT-M,1777876197125,binance_cms,1778074800000,binance_perp,USARUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/9f61baed332542118387bb161030df01
+H0165,Binance,BILL,perp,USDT,USDT-M,1778137169304,binance_cms,1778141700000,binance_perp,BILLUSDT,bybit,BILLUSDT,True,False,historical,https://www.binance.com/en/support/announcement/7220be8100ee41149169e9179c380c8c
+H0173,Binance,PHAROS,perp,USDT,USDT-M,1778732044113,binance_cms,1778735700000,binance_perp,PHAROSUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/12bcf9092e9c46358de3e49f8ef17f88
+H0174,Binance,STAR,perp,USDT,USDT-M,1778732044113,binance_cms,1778736600000,binance_perp,STARUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/12bcf9092e9c46358de3e49f8ef17f88
+H0175,Binance,AIGENSYN,spot,USDT,USDT,1778752803676,binance_cms,1778778000000,binance,AIGENSYNUSDT,binance_perp,AIGENSYNUSDT,True,False,historical,https://www.binance.com/en/support/announcement/71f44e5e014c445697bb6a6f70315e35
+H0181,Binance,GENIUS,spot,USDT,USDT,1779434315961,binance_cms,1779451200000,binance,GENIUSUSDT,binance_perp,GENIUSUSDT,True,False,historical,https://www.binance.com/en/support/announcement/4de6272354be421ba51ea042fd273a8d
+H0182,Binance,OPG,spot,USDT,USDT,1779434315961,binance_cms,1779451200000,binance,OPGUSDT,binance_perp,OPGUSDT,True,False,historical,https://www.binance.com/en/support/announcement/4de6272354be421ba51ea042fd273a8d
+H0186,Binance,CTR,perp,USDT,USDT-M,1779956189339,binance_cms,1779960600000,binance_perp,CTRUSDT,coinbase,CTR-USD,True,False,historical,https://www.binance.com/en/support/announcement/ee40eb721abc460cb7edca6df04d782b
+H0191,Binance,SLX,perp,USDT,USDT-M,1780294508711,binance_cms,1780299000000,binance_perp,SLXUSDT,upbit,KRW-SLX,True,False,historical,https://www.binance.com/en/support/announcement/4299caec4ca4407cb282707154a97ffe
+H0192,Binance,ZEST,perp,USDT,USDT-M,1780577062460,binance_cms,1780581600000,binance_perp,ZESTUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38
+H0193,Binance,BTW,perp,USDT,USDT-M,1780577062460,binance_cms,1780582500000,binance_perp,BTWUSDT,,,False,True,historical,https://www.binance.com/en/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38
+H0204,Binance,RE,spot,USDT,USDT,1781776041424,binance_cms,1781791200000,binance,REUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6
+H0218,Binance,ARX,perp,USDT,USDT-M,1782185438167,binance_cms,1782189900000,binance_perp,ARXUSDT,bybit,ARXUSDT,True,False,historical,https://www.binance.com/en/support/announcement/7fa4e8b3ced94b4c8c189a4593dbce9b
+H0223,Binance,CAP,perp,USDT,USDT-M,1782557443165,binance_cms,1782560700000,binance_perp,CAPUSDT,bybit,CAPUSDT,True,False,historical,https://www.binance.com/en/support/announcement/a444dd2f67da43e0bafdd730fddc3887
+H0232,Binance,DATAIP,perp,USDT,USDT-M,1783056627549,binance_cms,1783061100000,binance_perp,DATAIPUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/98d978c5630041c49a6bd317daa791e8
+H0236,Binance,SKHY,perp,USDT,USDT-M,1783697823303,binance_cms,1783698600000,binance_perp,SKHYUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/6fe9f6dc91544df88dc24ad41211feff
+H0239,Binance,AERO,spot,USDT,USDT,1784273401964,binance_cms,1784304000000,binance,AEROUSDT,binance_perp,AEROUSDT,True,False,historical,https://www.binance.com/en/support/announcement/1631198cd282431bbb5fbd333106a413
+H0240,Binance,POPMART,perp,USDT,USDT-M,1784770203723,binance_cms,1784773800000,binance_perp,POPMARTUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/fcdc949b45a644c78e341c88331a35ef
+H0258,Binance,GRVT,perp,USDT,USDT-M,1785497411662,binance_cms,1785501900000,binance_perp,GRVTUSDT,bybit,GRVTUSDT,True,False,historical,https://www.binance.com/en/support/announcement/20536b05b2a34b87a3bae99c45d0dc91
+H0259,Binance,GIGADEV,perp,USDT,USDT-M,1785724209135,binance_cms,1785735000000,binance_perp,GIGADEVUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/e8bfd0c5adaf4d8a880bb1b7327107ef
+H0278,Binance,DOS,perp,USDT,USDT-M,1786456802967,binance_cms,1786460400000,binance_perp,DOSUSDT,upbit,KRW-DOS,True,False,historical,https://www.binance.com/en/support/announcement/a2ee872d61654a5bb43a87c3122b5706
+H0282,Binance,UNITREE,perp,USDT,USDT-M,1787106609387,binance_cms,1787107500000,binance_perp,UNITREEUSDT,bybit_perp,UNITREEUSDT,True,False,historical,https://www.binance.com/en/support/announcement/3e662272597c44b7939f5db5c8c86d4f
+H0297,Binance,MARSCOIN,perp,USDT,USDT-M,1788252305663,binance_cms,1788255900000,binance_perp,MARSCOINUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/4d9ae75c02114187b699cfe1380ac81e
+H0298,Binance,GPRO,perp,USDT,USDT-M,1788438625942,binance_cms,1788443100000,binance_perp,GPROUSDT,bybit_perp,GPROUSDT,True,False,historical,https://www.binance.com/en/support/announcement/0ffd2dbcc12e4a968fbe7ccd2b4cc9f8
+H0299,Binance,MARSCOIN,spot,USDT,USDT,1788516901870,binance_cms,1788526800000,binance,MARSCOINUSDT,binance_perp,MARSCOINUSDT,True,False,historical,https://www.binance.com/en/support/announcement/c2eaa763831745b2b1701dab45e20225
+H0300,Binance,PONS,perp,USDT,USDT-M,1788674111414,binance_cms,1788677100000,binance_perp,PONSUSDT,bybit_perp,PONSUSDT,True,False,historical,https://www.binance.com/en/support/announcement/ca3196e008da448da107d397bae0b4b0
+H0305,Binance,牛来,spot,USDT,USDT,1788953419513,binance_cms,1788964200000,binance,牛来USDT,binance_perp,牛来USDT,True,False,historical,https://www.binance.com/en/support/announcement/6133e417dcfe43a8ad20c0db1b53c7e8
+H0314,Binance,HYPE,spot,USDT,USDT,1790235038608,binance_cms,1790247600000,binance,HYPEUSDT,binance_perp,HYPEUSDT,True,False,historical,https://www.binance.com/en/support/announcement/d49de208bb6d4a26b02677d7c3d89b5d
+H0320,Binance,CT,perp,USDT,USDT-M,1790836201040,binance_cms,1790840700000,binance_perp,CTUSDT,okx,CT-USDT,True,False,historical,https://www.binance.com/en/support/announcement/6bd26adeb6f742fe88eb72faca183566
+H0344,Binance,PREDICT,perp,USDT,USDT-M,1792911915552,binance_cms,1792916100000,binance_perp,PREDICTUSDT,,,False,False,historical,https://www.binance.com/en/support/announcement/5ef55cf8358e4a48b2512a156e89c8e5
+H0345,Binance,PREDICT,spot,USDT,USDT,1793274532329,binance_cms,,binance,PREDICTUSDT,binance_perp,PREDICTUSDT,True,False,historical,https://www.binance.com/en/support/announcement/a259777ee4104befa3daba5c1eadc7b5
+X0445,Binance,APPB,spot,USDT,APPB-USDT,1793188802973,coinsentry_listing_live,1793188800000,binance,APPBUSDT,,,False,False,coinsentry,
+X0446,Binance,BSPB,spot,USDT,BSPB-USDT,1793188802973,coinsentry_listing_live,1793188800000,binance,BSPBUSDT,,,False,False,coinsentry,
+X0447,Binance,GEVB,spot,USDT,GEVB-USDT,1793188802973,coinsentry_listing_live,1793188800000,binance,GEVBUSDT,,,False,False,coinsentry,
+X0448,Binance,SKDDB,spot,USDT,SKDDB-USDT,1793188802973,coinsentry_listing_live,1793188800000,binance,SKDDBUSDT,,,False,False,coinsentry,
+X0449,Binance,SKUUB,spot,USDT,SKUUB-USDT,1793188802973,coinsentry_listing_live,1793188800000,binance,SKUUBUSDT,,,False,False,coinsentry,
+H0001,Upbit,KITE,KRW,KRW,KRW/BTC/USDT,1762157481000,upbit_notice,1762176000000,upbit,KRW-KITE,binance_perp,KITEUSDT,True,False,historical,https://upbit.com/service_center/notice?id=5716
+H0003,Upbit,MMT,USDT,USDT,BTC/USDT,1762248900000,upbit_notice,1762259700000,upbit,USDT-MMT,bybit_perp,MMTUSDT,True,True,historical,https://upbit.com/service_center/notice?id=5722
+H0004,Upbit,TRUST,KRW,KRW,KRW/BTC/USDT,1762332256000,upbit_notice,1762340700000,upbit,KRW-TRUST,,,False,False,historical,https://upbit.com/service_center/notice?id=5727
+H0014,Upbit,MET2,KRW,KRW,KRW/BTC/USDT,1763446800000,upbit_notice,1763453100000,upbit,KRW-MET2,binance,METUSDT,True,False,historical,https://upbit.com/service_center/notice?id=5769
+H0018,Upbit,MON,KRW,KRW,KRW/BTC/USDT,1763974893000,upbit_notice,1763996700000,upbit,KRW-MON,binance_perp,MONUSDT,True,False,historical,https://upbit.com/service_center/notice?id=5790
+H0019,Upbit,PLUME,KRW,KRW,KRW,1764135002000,upbit_notice,1764137100000,upbit,KRW-PLUME,binance,PLUMEUSDT,True,False,historical,https://upbit.com/service_center/notice?id=5796
+H0030,Upbit,WET,KRW,KRW,KRW/BTC/USDT,1765782000000,upbit_notice,1765791300000,upbit,KRW-WET,binance_perp,WETUSDT,True,False,historical,https://upbit.com/service_center/notice?id=5860
+H0035,Upbit,YB,USDT,USDT,BTC/USDT,1766722500000,upbit_notice,1766729100000,upbit,USDT-YB,binance,YBUSDT,True,False,historical,https://upbit.com/service_center/notice?id=5884
+H0036,Upbit,ZKP,KRW,KRW,KRW/BTC/USDT,1766729983000,upbit_notice,1766738100000,upbit,KRW-ZKP,binance_perp,ZKPUSDT,True,False,historical,https://upbit.com/service_center/notice?id=5885
+H0040,Upbit,XAUT,KRW,KRW,KRW/BTC/USDT,1767240000000,upbit_notice,1767249300000,upbit,KRW-XAUT,bybit,XAUTUSDT,True,False,historical,https://upbit.com/service_center/notice?id=5900
+H0041,Upbit,ZK,KRW,KRW,KRW/BTC/USDT,1767684615000,upbit_notice,1767692100000,upbit,KRW-ZK,binance,ZKUSDT,True,False,historical,https://upbit.com/service_center/notice?id=5913
+H0043,Upbit,BREV,KRW,KRW,KRW/BTC/USDT,1767752401000,upbit_notice,1767765900000,upbit,KRW-BREV,binance,BREVUSDT,True,False,historical,https://upbit.com/service_center/notice?id=5914
+H0051,Upbit,USDE,KRW,KRW,KRW/BTC/USDT,1768373747000,upbit_notice,1768381500000,upbit,KRW-USDE,binance,USDEUSDT,True,False,historical,https://upbit.com/service_center/notice?id=5934
+H0058,Upbit,ELSA,KRW,KRW,KRW/BTC/USDT,1769059800000,upbit_notice,1769067300000,upbit,KRW-ELSA,bybit,ELSAUSDT,True,False,historical,https://upbit.com/service_center/notice?id=5953
+H0069,Upbit,SENT,KRW,KRW,KRW/BTC/USDT,1769667307000,upbit_notice,1769675700000,upbit,KRW-SENT,binance,SENTUSDT,True,False,historical,https://upbit.com/service_center/notice?id=5973
+H0079,Upbit,BIRB,KRW,KRW,KRW/BTC/USDT,1770102000000,upbit_notice,1770109500000,upbit,KRW-BIRB,binance_perp,BIRBUSDT,True,False,historical,https://upbit.com/service_center/notice?id=5990
+H0084,Upbit,TAO,KRW,KRW,KRW/BTC/USDT,1771218000000,upbit_notice,1771225500000,upbit,KRW-TAO,binance,TAOUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6021
+H0085,Upbit,AZTEC,KRW,KRW,KRW/BTC/USDT,1771563600000,upbit_notice,1771572900000,upbit,KRW-AZTEC,binance_perp,AZTECUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6025
+H0087,Upbit,SKR,KRW,KRW,KRW/BTC/USDT,1771909200000,upbit_notice,1771916700000,upbit,KRW-SKR,binance_perp,SKRUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6037
+H0088,Upbit,ESP,KRW,KRW,KRW/BTC/USDT,1771913044000,upbit_notice,1771920300000,upbit,KRW-ESP,binance,ESPUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6038
+H0089,Upbit,CFG,KRW,KRW,KRW/BTC/USDT,1772074800000,upbit_notice,1772082300000,upbit,KRW-CFG,bybit,CFGUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6043
+H0093,Upbit,EDGE,KRW,KRW,KRW/BTC/USDT,1772603400000,upbit_notice,1772611500000,upbit,KRW-EDGE,coinbase,EDGE-USD,True,False,historical,https://upbit.com/service_center/notice?id=6057
+H0097,Upbit,ICP,KRW,KRW,KRW/BTC/USDT,1773208800000,upbit_notice,1773216300000,upbit,KRW-ICP,binance,ICPUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6069
+H0103,Upbit,ETHFI,KRW,KRW,KRW,1773888600000,upbit_notice,1773891300000,upbit,KRW-ETHFI,binance,ETHFIUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6079
+H0108,Upbit,KAT,KRW,KRW,KRW/BTC/USDT,1774512470000,upbit_notice,1774519500000,upbit,KRW-KAT,binance,KATUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6097
+H0114,Upbit,SKY,KRW,KRW,KRW/USDT,1774924201000,upbit_notice,1774926300000,upbit,KRW-SKY,binance,SKYUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6102
+H0115,Upbit,USDS,KRW,KRW,KRW/USDT,1774924201000,upbit_notice,1774929900000,upbit,KRW-USDS,,,False,False,historical,https://upbit.com/service_center/notice?id=6102
+H0125,Upbit,CC,KRW,KRW,KRW/BTC/USDT,1776142800000,upbit_notice,1776233100000,upbit,KRW-CC,binance_perp,CCUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6144
+H0127,Upbit,ZAMA,KRW,KRW,KRW/BTC/USDT,1776152920000,upbit_notice,1776161100000,upbit,KRW-ZAMA,binance,ZAMAUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6146
+H0133,Upbit,SOON,KRW,KRW,KRW,1776402002000,upbit_notice,1776404100000,upbit,KRW-SOON,binance_perp,SOONUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6150
+H0135,Upbit,PIEVERSE,KRW,KRW,KRW/BTC/USDT,1776661200000,upbit_notice,1776668700000,upbit,KRW-PIEVERSE,binance_perp,PIEVERSEUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6154
+H0137,Upbit,CHIP,KRW,KRW,KRW/BTC/USDT,1776752184000,upbit_notice,1776776700000,upbit,KRW-CHIP,binance_perp,CHIPUSDT,True,True,historical,https://upbit.com/service_center/notice?id=6158
+H0141,Upbit,SPK,KRW,KRW,KRW,1776910800000,upbit_notice,1776913500000,upbit,KRW-SPK,binance,SPKUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6162
+H0145,Upbit,XCN,KRW,KRW,KRW/USDT,1777266000000,upbit_notice,1777273500000,upbit,KRW-XCN,binance_perp,XCNUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6171
+H0147,Upbit,PRL,KRW,KRW,KRW/BTC/USDT,1777271400000,upbit_notice,1777287300000,upbit,KRW-PRL,binance_perp,PRLUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6173
+H0148,Upbit,BLEND,KRW,KRW,KRW/BTC/USDT,1777429411000,upbit_notice,1777439100000,upbit,KRW-BLEND,bybit,BLENDUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6178
+H0152,Upbit,MEGA,KRW,KRW,KRW/BTC/USDT,1777516206000,upbit_notice,1777547100000,upbit,KRW-MEGA,binance_perp,MEGAUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6184
+H0161,Upbit,WIF,KRW,KRW,KRW/BTC/USDT,1778043600000,upbit_notice,1778051100000,upbit,KRW-WIF,binance,WIFUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6197
+H0164,Upbit,B3,KRW,KRW,KRW,1778125800000,upbit_notice,1778130300000,upbit,KRW-B3,binance_perp,B3USDT,True,False,historical,https://upbit.com/service_center/notice?id=6201
+H0166,Upbit,PROS,KRW,KRW,KRW/BTC/USDT,1778232600000,upbit_notice,1778240100000,upbit,KRW-PROS,coinbase,PROS-USD,True,False,historical,https://upbit.com/service_center/notice?id=6207
+H0168,Upbit,VVV,KRW,KRW,KRW/BTC/USDT,1778562000000,upbit_notice,1778569500000,upbit,KRW-VVV,binance_perp,VVVUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6215
+H0171,Upbit,UP2,KRW,KRW,KRW/BTC/USDT,1778664441000,upbit_notice,1778672100000,upbit,KRW-UP2,coinbase,UP-USD,True,False,historical,https://upbit.com/service_center/notice?id=6218
+H0177,Upbit,IRYS,KRW,KRW,KRW/BTC/USDT,1778834467000,upbit_notice,1778844900000,upbit,KRW-IRYS,binance_perp,IRYSUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6222
+H0179,Upbit,TRAC,KRW,KRW,KRW/BTC/USDT,1779080841000,upbit_notice,1779089700000,upbit,KRW-TRAC,bithumb,KRW-TRAC,True,False,historical,https://upbit.com/service_center/notice?id=6226
+H0187,Upbit,IO,KRW,KRW,KRW,1780045200000,upbit_notice,1780047300000,upbit,KRW-IO,binance,IOUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6255
+H0189,Upbit,SLX,KRW,KRW,KRW/BTC/USDT,1780281900000,upbit_notice,1780293900000,upbit,KRW-SLX,,,False,False,historical,https://upbit.com/service_center/notice?id=6258
+H0194,Upbit,BABY,KRW,KRW,KRW,1780651800000,upbit_notice,1780657500000,upbit,KRW-BABY,binance,BABYUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6274
+H0196,Upbit,CTR,USDT,USDT,BTC/USDT,1780972202000,upbit_notice,1780985100000,upbit,USDT-CTR,binance_perp,CTRUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6282
+H0198,Upbit,OPG,USDT,USDT,BTC/USDT,1781515802000,upbit_notice,1781523300000,upbit,USDT-OPG,binance,OPGUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6293
+H0200,Upbit,SPX,KRW,KRW,KRW/BTC/USDT,1781575946000,upbit_notice,1781586300000,upbit,KRW-SPX,binance_perp,SPXUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6294
+H0205,Upbit,PEAQ,USDT,USDT,BTC/USDT,1781834936000,upbit_notice,1781849100000,upbit,USDT-PEAQ,bybit_perp,PEAQUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6299
+H0206,Upbit,LIT,USDT,USDT,BTC/USDT,1781834936000,upbit_notice,1781890800000,upbit,USDT-LIT,binance_perp,LITUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6299
+H0207,Upbit,KMNO,USDT,USDT,BTC/USDT,1781834936000,upbit_notice,1781863860000,upbit,USDT-KMNO,binance,KMNOUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6299
+H0208,Upbit,MORPHO,USDT,USDT,BTC/USDT,1781834936000,upbit_notice,,upbit,USDT-MORPHO,binance,MORPHOUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6299
+H0209,Upbit,GRAM,USDT,USDT,BTC/USDT,1781834936000,upbit_notice,,upbit,USDT-GRAM,okx,GRAM-USDT,True,False,historical,https://upbit.com/service_center/notice?id=6299
+H0210,Upbit,LDO,USDT,USDT,BTC/USDT,1781834936000,upbit_notice,1781950560000,upbit,USDT-LDO,binance,LDOUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6299
+H0211,Upbit,PAXG,USDT,USDT,BTC/USDT,1781834936000,upbit_notice,1781961000000,upbit,USDT-PAXG,binance,PAXGUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6299
+H0212,Upbit,OSMO,USDT,USDT,BTC/USDT,1781834936000,upbit_notice,1781949960000,upbit,USDT-OSMO,binance,OSMOUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6299
+H0213,Upbit,AMP2,USDT,USDT,BTC/USDT,1781834936000,upbit_notice,1781929260000,upbit,USDT-AMP2,binance,AMPUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6299
+H0215,Upbit,RE,KRW,KRW,KRW/BTC/USDT,1781859602000,upbit_notice,1781870700000,upbit,KRW-RE,binance,REUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6303
+H0217,Upbit,ARX,KRW,KRW,KRW/BTC/USDT,1782180000000,upbit_notice,1782191100000,upbit,KRW-ARX,bybit,ARXUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6314
+H0226,Upbit,AI,KRW,KRW,KRW/BTC/USDT,1782788455000,upbit_notice,1782803100000,upbit,KRW-AI,binance,AIUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6335
+H0228,Upbit,MPLX,USDT,USDT,BTC/USDT,1783047600000,upbit_notice,1783129980000,upbit,USDT-MPLX,bybit,MPLXUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6348
+H0229,Upbit,NEX,USDT,USDT,BTC/USDT,1783047600000,upbit_notice,1783127100000,upbit,USDT-NEX,coinbase,NEX-USD,True,False,historical,https://upbit.com/service_center/notice?id=6348
+H0237,Upbit,DRV,KRW,KRW,KRW/BTC/USDT,1784006102000,upbit_notice,1784016300000,upbit,KRW-DRV,coinbase,DRV-USD,True,False,historical,https://upbit.com/service_center/notice?id=6383
+H0241,Upbit,O,KRW,KRW,KRW/BTC/USDT,1784772902000,upbit_notice,1784786700000,upbit,KRW-O,binance_perp,OUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6404
+H0243,Upbit,EUL,KRW,KRW,KRW,1785027361000,upbit_notice,1785042300000,upbit,KRW-EUL,binance,EULUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6414
+H0246,Upbit,GEOD,KRW,KRW,KRW/BTC/USDT,1785122541000,upbit_notice,1785143100000,upbit,KRW-GEOD,coinbase,GEOD-USD,True,False,historical,https://upbit.com/service_center/notice?id=6415
+H0248,Upbit,RLUSD,KRW,KRW,KRW/BTC/USDT,1785206060000,upbit_notice,1785215100000,upbit,KRW-RLUSD,binance,RLUSDUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6418
+H0250,Upbit,META2,KRW,KRW,KRW/BTC/USDT,1785298588000,upbit_notice,1785315900000,upbit,KRW-META2,binance_perp,METAUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6420
+H0253,Upbit,USDG,KRW,KRW,KRW/BTC/USDT,1785373814000,upbit_notice,1785409500000,upbit,KRW-USDG,okx,USDG-USDT,True,False,historical,https://upbit.com/service_center/notice?id=6424
+H0257,Upbit,CFX,KRW,KRW,KRW/BTC/USDT,1785474007000,upbit_notice,1785488700000,upbit,KRW-CFX,binance,CFXUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6428
+H0260,Upbit,HOME,KRW,KRW,KRW/USDT,1785817817000,upbit_notice,1785830700000,upbit,KRW-HOME,binance,HOMEUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6437
+H0263,Upbit,QUID,KRW,KRW,KRW/BTC/USDT,1785837604000,upbit_notice,1785852300000,upbit,KRW-QUID,,,False,False,historical,https://upbit.com/service_center/notice?id=6440
+H0265,Upbit,GRVT,KRW,KRW,KRW/BTC/USDT,1785904951000,upbit_notice,1785917100000,upbit,KRW-GRVT,binance_perp,GRVTUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6441
+H0267,Upbit,CAP,KRW,KRW,KRW/BTC/USDT,1785981315000,upbit_notice,1785992700000,upbit,KRW-CAP,binance_perp,CAPUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6446
+H0269,Upbit,BSB,KRW,KRW,KRW/BTC/USDT,1786071316000,upbit_notice,1786086300000,upbit,KRW-BSB,binance_perp,BSBUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6451
+H0270,Upbit,CYS,USDT,USDT,BTC/USDT,1786327554000,upbit_notice,1786509780000,upbit,USDT-CYS,binance_perp,CYSUSDT,True,True,historical,https://upbit.com/service_center/notice?id=6458
+H0271,Upbit,ICNT,USDT,USDT,BTC/USDT,1786327554000,upbit_notice,,upbit,USDT-ICNT,binance_perp,ICNTUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6458
+H0272,Upbit,XAN,USDT,USDT,BTC/USDT,1786327554000,upbit_notice,1786367280000,upbit,USDT-XAN,binance_perp,XANUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6458
+H0273,Upbit,EDEN,USDT,USDT,BTC/USDT,1786327554000,upbit_notice,1786714020000,upbit,USDT-EDEN,binance,EDENUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6458
+H0274,Upbit,AIOZ,USDT,USDT,BTC/USDT,1786327554000,upbit_notice,1786361040000,upbit,USDT-AIOZ,bybit,AIOZUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6458
+H0275,Upbit,ALLO,USDT,USDT,BTC/USDT,1786327554000,upbit_notice,1786380300000,upbit,USDT-ALLO,binance,ALLOUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6458
+H0277,Upbit,DOS,KRW,KRW,KRW/BTC/USDT,1786415436000,upbit_notice,1786431900000,upbit,KRW-DOS,,,False,False,historical,https://upbit.com/service_center/notice?id=6463
+H0279,Upbit,PROM,KRW,KRW,KRW/USDT,1786500698000,upbit_notice,1786505700000,upbit,KRW-PROM,binance,PROMUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6466
+H0283,Upbit,BICO,USDT,USDT,BTC/USDT,1787273280000,upbit_notice,1787306700000,upbit,USDT-BICO,binance,BICOUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6489
+H0284,Upbit,BMT,USDT,USDT,BTC/USDT,1787273280000,upbit_notice,1787317140000,upbit,USDT-BMT,binance,BMTUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6489
+H0285,Upbit,NIL,USDT,USDT,BTC/USDT,1787273280000,upbit_notice,1787306820000,upbit,USDT-NIL,binance,NILUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6489
+H0286,Upbit,GWEI,USDT,USDT,BTC/USDT,1787273280000,upbit_notice,1787318580000,upbit,USDT-GWEI,binance_perp,GWEIUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6489
+H0288,Upbit,CRV,KRW,KRW,KRW/USDT,1787278960000,upbit_notice,1787285100000,upbit,KRW-CRV,binance,CRVUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6490
+H0289,Upbit,NEXO,USDT,USDT,USDT,1787307565000,upbit_notice,1787360700000,upbit,USDT-NEXO,binance,NEXOUSDT,True,True,historical,https://upbit.com/service_center/notice?id=6496
+H0290,Upbit,FOLD,KRW,KRW,KRW/BTC/USDT,1787447649000,upbit_notice,1787456100000,upbit,KRW-FOLD,,,False,False,historical,https://upbit.com/service_center/notice?id=6503
+H0292,Upbit,NCT,KRW,KRW,KRW,1787740335000,upbit_notice,1787745900000,upbit,KRW-NCT,bithumb,KRW-NCT,True,False,historical,https://upbit.com/service_center/notice?id=6518
+H0293,Upbit,EURC,KRW,KRW,KRW/BTC/USDT,1787881785000,upbit_notice,1787893500000,upbit,KRW-EURC,,,False,False,historical,https://upbit.com/service_center/notice?id=6526
+H0302,Upbit,CP,KRW,KRW,KRW/BTC/USDT,1788837704000,upbit_notice,1788845700000,upbit,KRW-CP,okx,CP-USDT,True,False,historical,https://upbit.com/service_center/notice?id=6555
+H0304,Upbit,USELESS,USDT,USDT,BTC/USDT,1788863132000,upbit_notice,1788870900000,upbit,USDT-USELESS,binance_perp,USELESSUSDT,True,True,historical,https://upbit.com/service_center/notice?id=6558
+H0306,Upbit,REZ,USDT,USDT,USDT,1789014601000,upbit_notice,1789041900000,upbit,USDT-REZ,binance,REZUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6560
+H0307,Upbit,BFC,KRW,KRW,KRW/USDT,1789015200000,upbit_notice,1789015800000,upbit,KRW-BFC,bithumb,KRW-BFC,True,False,historical,https://upbit.com/service_center/notice?id=6561
+H0310,Upbit,PYUSD,KRW,KRW,KRW/BTC/USDT,1789606081000,upbit_notice,1789614300000,upbit,KRW-PYUSD,bybit,PYUSDUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6580
+H0311,Upbit,JPYC,KRW,KRW,KRW/BTC/USDT,1789606081000,upbit_notice,1789635900000,upbit,KRW-JPYC,,,False,False,historical,https://upbit.com/service_center/notice?id=6580
+H0318,Upbit,CASHCAT,KRW,KRW,KRW/BTC/USDT,1790573224000,upbit_notice,1790582700000,upbit,KRW-CASHCAT,bybit_perp,CASHCATUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6618
+H0322,Upbit,POD,KRW,KRW,KRW/BTC/USDT,1790915841000,upbit_notice,1790924700000,upbit,KRW-POD,,,False,False,historical,https://upbit.com/service_center/notice?id=6635
+H0325,Upbit,NMR,KRW,KRW,KRW/USDT,1791286586000,upbit_notice,1791287400000,upbit,KRW-NMR,binance,NMRUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6642
+H0328,Upbit,PONS,KRW,KRW,KRW/BTC/USDT,1791427061000,upbit_notice,1791435900000,upbit,KRW-PONS,binance_perp,PONSUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6644
+H0330,Upbit,KAIA,KRW,KRW,KRW/BTC/USDT,1791533206000,upbit_notice,1791538500000,upbit,KRW-KAIA,binance,KAIAUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6645
+H0333,Upbit,RSR,KRW,KRW,KRW/USDT,1791780849000,upbit_notice,1791781800000,upbit,KRW-RSR,binance,RSRUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6651
+H0335,Upbit,GTC,KRW,KRW,KRW/USDT,1791799200000,upbit_notice,1791801300000,upbit,KRW-GTC,binance,GTCUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6653
+H0337,Upbit,PUFFER,KRW,KRW,KRW,1792039200000,upbit_notice,1792040700000,upbit,KRW-PUFFER,binance_perp,PUFFERUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6659
+H0338,Upbit,CT,KRW,KRW,KRW/BTC/USDT,1792395600000,upbit_notice,1792400700000,upbit,KRW-CT,binance_perp,CTUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6675
+H0341,Upbit,AXIS,KRW,KRW,KRW/BTC/USDT,1792580400000,upbit_notice,1792587900000,upbit,KRW-AXIS,,,False,False,historical,https://upbit.com/service_center/notice?id=6687
+H0347,Upbit,CARDS,KRW,KRW,KRW/BTC/USDT,1793858583000,upbit_notice,1793864100000,upbit,KRW-CARDS,okx,CARDS-USDT,True,False,historical,https://upbit.com/service_center/notice?id=6739
+H0349,Upbit,HYPE,KRW,KRW,KRW/BTC/USDT,1794286200000,upbit_notice,1794290700000,upbit,KRW-HYPE,binance,HYPEUSDT,True,False,historical,https://upbit.com/service_center/notice?id=6758
+H0353,Upbit,SANC,KRW,KRW,KRW/BTC/USDT,1794536700000,upbit_notice,1794542700000,upbit,KRW-SANC,,,False,False,historical,https://upbit.com/service_center/notice?id=6771
+H0002,Bybit,MMT,spot,USDT,USDT,1762164041000,bybit_api,1762257600000,bybit,MMTUSDT,bybit_perp,MMTUSDT,True,True,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-momentum-mmt-on-spot-blt3b6ffd68c2ea1a47/
+H0006,Bybit,CC,spot,USDT,USDT,1762509600000,bybit_api,1762758000000,bybit,CCUSDT,binance_perp,CCUSDT,True,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-canton-network-cc-on-spot-blta2f950ee57d549c6/
+H0012,Bybit,PIEVERSE,spot,USDT,USDT,1763100021000,bybit_api,1763125200000,bybit,PIEVERSEUSDT,,,False,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-pieverse-pieverse-on-spot-blta1f5ae3a25e93b4a/
+H0015,Bybit,GAIB,spot,USDT,USDT,1763532503000,bybit_api,1763553600000,bybit,GAIBUSDT,,,False,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-gaib-gaib-on-spot-bltb827f9fa423baa04/
+H0017,Bybit,MON,spot,USDT,USDT,1763892000000,bybit_api,1763996400000,bybit,MONUSDT,binance_perp,MONUSDT,True,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-monad-mon-on-spot-blt92fd8d600e619238/
+H0023,Bybit,WET,spot,USDT,USDT,1765260487000,bybit_api,1765292400000,bybit,WETUSDT,bybit_perp,WETUSDT,True,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-humidifi-wet-on-spot-blt3e1aa88ad43779f7/
+H0026,Bybit,ALMANAK,spot,USDT,USDT,1765370299000,bybit_api,1765454400000,bybit,ALMANAKUSDT,,,False,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-almanak-almanak-on-spot-blt53e2d8d48f4ea2ef/
+H0042,Bybit,WHITEWHALE,spot,USDT,USDT,1767684860000,bybit_api,1767700800000,bybit,WHITEWHALEUSDT,,,False,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-the-white-whale-whitewhale-on-spot-blt76ae76a6c8f1bd73/
+H0054,Bybit,SKR,spot,USDT,USDT,1768931330000,bybit_api,1768960800000,bybit,SKRUSDT,bybit_perp,SKRUSDT,True,True,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-seeker-skr-on-spot-blt24f3942847d05b9b/
+H0063,Bybit,PYBOBO,spot,USDT,USDT,1769400000000,bybit_api,1769421600000,bybit,PYBOBOUSDT,,,False,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-capybobo-pybobo-on-spot-bltf4a711362a910b95/
+H0065,Bybit,USAT,spot,USDT,USDT,1769520602000,bybit_api,1769522400000,bybit,USATUSDT,,,False,False,historical,https://announcements.bybit.com/en-US/article/new-listing-usat-usdt-trading-with-0-fee-blt11fa120c75fa7694/
+H0066,Bybit,BIRB,spot,USDT,USDT,1769573693000,bybit_api,1769605200000,bybit,BIRBUSDT,,,False,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-moonbirds-birb-on-spot-blt3dbd5086f85bdf29/
+H0077,Bybit,PENGUIN,spot,USDT,USDT,1769860812000,bybit_api,1769884200000,bybit,PENGUINUSDT,,,False,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-nietzschean-penguin-penguin-on-spot-bltbb03337c01507405/
+H0092,Bybit,BSB,spot,USDT,USDT,1772528836000,bybit_api,1772625600000,bybit,BSBUSDT,,,False,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-block-street-bsb-on-spot-blt2595c9b542f6aa7a/
+H0096,Bybit,OPN,spot,USDT,USDT,1772679612000,bybit_api,1772715600000,bybit,OPNUSDT,binance_perp,OPNUSDT,True,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-opinion-opn-on-spot-blt392bdf0cb2e5f811/
+H0116,Bybit,EDGE,spot,USDT,USDT,1774952414000,bybit_api,1774960200000,bybit,EDGEUSDT,binance_perp,EDGEUSDT,True,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-edgex-edge-on-spot-bltd4be4f509909110a/
+H0142,Bybit,BLEND,spot,USDT,USDT,1777000513000,bybit_api,1777035600000,bybit,BLENDUSDT,,,False,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-fluent-blend-on-spot-blt5d904db68316aa09/
+H0154,Bybit,MEGA,spot,USDT,USDT,1777532412000,bybit_api,1777546800000,bybit,MEGAUSDT,binance_perp,MEGAUSDT,True,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-megaeth-mega-on-spot-blt2e2283007bc5d304/
+H0160,Bybit,OPG,spot,USDT,USDT,1777883673000,bybit_api,1777883640000,bybit,OPGUSDT,binance_perp,OPGUSDT,True,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-opengradient-opg-on-spot-bltb2aa6b2089ed616d/
+H0170,Bybit,FOGO,spot,USDT,USDT,1778655891000,bybit_api,1778655840000,bybit,FOGOUSDT,binance,FOGOUSDT,True,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-fogo-fogo-on-spot-bltff4248b03b3b57fb/
+H0176,Bybit,BILL,spot,USDT,USDT,1778831804000,bybit_api,1778831760000,bybit,BILLUSDT,binance_perp,BILLUSDT,True,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-billions-network-bill-on-spot-bltc27911c151973d62/
+H0197,Bybit,SPCXX,spot,USDT,USDT,1781281333000,bybit_api,1781281320000,bybit,SPCXXUSDT,,,False,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-spacex-xstock-spcxx-on-spot-blt06def4fd439d56d0/
+H0216,Bybit,ARX,spot,USDT,USDT,1782135609000,bybit_api,1782135600000,bybit,ARXUSDT,coinbase,ARX-USD,True,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-arcium-arx-on-spot-blt1b5067ffece1fa0c/
+H0221,Bybit,CAP,spot,USDT,USDT,1782445257000,bybit_api,1782475200000,bybit,CAPUSDT,,,False,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-cap-cap-on-spot-bltb2f2479a52c45fbb/
+H0234,Bybit,GROVE,spot,USDT,USDT,1783410313000,bybit_api,1783436400000,bybit,GROVEUSDT,coinbase,GROVE-USD,True,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-grove-grove-on-spot-blt2fb4953690afb723/
+H0255,Bybit,GRVT,spot,USDT,USDT,1785402055000,bybit_api,1785420000000,bybit,GRVTUSDT,,,False,False,historical,https://announcements.bybit.com/en-US/article/selected-regions-only-new-listing-grvt-usdt-grab-a-share-of-the-2-500-000-grvt-prize-pool--art7adfc0e1a9dd/
+H0281,Bybit,KII,spot,USDT,USDT,1786693404000,bybit_api,1786712400000,bybit,KIIUSDT,,,False,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-kii-kii-on-spot--artdbaa29ee472a/
+H0313,Bybit,PONS,spot,USDT,USDT,1790064009000,bybit_api,1790082000000,bybit,PONSUSDT,binance_perp,PONSUSDT,True,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-pons-pons-on-spot--art9c05fc201aad/
+H0346,Bybit,KOR,spot,USDT,USDT,1793688660000,bybit_api,1793800800000,bybit,KORUSDT,,,False,False,historical,https://announcements.bybit.com/en-US/article/bybit-to-list-kor-protocol-kor-on-spot--arte2e1efdfaed8/
+X0354,Coinbase,AI,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1777493880000,coinbase,AI-USD,,,False,False,historical,
+X0355,Coinbase,ZKP,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1766175720000,coinbase,ZKP-USD,,,False,False,historical,
+X0356,Coinbase,TON,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1763486880000,coinbase,TON-USD,,,False,False,historical,
+X0357,Coinbase,MEZO,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1775052720000,coinbase,MEZO-USD,,,False,False,historical,
+X0358,Coinbase,WHUF,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1791473340000,coinbase,WHUF-USD,,,False,False,historical,
+X0359,Coinbase,DIEM,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1776874920000,coinbase,DIEM-USD,,,False,False,historical,
+X0360,Coinbase,VIRTUAL,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1777485840000,coinbase,VIRTUAL-USD,,,False,False,historical,
+X0361,Coinbase,SUP,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1763429940000,coinbase,SUP-USD,,,False,False,historical,
+X0362,Coinbase,KAT,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1773840480000,coinbase,KAT-USD,,,False,False,historical,
+X0363,Coinbase,BLEND,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1777036860000,coinbase,BLEND-USD,,,False,False,historical,
+X0364,Coinbase,CT,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1790763360000,coinbase,CT-USD,,,False,False,historical,
+X0365,Coinbase,OPG,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1776774480000,coinbase,OPG-USD,,,False,False,historical,
+X0366,Coinbase,ASTER,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1763659260000,coinbase,ASTER-USD,,,False,False,historical,
+X0367,Coinbase,CTR,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1779802140000,coinbase,CTR-USD,,,False,False,historical,
+X0368,Coinbase,GRVT,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1785414300000,coinbase,GRVT-USD,,,False,False,historical,
+X0369,Coinbase,BASED1,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1774862460000,coinbase,BASED1-USD,,,False,False,historical,
+X0370,Coinbase,FUN1,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1768513920000,coinbase,FUN1-USD,,,False,False,historical,
+X0371,Coinbase,CHIP,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1776778680000,coinbase,CHIP-USD,,,False,False,historical,
+X0372,Coinbase,WMTX,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1764090660000,coinbase,WMTX-USD,,,False,False,historical,
+X0373,Coinbase,PROS,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1777386540000,coinbase,PROS-USD,,,False,False,historical,
+X0374,Coinbase,RE,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1781786520000,coinbase,RE-USD,,,False,False,historical,
+X0375,Coinbase,AZTEC,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1770910740000,coinbase,AZTEC-USD,,,False,False,historical,
+X0376,Coinbase,META,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1780001460000,coinbase,META-USD,,,False,False,historical,
+X0377,Coinbase,ICNT,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1774455060000,coinbase,ICNT-USD,,,False,False,historical,
+X0378,Coinbase,BIRB,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1769613600000,coinbase,BIRB-USD,,,False,False,historical,
+X0379,Coinbase,O,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1781711760000,coinbase,O-USD,,,False,False,historical,
+X0380,Coinbase,ZAMA,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1770051780000,coinbase,ZAMA-USD,,,False,False,historical,
+X0381,Coinbase,ROBO,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1772198520000,coinbase,ROBO-USD,,,False,False,historical,
+X0382,Coinbase,GRASS,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1787769000000,coinbase,GRASS-USD,,,False,False,historical,
+X0383,Coinbase,RLS,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1764617580000,coinbase,RLS-USD,,,False,True,historical,
+X0384,Coinbase,STABLE,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1793124900000,coinbase,STABLE-USD,,,False,False,historical,
+X0385,Coinbase,WET,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1765318860000,coinbase,WET-USD,,,False,False,historical,
+X0386,Coinbase,KITE,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1762200240000,coinbase,KITE-USD,,,False,False,historical,
+X0387,Coinbase,MEGA,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1777549860000,coinbase,MEGA-USD,,,False,False,historical,
+X0388,Coinbase,ALIGN,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1787254260000,coinbase,ALIGN-USD,,,False,False,historical,
+X0389,Coinbase,THQ,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1765915920000,coinbase,THQ-USD,,,False,False,historical,
+X0390,Coinbase,TRUST,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1762373580000,coinbase,TRUST-USD,,,False,False,historical,
+X0391,Coinbase,DRV,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1779984840000,coinbase,DRV-USD,,,False,False,historical,
+X0392,Coinbase,RAY,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1768410720000,coinbase,RAY-USD,,,False,False,historical,
+X0393,Coinbase,EDGEX,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1774961400000,coinbase,EDGEX-USD,,,False,False,historical,
+X0394,Coinbase,LIGHTER,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1768489920000,coinbase,LIGHTER-USD,,,False,False,historical,
+X0395,Coinbase,PRL,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1774446360000,coinbase,PRL-USD,,,False,False,historical,
+X0396,Coinbase,CAP,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1782475860000,coinbase,CAP-USD,,,False,False,historical,
+X0397,Coinbase,WRON,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1779121620000,coinbase,WRON-USD,,,False,True,historical,
+X0398,Coinbase,WAL,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1770835620000,coinbase,WAL-USD,,,False,False,historical,
+X0399,Coinbase,RITUAL,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1793028480000,coinbase,RITUAL-USD,,,False,False,historical,
+X0400,Coinbase,NOM,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1763066280000,coinbase,NOM-USD,,,False,False,historical,
+X0401,Coinbase,RNBW,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1770317820000,coinbase,RNBW-USD,,,False,False,historical,
+X0402,Coinbase,DATA,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1791482760000,coinbase,DATA-USD,,,False,False,historical,
+X0403,Coinbase,SENT,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1769100960000,coinbase,SENT-USD,,,False,False,historical,
+X0404,Coinbase,GROVE,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1783374780000,coinbase,GROVE-USD,,,False,False,historical,
+X0405,Coinbase,BASECAT,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1787593740000,coinbase,BASECAT-USD,,,False,False,historical,
+X0406,Coinbase,BILL,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1777901940000,coinbase,BILL-USD,,,False,False,historical,
+X0407,Coinbase,JUPITER,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1765318860000,coinbase,JUPITER-USD,,,False,False,historical,
+X0408,Coinbase,BLUECHIP,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1789582800000,coinbase,BLUECHIP-USD,,,False,False,historical,
+X0409,Coinbase,DRB,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1787594700000,coinbase,DRB-USD,,,False,False,historical,
+X0410,Coinbase,ALLO,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1762963740000,coinbase,ALLO-USD,,,False,False,historical,
+X0411,Coinbase,ARX,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1782131220000,coinbase,ARX-USD,,,False,False,historical,
+X0412,Coinbase,IRYS,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1764100440000,coinbase,IRYS-USD,,,False,False,historical,
+X0413,Coinbase,CHECK,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1775146380000,coinbase,CHECK-USD,,,False,False,historical,
+X0414,Coinbase,INX,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1769802660000,coinbase,INX-USD,,,False,False,historical,
+X0415,Coinbase,FLUID,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1764091020000,coinbase,FLUID-USD,,,False,False,historical,
+X0416,Coinbase,BEAM,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1765911420000,coinbase,BEAM-USD,,,False,False,historical,
+X0417,Coinbase,NEX,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1779290760000,coinbase,NEX-USD,,,False,False,historical,
+X0418,Coinbase,ESP,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1770995340000,coinbase,ESP-USD,,,False,False,historical,
+X0419,Coinbase,BREV,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1767736020000,coinbase,BREV-USD,,,False,False,historical,
+X0420,Coinbase,HYPER,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1765401300000,coinbase,HYPER-USD,,,False,False,historical,
+X0421,Coinbase,IMU,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1769101080000,coinbase,IMU-USD,,,False,False,historical,
+X0422,Coinbase,XPL,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1764695460000,coinbase,XPL-USD,,,False,False,historical,
+X0423,Coinbase,ELSA,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1768934880000,coinbase,ELSA-USD,,,False,False,historical,
+X0424,Coinbase,PONS,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1791393600000,coinbase,PONS-USD,,,False,False,historical,
+X0425,Coinbase,HYPE,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1770319440000,coinbase,HYPE-USD,,,False,False,historical,
+X0426,Coinbase,SKR,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1769014380000,coinbase,SKR-USD,,,False,True,historical,
+X0427,Coinbase,PLUME,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1765387980000,coinbase,PLUME-USD,,,False,False,historical,
+X0428,Coinbase,OPN,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1772719020000,coinbase,OPN-USD,,,False,False,historical,
+X0429,Coinbase,CP,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1788357060000,coinbase,CP-USD,,,False,True,historical,
+X0430,Coinbase,BOBBOB,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1763685420000,coinbase,BOBBOB-USD,,,False,False,historical,
+X0431,Coinbase,RAVE,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1770831660000,coinbase,RAVE-USD,,,False,False,historical,
+X0432,Coinbase,KAIO,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1778074020000,coinbase,KAIO-USD,,,False,False,historical,
+X0433,Coinbase,MON,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1763991120000,coinbase,MON-USD,,,False,False,historical,
+X0434,Coinbase,AXIS,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1792582260000,coinbase,AXIS-USD,,,False,False,historical,
+X0435,Coinbase,FIGHT,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1769100360000,coinbase,FIGHT-USD,,,False,False,historical,
+X0436,Coinbase,CARD,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1793989980000,coinbase,CARD-USD,,,False,False,historical,
+X0437,Coinbase,GWEI,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1771957140000,coinbase,GWEI-USD,,,False,False,historical,
+X0438,Coinbase,UP,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1770746340000,coinbase,UP-USD,,,False,False,historical,
+X0439,Coinbase,SIGN,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1776785100000,coinbase,SIGN-USD,,,False,False,historical,
+X0440,Coinbase,LMTS,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1772817480000,coinbase,LMTS-USD,,,False,False,historical,
+X0441,Coinbase,DEEP,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1770830280000,coinbase,DEEP-USD,,,False,False,historical,
+X0442,Coinbase,DOOD,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1770311880000,coinbase,DOOD-USD,,,False,False,historical,
+X0443,Coinbase,TRIA,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1770144180000,coinbase,TRIA-USD,,,False,False,historical,
+X0444,Coinbase,GEOD,spot,USD,USD,,coinbase_first_daily_candle(no announcement time),1782232260000,coinbase,GEOD-USD,,,False,False,historical,
+X0466,Coinbase,PEARL,spot,USD,PEARL-USD,1794514291076,coinsentry_listing_live,,coinbase,PEARL-USD,,,False,False,coinsentry,
+H0126,Bithumb,ZAMA,KRW,KRW,KRW,1776145152024,clw_public_feed,1776153900000,bithumb,KRW-ZAMA,binance,ZAMAUSDT,True,False,historical,
+H0136,Bithumb,BASED,KRW,KRW,KRW,1776748970698,clw_public_feed,1776758700000,bithumb,KRW-BASED,binance_perp,BASEDUSDT,True,False,historical,
+H0138,Bithumb,CHIP,KRW,KRW,KRW,1776753974813,clw_public_feed,1776776700000,bithumb,KRW-CHIP,binance_perp,CHIPUSDT,True,True,historical,
+H0146,Bithumb,PRL,KRW,KRW,KRW,1777270299867,clw_public_feed,1777298700000,bithumb,KRW-PRL,binance_perp,PRLUSDT,True,False,historical,
+H0149,Bithumb,BLEND,KRW,KRW,KRW,1777433076562,clw_public_feed,1777449900000,bithumb,KRW-BLEND,bybit,BLENDUSDT,True,False,historical,
+H0153,Bithumb,MEGA,KRW,KRW,KRW,1777517903658,clw_public_feed,1777547100000,bithumb,KRW-MEGA,binance_perp,MEGAUSDT,True,False,historical,
+H0163,Bithumb,EDGEX,KRW,KRW,KRW,1778118455395,clw_public_feed,1778137500000,bithumb,KRW-EDGEX,coinbase,EDGEX-USD,True,False,historical,
+H0167,Bithumb,PROS,KRW,KRW,KRW,1778234036673,clw_public_feed,1778250900000,bithumb,KRW-PROS,coinbase,PROS-USD,True,False,historical,
+H0172,Bithumb,UP,KRW,KRW,KRW,1778665613218,clw_public_feed,1778682900000,bithumb,KRW-UP,coinbase,UP-USD,True,False,historical,
+H0178,Bithumb,AIGENSYN,KRW,KRW,KRW,1779069608691,clw_public_feed,,bithumb,KRW-AIGENSYN,binance,AIGENSYNUSDT,True,False,historical,
+H0180,Bithumb,OPG,KRW,KRW,KRW,1779415020971,clw_public_feed,1779426300000,bithumb,KRW-OPG,binance_perp,OPGUSDT,True,False,historical,
+H0185,Bithumb,BILL,KRW,KRW,KRW,1779945392784,clw_public_feed,1779955500000,bithumb,KRW-BILL,binance_perp,BILLUSDT,True,False,historical,
+H0188,Bithumb,HNT,KRW,KRW,KRW,1780278321341,clw_public_feed,1780290300000,bithumb,KRW-HNT,bybit,HNTUSDT,True,False,historical,
+H0190,Bithumb,SLX,KRW,KRW,KRW,1780282764819,clw_public_feed,1780304700000,bithumb,KRW-SLX,,,False,False,historical,
+H0195,Bithumb,CTR,KRW,KRW,KRW,1780969204416,clw_public_feed,1780995900000,bithumb,KRW-CTR,binance_perp,CTRUSDT,True,False,historical,
+H0199,Bithumb,SPACE,KRW,KRW,KRW,1781574190673,clw_public_feed,1781586300000,bithumb,KRW-SPACE,binance_perp,SPACEUSDT,True,False,historical,
+H0201,Bithumb,SPX,KRW,KRW,KRW,1781576534857,clw_public_feed,1781597100000,bithumb,KRW-SPX,binance_perp,SPXUSDT,True,False,historical,
+H0214,Bithumb,RE,KRW,KRW,KRW,1781837518527,clw_public_feed,1781849100000,bithumb,KRW-RE,binance,REUSDT,True,False,historical,
+H0222,Bithumb,ARX,KRW,KRW,KRW,1782454077770,clw_public_feed,1782464700000,bithumb,KRW-ARX,binance_perp,ARXUSDT,True,False,historical,
+H0224,Bithumb,CAP,KRW,KRW,KRW,1782784166976,clw_public_feed,1782795900000,bithumb,KRW-CAP,binance_perp,CAPUSDT,True,False,historical,
+H0230,Bithumb,NEX,KRW,KRW,KRW,1783050376087,clw_public_feed,1783073100000,bithumb,KRW-NEX,coinbase,NEX-USD,True,False,historical,
+H0231,Bithumb,MPLX,KRW,KRW,KRW,1783050376087,clw_public_feed,1783058700000,bithumb,KRW-MPLX,bybit,MPLXUSDT,True,False,historical,
+H0233,Bithumb,ICNT,KRW,KRW,KRW,1783403124840,clw_public_feed,1783411500000,bithumb,KRW-ICNT,binance_perp,ICNTUSDT,True,False,historical,
+H0238,Bithumb,DRV,KRW,KRW,KRW,1784006823211,clw_public_feed,1784028900000,bithumb,KRW-DRV,coinbase,DRV-USD,True,False,historical,
+H0242,Bithumb,CHECK,KRW,KRW,KRW,1784776554183,clw_public_feed,1784786700000,bithumb,KRW-CHECK,coinbase,CHECK-USD,True,False,historical,
+H0244,Bithumb,BANK,KRW,KRW,KRW,1785118761117,clw_public_feed,1785132300000,bithumb,KRW-BANK,binance,BANKUSDT,True,False,historical,
+H0247,Bithumb,GEOD,KRW,KRW,KRW,1785124162185,clw_public_feed,1785146700000,bithumb,KRW-GEOD,coinbase,GEOD-USD,True,False,historical,
+H0249,Bithumb,O,KRW,KRW,KRW,1785208013249,clw_public_feed,1785215100000,bithumb,KRW-O,binance_perp,OUSDT,True,False,historical,
+H0251,Bithumb,AEON,KRW,KRW,KRW,1785302598365,clw_public_feed,1785315900000,bithumb,KRW-AEON,okx,AEON-USDT,True,False,historical,
+H0252,Bithumb,RLUSD,KRW,KRW,KRW,1785302598365,clw_public_feed,1785314100000,bithumb,KRW-RLUSD,binance,RLUSDUSDT,True,False,historical,
+H0256,Bithumb,GRVT,KRW,KRW,KRW,1785464649159,clw_public_feed,1785474300000,bithumb,KRW-GRVT,bybit,GRVTUSDT,True,False,historical,
+H0261,Bithumb,USDG,KRW,KRW,KRW,1785819887661,clw_public_feed,1785848700000,bithumb,KRW-USDG,okx,USDG-USDT,True,False,historical,
+H0262,Bithumb,META2,KRW,KRW,KRW,1785819887661,clw_public_feed,1785848700000,bithumb,KRW-META2,binance_perp,METAUSDT,True,False,historical,
+H0264,Bithumb,QUID,KRW,KRW,KRW,1785838684927,clw_public_feed,1785852300000,bithumb,KRW-QUID,,,False,False,historical,
+H0266,Bithumb,UB,KRW,KRW,KRW,1785979145234,clw_public_feed,1785989100000,bithumb,KRW-UB,binance_perp,UBUSDT,True,False,historical,
+H0268,Bithumb,BSB,KRW,KRW,KRW,1786070336891,clw_public_feed,1786082700000,bithumb,KRW-BSB,binance_perp,BSBUSDT,True,False,historical,
+H0276,Bithumb,DOS,KRW,KRW,KRW,1786411057040,clw_public_feed,1786435500000,bithumb,KRW-DOS,,,False,False,historical,
+H0287,Bithumb,NEXO,KRW,KRW,KRW,1787276710165,clw_public_feed,1787306700000,bithumb,KRW-NEXO,binance,NEXOUSDT,True,False,historical,
+H0291,Bithumb,PROM,KRW,KRW,KRW,1787535796976,clw_public_feed,1787544300000,bithumb,KRW-PROM,binance,PROMUSDT,True,False,historical,
+H0294,Bithumb,EURC,KRW,KRW,KRW,1787883088327,clw_public_feed,1787897100000,bithumb,KRW-EURC,,,False,False,historical,
+H0295,Bithumb,FOLD,KRW,KRW,KRW,1787883088327,clw_public_feed,1787893500000,bithumb,KRW-FOLD,upbit,KRW-FOLD,True,False,historical,
+H0301,Bithumb,USELESS,KRW,KRW,KRW,1788834885472,clw_public_feed,1788843900000,bithumb,KRW-USELESS,binance_perp,USELESSUSDT,True,False,historical,
+H0303,Bithumb,CP,KRW,KRW,KRW,1788838272014,clw_public_feed,1788849300000,bithumb,KRW-CP,okx,CP-USDT,True,False,historical,
+H0312,Bithumb,AVA,KRW,KRW,KRW,1789609940176,clw_public_feed,1789621500000,bithumb,KRW-AVA,binance,AVAUSDT,True,False,historical,
+H0316,Bithumb,PYUSD,KRW,KRW,KRW,1790571091315,clw_public_feed,1790579100000,bithumb,KRW-PYUSD,bybit,PYUSDUSDT,True,False,historical,
+H0317,Bithumb,Q,KRW,KRW,KRW,1790571091315,clw_public_feed,1790579100000,bithumb,KRW-Q,binance_perp,QUSDT,True,False,historical,
+H0321,Bithumb,US,KRW,KRW,KRW,1790910887784,clw_public_feed,1790921100000,bithumb,KRW-US,binance_perp,USUSDT,True,False,historical,
+H0323,Bithumb,POD,KRW,KRW,KRW,1791273130553,clw_public_feed,1791284700000,bithumb,KRW-POD,upbit,KRW-POD,True,False,historical,
+H0324,Bithumb,BR,KRW,KRW,KRW,1791273130553,clw_public_feed,1791281100000,bithumb,KRW-BR,binance_perp,BRUSDT,True,False,historical,
+H0326,Bithumb,CASHCAT,KRW,KRW,KRW,1791425764778,clw_public_feed,1791439500000,bithumb,KRW-CASHCAT,bybit_perp,CASHCATUSDT,True,False,historical,
+H0327,Bithumb,AIA,KRW,KRW,KRW,1791425764778,clw_public_feed,1791435900000,bithumb,KRW-AIA,binance_perp,AIAUSDT,True,False,historical,
+H0329,Bithumb,PONS,KRW,KRW,KRW,1791428210321,clw_public_feed,1791439500000,bithumb,KRW-PONS,binance_perp,PONSUSDT,True,False,historical,
+H0331,Bithumb,XDP,KRW,KRW,KRW,1791541897936,clw_public_feed,1791547500000,bithumb,KRW-XDP,okx,XDP-USDT,True,False,historical,
+H0332,Bithumb,ZEST,KRW,KRW,KRW,1791772911597,clw_public_feed,1791781500000,bithumb,KRW-ZEST,binance_perp,ZESTUSDT,True,False,historical,
+H0334,Bithumb,KGEN,KRW,KRW,KRW,1791795306958,clw_public_feed,1791801300000,bithumb,KRW-KGEN,binance_perp,KGENUSDT,True,False,historical,
+H0336,Bithumb,ACU,KRW,KRW,KRW,1792032548398,clw_public_feed,1792042500000,bithumb,KRW-ACU,binance_perp,ACUUSDT,True,False,historical,
+H0339,Bithumb,CT,KRW,KRW,KRW,1792396708563,clw_public_feed,1792404300000,bithumb,KRW-CT,binance_perp,CTUSDT,True,False,historical,
+H0340,Bithumb,PYBOBO,KRW,KRW,KRW,1792547678223,clw_public_feed,1792559100000,bithumb,KRW-PYBOBO,bybit,PYBOBOUSDT,True,False,historical,
+H0342,Bithumb,AT,KRW,KRW,KRW,1792583216964,clw_public_feed,1792587900000,bithumb,KRW-AT,binance,ATUSDT,True,False,historical,
+H0343,Bithumb,AXIS,KRW,KRW,KRW,1792801926850,clw_public_feed,1792811100000,bithumb,KRW-AXIS,bybit_perp,AXISUSDT,True,False,historical,
+H0348,Bithumb,MAGMA,KRW,KRW,KRW,1793861440904,clw_public_feed,1793869500000,bithumb,KRW-MAGMA,binance_perp,MAGMAUSDT,True,False,historical,
+H0350,Bithumb,CARDS,KRW,KRW,KRW,1794287634555,clw_public_feed,1794301500000,bithumb,KRW-CARDS,okx,CARDS-USDT,True,False,historical,
+H0351,Bithumb,HYPE,KRW,KRW,KRW,1794287634555,clw_public_feed,1794296100000,bithumb,KRW-HYPE,binance,HYPEUSDT,True,False,historical,
+H0354,Bithumb,DNA,KRW,KRW,KRW,1794545202581,clw_public_feed,1794553500000,bithumb,KRW-DNA,bybit_perp,DNAUSDT,True,False,historical,

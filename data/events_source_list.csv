@@ -1,0 +1,468 @@
+event_id,exchange,symbol,product,quote,markets,announcement_ms,ann_source,title,url,source
+H0001,Upbit,KITE,spot,KRW,KRW/BTC/USDT,1762157481000,upbit_notice,"카이트(KITE) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (매도 최저가 기준 가격 안내)",https://upbit.com/service_center/notice?id=5716,historical
+H0002,Bybit,MMT,spot,USDT,USDT,1762164041000,bybit_api,Bybit to List Momentum (MMT) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-momentum-mmt-on-spot-blt3b6ffd68c2ea1a47/,historical
+H0003,Upbit,MMT,spot,USDT,BTC/USDT,1762248900000,upbit_notice,"모멘텀(MMT) 신규 거래지원 안내 (BTC, USDT 마켓) (매도 최저가 기준 가격 안내)",https://upbit.com/service_center/notice?id=5722,historical
+H0004,Upbit,TRUST,spot,KRW,KRW/BTC/USDT,1762332256000,upbit_notice,"인튜이션(TRUST) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (매도 최저가 기준 가격 안내)",https://upbit.com/service_center/notice?id=5727,historical
+H0005,Binance,STABLE,perp,USDT,USDT-M,1762429474151,binance_cms,Binance Futures Will Launch USDⓈ-Margined STABLEUSDT Perpetual Contract Pre-Market Trading (2025-11-06),https://www.binance.com/en/support/announcement/6d4f42086ec1430eaf505f8e6bcf4127,historical
+H0006,Bybit,CC,spot,USDT,USDT,1762509600000,bybit_api,Bybit to List Canton Network (CC) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-canton-network-cc-on-spot-blta2f950ee57d549c6/,historical
+H0007,OKX,ALLO,spot,USDT,USDT,1762846211292,okx_api,OKX to list ALLO (Allora) for spot trading,https://www.okx.com/en-ar/help/okx-to-list-allo-allora-for-spot-trading,historical
+H0008,Binance,CLANKER,perp,USDT,USDT-M,1762942539520,binance_cms,Binance Futures Will Launch USDⓈ-Margined CLANKERUSDT and BEATUSDT Perpetual Contracts (2025-11-12),https://www.binance.com/en/support/announcement/15f01e2861ac46e2b698212cb220f4d7,historical
+H0009,Binance,BEAT,perp,USDT,USDT-M,1762942539520,binance_cms,Binance Futures Will Launch USDⓈ-Margined CLANKERUSDT and BEATUSDT Perpetual Contracts (2025-11-12),https://www.binance.com/en/support/announcement/15f01e2861ac46e2b698212cb220f4d7,historical
+H0010,Binance,BANK,spot,USDT,USDT,1763028026501,binance_cms,Binance Will List Lorenzo Protocol (BANK) and Meteora (MET) with Seed Tag Applied,https://www.binance.com/en/support/announcement/fd835b4cd95f4af89c461070994e684d,historical
+H0011,Binance,MET,spot,USDT,USDT,1763028026501,binance_cms,Binance Will List Lorenzo Protocol (BANK) and Meteora (MET) with Seed Tag Applied,https://www.binance.com/en/support/announcement/fd835b4cd95f4af89c461070994e684d,historical
+H0012,Bybit,PIEVERSE,spot,USDT,USDT,1763100021000,bybit_api,Bybit to List Pieverse (PIEVERSE) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-pieverse-pieverse-on-spot-blta1f5ae3a25e93b4a/,historical
+H0013,Binance,SENT,perp,USDT,USDT-M,1763123409013,binance_cms,Binance Futures Will Launch USDⓈ-Margined SENTUSDT Perpetual Contract Pre-Market Trading (2025-11-14),https://www.binance.com/en/support/announcement/fb2efc4fe76842f4a3eec950ca62b13e,historical
+H0014,Upbit,MET2,spot,KRW,KRW/BTC/USDT,1763446800000,upbit_notice,"메테오라(MET2) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=5769,historical
+H0015,Bybit,GAIB,spot,USDT,USDT,1763532503000,bybit_api,Bybit to List GAIB (GAIB) on  Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-gaib-gaib-on-spot-bltb827f9fa423baa04/,historical
+H0016,Binance,BOB,perp,USDT,USDT-M,1763717331171,binance_cms,Binance Futures Will Launch USDⓈ-Margined BOBUSDT Perpetual Contract (2025-11-21),https://www.binance.com/en/support/announcement/36c4f838c82b4f81920d5adc958d9a53,historical
+H0017,Bybit,MON,spot,USDT,USDT,1763892000000,bybit_api,Bybit to List Monad (MON) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-monad-mon-on-spot-blt92fd8d600e619238/,historical
+H0018,Upbit,MON,spot,KRW,KRW/BTC/USDT,1763974893000,upbit_notice,"모나드(MON) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (매도 최저가 기준 가격 안내)",https://upbit.com/service_center/notice?id=5790,historical
+H0019,Upbit,PLUME,spot,KRW,KRW,1764135002000,upbit_notice,플룸(PLUME) KRW 마켓 디지털 자산 추가,https://upbit.com/service_center/notice?id=5796,historical
+H0020,Binance,IRYS,perp,USDT,USDT-M,1764168236086,binance_cms,Binance Futures Will Launch USDⓈ-Margined IRYSUSDT Perpetual Contract (2025-11-26),https://www.binance.com/en/support/announcement/302095391f0f43c0a6d206b3a10c4e78,historical
+H0021,Binance,RLS,perp,USDT,USDT-M,1764665000303,binance_cms,Binance Futures Will Launch USDⓈ-Margined RLSUSDT Perpetual Contract (2025-12-02),https://www.binance.com/en/support/announcement/76379c0d6b7f4fc4861a734db668803a,historical
+H0022,Binance,POWER,perp,USDT,USDT-M,1765006814266,binance_cms,Binance Futures Will Launch USDⓈ-Margined POWERUSDT Perpetual Contract (2025-12-06),https://www.binance.com/en/support/announcement/97c003f1e70f497e98f606ae8b3f1822,historical
+H0023,Bybit,WET,spot,USDT,USDT,1765260487000,bybit_api,Bybit to  List Humidifi (WET) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-humidifi-wet-on-spot-blt3e1aa88ad43779f7/,historical
+H0024,Binance,WET,perp,USDT,USDT-M,1765345514302,binance_cms,Binance Futures Will Launch USDⓈ-Margined WETUSDT Perpetual Contract (2025-12-10),https://www.binance.com/en/support/announcement/070db7effe984b69bd4bf2240cee4487,historical
+H0025,Binance,NIGHT,perp,USDT,USDT-M,1765359869769,binance_cms,Binance Futures Will Launch USDⓈ-Margined NIGHTUSDT Perpetual Contract (2025-12-10),https://www.binance.com/en/support/announcement/675d519f99d34af29b4225a70a7995fa,historical
+H0026,Bybit,ALMANAK,spot,USDT,USDT,1765370299000,bybit_api,Bybit to List ALMANAK (ALMANAK) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-almanak-almanak-on-spot-blt53e2d8d48f4ea2ef/,historical
+H0027,Binance,US,perp,USDT,USDT-M,1765531048292,binance_cms,Binance Futures Will Launch USDⓈ-Margined USUSDT and CYSUSDT Perpetual Contracts (2025-12-12),https://www.binance.com/en/support/announcement/5fa5a39fec7044838d4aad92e9cf13fe,historical
+H0028,Binance,CYS,perp,USDT,USDT-M,1765531048292,binance_cms,Binance Futures Will Launch USDⓈ-Margined USUSDT and CYSUSDT Perpetual Contracts (2025-12-12),https://www.binance.com/en/support/announcement/5fa5a39fec7044838d4aad92e9cf13fe,historical
+H0029,Binance,RAVE,perp,USDT,USDT-M,1765721889439,binance_cms,Binance Futures Will Launch USDⓈ-Margined RAVEUSDT Perpetual Contract (2025-12-14),https://www.binance.com/en/support/announcement/51aa167664c542eb857533e11eb213bc,historical
+H0030,Upbit,WET,spot,KRW,KRW/BTC/USDT,1765782000000,upbit_notice,"휴미디파이(WET) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (추가 안내)",https://upbit.com/service_center/notice?id=5860,historical
+H0031,Binance,ZKP,perp,USDT,USDT-M,1766306007340,binance_cms,"Binance Futures Will Launch USDⓈ-Margined ZKPUSDT, GUAUSDT and IRUSDT Perpetual Contract (2025-12-21)",https://www.binance.com/en/support/announcement/9e90affc1f364000b4ed299a64f3f5bc,historical
+H0032,Binance,GUA,perp,USDT,USDT-M,1766306007340,binance_cms,"Binance Futures Will Launch USDⓈ-Margined ZKPUSDT, GUAUSDT and IRUSDT Perpetual Contract (2025-12-21)",https://www.binance.com/en/support/announcement/9e90affc1f364000b4ed299a64f3f5bc,historical
+H0033,Binance,IR,perp,USDT,USDT-M,1766306007340,binance_cms,"Binance Futures Will Launch USDⓈ-Margined ZKPUSDT, GUAUSDT and IRUSDT Perpetual Contract (2025-12-21)",https://www.binance.com/en/support/announcement/9e90affc1f364000b4ed299a64f3f5bc,historical
+H0034,Binance,LIT,perp,USDT,USDT-M,1766498015803,binance_cms,Binance Futures Will Launch USDⓈ-Margined LITUSDT Perpetual Contract Pre-Market Trading (2025-12-23),https://www.binance.com/en/support/announcement/6a33be00231c4539b3a4a625538e4d1e,historical
+H0035,Upbit,YB,spot,USDT,BTC/USDT,1766722500000,upbit_notice,"일드베이시스(YB) 신규 거래지원 안내 (BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=5884,historical
+H0036,Upbit,ZKP,spot,KRW,KRW/BTC/USDT,1766729983000,upbit_notice,"지케이패스(ZKP) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=5885,historical
+H0037,Binance,BREV,perp,USDT,USDT-M,1767090609767,binance_cms,Binance Futures Will Launch USDⓈ-Margined BREVUSDT Perpetual Contract Pre-Market Trading (2025-12-30),https://www.binance.com/en/support/announcement/4f44a54be06444ea9510d4db3d5fb9c3,historical
+H0038,Binance,COLLECT,perp,USDT,USDT-M,1767181510384,binance_cms,Binance Futures Will Launch USDⓈ-Margined COLLECTUSDT and MAGMAUSDT Perpetual Contracts (2025-12-31),https://www.binance.com/en/support/announcement/f5765e4f306042bd8a0cebf546fafd78,historical
+H0039,Binance,MAGMA,perp,USDT,USDT-M,1767181510384,binance_cms,Binance Futures Will Launch USDⓈ-Margined COLLECTUSDT and MAGMAUSDT Perpetual Contracts (2025-12-31),https://www.binance.com/en/support/announcement/f5765e4f306042bd8a0cebf546fafd78,historical
+H0040,Upbit,XAUT,spot,KRW,KRW/BTC/USDT,1767240000000,upbit_notice,"테더골드(XAUT) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=5900,historical
+H0041,Upbit,ZK,spot,KRW,KRW/BTC/USDT,1767684615000,upbit_notice,"지케이싱크(ZK) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=5913,historical
+H0042,Bybit,WHITEWHALE,spot,USDT,USDT,1767684860000,bybit_api,Bybit to List The White Whale (WHITEWHALE) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-the-white-whale-whitewhale-on-spot-blt76ae76a6c8f1bd73/,historical
+H0043,Upbit,BREV,spot,KRW,KRW/BTC/USDT,1767752401000,upbit_notice,"브레비스(BREV) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=5914,historical
+H0044,Binance,XAG,perp,USDT,USDT-M,1767769249961,binance_cms,Binance Futures Will Launch USDⓈ-Margined XAGUSDT Perpetual Contract (2026-01-07),https://www.binance.com/en/support/announcement/bd92dee1018f421fae1ace119fc2f706,historical
+H0045,Binance,币安人生,spot,USDT,USDT,1767782346580,binance_cms,Binance Will List 币安人生 (币安人生) and zkPass (ZKP) with Seed Tag Applied,https://www.binance.com/en/support/announcement/51881f9d018242ce80bed6ce015de2a7,historical
+H0046,Binance,ZKP,spot,USDT,USDT,1767782346580,binance_cms,Binance Will List 币安人生 (币安人生) and zkPass (ZKP) with Seed Tag Applied,https://www.binance.com/en/support/announcement/51881f9d018242ce80bed6ce015de2a7,historical
+H0047,Binance,ZAMA,perp,USDT,USDT-M,1767948118055,binance_cms,Binance Futures Will Launch USDⓈ-Margined ZAMAUSDT Perpetual Contract Pre-Market Trading (2026-01-09),https://www.binance.com/en/support/announcement/1d5735f9aab24740b65de16d1499c705,historical
+H0048,Binance,FOGO,perp,USDT,USDT-M,1768052538059,binance_cms,Binance Futures Will Launch USDⓈ-Margined FOGOUSDT Perpetual Contract Pre-Market Trading (2026-01-10),https://www.binance.com/en/support/announcement/6abc74c125ff4addb36576bf76ba5658,historical
+H0049,Binance,U,spot,USDT,USDT,1768203007638,binance_cms,Binance Will List United Stables (U) and Introduce U Zero Trading Fee Promotion,https://www.binance.com/en/support/announcement/54de0a1147d04cf382707002a30901fd,historical
+H0050,Binance,FOGO,spot,USDT,USDT,1768222253294,binance_cms,Binance Will List Fogo (FOGO) with Seed Tag Applied,https://www.binance.com/en/support/announcement/4ba222e6a62e4544a408ff1689682404,historical
+H0051,Upbit,USDE,spot,KRW,KRW/BTC/USDT,1768373747000,upbit_notice,"유에스디이(USDE) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=5934,historical
+H0052,Binance,SPORTFUN,perp,USDT,USDT-M,1768565878954,binance_cms,Binance Futures Will Launch USDⓈ-Margined SPORTFUNUSDT and AIAUSDT Perpetual Contracts (2026-01-16),https://www.binance.com/en/support/announcement/31ec31401a8f43ae821f80351fa94857,historical
+H0053,Binance,AIA,perp,USDT,USDT-M,1768565878954,binance_cms,Binance Futures Will Launch USDⓈ-Margined SPORTFUNUSDT and AIAUSDT Perpetual Contracts (2026-01-16),https://www.binance.com/en/support/announcement/31ec31401a8f43ae821f80351fa94857,historical
+H0054,Bybit,SKR,spot,USDT,USDT,1768931330000,bybit_api,Bybit to List Seeker (SKR) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-seeker-skr-on-spot-blt24f3942847d05b9b/,historical
+H0055,Binance,RLUSD,spot,USDT,USDT,1768984201712,binance_cms,Binance Will List Ripple USD (RLUSD) and Introduce RLUSD Zero Trading Fee Promotion,https://www.binance.com/en/support/announcement/29ba8e4cfa1b45ea88653c029cedd0cd,historical
+H0056,Binance,ACU,perp,USDT,USDT-M,1768994235066,binance_cms,Binance Futures Will Launch USDⓈ-Margined ACUUSDT and 我踏马来了USDT Perpetual Contracts (2026-01-21),https://www.binance.com/en/support/announcement/7736f9a5aae24206b17884e5de02dabc,historical
+H0057,Binance,SENT,spot,USDT,USDT,1769059554238,binance_cms,Binance Will List Sentient (SENT) with Seed Tag Applied,https://www.binance.com/en/support/announcement/85af9e52f60547dd8f7b67fd3dc2f7b4,historical
+H0058,Upbit,ELSA,spot,KRW,KRW/BTC/USDT,1769059800000,upbit_notice,"헤이엘사(ELSA) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=5953,historical
+H0059,Binance,ELSA,perp,USDT,USDT-M,1769064429007,binance_cms,Binance Futures Will Launch USDⓈ-Margined ELSAUSDT Perpetual Contract (2026-01-22),https://www.binance.com/en/support/announcement/4afa6aa807234762b141920847b4fe0b,historical
+H0060,Binance,SKR,perp,USDT,USDT-M,1769073274832,binance_cms,Binance Futures Will Launch USDⓈ-Margined SKRUSDT Perpetual Contract (2026-01-22),https://www.binance.com/en/support/announcement/c0f1a2163493429eab17fa8d1540e6f4,historical
+H0061,Binance,SPACE,perp,USDT,USDT-M,1769163362322,binance_cms,Binance Futures Will Launch USDⓈ-Margined SPACEUSDT and FIGHTUSDT Perpetual Contracts (2026-01-23),https://www.binance.com/en/support/announcement/3edd59bc38c147259945b634a1d2c039,historical
+H0062,Binance,FIGHT,perp,USDT,USDT-M,1769163362322,binance_cms,Binance Futures Will Launch USDⓈ-Margined SPACEUSDT and FIGHTUSDT Perpetual Contracts (2026-01-23),https://www.binance.com/en/support/announcement/3edd59bc38c147259945b634a1d2c039,historical
+H0063,Bybit,PYBOBO,spot,USDT,USDT,1769400000000,bybit_api,Bybit to List Capybobo (PYBOBO) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-capybobo-pybobo-on-spot-bltf4a711362a910b95/,historical
+H0064,Binance,TSLA,perp,USDT,USDT-M,1769426975659,binance_cms,Binance Futures Will Launch USDⓈ-Margined TSLAUSDT Equity Perpetual Contract (2026-01-28),https://www.binance.com/en/support/announcement/40c76b4deaa247f09774e5d1ee747cb8,historical
+H0065,Bybit,USAT,spot,USDT,USDT,1769520602000,bybit_api,New listing: USAT/USDT — Trading with 0 Fee,https://announcements.bybit.com/en-US/article/new-listing-usat-usdt-trading-with-0-fee-blt11fa120c75fa7694/,historical
+H0066,Bybit,BIRB,spot,USDT,USDT,1769573693000,bybit_api,Bybit to List Moonbirds (BIRB) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-moonbirds-birb-on-spot-blt3dbd5086f85bdf29/,historical
+H0067,Binance,BIRB,perp,USDT,USDT-M,1769657388656,binance_cms,Binance Futures Will Launch USDⓈ-Margined BIRBUSDT and GWEIUSDT Perpetual Contracts (2026-01-29),https://www.binance.com/en/support/announcement/f36f2df72ca44c53bed7b9c08f303788,historical
+H0068,Binance,GWEI,perp,USDT,USDT-M,1769657388656,binance_cms,Binance Futures Will Launch USDⓈ-Margined BIRBUSDT and GWEIUSDT Perpetual Contracts (2026-01-29),https://www.binance.com/en/support/announcement/f36f2df72ca44c53bed7b9c08f303788,historical
+H0069,Upbit,SENT,spot,KRW,KRW/BTC/USDT,1769667307000,upbit_notice,"센티언트(SENT) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=5973,historical
+H0070,Binance,XPT,perp,USDT,USDT-M,1769750169670,binance_cms,Binance Futures Will Launch USDⓈ-Margined XPTUSDT and XPDUSDT Perpetual Contracts (2026-01-30),https://www.binance.com/en/support/announcement/0217a404bf984c028ebf9f92e083052c,historical
+H0071,Binance,XPD,perp,USDT,USDT-M,1769750169670,binance_cms,Binance Futures Will Launch USDⓈ-Margined XPTUSDT and XPDUSDT Perpetual Contracts (2026-01-30),https://www.binance.com/en/support/announcement/0217a404bf984c028ebf9f92e083052c,historical
+H0072,Binance,INTC,perp,USDT,USDT-M,1769762825258,binance_cms,Binance Futures Will Launch USDⓈ-Margined INTCUSDT and HOODUSDT Equity Perpetual Contracts (2026-02-02),https://www.binance.com/en/support/announcement/d592f6ba938746cbadaaf5a8a714abd6,historical
+H0073,Binance,HOOD,perp,USDT,USDT-M,1769762825258,binance_cms,Binance Futures Will Launch USDⓈ-Margined INTCUSDT and HOODUSDT Equity Perpetual Contracts (2026-02-02),https://www.binance.com/en/support/announcement/d592f6ba938746cbadaaf5a8a714abd6,historical
+H0074,Binance,MEGA,perp,USDT,USDT-M,1769769359414,binance_cms,Binance Futures Will Launch USDⓈ-Margined MEGAUSDT Perpetual Contract Pre-Market Trading (2026-01-30),https://www.binance.com/en/support/announcement/367887bc291d43f8a94877e101e17813,historical
+H0075,OKX,ZAMA,spot,USDT,USDT,1769778024936,okx_api,OKX will launch ZAMA/USDⓈ for spot trading,https://www.okx.com/en-ar/help/okx-will-launch-zama-usds-for-spot-trading,historical
+H0076,Binance,INX,perp,USDT,USDT-M,1769794397965,binance_cms,Binance Futures Will Launch USDⓈ-Margined INXUSDT Perpetual Contract (2026-01-30),https://www.binance.com/en/support/announcement/01825e017ab34771aa8634505745ef7e,historical
+H0077,Bybit,PENGUIN,spot,USDT,USDT,1769860812000,bybit_api,Bybit to List Nietzschean Penguin  (PENGUIN) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-nietzschean-penguin-penguin-on-spot-bltbb03337c01507405/,historical
+H0078,Binance,ZAMA,spot,USDT,USDT,1770006523224,binance_cms,Binance Will List Zama (ZAMA) with Seed Tag Applied,https://www.binance.com/en/support/announcement/c411646abd94488bba084537c5563beb,historical
+H0079,Upbit,BIRB,spot,KRW,KRW/BTC/USDT,1770102000000,upbit_notice,"문버드(BIRB) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=5990,historical
+H0080,Binance,TRIA,perp,USDT,USDT-M,1770373050892,binance_cms,Binance Futures Will Launch USDⓈ-Margined TRIAUSDT Perpetual Contract (2026-02-06),https://www.binance.com/en/support/announcement/466fc5b69ff0407a96285327761edcf0,historical
+H0081,Binance,ESP,perp,USDT,USDT-M,1770710418198,binance_cms,Binance Futures Will Launch USDⓈ-Margined ESPUSDT Perpetual Contract Pre-Market Trading (2026-02-10),https://www.binance.com/en/support/announcement/d60d3f7a16144a26ade3e9a84cd9156f,historical
+H0082,Binance,AZTEC,perp,USDT,USDT-M,1770783239091,binance_cms,Binance Futures Will Launch USDⓈ-Margined AZTECUSDT Perpetual Contract Pre-Market Trading (2026-02-11),https://www.binance.com/en/support/announcement/2bf6526552a8464da4420fd0d5a412a9,historical
+H0083,Binance,ESP,spot,USDT,USDT,1770881303176,binance_cms,Binance Will List Espresso (ESP) with Seed Tag Applied,https://www.binance.com/en/support/announcement/c8f9e4e1e7de458482a2af3cf64c9093,historical
+H0084,Upbit,TAO,spot,KRW,KRW/BTC/USDT,1771218000000,upbit_notice,"비트텐서(TAO) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6021,historical
+H0085,Upbit,AZTEC,spot,KRW,KRW/BTC/USDT,1771563600000,upbit_notice,"아즈텍(AZTEC) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6025,historical
+H0086,Binance,OPN,perp,USDT,USDT-M,1771684885775,binance_cms,Binance Futures Will Launch USDⓈ-Margined OPNUSDT Perpetual Contract Pre-Market Trading (2026-02-21),https://www.binance.com/en/support/announcement/10096321bd8f49658a749fe00d8ea4ff,historical
+H0087,Upbit,SKR,spot,KRW,KRW/BTC/USDT,1771909200000,upbit_notice,"시커(SKR) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6037,historical
+H0088,Upbit,ESP,spot,KRW,KRW/BTC/USDT,1771913044000,upbit_notice,"에스프레소(ESP) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6038,historical
+H0089,Upbit,CFG,spot,KRW,KRW/BTC/USDT,1772074800000,upbit_notice,"센트리퓨즈(CFG) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6043,historical
+H0090,Binance,ROBO,perp,USDT,USDT-M,1772179222463,binance_cms,Binance Futures Will Launch USDⓈ-Margined ROBOUSDT Perpetual Contract (2026-02-27),https://www.binance.com/en/support/announcement/35787d4177b84f1bbe32aeeb94232e86,historical
+H0091,Binance,KAT,perp,USDT,USDT-M,1772425000299,binance_cms,Binance Futures Will Launch USDⓈ-Margined KATUSDT Perpetual Contract Pre-Market Trading (2026-03-02),https://www.binance.com/en/support/announcement/d07ab8a296854013992d336e1d1f7488,historical
+H0092,Bybit,BSB,spot,USDT,USDT,1772528836000,bybit_api,Bybit to  List Block Street (BSB) on  Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-block-street-bsb-on-spot-blt2595c9b542f6aa7a/,historical
+H0093,Upbit,EDGE,spot,KRW,KRW/BTC/USDT,1772603400000,upbit_notice,"디피니티브(EDGE) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6057,historical
+H0094,Binance,COPPER,perp,USDT,USDT-M,1772627404241,binance_cms,Binance Futures Will Launch USDⓈ-Margined COPPERUSDT Perpetual Contract (2026-03-06),https://www.binance.com/en/support/announcement/44a37bb537b3460aafed58b8d68f5313,historical
+H0095,Binance,ROBO,spot,USDT,USDT,1772629994452,binance_cms,Binance Will List Fabric Protocol (ROBO) with Seed Tag Applied,https://www.binance.com/en/support/announcement/82c9c8166a2a434681c20a23a346a5b8,historical
+H0096,Bybit,OPN,spot,USDT,USDT,1772679612000,bybit_api,Bybit to List Opinion   (OPN) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-opinion-opn-on-spot-blt392bdf0cb2e5f811/,historical
+H0097,Upbit,ICP,spot,KRW,KRW/BTC/USDT,1773208800000,upbit_notice,"인터넷컴퓨터(ICP) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6069,historical
+H0098,Binance,EWY,perp,USDT,USDT-M,1773325803959,binance_cms,Binance Futures Will Launch EWYUSDT USDⓈ-Margined Index Perpetual Contract (2026-03-16),https://www.binance.com/en/support/announcement/ce8f84ad8b6e4307becb06758017cb02,historical
+H0099,Binance,KAT,spot,USDT,USDT,1773366336337,binance_cms,Binance Will List Katana (KAT) with Seed Tag Applied,https://www.binance.com/en/support/announcement/01f1ef18ab314cc78cd3744760e4dc1f,historical
+H0100,Binance,CFG,spot,USDT,USDT,1773656559260,binance_cms,Binance Will List Centrifuge (CFG) with Seed Tag Applied,https://www.binance.com/en/support/announcement/bcd4473a511948bf8b305f0f6a695313,historical
+H0101,Binance,EWJ,perp,USDT,USDT-M,1773657001277,binance_cms,Binance Futures Will Launch EWJUSDT USDⓈ-Margined Index Perpetual Contract (2026-03-19),https://www.binance.com/en/support/announcement/521c39a39f3d4910af0835d477277299,historical
+H0102,OKX,KAT,spot,USDT,USDT,1773725409569,okx_api,OKX will launch KAT/USDⓈ for spot trading,https://www.okx.com/en-ar/help/okx-will-launch-kat-usds-for-spot-trading,historical
+H0103,Upbit,ETHFI,spot,KRW,KRW,1773888600000,upbit_notice,이더파이(ETHFI) KRW 마켓 디지털 자산 추가,https://upbit.com/service_center/notice?id=6079,historical
+H0104,Binance,EDGE,perp,USDT,USDT-M,1773926963305,binance_cms,Binance Futures Will Launch USDⓈ-Margined EDGEUSDT Perpetual Contract Pre-Market Trading (2026-03-19),https://www.binance.com/en/support/announcement/f4038a3dbd6d49318c2ee201051fe43e,historical
+H0105,Binance,PAYP,perp,USDT,USDT-M,1774015109010,binance_cms,Binance Futures Will Launch PAYPUSDT USDⓈ-Margined Equity Perpetual Contract (2026-03-23),https://www.binance.com/en/support/announcement/eb32c90a26fd405d97ea0c4174d41d74,historical
+H0106,OKX,MON,spot,USDT,USDT,1774231209576,okx_api,OKX will launch MON/USDⓈ for spot trading,https://www.okx.com/en-ar/help/okx-will-launch-mon-usds-for-spot-trading,historical
+H0107,Binance,BSB,perp,USDT,USDT-M,1774433658121,binance_cms,Binance Futures Will Launch USDⓈ-Margined BSBUSDT Perpetual Contract (2026-03-25),https://www.binance.com/en/support/announcement/25ad30a9e9b84f6eb81294cebfe7c247,historical
+H0108,Upbit,KAT,spot,KRW,KRW/BTC/USDT,1774512470000,upbit_notice,"카타나(KAT) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (명칭 변경 안내)",https://upbit.com/service_center/notice?id=6097,historical
+H0109,Binance,XAUt,spot,USDT,USDT,1774521928143,binance_cms,Binance Will List Tether Gold (XAUt) with Seed Tag Applied,https://www.binance.com/en/support/announcement/20861b38a9c246ff92db218bae2e83fa,historical
+H0110,Binance,BASED,perp,USDT,USDT-M,1774863642485,binance_cms,Binance Futures Will Launch USDⓈ-Margined BASEDUSDT Perpetual Contract (2026-03-30),https://www.binance.com/en/support/announcement/63341635f7b94af2835eba2dc72d07d4,historical
+H0111,Binance,CL,perp,USDT,USDT-M,1774875635673,binance_cms,"Binance Futures Will Launch USDⓈ-Margined CLUSDT, BZUSDT and NATGASUSDT Perpetual Contracts (2026-04-01)",https://www.binance.com/en/support/announcement/e7a10ca855524655ab3dea73add40ef4,historical
+H0112,Binance,BZ,perp,USDT,USDT-M,1774875635673,binance_cms,"Binance Futures Will Launch USDⓈ-Margined CLUSDT, BZUSDT and NATGASUSDT Perpetual Contracts (2026-04-01)",https://www.binance.com/en/support/announcement/e7a10ca855524655ab3dea73add40ef4,historical
+H0113,Binance,NATGAS,perp,USDT,USDT-M,1774875635673,binance_cms,"Binance Futures Will Launch USDⓈ-Margined CLUSDT, BZUSDT and NATGASUSDT Perpetual Contracts (2026-04-01)",https://www.binance.com/en/support/announcement/e7a10ca855524655ab3dea73add40ef4,historical
+H0114,Upbit,SKY,spot,KRW,KRW/USDT,1774924201000,upbit_notice,"스카이프로토콜(SKY), 유에스디에스(USDS) KRW, USDT 마켓 디지털 자산 추가 (USDS 거래지원 개시 시점 변경 안내)",https://upbit.com/service_center/notice?id=6102,historical
+H0115,Upbit,USDS,spot,KRW,KRW/USDT,1774924201000,upbit_notice,"스카이프로토콜(SKY), 유에스디에스(USDS) KRW, USDT 마켓 디지털 자산 추가 (USDS 거래지원 개시 시점 변경 안내)",https://upbit.com/service_center/notice?id=6102,historical
+H0116,Bybit,EDGE,spot,USDT,USDT,1774952414000,bybit_api,Bybit to  List edgeX (EDGE) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-edgex-edge-on-spot-bltd4be4f509909110a/,historical
+H0117,Binance,PRL,perp,USDT,USDT-M,1775037060284,binance_cms,Binance Futures Will Launch USDⓈ-Margined PRLUSDT Perpetual Contract (2026-04-01),https://www.binance.com/en/support/announcement/0116dd83010043bd95c37626e2277bbe,historical
+H0118,Binance,QQQ,perp,USDT,USDT-M,1775121303208,binance_cms,"Binance Futures Will Launch QQQUSDT, SPYUSDT, AAPLUSDT and TSMUSDT USDⓈ-Margined Perpetual Contracts (2026-04-06)",https://www.binance.com/en/support/announcement/4cde981dc32d4268b7645e9d16e8d63a,historical
+H0119,Binance,SPY,perp,USDT,USDT-M,1775121303208,binance_cms,"Binance Futures Will Launch QQQUSDT, SPYUSDT, AAPLUSDT and TSMUSDT USDⓈ-Margined Perpetual Contracts (2026-04-06)",https://www.binance.com/en/support/announcement/4cde981dc32d4268b7645e9d16e8d63a,historical
+H0120,Binance,AAPL,perp,USDT,USDT-M,1775121303208,binance_cms,"Binance Futures Will Launch QQQUSDT, SPYUSDT, AAPLUSDT and TSMUSDT USDⓈ-Margined Perpetual Contracts (2026-04-06)",https://www.binance.com/en/support/announcement/4cde981dc32d4268b7645e9d16e8d63a,historical
+H0121,Binance,TSM,perp,USDT,USDT-M,1775121303208,binance_cms,"Binance Futures Will Launch QQQUSDT, SPYUSDT, AAPLUSDT and TSMUSDT USDⓈ-Margined Perpetual Contracts (2026-04-06)",https://www.binance.com/en/support/announcement/4cde981dc32d4268b7645e9d16e8d63a,historical
+H0122,Binance,MU,perp,USDT,USDT-M,1775223007828,binance_cms,Binance Futures Will Launch MUUSDT and SNDKUSDT USDⓈ-Margined Equity Perpetual Contracts (2026-04-07),https://www.binance.com/en/support/announcement/80549fadb3e447d1a859b8cedd0ccd69,historical
+H0123,Binance,SNDK,perp,USDT,USDT-M,1775223007828,binance_cms,Binance Futures Will Launch MUUSDT and SNDKUSDT USDⓈ-Margined Equity Perpetual Contracts (2026-04-07),https://www.binance.com/en/support/announcement/80549fadb3e447d1a859b8cedd0ccd69,historical
+H0124,OKX,OFC,spot,USDT,USDT,1775700009881,okx_api,OKX to list OFC (OneFootball Credits) for spot trading,https://www.okx.com/en-ar/help/okx-to-list-ofc-onefootball-credits-for-spot-trading,historical
+H0125,Upbit,CC,spot,KRW,KRW/BTC/USDT,1776142800000,upbit_notice,"캔톤(CC) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (입출금 서비스 개시 안내 및 거래지원 개시 시점 안내)",https://upbit.com/service_center/notice?id=6144,historical
+H0126,Bithumb,ZAMA,spot,KRW,KRW,1776145152024,clw_public_feed,,,historical
+H0127,Upbit,ZAMA,spot,KRW,KRW/BTC/USDT,1776152920000,upbit_notice,"자마(ZAMA) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6146,historical
+H0128,Binance,GENIUS,perp,USDT,USDT-M,1776304988861,binance_cms,Binance Futures Will Launch USDⓈ-Margined GENIUSUSDT Perpetual Contract (2026-04-16),https://www.binance.com/en/support/announcement/741ea1c99c1e4897a5bd77aa5db4abc4,historical
+H0129,Binance,CHIP,perp,USDT,USDT-M,1776320055403,binance_cms,Binance Futures Will Launch USDⓈ-Margined CHIPUSDT Perpetual Contract Pre-Market Trading (2026-04-16),https://www.binance.com/en/support/announcement/9db6d823933341f1abcc04ed9ceab35d,historical
+H0130,Binance,MSFT,perp,USDT,USDT-M,1776332696813,binance_cms,"Binance Futures Will Launch MSFTUSDT, AVGOUSDT and BABAUSDT USDⓈ-Margined Perpetual Contracts (2026-04-20)",https://www.binance.com/en/support/announcement/16fe15060947481ab240fb398230a3ee,historical
+H0131,Binance,AVGO,perp,USDT,USDT-M,1776332696813,binance_cms,"Binance Futures Will Launch MSFTUSDT, AVGOUSDT and BABAUSDT USDⓈ-Margined Perpetual Contracts (2026-04-20)",https://www.binance.com/en/support/announcement/16fe15060947481ab240fb398230a3ee,historical
+H0132,Binance,BABA,perp,USDT,USDT-M,1776332696813,binance_cms,"Binance Futures Will Launch MSFTUSDT, AVGOUSDT and BABAUSDT USDⓈ-Margined Perpetual Contracts (2026-04-20)",https://www.binance.com/en/support/announcement/16fe15060947481ab240fb398230a3ee,historical
+H0133,Upbit,SOON,spot,KRW,KRW,1776402002000,upbit_notice,쑨(SOON) KRW 마켓 디지털 자산 추가,https://upbit.com/service_center/notice?id=6150,historical
+H0134,OKX,USDS,spot,USDT,USDT,1776411020131,okx_api,OKX will launch USDS/USDⓈ for spot trading,https://www.okx.com/en-ar/help/okx-will-launch-usds-usds-for-spot-trading,historical
+H0135,Upbit,PIEVERSE,spot,KRW,KRW/BTC/USDT,1776661200000,upbit_notice,"파이버스(PIEVERSE) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6154,historical
+H0136,Bithumb,BASED,spot,KRW,KRW,1776748970698,clw_public_feed,,,historical
+H0137,Upbit,CHIP,spot,KRW,KRW/BTC/USDT,1776752184000,upbit_notice,"유에스디에이아이(CHIP) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (매도 최저가 기준 가격 안내)",https://upbit.com/service_center/notice?id=6158,historical
+H0138,Bithumb,CHIP,spot,KRW,KRW,1776753974813,clw_public_feed,,,historical
+H0139,Binance,CHIP,spot,USDT,USDT,1776772832132,binance_cms,Binance Will List Chip (CHIP) with Seed Tag Applied,https://www.binance.com/en/support/announcement/fd57a395639b466ab8bfc792670c679d,historical
+H0140,Binance,OPG,perp,USDT,USDT-M,1776869515953,binance_cms,Binance Futures Will Launch USDⓈ-Margined OPGUSDT Perpetual Contract (2026-04-22),https://www.binance.com/en/support/announcement/e4b4751f7ee845dd9df5c1bfd94ade51,historical
+H0141,Upbit,SPK,spot,KRW,KRW,1776910800000,upbit_notice,스파크(SPK) KRW 마켓 디지털 자산 추가,https://upbit.com/service_center/notice?id=6162,historical
+H0142,Bybit,BLEND,spot,USDT,USDT,1777000513000,bybit_api,Bybit to List Fluent (BLEND) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-fluent-blend-on-spot-blt5d904db68316aa09/,historical
+H0143,OKX,CHIP,spot,USDT,USDT,1777014015856,okx_api,OKX to list CHIP (USD.AI) for spot trading,https://www.okx.com/en-ar/help/okx-to-list-chip-usd-ai-for-spot-trading,historical
+H0144,OKX,GRASS,spot,USDT,USDT,1777028412433,okx_api,OKX to list GRASS (Grass) for spot trading,https://www.okx.com/en-ar/help/okx-to-list-grass-grass-for-spot-trading,historical
+H0145,Upbit,XCN,spot,KRW,KRW/USDT,1777266000000,upbit_notice,"오닉스코인(XCN) 신규 거래지원 안내 (KRW, USDT 마켓)",https://upbit.com/service_center/notice?id=6171,historical
+H0146,Bithumb,PRL,spot,KRW,KRW,1777270299867,clw_public_feed,,,historical
+H0147,Upbit,PRL,spot,KRW,KRW/BTC/USDT,1777271400000,upbit_notice,"펄(PRL) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (유통량 이슈에 대한 소명 및 거래지원 개시 시점 안내)",https://upbit.com/service_center/notice?id=6173,historical
+H0148,Upbit,BLEND,spot,KRW,KRW/BTC/USDT,1777429411000,upbit_notice,"플루언트(BLEND) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6178,historical
+H0149,Bithumb,BLEND,spot,KRW,KRW,1777433076562,clw_public_feed,,,historical
+H0150,OKX,RLUSD,spot,USDT,USDT,1777460410097,okx_api,OKX to list RLUSD (Ripple USD) for spot trading,https://www.okx.com/en-ar/help/okx-to-list-rlusd-ripple-usd-for-spot-trading,historical
+H0151,Binance,AIGENSYN,perp,USDT,USDT-M,1777469224104,binance_cms,Binance Futures Will Launch USDⓈ-Margined AIGENSYNUSDT Perpetual Contract (2026-04-29),https://www.binance.com/en/support/announcement/524345e64dd14a23989bfe1e547760b5,historical
+H0152,Upbit,MEGA,spot,KRW,KRW/BTC/USDT,1777516206000,upbit_notice,"메가이더(MEGA) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (매도 최저가 기준 가격 안내)",https://upbit.com/service_center/notice?id=6184,historical
+H0153,Bithumb,MEGA,spot,KRW,KRW,1777517903658,clw_public_feed,,,historical
+H0154,Bybit,MEGA,spot,USDT,USDT,1777532412000,bybit_api,Bybit to  List MegaETH (MEGA) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-megaeth-mega-on-spot-blt2e2283007bc5d304/,historical
+H0155,Binance,MEGA,spot,USDT,USDT,1777540049704,binance_cms,Binance Will List MegaETH (MEGA) with Seed Tag Applied,https://www.binance.com/en/support/announcement/506a7482e6b94bc58f3e275cb15c2861,historical
+H0156,OKX,MEGA,spot,USDT,USDT,1777544108773,okx_api,OKX to list MEGA (MegaETH) for spot trading,https://www.okx.com/en-ar/help/okx-to-list-mega-megaeth-for-spot-trading,historical
+H0157,Binance,AMD,perp,USDT,USDT-M,1777876197125,binance_cms,"Binance Futures Will Launch AMDUSDT, QCOMUSDT and USARUSDT USDⓈ-Margined Perpetual Contracts (2026-05-06)",https://www.binance.com/en/support/announcement/9f61baed332542118387bb161030df01,historical
+H0158,Binance,QCOM,perp,USDT,USDT-M,1777876197125,binance_cms,"Binance Futures Will Launch AMDUSDT, QCOMUSDT and USARUSDT USDⓈ-Margined Perpetual Contracts (2026-05-06)",https://www.binance.com/en/support/announcement/9f61baed332542118387bb161030df01,historical
+H0159,Binance,USAR,perp,USDT,USDT-M,1777876197125,binance_cms,"Binance Futures Will Launch AMDUSDT, QCOMUSDT and USARUSDT USDⓈ-Margined Perpetual Contracts (2026-05-06)",https://www.binance.com/en/support/announcement/9f61baed332542118387bb161030df01,historical
+H0160,Bybit,OPG,spot,USDT,USDT,1777883673000,bybit_api,Bybit to List  OpenGradient (OPG) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-opengradient-opg-on-spot-bltb2aa6b2089ed616d/,historical
+H0161,Upbit,WIF,spot,KRW,KRW/BTC/USDT,1778043600000,upbit_notice,"도그위프햇(WIF) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6197,historical
+H0162,OKX,EDGE,spot,USDT,USDT,1778043610064,okx_api,OKX will launch EDGE/USDⓈ for spot trading,https://www.okx.com/en-ar/help/okx-will-launch-edge-usds-for-spot-trading,historical
+H0163,Bithumb,EDGEX,spot,KRW,KRW,1778118455395,clw_public_feed,,,historical
+H0164,Upbit,B3,spot,KRW,KRW,1778125800000,upbit_notice,비쓰리(B3) KRW 마켓 디지털 자산 추가 (거래지원 개시 시점 변경 안내),https://upbit.com/service_center/notice?id=6201,historical
+H0165,Binance,BILL,perp,USDT,USDT-M,1778137169304,binance_cms,Binance Futures Will Launch USDⓈ-Margined BILLUSDT Perpetual Contract (2026-05-07),https://www.binance.com/en/support/announcement/7220be8100ee41149169e9179c380c8c,historical
+H0166,Upbit,PROS,spot,KRW,KRW/BTC/USDT,1778232600000,upbit_notice,"파로스(PROS) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6207,historical
+H0167,Bithumb,PROS,spot,KRW,KRW,1778234036673,clw_public_feed,,,historical
+H0168,Upbit,VVV,spot,KRW,KRW/BTC/USDT,1778562000000,upbit_notice,"베니스토큰(VVV) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6215,historical
+H0169,OKX,PROS,spot,USDT,USDT,1778644810127,okx_api,OKX to list PROS/USDT (Pharos) for spot trading,https://www.okx.com/en-ar/help/okx-to-list-pros-usdt-pharos-for-spot-trading,historical
+H0170,Bybit,FOGO,spot,USDT,USDT,1778655891000,bybit_api,Bybit to List FOGO (FOGO) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-fogo-fogo-on-spot-bltff4248b03b3b57fb/,historical
+H0171,Upbit,UP2,spot,KRW,KRW/BTC/USDT,1778664441000,upbit_notice,"슈퍼폼(UP2) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (거래지원 일정 정정 안내)",https://upbit.com/service_center/notice?id=6218,historical
+H0172,Bithumb,UP,spot,KRW,KRW,1778665613218,clw_public_feed,,,historical
+H0173,Binance,PHAROS,perp,USDT,USDT-M,1778732044113,binance_cms,Binance Futures Will Launch USDⓈ-Margined PHAROSUSDT and STARUSDT Perpetual Contracts (2026-05-14),https://www.binance.com/en/support/announcement/12bcf9092e9c46358de3e49f8ef17f88,historical
+H0174,Binance,STAR,perp,USDT,USDT-M,1778732044113,binance_cms,Binance Futures Will Launch USDⓈ-Margined PHAROSUSDT and STARUSDT Perpetual Contracts (2026-05-14),https://www.binance.com/en/support/announcement/12bcf9092e9c46358de3e49f8ef17f88,historical
+H0175,Binance,AIGENSYN,spot,USDT,USDT,1778752803676,binance_cms,Binance Will List Gensyn (AIGENSYN) with Seed Tag Applied,https://www.binance.com/en/support/announcement/71f44e5e014c445697bb6a6f70315e35,historical
+H0176,Bybit,BILL,spot,USDT,USDT,1778831804000,bybit_api,Bybit to List Billions Network (BILL) on  Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-billions-network-bill-on-spot-bltc27911c151973d62/,historical
+H0177,Upbit,IRYS,spot,KRW,KRW/BTC/USDT,1778834467000,upbit_notice,"아이리스(IRYS) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (거래지원 개시 시점 변경 안내)",https://upbit.com/service_center/notice?id=6222,historical
+H0178,Bithumb,AIGENSYN,spot,KRW,KRW,1779069608691,clw_public_feed,,,historical
+H0179,Upbit,TRAC,spot,KRW,KRW/BTC/USDT,1779080841000,upbit_notice,"오리진트레일(TRAC) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (거래지원 개시 시점 변경 안내)",https://upbit.com/service_center/notice?id=6226,historical
+H0180,Bithumb,OPG,spot,KRW,KRW,1779415020971,clw_public_feed,,,historical
+H0181,Binance,GENIUS,spot,USDT,USDT,1779434315961,binance_cms,Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied,https://www.binance.com/en/support/announcement/4de6272354be421ba51ea042fd273a8d,historical
+H0182,Binance,OPG,spot,USDT,USDT,1779434315961,binance_cms,Binance Will List Genius Terminal (GENIUS) and OpenGradient (OPG) with Seed Tag Applied,https://www.binance.com/en/support/announcement/4de6272354be421ba51ea042fd273a8d,historical
+H0183,OKX,AI,spot,USDT,USDT,1779435009521,okx_api,OKX to list AI/USDT (Gensyn) for spot trading,https://www.okx.com/en-ar/help/okx-to-list-ai-usdt-gensyn-for-spot-trading,historical
+H0184,OKX,IRYS,spot,USDT,USDT,1779858013331,okx_api,OKX will launch IRYS/USDⓈ for spot trading,https://www.okx.com/en-ar/help/okx-will-launch-irys-usds-for-spot-trading,historical
+H0185,Bithumb,BILL,spot,KRW,KRW,1779945392784,clw_public_feed,,,historical
+H0186,Binance,CTR,perp,USDT,USDT-M,1779956189339,binance_cms,Binance Futures Will Launch USDⓈ-Margined CTRUSDT Perpetual Contract (2026-05-28),https://www.binance.com/en/support/announcement/ee40eb721abc460cb7edca6df04d782b,historical
+H0187,Upbit,IO,spot,KRW,KRW,1780045200000,upbit_notice,아이오넷(IO) KRW 마켓 디지털 자산 추가,https://upbit.com/service_center/notice?id=6255,historical
+H0188,Bithumb,HNT,spot,KRW,KRW,1780278321341,clw_public_feed,,,historical
+H0189,Upbit,SLX,spot,KRW,KRW/BTC/USDT,1780281900000,upbit_notice,"솔스티스(SLX) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (거래지원 개시 시점 추가 변경 안내)",https://upbit.com/service_center/notice?id=6258,historical
+H0190,Bithumb,SLX,spot,KRW,KRW,1780282764819,clw_public_feed,,,historical
+H0191,Binance,SLX,perp,USDT,USDT-M,1780294508711,binance_cms,Binance Futures Will Launch USDⓈ-Margined SLXUSDT Perpetual Contract (2026-06-01),https://www.binance.com/en/support/announcement/4299caec4ca4407cb282707154a97ffe,historical
+H0192,Binance,ZEST,perp,USDT,USDT-M,1780577062460,binance_cms,Binance Futures Will Launch USDⓈ-Margined ZESTUSDT and BTWUSDT Perpetual Contracts (2026-06-04),https://www.binance.com/en/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38,historical
+H0193,Binance,BTW,perp,USDT,USDT-M,1780577062460,binance_cms,Binance Futures Will Launch USDⓈ-Margined ZESTUSDT and BTWUSDT Perpetual Contracts (2026-06-04),https://www.binance.com/en/support/announcement/61e41ce0e4b74dc7a794cc6bf9c57d38,historical
+H0194,Upbit,BABY,spot,KRW,KRW,1780651800000,upbit_notice,바빌론(BABY) KRW 마켓 디지털 자산 추가,https://upbit.com/service_center/notice?id=6274,historical
+H0195,Bithumb,CTR,spot,KRW,KRW,1780969204416,clw_public_feed,,,historical
+H0196,Upbit,CTR,spot,USDT,BTC/USDT,1780972202000,upbit_notice,"시트레아(CTR) 신규 거래지원 안내 (BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6282,historical
+H0197,Bybit,SPCXX,spot,USDT,USDT,1781281333000,bybit_api,Bybit to List SpaceX xStock (SPCXX) on  Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-spacex-xstock-spcxx-on-spot-blt06def4fd439d56d0/,historical
+H0198,Upbit,OPG,spot,USDT,BTC/USDT,1781515802000,upbit_notice,"오픈그라디언트(OPG) 신규 거래지원 안내 (BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6293,historical
+H0199,Bithumb,SPACE,spot,KRW,KRW,1781574190673,clw_public_feed,,,historical
+H0200,Upbit,SPX,spot,KRW,KRW/BTC/USDT,1781575946000,upbit_notice,"에스피엑스6900(SPX) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6294,historical
+H0201,Bithumb,SPX,spot,KRW,KRW,1781576534857,clw_public_feed,,,historical
+H0202,OKX,GRAM,spot,USDT,USDT,1781681412904,okx_api,OKX will launch GRAM/USDⓈ for spot trading,https://www.okx.com/en-ar/help/okx-will-launch-gram-usds-for-spot-trading,historical
+H0203,OKX,RE,spot,USDT,USDT,1781748010326,okx_api,OKX will launch RE/USDⓈ for spot trading,https://www.okx.com/en-ar/help/okx-will-launch-re-usds-for-spot-trading,historical
+H0204,Binance,RE,spot,USDT,USDT,1781776041424,binance_cms,Binance Will List Re (RE) with Seed Tag Applied,https://www.binance.com/en/support/announcement/4f90bec2f7984f71aaa9465830b1c6a6,historical
+H0205,Upbit,PEAQ,spot,USDT,BTC/USDT,1781834936000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (PEAQ, LIT, KMNO, MORPHO, GRAM, LDO, PAXG, OSMO, AMP2) (LDO, PAXG, OSMO, AMP2, GRAM 거래지원 개시 시점 변경 안내)",https://upbit.com/service_center/notice?id=6299,historical
+H0206,Upbit,LIT,spot,USDT,BTC/USDT,1781834936000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (PEAQ, LIT, KMNO, MORPHO, GRAM, LDO, PAXG, OSMO, AMP2) (LDO, PAXG, OSMO, AMP2, GRAM 거래지원 개시 시점 변경 안내)",https://upbit.com/service_center/notice?id=6299,historical
+H0207,Upbit,KMNO,spot,USDT,BTC/USDT,1781834936000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (PEAQ, LIT, KMNO, MORPHO, GRAM, LDO, PAXG, OSMO, AMP2) (LDO, PAXG, OSMO, AMP2, GRAM 거래지원 개시 시점 변경 안내)",https://upbit.com/service_center/notice?id=6299,historical
+H0208,Upbit,MORPHO,spot,USDT,BTC/USDT,1781834936000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (PEAQ, LIT, KMNO, MORPHO, GRAM, LDO, PAXG, OSMO, AMP2) (LDO, PAXG, OSMO, AMP2, GRAM 거래지원 개시 시점 변경 안내)",https://upbit.com/service_center/notice?id=6299,historical
+H0209,Upbit,GRAM,spot,USDT,BTC/USDT,1781834936000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (PEAQ, LIT, KMNO, MORPHO, GRAM, LDO, PAXG, OSMO, AMP2) (LDO, PAXG, OSMO, AMP2, GRAM 거래지원 개시 시점 변경 안내)",https://upbit.com/service_center/notice?id=6299,historical
+H0210,Upbit,LDO,spot,USDT,BTC/USDT,1781834936000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (PEAQ, LIT, KMNO, MORPHO, GRAM, LDO, PAXG, OSMO, AMP2) (LDO, PAXG, OSMO, AMP2, GRAM 거래지원 개시 시점 변경 안내)",https://upbit.com/service_center/notice?id=6299,historical
+H0211,Upbit,PAXG,spot,USDT,BTC/USDT,1781834936000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (PEAQ, LIT, KMNO, MORPHO, GRAM, LDO, PAXG, OSMO, AMP2) (LDO, PAXG, OSMO, AMP2, GRAM 거래지원 개시 시점 변경 안내)",https://upbit.com/service_center/notice?id=6299,historical
+H0212,Upbit,OSMO,spot,USDT,BTC/USDT,1781834936000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (PEAQ, LIT, KMNO, MORPHO, GRAM, LDO, PAXG, OSMO, AMP2) (LDO, PAXG, OSMO, AMP2, GRAM 거래지원 개시 시점 변경 안내)",https://upbit.com/service_center/notice?id=6299,historical
+H0213,Upbit,AMP2,spot,USDT,BTC/USDT,1781834936000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (PEAQ, LIT, KMNO, MORPHO, GRAM, LDO, PAXG, OSMO, AMP2) (LDO, PAXG, OSMO, AMP2, GRAM 거래지원 개시 시점 변경 안내)",https://upbit.com/service_center/notice?id=6299,historical
+H0214,Bithumb,RE,spot,KRW,KRW,1781837518527,clw_public_feed,,,historical
+H0215,Upbit,RE,spot,KRW,KRW/BTC/USDT,1781859602000,upbit_notice,"리(RE) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6303,historical
+H0216,Bybit,ARX,spot,USDT,USDT,1782135609000,bybit_api,Bybit to List   ARCIUM (ARX) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-arcium-arx-on-spot-blt1b5067ffece1fa0c/,historical
+H0217,Upbit,ARX,spot,KRW,KRW/BTC/USDT,1782180000000,upbit_notice,"아르키움(ARX) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6314,historical
+H0218,Binance,ARX,perp,USDT,USDT-M,1782185438167,binance_cms,Binance Futures Will Launch USDⓈ-Margined ARXUSDT Perpetual Contract (2026-06-23),https://www.binance.com/en/support/announcement/7fa4e8b3ced94b4c8c189a4593dbce9b,historical
+H0219,OKX,NES,spot,USDT,USDT,1782291609679,okx_api,OKX to list NES/USDT (Nesa) for spot trading,https://www.okx.com/en-ar/help/okx-to-list-nes-usdt-nesa-for-spot-trading,historical
+H0220,OKX,CARDS,spot,USDT,USDT,1782352806026,okx_api,OKX to list CARDS/USDT (Collector Crypt) for spot trading,https://www.okx.com/en-ar/help/okx-to-list-cards-usdt-collector-crypt-for-spot-trading,historical
+H0221,Bybit,CAP,spot,USDT,USDT,1782445257000,bybit_api,Bybit to List CAP  (CAP) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-cap-cap-on-spot-bltb2f2479a52c45fbb/,historical
+H0222,Bithumb,ARX,spot,KRW,KRW,1782454077770,clw_public_feed,,,historical
+H0223,Binance,CAP,perp,USDT,USDT-M,1782557443165,binance_cms,Binance Futures Will Launch USDⓈ-Margined CAPUSDT Perpetual Contract (2026-06-27),https://www.binance.com/en/support/announcement/a444dd2f67da43e0bafdd730fddc3887,historical
+H0224,Bithumb,CAP,spot,KRW,KRW,1782784166976,clw_public_feed,,,historical
+H0225,OKX,TAO,spot,USDT,USDT,1782788404917,okx_api,OKX will launch TAO/USDⓈ for spot trading,https://www.okx.com/en-ar/help/okx-will-launch-tao-usds-for-spot-trading,historical
+H0226,Upbit,AI,spot,KRW,KRW/BTC/USDT,1782788455000,upbit_notice,"젠신(AI) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6335,historical
+H0227,OKX,DATA,spot,USDT,USDT,1782984609694,okx_api,OKX will launch DATA/USDⓈ for spot trading,https://www.okx.com/en-ar/help/okx-will-launch-data-usds-for-spot-trading,historical
+H0228,Upbit,MPLX,spot,USDT,BTC/USDT,1783047600000,upbit_notice,"메타플렉스(MPLX), 넥서스(NEX) 신규 거래지원 안내 (BTC, USDT 마켓) (MPLX, NEX 거래지원 개시 시점 추가 변경 안내)",https://upbit.com/service_center/notice?id=6348,historical
+H0229,Upbit,NEX,spot,USDT,BTC/USDT,1783047600000,upbit_notice,"메타플렉스(MPLX), 넥서스(NEX) 신규 거래지원 안내 (BTC, USDT 마켓) (MPLX, NEX 거래지원 개시 시점 추가 변경 안내)",https://upbit.com/service_center/notice?id=6348,historical
+H0230,Bithumb,NEX,spot,KRW,KRW,1783050376087,clw_public_feed,,,historical
+H0231,Bithumb,MPLX,spot,KRW,KRW,1783050376087,clw_public_feed,,,historical
+H0232,Binance,DATAIP,perp,USDT,USDT-M,1783056627549,binance_cms,Binance Futures Will Launch USDⓈ-Margined DATAIPUSDT and DATAIPUSDC Perpetual Contracts (2026-07-03),https://www.binance.com/en/support/announcement/98d978c5630041c49a6bd317daa791e8,historical
+H0233,Bithumb,ICNT,spot,KRW,KRW,1783403124840,clw_public_feed,,,historical
+H0234,Bybit,GROVE,spot,USDT,USDT,1783410313000,bybit_api,Bybit to  List GROVE (GROVE) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-grove-grove-on-spot-blt2fb4953690afb723/,historical
+H0235,OKX,SLX,spot,USDT,USDT,1783648810138,okx_api,OKX will launch SLX/USDⓈ for spot trading,https://www.okx.com/en-ar/help/okx-will-launch-slx-usds-for-spot-trading,historical
+H0236,Binance,SKHY,perp,USDT,USDT-M,1783697823303,binance_cms,Binance Futures Will Launch USDⓈ-Margined SKHYUSDT Perpetual Contract (2026-07-10),https://www.binance.com/en/support/announcement/6fe9f6dc91544df88dc24ad41211feff,historical
+H0237,Upbit,DRV,spot,KRW,KRW/BTC/USDT,1784006102000,upbit_notice,"디라이브(DRV) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6383,historical
+H0238,Bithumb,DRV,spot,KRW,KRW,1784006823211,clw_public_feed,,,historical
+H0239,Binance,AERO,spot,USDT,USDT,1784273401964,binance_cms,Binance Will List Aerodrome (AERO) with Seed Tag Applied,https://www.binance.com/en/support/announcement/1631198cd282431bbb5fbd333106a413,historical
+H0240,Binance,POPMART,perp,USDT,USDT-M,1784770203723,binance_cms,Binance Futures Will Launch POPMARTUSDT USDⓈ-Margined Perpetual Contract (2026-07-23),https://www.binance.com/en/support/announcement/fcdc949b45a644c78e341c88331a35ef,historical
+H0241,Upbit,O,spot,KRW,KRW/BTC/USDT,1784772902000,upbit_notice,"오원익스체인지(O) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6404,historical
+H0242,Bithumb,CHECK,spot,KRW,KRW,1784776554183,clw_public_feed,,,historical
+H0243,Upbit,EUL,spot,KRW,KRW,1785027361000,upbit_notice,오일러(EUL) KRW 마켓 디지털 자산 추가 (거래지원 개시 시점 변경 안내),https://upbit.com/service_center/notice?id=6414,historical
+H0244,Bithumb,BANK,spot,KRW,KRW,1785118761117,clw_public_feed,,,historical
+H0245,OKX,AEON,spot,USDT,USDT,1785121204905,okx_api,OKX to list AEON/USDT (Aeon) for spot trading,https://www.okx.com/en-ar/help/okx-to-list-aeon-usdt-aeon-for-spot-trading,historical
+H0246,Upbit,GEOD,spot,KRW,KRW/BTC/USDT,1785122541000,upbit_notice,"지오드넷(GEOD) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (거래지원 개시 시점 추가 변경 안내)",https://upbit.com/service_center/notice?id=6415,historical
+H0247,Bithumb,GEOD,spot,KRW,KRW,1785124162185,clw_public_feed,,,historical
+H0248,Upbit,RLUSD,spot,KRW,KRW/BTC/USDT,1785206060000,upbit_notice,"리플유에스디(RLUSD) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6418,historical
+H0249,Bithumb,O,spot,KRW,KRW,1785208013249,clw_public_feed,,,historical
+H0250,Upbit,META2,spot,KRW,KRW/BTC/USDT,1785298588000,upbit_notice,"메타다오(META2) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (거래지원 개시 시점 변경 안내)",https://upbit.com/service_center/notice?id=6420,historical
+H0251,Bithumb,AEON,spot,KRW,KRW,1785302598365,clw_public_feed,,,historical
+H0252,Bithumb,RLUSD,spot,KRW,KRW,1785302598365,clw_public_feed,,,historical
+H0253,Upbit,USDG,spot,KRW,KRW/BTC/USDT,1785373814000,upbit_notice,"글로벌달러(USDG) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (거래지원 개시 시점 추가 변경 안내)",https://upbit.com/service_center/notice?id=6424,historical
+H0254,OKX,GRVT,spot,USDT,USDT,1785380407137,okx_api,OKX will launch GRVT/USDⓈ for spot trading,https://www.okx.com/en-ar/help/okx-will-launch-grvt-usds-for-spot-trading,historical
+H0255,Bybit,GRVT,spot,USDT,USDT,1785402055000,bybit_api,"[Selected regions only] New listing: GRVT/USDT | Grab a share of the 2,500,000 GRVT prize pool",https://announcements.bybit.com/en-US/article/selected-regions-only-new-listing-grvt-usdt-grab-a-share-of-the-2-500-000-grvt-prize-pool--art7adfc0e1a9dd/,historical
+H0256,Bithumb,GRVT,spot,KRW,KRW,1785464649159,clw_public_feed,,,historical
+H0257,Upbit,CFX,spot,KRW,KRW/BTC/USDT,1785474007000,upbit_notice,"콘플럭스(CFX) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (거래지원 개시 시점 안내)",https://upbit.com/service_center/notice?id=6428,historical
+H0258,Binance,GRVT,perp,USDT,USDT-M,1785497411662,binance_cms,Binance Futures Will Launch USDⓈ-Margined GRVTUSDT Perpetual Contract (2026-07-31),https://www.binance.com/en/support/announcement/20536b05b2a34b87a3bae99c45d0dc91,historical
+H0259,Binance,GIGADEV,perp,USDT,USDT-M,1785724209135,binance_cms,Binance Futures Will Launch GIGADEVUSDT USDⓈ-Margined Perpetual Contract (2026-08-03),https://www.binance.com/en/support/announcement/e8bfd0c5adaf4d8a880bb1b7327107ef,historical
+H0260,Upbit,HOME,spot,KRW,KRW/USDT,1785817817000,upbit_notice,"디파이앱(HOME) 신규 거래지원 안내 (KRW, USDT 마켓)",https://upbit.com/service_center/notice?id=6437,historical
+H0261,Bithumb,USDG,spot,KRW,KRW,1785819887661,clw_public_feed,,,historical
+H0262,Bithumb,META2,spot,KRW,KRW,1785819887661,clw_public_feed,,,historical
+H0263,Upbit,QUID,spot,KRW,KRW/BTC/USDT,1785837604000,upbit_notice,"스퀴드(QUID) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (매도 최저가 기준 가격 안내)",https://upbit.com/service_center/notice?id=6440,historical
+H0264,Bithumb,QUID,spot,KRW,KRW,1785838684927,clw_public_feed,,,historical
+H0265,Upbit,GRVT,spot,KRW,KRW/BTC/USDT,1785904951000,upbit_notice,"그래비티토큰(GRVT) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6441,historical
+H0266,Bithumb,UB,spot,KRW,KRW,1785979145234,clw_public_feed,,,historical
+H0267,Upbit,CAP,spot,KRW,KRW/BTC/USDT,1785981315000,upbit_notice,"캡(CAP) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6446,historical
+H0268,Bithumb,BSB,spot,KRW,KRW,1786070336891,clw_public_feed,,,historical
+H0269,Upbit,BSB,spot,KRW,KRW/BTC/USDT,1786071316000,upbit_notice,"블록스트리트(BSB) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (거래지원 개시 시점 변경 안내)",https://upbit.com/service_center/notice?id=6451,historical
+H0270,Upbit,CYS,spot,USDT,BTC/USDT,1786327554000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (CYS, ICNT, XAN, EDEN, AIOZ, ALLO) (CYS 거래지원 개시 시점 안내)",https://upbit.com/service_center/notice?id=6458,historical
+H0271,Upbit,ICNT,spot,USDT,BTC/USDT,1786327554000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (CYS, ICNT, XAN, EDEN, AIOZ, ALLO) (CYS 거래지원 개시 시점 안내)",https://upbit.com/service_center/notice?id=6458,historical
+H0272,Upbit,XAN,spot,USDT,BTC/USDT,1786327554000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (CYS, ICNT, XAN, EDEN, AIOZ, ALLO) (CYS 거래지원 개시 시점 안내)",https://upbit.com/service_center/notice?id=6458,historical
+H0273,Upbit,EDEN,spot,USDT,BTC/USDT,1786327554000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (CYS, ICNT, XAN, EDEN, AIOZ, ALLO) (CYS 거래지원 개시 시점 안내)",https://upbit.com/service_center/notice?id=6458,historical
+H0274,Upbit,AIOZ,spot,USDT,BTC/USDT,1786327554000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (CYS, ICNT, XAN, EDEN, AIOZ, ALLO) (CYS 거래지원 개시 시점 안내)",https://upbit.com/service_center/notice?id=6458,historical
+H0275,Upbit,ALLO,spot,USDT,BTC/USDT,1786327554000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (CYS, ICNT, XAN, EDEN, AIOZ, ALLO) (CYS 거래지원 개시 시점 안내)",https://upbit.com/service_center/notice?id=6458,historical
+H0276,Bithumb,DOS,spot,KRW,KRW,1786411057040,clw_public_feed,,,historical
+H0277,Upbit,DOS,spot,KRW,KRW/BTC/USDT,1786415436000,upbit_notice,"댑오에스(DOS) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (거래지원 개시 시점 추가 변경 안내)",https://upbit.com/service_center/notice?id=6463,historical
+H0278,Binance,DOS,perp,USDT,USDT-M,1786456802967,binance_cms,Binance Futures Will Launch USDⓈ-Margined DOSUSDT Perpetual Contract (2026-08-11),https://www.binance.com/en/support/announcement/a2ee872d61654a5bb43a87c3122b5706,historical
+H0279,Upbit,PROM,spot,KRW,KRW/USDT,1786500698000,upbit_notice,"프롬(PROM) KRW, USDT 마켓 디지털 자산 추가",https://upbit.com/service_center/notice?id=6466,historical
+H0280,OKX,DOS,spot,USDT,USDT,1786590014591,okx_api,OKX will launch DOS/USDⓈ for spot trading,https://www.okx.com/en-ar/help/okx-will-launch-dos-usds-for-spot-trading,historical
+H0281,Bybit,KII,spot,USDT,USDT,1786693404000,bybit_api,Bybit to List KiiChain (KII) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-kii-kii-on-spot--artdbaa29ee472a/,historical
+H0282,Binance,UNITREE,perp,USDT,USDT-M,1787106609387,binance_cms,Binance Futures Will Launch UNITREEUSDT USDⓈ-Margined Perpetual Contract (2026-08-19),https://www.binance.com/en/support/announcement/3e662272597c44b7939f5db5c8c86d4f,historical
+H0283,Upbit,BICO,spot,USDT,BTC/USDT,1787273280000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (BICO, BMT, NIL, GWEI) (BICO, BMT, NIL, GWEI 거래지원 개시 시점 추가 변경 안내)",https://upbit.com/service_center/notice?id=6489,historical
+H0284,Upbit,BMT,spot,USDT,BTC/USDT,1787273280000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (BICO, BMT, NIL, GWEI) (BICO, BMT, NIL, GWEI 거래지원 개시 시점 추가 변경 안내)",https://upbit.com/service_center/notice?id=6489,historical
+H0285,Upbit,NIL,spot,USDT,BTC/USDT,1787273280000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (BICO, BMT, NIL, GWEI) (BICO, BMT, NIL, GWEI 거래지원 개시 시점 추가 변경 안내)",https://upbit.com/service_center/notice?id=6489,historical
+H0286,Upbit,GWEI,spot,USDT,BTC/USDT,1787273280000,upbit_notice,"BTC, USDT 마켓 신규 거래지원 안내 (BICO, BMT, NIL, GWEI) (BICO, BMT, NIL, GWEI 거래지원 개시 시점 추가 변경 안내)",https://upbit.com/service_center/notice?id=6489,historical
+H0287,Bithumb,NEXO,spot,KRW,KRW,1787276710165,clw_public_feed,,,historical
+H0288,Upbit,CRV,spot,KRW,KRW/USDT,1787278960000,upbit_notice,"커브(CRV) KRW, USDT 마켓 디지털 자산 추가",https://upbit.com/service_center/notice?id=6490,historical
+H0289,Upbit,NEXO,spot,USDT,USDT,1787307565000,upbit_notice,넥소(NEXO) 신규 거래지원 안내 (USDT 마켓) (거래지원 개시 시점 변경 안내),https://upbit.com/service_center/notice?id=6496,historical
+H0290,Upbit,FOLD,spot,KRW,KRW/BTC/USDT,1787447649000,upbit_notice,"인터폴드(FOLD) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6503,historical
+H0291,Bithumb,PROM,spot,KRW,KRW,1787535796976,clw_public_feed,,,historical
+H0292,Upbit,NCT,spot,KRW,KRW,1787740335000,upbit_notice,폴리스웜(NCT) KRW 마켓 디지털 자산 추가,https://upbit.com/service_center/notice?id=6518,historical
+H0293,Upbit,EURC,spot,KRW,KRW/BTC/USDT,1787881785000,upbit_notice,"이유알코인(EURC) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6526,historical
+H0294,Bithumb,EURC,spot,KRW,KRW,1787883088327,clw_public_feed,,,historical
+H0295,Bithumb,FOLD,spot,KRW,KRW,1787883088327,clw_public_feed,,,historical
+H0296,OKX,CP,spot,USDT,USDT,1788238814257,okx_api,OKX to list CP/USDT (Cluster Protocol) for spot trading,https://www.okx.com/en-ar/help/okx-to-list-cp-usdt-cluster-protocol-for-spot-trading,historical
+H0297,Binance,MARSCOIN,perp,USDT,USDT-M,1788252305663,binance_cms,Binance Futures Will Launch USDⓈ-Margined MARSCOINUSDT Perpetual Contract (2026-09-01),https://www.binance.com/en/support/announcement/4d9ae75c02114187b699cfe1380ac81e,historical
+H0298,Binance,GPRO,perp,USDT,USDT-M,1788438625942,binance_cms,Binance Futures Will Launch USDⓈ-Margined GPROUSDT Perpetual Contract (2026-09-03),https://www.binance.com/en/support/announcement/0ffd2dbcc12e4a968fbe7ccd2b4cc9f8,historical
+H0299,Binance,MARSCOIN,spot,USDT,USDT,1788516901870,binance_cms,Binance Will List MarsCoin (MARSCOIN) with Seed Tag Applied,https://www.binance.com/en/support/announcement/c2eaa763831745b2b1701dab45e20225,historical
+H0300,Binance,PONS,perp,USDT,USDT-M,1788674111414,binance_cms,Binance Futures Will Launch USDⓈ-Margined PONSUSDT and 哈基米USDT Perpetual Contracts (2026-09-06),https://www.binance.com/en/support/announcement/ca3196e008da448da107d397bae0b4b0,historical
+H0301,Bithumb,USELESS,spot,KRW,KRW,1788834885472,clw_public_feed,,,historical
+H0302,Upbit,CP,spot,KRW,KRW/BTC/USDT,1788837704000,upbit_notice,"클러스터프로토콜(CP) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6555,historical
+H0303,Bithumb,CP,spot,KRW,KRW,1788838272014,clw_public_feed,,,historical
+H0304,Upbit,USELESS,spot,USDT,BTC/USDT,1788863132000,upbit_notice,"헤미(HEMI), 유즈리스(USELESS) 신규 거래지원 안내 (BTC, USDT 마켓) (헤미(HEMI) 거래지원 취소 안내)",https://upbit.com/service_center/notice?id=6558,historical
+H0305,Binance,牛来,spot,USDT,USDT,1788953419513,binance_cms,Binance Will List 牛来 (牛来) with Seed Tag Applied,https://www.binance.com/en/support/announcement/6133e417dcfe43a8ad20c0db1b53c7e8,historical
+H0306,Upbit,REZ,spot,USDT,USDT,1789014601000,upbit_notice,렌조(REZ) 신규 거래지원 안내 (USDT 마켓) (거래지원 개시 시점 추가 변경 안내),https://upbit.com/service_center/notice?id=6560,historical
+H0307,Upbit,BFC,spot,KRW,KRW/USDT,1789015200000,upbit_notice,"바이프로스트(BFC) KRW, USDT 마켓 디지털 자산 추가",https://upbit.com/service_center/notice?id=6561,historical
+H0308,OKX,VVV,spot,USDT,USDT,1789455636348,okx_api,OKX to list VVV/USDT (Venice) for spot trading,https://www.okx.com/en-ar/help/okx-to-list-vvv-usdt-venice-for-spot-trading,historical
+H0309,OKX,PONS,spot,USDT,USDT,1789459209983,okx_api,OKX to list PONS/USDT (Pons Family) for spot trading,https://www.okx.com/en-ar/help/okx-to-list-pons-usdt-pons-family-for-spot-trading,historical
+H0310,Upbit,PYUSD,spot,KRW,KRW/BTC/USDT,1789606081000,upbit_notice,"페이팔유에스디(PYUSD), 제이피와이코인(JPYC) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (JPYC 거래지원 개시 시점 추가 변경 안내)",https://upbit.com/service_center/notice?id=6580,historical
+H0311,Upbit,JPYC,spot,KRW,KRW/BTC/USDT,1789606081000,upbit_notice,"페이팔유에스디(PYUSD), 제이피와이코인(JPYC) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (JPYC 거래지원 개시 시점 추가 변경 안내)",https://upbit.com/service_center/notice?id=6580,historical
+H0312,Bithumb,AVA,spot,KRW,KRW,1789609940176,clw_public_feed,,,historical
+H0313,Bybit,PONS,spot,USDT,USDT,1790064009000,bybit_api,Bybit to List Pons (PONS) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-pons-pons-on-spot--art9c05fc201aad/,historical
+H0314,Binance,HYPE,spot,USDT,USDT,1790235038608,binance_cms,Binance Will List Hyperliquid (HYPE) with Seed Tag Applied,https://www.binance.com/en/support/announcement/d49de208bb6d4a26b02677d7c3d89b5d,historical
+H0315,OKX,XDP,spot,USDT,USDT,1790564410799,okx_api,OKX to list XDP/USDT (Doppler Finance) for spot trading,https://www.okx.com/en-ar/help/okx-to-list-xdp-usdt-doppler-finance-for-spot-trading,historical
+H0316,Bithumb,PYUSD,spot,KRW,KRW,1790571091315,clw_public_feed,,,historical
+H0317,Bithumb,Q,spot,KRW,KRW,1790571091315,clw_public_feed,,,historical
+H0318,Upbit,CASHCAT,spot,KRW,KRW/BTC/USDT,1790573224000,upbit_notice,"캐시캣(CASHCAT) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6618,historical
+H0319,OKX,CT,spot,USDT,USDT,1790740812658,okx_api,OKX to list CT/USDT (Concrete) for spot trading,https://www.okx.com/en-ar/help/okx-to-list-ct-usdt-concrete-for-spot-trading,historical
+H0320,Binance,CT,perp,USDT,USDT-M,1790836201040,binance_cms,Binance Futures Will Launch USDⓈ-Margined CTUSDT Perpetual Contract (2026-10-01),https://www.binance.com/en/support/announcement/6bd26adeb6f742fe88eb72faca183566,historical
+H0321,Bithumb,US,spot,KRW,KRW,1790910887784,clw_public_feed,,,historical
+H0322,Upbit,POD,spot,KRW,KRW/BTC/USDT,1790915841000,upbit_notice,"돌핀(POD) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6635,historical
+H0323,Bithumb,POD,spot,KRW,KRW,1791273130553,clw_public_feed,,,historical
+H0324,Bithumb,BR,spot,KRW,KRW,1791273130553,clw_public_feed,,,historical
+H0325,Upbit,NMR,spot,KRW,KRW/USDT,1791286586000,upbit_notice,"뉴메레르(NMR) KRW, USDT 마켓 디지털 자산 추가",https://upbit.com/service_center/notice?id=6642,historical
+H0326,Bithumb,CASHCAT,spot,KRW,KRW,1791425764778,clw_public_feed,,,historical
+H0327,Bithumb,AIA,spot,KRW,KRW,1791425764778,clw_public_feed,,,historical
+H0328,Upbit,PONS,spot,KRW,KRW/BTC/USDT,1791427061000,upbit_notice,"폰즈(PONS) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6644,historical
+H0329,Bithumb,PONS,spot,KRW,KRW,1791428210321,clw_public_feed,,,historical
+H0330,Upbit,KAIA,spot,KRW,KRW/BTC/USDT,1791533206000,upbit_notice,"카이아(KAIA) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (KAIA/BTC 초기 매수 제한 안내)",https://upbit.com/service_center/notice?id=6645,historical
+H0331,Bithumb,XDP,spot,KRW,KRW,1791541897936,clw_public_feed,,,historical
+H0332,Bithumb,ZEST,spot,KRW,KRW,1791772911597,clw_public_feed,,,historical
+H0333,Upbit,RSR,spot,KRW,KRW/USDT,1791780849000,upbit_notice,"리저브라이트(RSR) KRW, USDT 마켓 디지털 자산 추가",https://upbit.com/service_center/notice?id=6651,historical
+H0334,Bithumb,KGEN,spot,KRW,KRW,1791795306958,clw_public_feed,,,historical
+H0335,Upbit,GTC,spot,KRW,KRW/USDT,1791799200000,upbit_notice,"깃코인(GTC) KRW, USDT 마켓 디지털 자산 추가",https://upbit.com/service_center/notice?id=6653,historical
+H0336,Bithumb,ACU,spot,KRW,KRW,1792032548398,clw_public_feed,,,historical
+H0337,Upbit,PUFFER,spot,KRW,KRW,1792039200000,upbit_notice,퍼퍼(PUFFER) KRW 마켓 디지털 자산 추가,https://upbit.com/service_center/notice?id=6659,historical
+H0338,Upbit,CT,spot,KRW,KRW/BTC/USDT,1792395600000,upbit_notice,"콘크리트(CT) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6675,historical
+H0339,Bithumb,CT,spot,KRW,KRW,1792396708563,clw_public_feed,,,historical
+H0340,Bithumb,PYBOBO,spot,KRW,KRW,1792547678223,clw_public_feed,,,historical
+H0341,Upbit,AXIS,spot,KRW,KRW/BTC/USDT,1792580400000,upbit_notice,"액시스로보틱스(AXIS) 신규 거래지원 안내 (KRW, BTC, USDT 마켓) (매도 최저가 기준 가격 안내)",https://upbit.com/service_center/notice?id=6687,historical
+H0342,Bithumb,AT,spot,KRW,KRW,1792583216964,clw_public_feed,,,historical
+H0343,Bithumb,AXIS,spot,KRW,KRW,1792801926850,clw_public_feed,,,historical
+H0344,Binance,PREDICT,perp,USDT,USDT-M,1792911915552,binance_cms,Binance Futures Will Launch USDⓈ-Margined PREDICTUSDT Perpetual Contract Pre-Market Trading (2026-10-25),https://www.binance.com/en/support/announcement/5ef55cf8358e4a48b2512a156e89c8e5,historical
+H0345,Binance,PREDICT,spot,USDT,USDT,1793274532329,binance_cms,Binance Will List Predict (PREDICT) with Seed Tag Applied,https://www.binance.com/en/support/announcement/a259777ee4104befa3daba5c1eadc7b5,historical
+H0346,Bybit,KOR,spot,USDT,USDT,1793688660000,bybit_api,Bybit to List KOR Protocol (KOR) on Spot,https://announcements.bybit.com/en-US/article/bybit-to-list-kor-protocol-kor-on-spot--arte2e1efdfaed8/,historical
+H0347,Upbit,CARDS,spot,KRW,KRW/BTC/USDT,1793858583000,upbit_notice,"콜렉터크립트(CARDS) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6739,historical
+H0348,Bithumb,MAGMA,spot,KRW,KRW,1793861440904,clw_public_feed,,,historical
+H0349,Upbit,HYPE,spot,KRW,KRW/BTC/USDT,1794286200000,upbit_notice,"하이퍼리퀴드(HYPE) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6758,historical
+H0350,Bithumb,CARDS,spot,KRW,KRW,1794287634555,clw_public_feed,,,historical
+H0351,Bithumb,HYPE,spot,KRW,KRW,1794287634555,clw_public_feed,,,historical
+H0352,OKX,AERO,spot,USDT,USDT,1794389409337,okx_api,OKX will launch AERO/USDC for spot trading,https://www.okx.com/en-ar/help/okx-will-launch-aero-usdc-for-spot-trading,historical
+H0353,Upbit,SANC,spot,KRW,KRW/BTC/USDT,1794536700000,upbit_notice,"생텀(SANC) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)",https://upbit.com/service_center/notice?id=6771,historical
+H0354,Bithumb,DNA,spot,KRW,KRW,1794545202581,clw_public_feed,,,historical
+X0354,Coinbase,AI,spot,USD,USD,1777420800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0355,Coinbase,ZKP,spot,USD,USD,1766102400000,coinbase_first_daily_candle(no announcement time),,,historical
+X0356,Coinbase,TON,spot,USD,USD,1763424000000,coinbase_first_daily_candle(no announcement time),,,historical
+X0357,Coinbase,MEZO,spot,USD,USD,1775001600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0358,Coinbase,WHUF,spot,USD,USD,1791417600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0359,Coinbase,DIEM,spot,USD,USD,1776816000000,coinbase_first_daily_candle(no announcement time),,,historical
+X0360,Coinbase,VIRTUAL,spot,USD,USD,1777420800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0361,Coinbase,SUP,spot,USD,USD,1763424000000,coinbase_first_daily_candle(no announcement time),,,historical
+X0362,Coinbase,KAT,spot,USD,USD,1773792000000,coinbase_first_daily_candle(no announcement time),,,historical
+X0363,Coinbase,BLEND,spot,USD,USD,1776988800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0364,Coinbase,CT,spot,USD,USD,1790726400000,coinbase_first_daily_candle(no announcement time),,,historical
+X0365,Coinbase,OPG,spot,USD,USD,1776729600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0366,Coinbase,ASTER,spot,USD,USD,1763596800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0367,Coinbase,CTR,spot,USD,USD,1779753600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0368,Coinbase,GRVT,spot,USD,USD,1785369600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0369,Coinbase,BASED1,spot,USD,USD,1774828800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0370,Coinbase,FUN1,spot,USD,USD,1768435200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0371,Coinbase,CHIP,spot,USD,USD,1776729600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0372,Coinbase,WMTX,spot,USD,USD,1764028800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0373,Coinbase,PROS,spot,USD,USD,1777334400000,coinbase_first_daily_candle(no announcement time),,,historical
+X0374,Coinbase,RE,spot,USD,USD,1781740800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0375,Coinbase,AZTEC,spot,USD,USD,1770854400000,coinbase_first_daily_candle(no announcement time),,,historical
+X0376,Coinbase,META,spot,USD,USD,1779926400000,coinbase_first_daily_candle(no announcement time),,,historical
+X0377,Coinbase,ICNT,spot,USD,USD,1774396800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0378,Coinbase,BIRB,spot,USD,USD,1769558400000,coinbase_first_daily_candle(no announcement time),,,historical
+X0379,Coinbase,O,spot,USD,USD,1781654400000,coinbase_first_daily_candle(no announcement time),,,historical
+X0380,Coinbase,ZAMA,spot,USD,USD,1769990400000,coinbase_first_daily_candle(no announcement time),,,historical
+X0381,Coinbase,ROBO,spot,USD,USD,1772150400000,coinbase_first_daily_candle(no announcement time),,,historical
+X0382,Coinbase,GRASS,spot,USD,USD,1787702400000,coinbase_first_daily_candle(no announcement time),,,historical
+X0383,Coinbase,RLS,spot,USD,USD,1764547200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0384,Coinbase,STABLE,spot,USD,USD,1793059200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0385,Coinbase,WET,spot,USD,USD,1765238400000,coinbase_first_daily_candle(no announcement time),,,historical
+X0386,Coinbase,KITE,spot,USD,USD,1762128000000,coinbase_first_daily_candle(no announcement time),,,historical
+X0387,Coinbase,MEGA,spot,USD,USD,1777507200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0388,Coinbase,ALIGN,spot,USD,USD,1787184000000,coinbase_first_daily_candle(no announcement time),,,historical
+X0389,Coinbase,THQ,spot,USD,USD,1765843200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0390,Coinbase,TRUST,spot,USD,USD,1762300800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0391,Coinbase,DRV,spot,USD,USD,1779926400000,coinbase_first_daily_candle(no announcement time),,,historical
+X0392,Coinbase,RAY,spot,USD,USD,1768348800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0393,Coinbase,EDGEX,spot,USD,USD,1774915200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0394,Coinbase,LIGHTER,spot,USD,USD,1768435200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0395,Coinbase,PRL,spot,USD,USD,1774396800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0396,Coinbase,CAP,spot,USD,USD,1782432000000,coinbase_first_daily_candle(no announcement time),,,historical
+X0397,Coinbase,WRON,spot,USD,USD,1779062400000,coinbase_first_daily_candle(no announcement time),,,historical
+X0398,Coinbase,WAL,spot,USD,USD,1770768000000,coinbase_first_daily_candle(no announcement time),,,historical
+X0399,Coinbase,RITUAL,spot,USD,USD,1792972800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0400,Coinbase,NOM,spot,USD,USD,1762992000000,coinbase_first_daily_candle(no announcement time),,,historical
+X0401,Coinbase,RNBW,spot,USD,USD,1770249600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0402,Coinbase,DATA,spot,USD,USD,1791417600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0403,Coinbase,SENT,spot,USD,USD,1769040000000,coinbase_first_daily_candle(no announcement time),,,historical
+X0404,Coinbase,GROVE,spot,USD,USD,1783296000000,coinbase_first_daily_candle(no announcement time),,,historical
+X0405,Coinbase,BASECAT,spot,USD,USD,1787529600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0406,Coinbase,BILL,spot,USD,USD,1777852800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0407,Coinbase,JUPITER,spot,USD,USD,1765238400000,coinbase_first_daily_candle(no announcement time),,,historical
+X0408,Coinbase,BLUECHIP,spot,USD,USD,1789516800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0409,Coinbase,DRB,spot,USD,USD,1787529600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0410,Coinbase,ALLO,spot,USD,USD,1762905600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0411,Coinbase,ARX,spot,USD,USD,1782086400000,coinbase_first_daily_candle(no announcement time),,,historical
+X0412,Coinbase,IRYS,spot,USD,USD,1764028800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0413,Coinbase,CHECK,spot,USD,USD,1775088000000,coinbase_first_daily_candle(no announcement time),,,historical
+X0414,Coinbase,INX,spot,USD,USD,1769731200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0415,Coinbase,FLUID,spot,USD,USD,1764028800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0416,Coinbase,BEAM,spot,USD,USD,1765843200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0417,Coinbase,NEX,spot,USD,USD,1779235200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0418,Coinbase,ESP,spot,USD,USD,1770940800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0419,Coinbase,BREV,spot,USD,USD,1767657600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0420,Coinbase,HYPER,spot,USD,USD,1765324800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0421,Coinbase,IMU,spot,USD,USD,1769040000000,coinbase_first_daily_candle(no announcement time),,,historical
+X0422,Coinbase,XPL,spot,USD,USD,1764633600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0423,Coinbase,ELSA,spot,USD,USD,1768867200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0424,Coinbase,PONS,spot,USD,USD,1791331200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0425,Coinbase,HYPE,spot,USD,USD,1770249600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0426,Coinbase,SKR,spot,USD,USD,1768953600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0427,Coinbase,PLUME,spot,USD,USD,1765324800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0428,Coinbase,OPN,spot,USD,USD,1772668800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0429,Coinbase,CP,spot,USD,USD,1788307200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0430,Coinbase,BOBBOB,spot,USD,USD,1763683200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0431,Coinbase,RAVE,spot,USD,USD,1770768000000,coinbase_first_daily_candle(no announcement time),,,historical
+X0432,Coinbase,KAIO,spot,USD,USD,1778025600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0433,Coinbase,MON,spot,USD,USD,1763942400000,coinbase_first_daily_candle(no announcement time),,,historical
+X0434,Coinbase,AXIS,spot,USD,USD,1792540800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0435,Coinbase,FIGHT,spot,USD,USD,1769040000000,coinbase_first_daily_candle(no announcement time),,,historical
+X0436,Coinbase,CARD,spot,USD,USD,1793923200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0437,Coinbase,GWEI,spot,USD,USD,1771891200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0438,Coinbase,UP,spot,USD,USD,1770681600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0439,Coinbase,SIGN,spot,USD,USD,1776729600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0440,Coinbase,LMTS,spot,USD,USD,1772755200000,coinbase_first_daily_candle(no announcement time),,,historical
+X0441,Coinbase,DEEP,spot,USD,USD,1770768000000,coinbase_first_daily_candle(no announcement time),,,historical
+X0442,Coinbase,DOOD,spot,USD,USD,1770249600000,coinbase_first_daily_candle(no announcement time),,,historical
+X0443,Coinbase,TRIA,spot,USD,USD,1770076800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0444,Coinbase,GEOD,spot,USD,USD,1782172800000,coinbase_first_daily_candle(no announcement time),,,historical
+X0445,Binance,APPB,spot,USDT,APPB-USDT,1793188802973,coinsentry_listing_live,,,coinsentry
+X0446,Binance,BSPB,spot,USDT,BSPB-USDT,1793188802973,coinsentry_listing_live,,,coinsentry
+X0447,Binance,GEVB,spot,USDT,GEVB-USDT,1793188802973,coinsentry_listing_live,,,coinsentry
+X0448,Binance,SKDDB,spot,USDT,SKDDB-USDT,1793188802973,coinsentry_listing_live,,,coinsentry
+X0449,Binance,SKUUB,spot,USDT,SKUUB-USDT,1793188802973,coinsentry_listing_live,,,coinsentry
+X0450,OKX,XAMGN,spot,USDT,XAMGN-USDT,1794215403034,coinsentry_listing_announced,,,coinsentry
+X0451,OKX,XBAC,spot,USDT,XBAC-USDT,1794215403034,coinsentry_listing_announced,,,coinsentry
+X0452,OKX,XSKDD,spot,USDT,XSKDD-USDT,1794215403034,coinsentry_listing_announced,,,coinsentry
+X0453,OKX,XADI,spot,USDT,XADI-USDT,1794215403034,coinsentry_listing_announced,,,coinsentry
+X0454,OKX,XNVDL,spot,USDT,XNVDL-USDT,1794215403034,coinsentry_listing_announced,,,coinsentry
+X0455,OKX,XABBV,spot,USDT,XABBV-USDT,1794215403034,coinsentry_listing_announced,,,coinsentry
+X0456,OKX,XBIDU,spot,USDT,XBIDU-USDT,1794215403034,coinsentry_listing_announced,,,coinsentry
+X0457,OKX,XSKUU,spot,USDT,XSKUU-USDT,1794215403034,coinsentry_listing_announced,,,coinsentry
+X0458,OKX,XIBKR,spot,USDT,XIBKR-USDT,1794388203104,coinsentry_listing_announced,,,coinsentry
+X0459,OKX,XCEG,spot,USDT,XCEG-USDT,1794388203104,coinsentry_listing_announced,,,coinsentry
+X0460,OKX,XFLEX,spot,USDT,XFLEX-USDT,1794388203104,coinsentry_listing_announced,,,coinsentry
+X0461,OKX,XGE,spot,USDT,XGE-USDT,1794388203104,coinsentry_listing_announced,,,coinsentry
+X0462,OKX,XMPWR,spot,USDT,XMPWR-USDT,1794388203104,coinsentry_listing_announced,,,coinsentry
+X0463,OKX,XMP,spot,USDT,XMP-USDT,1794388203104,coinsentry_listing_announced,,,coinsentry
+X0464,OKX,XCVNA,spot,USDT,XCVNA-USDT,1794388203104,coinsentry_listing_announced,,,coinsentry
+X0465,OKX,XGILD,spot,USDT,XGILD-USDT,1794388203104,coinsentry_listing_announced,,,coinsentry
+X0466,Coinbase,PEARL,spot,USD,PEARL-USD,1794514291076,coinsentry_listing_live,,,coinsentry

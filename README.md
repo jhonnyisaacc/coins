@@ -1,10 +1,12 @@
 # Listing pump study: public dataset
 
-How do coins move after an exchange announces a new listing, and after trading opens? This dataset covers 467 listing events on Upbit, Bithumb, Binance (spot and USD-M perps), OKX, Bybit and Coinbase from Nov 2025 to Nov 2026, plus 1-minute candles, funding history and tick-level trades around the Korean listings.
+How do coins move after an exchange announces a new listing, and after trading opens? This dataset covers 831 listing events on Upbit, Bithumb, Binance (spot and USD-M perps), OKX, Bybit and Coinbase, plus 1-minute candles, funding history and tick-level trades around them. The original 467 events (v1) run from Nov 2025 to Nov 2026. The v2 collection adds 364 events from Jan 2024 onwards, plus Hyperliquid and DEX tables. See [v2 collection](#v2-collection-2026-11-13).
 
 It is research data only. No trades were placed, and none of it is investment advice.
 
 ## Headline results
+These are the v1 results (467 events). The v2 numbers are under the `v2` and `v1_plus_v2` keys of `data/summary.json`.
+
 All returns are net of a 0.6% round-trip cost.
 - **Upbit KRW listing notices.** The coin jumps on Binance spot by a median of about 16% within 2 seconds. In tick data, half of the first-minute move happens in a median of 0.9 s (29 Upbit KRW events).
   - With an instant buy at the price just before the notice, the median 5-minute net return is +16.3%.
@@ -25,21 +27,63 @@ Every timestamp is UTC epoch milliseconds in an integer column whose name ends i
 ## Tables
 | Table | Rows | What it holds |
 |---|---|---|
-| events | 467 | One row per listing: exchange, symbol, market type, announcement and trading-open times, measurement venue, outlier flag |
-| events_metrics | 467 | Every per-event metric (returns at 1/5/15/60/240/1440 min, peak, time to peak, drawdowns) for three entry types |
-| events_source_list | 467 | The merged event list before any metrics were computed |
-| excluded_events | 401 | Every exclusion or missing-data case, with its reason. Use it to measure survivorship bias |
-| korean_perp_status | 177 | For each Upbit and Bithumb event: whether a USDT-M perp existed on Binance or Bybit at the announcement, which venue, and the perp's listing time |
-| perp_candles_1m | 534,943 | 1-minute candles of that perp, from 60 min before the announcement to 72 h after (123 events) |
-| spot_candles_1m | 268,279 | 1-minute Binance spot candles over the same window, where the market exists (62 events) |
-| funding_history | 2,773 | Funding rates of those perps over the same window (119 of 123 events) |
-| aggtrades_index | 161 | The speed-test candidates and how many ticks each one has |
-| aggtrades | 2,596,728 | Binance aggTrades from 60 s before to 90 s after each announcement (157 of 161 events have ticks) |
+| events | 831 | One row per listing: exchange, symbol, market type, announcement and trading-open times, measurement venue, outlier flag |
+| events_metrics | 831 | Every per-event metric (returns at 1/5/15/60/240/1440 min, peak, time to peak, drawdowns) for three entry types |
+| events_source_list | 831 | The merged event list before any metrics were computed |
+| excluded_events | 1,314 | Every exclusion or missing-data case, with its reason. Use it to measure survivorship bias |
+| korean_perp_status | 353 | For each Upbit and Bithumb event: whether a USDT-M perp existed on Binance or Bybit at the announcement, which venue, and the perp's listing time |
+| perp_candles_1m | 534,943 | v1: 1-minute candles of that perp, from 60 min before the announcement to 72 h after (123 events) |
+| spot_candles_1m | 268,279 | v1: 1-minute Binance spot candles over the same window, where the market exists (62 events) |
+| funding_history | 2,773 | v1: Funding rates of those perps over the same window (119 of 123 events) |
+| aggtrades_index | 629 | One row per event and tick venue, with its tick count: the 161 v1 speed-test candidates plus 468 v2 rows |
+| aggtrades | 2,596,728 | v1: Binance aggTrades from 60 s before to 90 s after each announcement (157 of 161 events have ticks) |
 | speed_test_tick_entry | 57 | The original tick-level speed test (Binance spot) |
 | speed_test_1m_entry | 243 | Speed sensitivity measured on 1-minute candles |
 | exit_rule_grid_trades | 51,825 | Simulated trades for the take-profit / stop-loss / time-exit grid |
 | coinsentry_alerts | 69 | Our CoinSentry alert log, reduced to exchange, symbol, pairs and times |
 | coinsentry_latency | 59 | CoinSentry detection time vs the official announcement time (or the first trade, for live alerts). 40 alerts are matched |
+| perp_candles_1m_v2_<year> | 210,240 (2024) + 363,540 (2025) | v2 Korean events: perp 1-minute candles, 60 min before to 72 h after |
+| perp_candles_1m_other_v2_<year> | 70,080 (2024) + 459,900 (2025) + 188,340 (2026) | Binance USD-M perp 1-minute candles around Binance-spot and Coinbase announcements |
+| spot_candles_1m_v2_<year> | 169,215 (2024) + 325,766 (2025) | v2 Korean events: Binance spot 1-minute candles |
+| funding_history_v2_<year> | 665 (2024) + 3,365 (2025) + 432 (2026) | Funding for v2 Korean and Binance-spot events |
+| aggtrades_v2_<year> | 1,690,483 (2024) + 5,882,839 (2025) + 1,105,300 (2026) | Binance spot and USD-M perp aggTrades, 60 s before to 90 s after, for every venue that existed (Korean, Binance-spot, Coinbase events) |
+| btc_candles_1m_<year> | 293,460 (2024) + 516,840 (2025) + 728,692 (2026) | BTCUSDT perp 1-minute benchmark, same window as each Korean event |
+| hyperliquid_perp_status | 353 | Hyperliquid perp at each Korean announcement, listing time, stored candle interval |
+| hyperliquid_candles | 6,162 | Hyperliquid candles at the finest available interval, 60 min before to 72 h after |
+| hyperliquid_funding | 8,045 | Hyperliquid hourly funding over the same window |
+| dex_pool_status | 602 | Token contract per chain (CoinGecko), deepest pool created before the announcement, pool creation time |
+| dex_candles | 1,313 | 1-minute USD candles of that pool, 2 min before to 10 min after (last 180 days only) |
+| upbit_poll_log | 0 | Our forward-only Upbit notice detection log (see v2 collection) |
+
+## v2 collection (2026-11-13)
+Every table that got new rows has a `collection_batch` column (`v1` or `v2`). v1 values are unchanged, with two exceptions where an official announcement time replaced the old one:
+- Bithumb DNA: the old time is kept in `v1_announcement_ms`. It is the only one of the 64 v1 Bithumb events that the official API still returns.
+- 83 v1 Coinbase events now have an official announcement time, where v1 had none.
+
+`announcement_time_official` says which times come from the exchange itself. Large tables keep their v1 file. Their v2 rows are in `<table>_v2_<year>` files, split by the year of the announcement, and every file is under 50 MB.
+
+**What was added**
+- **Upbit**: 176 listing events from 2024-01-01 to 2025-10-31 (119 KRW, 57 BTC/USDT-only), taken from the official notices API (`first_listed_at`). Relistings, such as OMNI, ALT, POKT and BIGTIME, are separate events.
+- **Korean market data** (all 353 Upbit and Bithumb events):
+  - `korean_perp_status` adds the v2 rows and `binance_spot_listing_ms`.
+  - Perp, spot and funding rows for v2 events.
+  - New `btc_candles_1m_<year>` (BTCUSDT perp, from 60 min before to 72 h after).
+  - aggTrades on both Binance spot and Binance USD-M perp wherever the market existed at the announcement.
+- **Hyperliquid**: `hyperliquid_perp_status` (98 of 353 events had a perp at the announcement), `hyperliquid_candles` and `hyperliquid_funding` (hourly). Candle history is limited to the latest ~5000 candles per interval. Each event stores the finest interval that reaches its window and names it in `interval`. For 2024–2025 events that is mostly 4h.
+- **DEX**: `dex_pool_status` covers 602 event–chain rows. 274 of the 353 Korean events have a pool on at least one of Solana, Base, BSC or Ethereum. `dex_candles` holds 1,313 one-minute candles for 94 events. See the limits below.
+- **Binance spot listings with a perp already trading**, 2024-01 to today: 46 new events plus 20 v1 events. Announcements come from catalog 48, covering both "Binance Will List" and the HODLer Airdrops, Launchpool and Megadrop posts (`announcement_source` says which). They come with perp aggTrades, perp candles in `perp_candles_1m_other_v2_<year>` and funding.
+- **Coinbase**, 2024-01 to today: 227 listings, timed by the first update of the official Coinbase Exchange status-page incident ("Coinbase will add support for…"). 142 are new events. `coinbase_full_trading_ms` is the full-trading update, and `coinbase_usd_product_status_now` flags the 11 listings delisted since. Each comes with Binance aggTrades and perp candles where those markets existed.
+- **Upbit poll log**: `scripts/12_upbit_poll.py` writes `data/upbit_poll_log.csv` going forward. The current host is a macOS laptop in Esquel, Chubut, Argentina, on a residential ISP (AS27983). Latency from Korea or a nearby cloud region will be much lower.
+
+**Sources that failed or were partial**
+- **Bithumb 2024-01 to 2025-10: not collected.** feed.bithumb.com returns 403 to automated reads. The official API (`feed-api.bithumb.com/v1/notices`) returns only the latest notices. No browser session was available, and the Wayback Machine was offline. Only DNA got an official time.
+- **Robinhood: not collected.** No official timestamped listing feed could be reached.
+- **Hyperliquid trades: not built.** There is no public historical trade API.
+- **DEX per-swap trades: not built.** GeckoTerminal's public trades cover only the last 24 h. `dex_candles` holds 1-minute pool candles instead, and only for announcements inside the public API's 180-day window. Pool liquidity is today's reserve, not the reserve at the announcement. Contracts come from CoinGecko's own Upbit and Bithumb ticker lists. A coin that is no longer listed has no mapping and is logged in `excluded_events`.
+- **CoinSentry latency: not extended.** The private Worker credentials were not available.
+- **Binance spot REST aggTrades** returns nothing for older windows. Those ticks were refilled from the `data.binance.vision` spot archives, whose timestamps are microseconds from 2025 and are converted to ms.
+- **Coinbase metrics**: `04_metrics` skips external-venue entries for Coinbase (the v1 method), so `ann_ext_` is empty for Coinbase even where an official time now exists.
+- **OKX and Bybit**: nothing new was collected, as asked.
 
 ## Speed test: 57 vs 29 events, and the expanded tick set
 - **57** is the full original tick test. It includes every event whose external buy venue at the announcement was Binance spot and which had a trade before the announcement: Upbit KRW 29, Upbit BTC/USDT-only 12, Bithumb 10, OKX 5, Bybit 1.
@@ -81,8 +125,8 @@ Every timestamp is UTC epoch milliseconds in an integer column whose name ends i
 
 ## Limits
 - **Survivorship**: markets delisted on Upbit, Bithumb or Coinbase return no candles, so losers are under-represented. See `excluded_events`.
-- **Bithumb** coverage starts in Apr 2026 and uses a third-party detection time, not an official one.
-- **Coinbase** has no announcement times, and we didn't check whether its coins already traded elsewhere.
+- **Bithumb** coverage starts in Apr 2026. Every time is third-party except DNA (see `announcement_time_official`).
+- **Coinbase** v1 events had no announcement times. v2 adds official status-page times, but we didn't check whether its coins already traded elsewhere.
 - **Resolution**: 1-minute candles can't resolve fills inside a minute. Only the aggTrades table can.
 - **Upbit notice times** have 1-second precision.
 - **Sample size**: groups are small (13–93 events) and come from a single year. Nothing here is a validated trading strategy.

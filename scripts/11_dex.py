@@ -5,14 +5,14 @@ Pool: GeckoTerminal token pools; the deepest pool created before the announcemen
   liquidity is not served by the free API, so liquidity_usd_at_ann stays empty).
 Swaps: GeckoTerminal serves trades for the last 24 h only, so per-swap history is not available; the finest candles
   (1 minute, USD) are stored for events inside the free API's 180-day OHLCV window."""
-import sys, os, json, time, datetime as dt, pandas as pd, requests
+import sys, os, json, time, hashlib, datetime as dt, pandas as pd, requests
 OUT='extra/v2'; os.makedirs(OUT,exist_ok=True); CACHE='raw/dex_cache'; os.makedirs(CACHE,exist_ok=True)
 NOW=int(dt.datetime.now(dt.timezone.utc).timestamp()*1000)
 CHAINS={'solana':'solana','base':'base','binance-smart-chain':'bsc','ethereum':'eth'}
 S=requests.Session(); S.headers['Accept']='application/json'
 _last={}
 def get(url,gap,key):
-    fn=os.path.join(CACHE,str(abs(hash(url)))+'.json')
+    fn=os.path.join(CACHE,hashlib.sha1(url.encode()).hexdigest()+'.json')
     if os.path.exists(fn): return json.load(open(fn))
     for a in range(8):
         w=gap-(time.time()-_last.get(key,0))

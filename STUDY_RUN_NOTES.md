@@ -23,3 +23,4 @@ Run from the repo root with `.venv/bin/python` (requests pandas numpy pyarrow). 
 6. `scripts/11_dex.py`: CoinGecko contracts and GeckoTerminal pools and 1m candles. It is rate-limited and takes about 2–3 h.
 7. `scripts/13_build_publish_v2.py` writes `data/`, `row_counts.json` and `out/file_sizes.json`. Then `scripts/14_summary_v2.py` adds the v2 keys to `data/summary.json`.
 8. `scripts/12_upbit_poll.py --region "<where it runs>" --interval 0.5` runs forward-only. The endpoint answered 429 at about 4 requests per second from the collection host, so 0.5 s is the default.
+9. `scripts/15_check_dataset.py` is the local check. It verifies row counts, the 50 MB limit, integer `*_ms` columns, unique event ids, and that v1 rows equal commit e27214a apart from the documented announcement-time replacements.

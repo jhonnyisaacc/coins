@@ -379,3 +379,126 @@ All `*_ms` columns: UTC epoch milliseconds (nullable integer). Returns are fract
 | `low` | float64 | Low |
 | `close` | float64 | Close |
 | `volume` | float64 | Quote-asset volume (USDT) in the minute |
+
+# v2 additions (collection_batch "v2", 2026-11-13)
+
+Every table that received v2 rows has a `collection_batch` column: `v1` for the original rows, `v2` for rows added in this collection. Large tick and candle tables keep their v1 file unchanged. Their v2 rows are in files named `<table>_v2_<year>` (year of the event's announcement, UTC), with the same columns plus `collection_batch`. Coinbase and Binance-spot events have their perp candles in `perp_candles_1m_other_v2_<year>`. A table whose Parquet or CSV would exceed 50 MB is split into `.partNN` files.
+
+Event ids: `V####` are v2 events. Coinbase listings that already existed in v1 keep their v1 id.
+
+## New columns on existing tables
+
+| table | column | type | description |
+|---|---|---|---|
+| events, events_metrics, events_source_list | `collection_batch` | str | `v1` or `v2` |
+| events, events_metrics, events_source_list | `announcement_time_official` | bool | True when the announcement time comes from the exchange's own feed (Upbit API, Binance CMS, OKX/Bybit APIs, Bithumb official API, Coinbase Exchange status page). False for CryptoListing.ws Bithumb times, CoinSentry-only rows and Coinbase rows without an official time |
+| events, events_metrics, events_source_list, korean_perp_status | `v1_announcement_ms` | Int64 | The v1 announcement time where v2 replaced it with an official one (Bithumb official API; Coinbase status page, where v1 had none). Null elsewhere |
+| events | `coinbase_full_trading_ms` | Int64 | Coinbase: time of the status-page update that moved the pair to full trading |
+| events | `coinbase_usd_product_status_now` | str | Coinbase: `<SYM>-USD` product status today (`online`, `delisted`, `not_listed_now`) |
+| korean_perp_status | `binance_spot_listing_ms` | Int64 | Open time of the first 1m Binance spot `<SYM>USDT` kline. Null if the market never existed |
+| korean_perp_status | `binance_spot_listing_source` | str | `first_1m_kline(data-api.binance.vision)` |
+| korean_perp_status | `binance_perp_onboard_source` | str | v2 adds `first_1m_kline` for delisted perps, where v1 used `first_daily_kline` |
+| aggtrades_index | `collection_batch` | str | v2 rows add the second Binance venue for v1 events and all venues for v2 events |
+| aggtrades_index | `source` | str | v2 adds `data.binance.vision/spot/daily/aggTrades` (spot ticks the REST endpoint no longer serves) |
+
+## btc_candles_1m_<year>
+
+Binance USD-M BTCUSDT 1-minute candles from 60 min before to 72 h after each Korean event's announcement, as a market benchmark. One copy of the window per event.
+
+| column | type | description |
+|---|---|---|
+| `event_id` | str | Event key |
+| `venue` | str | `binance_perp` |
+| `market` | str | `BTCUSDT` |
+| `timestamp_ms` | Int64 | Candle open time |
+| `open`, `high`, `low`, `close` | float64 | Prices in USDT |
+| `volume` | float64 | Quote volume (USDT) |
+
+## hyperliquid_perp_status
+
+One row per Korean event (v1 and v2).
+
+| column | type | description |
+|---|---|---|
+| `event_id`, `exchange`, `symbol`, `announcement_ms`, `collection_batch` | | As in events |
+| `hl_coin` | str | Hyperliquid perp name. `k<SYM>` coins are quoted per 1000 tokens. Null when no perp of that name exists in the current meta universe (delisted coins included) |
+| `hl_price_multiplier` | float | 1000 for `k` coins, else 1 |
+| `hl_is_delisted_now` | bool | `isDelisted` in today's meta |
+| `hl_listing_ms` | Int64 | First `fundingHistory` record (hourly precision) |
+| `hl_listing_source` | str | `first_fundingHistory_record` |
+| `hl_first_traded_day_ms` | Int64 | First 1d candle with trades |
+| `hl_last_traded_day_end_ms` | Int64 | End of the last 1d candle with trades |
+| `hl_perp_at_ann` | bool | Listed before the announcement and not delisted by then |
+| `hl_candle_interval` | str | Interval stored in hyperliquid_candles for this event. The API serves only the latest ~5000 candles per interval, so it is the finest interval whose history reaches the window start (1m only back to 2026-11-10, 1h to 2026-04-19, 4h to 2024-08-02) |
+| `hl_candle_rows`, `hl_funding_rows` | float | Rows stored |
+| `hl_status_note` | str | Why there is no data |
+
+## hyperliquid_candles
+
+| column | type | description |
+|---|---|---|
+| `event_id`, `coin` | str | Event key and Hyperliquid coin |
+| `interval` | str | Candle interval (see hyperliquid_perp_status) |
+| `timestamp_ms` | Int64 | Candle open time, window 60 min before to 72 h after the announcement |
+| `open`, `high`, `low`, `close` | float64 | USDC prices |
+| `volume_base` | float64 | Base-asset volume |
+| `n_trades` | int64 | Trades in the candle |
+
+## hyperliquid_funding
+
+| column | type | description |
+|---|---|---|
+| `event_id`, `coin` | str | Event key and Hyperliquid coin |
+| `timestamp_ms` | Int64 | Funding time (hourly) |
+| `funding_rate` | float64 | Hourly funding rate (fraction) |
+| `premium` | float64 | Premium used for that funding |
+
+hyperliquid_trades was not built: Hyperliquid has no public historical trades API.
+
+## dex_pool_status
+
+One row per Korean event and chain with a contract (Solana, Base, BSC, Ethereum), or one row with a `note` when no contract was resolved.
+
+| column | type | description |
+|---|---|---|
+| `event_id`, `exchange`, `symbol`, `announcement_ms`, `collection_batch` | | As in events |
+| `coingecko_id` | str | CoinGecko id, read from CoinGecko's own Upbit/Bithumb ticker list (exchange-anchored, not a ticker search) |
+| `chain` | str | GeckoTerminal network: `solana`, `base`, `bsc`, `eth` |
+| `token_address` | str | Contract from CoinGecko `/coins/{id}` `platforms` |
+| `contract_source` | str | Provenance of the contract |
+| `pool_address`, `dex`, `pool_name` | str | Selected pool |
+| `pool_created_ms` | Int64 | Pool creation time (GeckoTerminal) |
+| `liquidity_usd_now` | float64 | Pool reserve in USD today. Liquidity at the announcement is not served by the free API |
+| `liquidity_usd_at_ann` | float | Always null (not available) |
+| `pool_selection` | str | Deepest pool by today's reserve among pools created before the announcement (GeckoTerminal's first page of pools) |
+| `n_candidate_pools` | float | Pools considered |
+| `dex_candle_rows` | float | Rows in dex_candles |
+| `note` | str | Why data is missing |
+
+## dex_candles
+
+Per-swap history was not available (see excluded_events). These are the finest candles available: 1-minute USD candles of the selected pool from 2 min before to 10 min after the announcement, only for announcements inside GeckoTerminal's 180-day public window.
+
+| column | type | description |
+|---|---|---|
+| `event_id`, `chain`, `pool_address` | str | Keys |
+| `interval` | str | `1m` |
+| `timestamp_ms` | Int64 | Candle open time |
+| `open`, `high`, `low`, `close` | float64 | Token price in USD |
+| `volume_usd` | float64 | USD volume |
+
+## upbit_poll_log
+
+Written by `scripts/12_upbit_poll.py`, going forward only. One row per notice first seen by the poller (notices present at startup are not logged).
+
+| column | type | description |
+|---|---|---|
+| `notice_id` | int | Upbit notice id |
+| `title`, `category` | str | Notice title and category |
+| `first_seen_ms` | Int64 | Local clock (NTP-synced macOS) when the poller first saw the notice |
+| `notice_first_listed_ms` | Int64 | Notice `first_listed_at` (1-second precision) |
+| `notice_listed_ms` | Int64 | Notice `listed_at` |
+| `seen_minus_first_listed_ms` | Int64 | Detection delay. Includes up to 1 s of timestamp truncation and the poll interval |
+| `poll_interval_s` | float | Target poll interval |
+| `http_elapsed_ms` | int | Round trip of the request that saw it |
+| `region` | str | Where the poller runs |

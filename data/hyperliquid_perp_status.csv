@@ -1,0 +1,354 @@
+event_id,exchange,symbol,announcement_ms,collection_batch,hl_coin,hl_price_multiplier,hl_is_delisted_now,hl_perp_at_ann,hl_status_note,hl_listing_ms,hl_listing_source,hl_first_traded_day_ms,hl_last_traded_day_end_ms,hl_candle_interval,hl_candle_rows,hl_funding_rows
+H0001,Upbit,KITE,1762157481000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0003,Upbit,MMT,1762248900000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0004,Upbit,TRUST,1762332256000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0014,Upbit,MET2,1763446800000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0018,Upbit,MON,1763974893000,v1,MON,1.0,False,True,,1759899600056,first_fundingHistory_record,1759881600000,1794614399999,4h,19.0,73.0
+H0019,Upbit,PLUME,1764135002000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0030,Upbit,WET,1765782000000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0035,Upbit,YB,1766722500000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0036,Upbit,ZKP,1766729983000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0040,Upbit,XAUT,1767240000000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0041,Upbit,ZK,1767684615000,v1,ZK,1.0,False,True,,1718193600035,first_fundingHistory_record,1718150400000,1794614399999,4h,19.0,73.0
+H0043,Upbit,BREV,1767752401000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0051,Upbit,USDE,1768373747000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0058,Upbit,ELSA,1769059800000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0069,Upbit,SENT,1769667307000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0079,Upbit,BIRB,1770102000000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0084,Upbit,TAO,1771218000000,v1,TAO,1.0,False,True,,1708351200174,first_fundingHistory_record,1708300800000,1794614399999,4h,19.0,73.0
+H0085,Upbit,AZTEC,1771563600000,v1,AZTEC,1.0,False,True,,1770886800054,first_fundingHistory_record,1770854400000,1794614399999,4h,19.0,73.0
+H0087,Upbit,SKR,1771909200000,v1,SKR,1.0,False,True,,1769050800112,first_fundingHistory_record,1769040000000,1794614399999,4h,19.0,73.0
+H0088,Upbit,ESP,1771913044000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0089,Upbit,CFG,1772074800000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0093,Upbit,EDGE,1772603400000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0097,Upbit,ICP,1773208800000,v1,ICP,1.0,False,True,,1762574400013,first_fundingHistory_record,1762560000000,1794614399999,4h,19.0,73.0
+H0103,Upbit,ETHFI,1773888600000,v1,ETHFI,1.0,False,True,,1710982800191,first_fundingHistory_record,1710979200000,1794614399999,4h,19.0,73.0
+H0108,Upbit,KAT,1774512470000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0114,Upbit,SKY,1774924201000,v1,SKY,1.0,False,True,,1758088800012,first_fundingHistory_record,1758067200000,1794614399999,4h,19.0,73.0
+H0115,Upbit,USDS,1774924201000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0125,Upbit,CC,1776142800000,v1,CC,1.0,False,True,,1761915600016,first_fundingHistory_record,1761868800000,1794614399999,4h,19.0,73.0
+H0127,Upbit,ZAMA,1776152920000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0133,Upbit,SOON,1776402002000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0135,Upbit,PIEVERSE,1776661200000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0137,Upbit,CHIP,1776752184000,v1,CHIP,1.0,False,False,,1776826800005,first_fundingHistory_record,1776816000000,1794614399999,1h,53.0,52.0
+H0141,Upbit,SPK,1776910800000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0145,Upbit,XCN,1777266000000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0147,Upbit,PRL,1777271400000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0148,Upbit,BLEND,1777429411000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0152,Upbit,MEGA,1777516206000,v1,MEGA,1.0,False,True,,1761148800036,first_fundingHistory_record,1761091200000,1794614399999,1h,74.0,73.0
+H0161,Upbit,WIF,1778043600000,v1,WIF,1.0,False,True,,1703260800182,first_fundingHistory_record,1703203200000,1794614399999,1h,74.0,73.0
+H0164,Upbit,B3,1778125800000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0166,Upbit,PROS,1778232600000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0168,Upbit,VVV,1778562000000,v1,VVV,1.0,False,True,,1738026000099,first_fundingHistory_record,1738022400000,1794614399999,1h,74.0,73.0
+H0171,Upbit,UP2,1778664441000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0177,Upbit,IRYS,1778834467000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0179,Upbit,TRAC,1779080841000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0187,Upbit,IO,1780045200000,v1,IO,1.0,False,True,,1718161200066,first_fundingHistory_record,1718150400000,1794614399999,1h,74.0,73.0
+H0189,Upbit,SLX,1780281900000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0194,Upbit,BABY,1780651800000,v1,BABY,1.0,False,True,,1744426800069,first_fundingHistory_record,1744416000000,1794614399999,1h,74.0,73.0
+H0196,Upbit,CTR,1780972202000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0198,Upbit,OPG,1781515802000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0200,Upbit,SPX,1781575946000,v1,SPX,1.0,False,True,,1736229600005,first_fundingHistory_record,1736208000000,1794614399999,1h,74.0,73.0
+H0205,Upbit,PEAQ,1781834936000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0206,Upbit,LIT,1781834936000,v1,LIT,1.0,False,True,,1766419200031,first_fundingHistory_record,1766361600000,1794614399999,1h,74.0,73.0
+H0207,Upbit,KMNO,1781834936000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0208,Upbit,MORPHO,1781834936000,v1,MORPHO,1.0,False,True,,1737104400042,first_fundingHistory_record,1737072000000,1794614399999,1h,74.0,73.0
+H0209,Upbit,GRAM,1781834936000,v1,GRAM,1.0,False,False,,1782986400006,first_fundingHistory_record,1782950400000,1794614399999,1h,0.0,0.0
+H0210,Upbit,LDO,1781834936000,v1,LDO,1.0,False,True,,1684195200447,first_fundingHistory_record,1684108800000,1794614399999,1h,74.0,73.0
+H0211,Upbit,PAXG,1781834936000,v1,PAXG,1.0,False,True,,1743955200028,first_fundingHistory_record,1743897600000,1794614399999,1h,74.0,73.0
+H0212,Upbit,OSMO,1781834936000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0213,Upbit,AMP2,1781834936000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0215,Upbit,RE,1781859602000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0217,Upbit,ARX,1782180000000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0226,Upbit,AI,1782788455000,v1,AI,1.0,True,False,,1708351200174,first_fundingHistory_record,1708300800000,1744415999999,1h,0.0,73.0
+H0228,Upbit,MPLX,1783047600000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0229,Upbit,NEX,1783047600000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0237,Upbit,DRV,1784006102000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0241,Upbit,O,1784772902000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0243,Upbit,EUL,1785027361000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0246,Upbit,GEOD,1785122541000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0248,Upbit,RLUSD,1785206060000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0250,Upbit,META2,1785298588000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0253,Upbit,USDG,1785373814000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0257,Upbit,CFX,1785474007000,v1,CFX,1.0,False,True,,1684972800233,first_fundingHistory_record,1684886400000,1794614399999,1h,74.0,73.0
+H0260,Upbit,HOME,1785817817000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0263,Upbit,QUID,1785837604000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0265,Upbit,GRVT,1785904951000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0267,Upbit,CAP,1785981315000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0269,Upbit,BSB,1786071316000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0270,Upbit,CYS,1786327554000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0271,Upbit,ICNT,1786327554000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0272,Upbit,XAN,1786327554000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0273,Upbit,EDEN,1786327554000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0274,Upbit,AIOZ,1786327554000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0275,Upbit,ALLO,1786327554000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0277,Upbit,DOS,1786415436000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0279,Upbit,PROM,1786500698000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0283,Upbit,BICO,1787273280000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0284,Upbit,BMT,1787273280000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0285,Upbit,NIL,1787273280000,v1,NIL,1.0,False,True,,1742824800065,first_fundingHistory_record,1742774400000,1794614399999,1h,74.0,73.0
+H0286,Upbit,GWEI,1787273280000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0288,Upbit,CRV,1787278960000,v1,CRV,1.0,False,True,,1684166400409,first_fundingHistory_record,1684108800000,1794614399999,1h,74.0,73.0
+H0289,Upbit,NEXO,1787307565000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0290,Upbit,FOLD,1787447649000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0292,Upbit,NCT,1787740335000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0293,Upbit,EURC,1787881785000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0302,Upbit,CP,1788837704000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0304,Upbit,USELESS,1788863132000,v1,USELESS,1.0,False,False,,1788886800031,first_fundingHistory_record,1788825600000,1794614399999,1h,67.0,66.0
+H0306,Upbit,REZ,1789014601000,v1,REZ,1.0,False,True,,1714482000169,first_fundingHistory_record,1714435200000,1794614399999,1h,74.0,73.0
+H0307,Upbit,BFC,1789015200000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0310,Upbit,PYUSD,1789606081000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0311,Upbit,JPYC,1789606081000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0318,Upbit,CASHCAT,1790573224000,v1,CASHCAT,1.0,False,True,,1783746000014,first_fundingHistory_record,1783728000000,1794614399999,15m,293.0,73.0
+H0322,Upbit,POD,1790915841000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0325,Upbit,NMR,1791286586000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0328,Upbit,PONS,1791427061000,v1,PONS,1.0,False,True,,1788148800052,first_fundingHistory_record,1788134400000,1794614399999,15m,293.0,73.0
+H0330,Upbit,KAIA,1791533206000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0333,Upbit,RSR,1791780849000,v1,RSR,1.0,False,True,,1701806400334,first_fundingHistory_record,1701734400000,1794614399999,15m,293.0,73.0
+H0335,Upbit,GTC,1791799200000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0337,Upbit,PUFFER,1792039200000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0338,Upbit,CT,1792395600000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0341,Upbit,AXIS,1792580400000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0347,Upbit,CARDS,1793858583000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0349,Upbit,HYPE,1794286200000,v1,HYPE,1.0,False,True,,1733392800004,first_fundingHistory_record,1733356800000,1794614399999,5m,877.0,73.0
+H0353,Upbit,SANC,1794536700000,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0126,Bithumb,ZAMA,1776145152024,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0136,Bithumb,BASED,1776748970698,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0138,Bithumb,CHIP,1776753974813,v1,CHIP,1.0,False,False,,1776826800005,first_fundingHistory_record,1776816000000,1794614399999,1h,53.0,52.0
+H0146,Bithumb,PRL,1777270299867,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0149,Bithumb,BLEND,1777433076562,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0153,Bithumb,MEGA,1777517903658,v1,MEGA,1.0,False,True,,1761148800036,first_fundingHistory_record,1761091200000,1794614399999,1h,74.0,73.0
+H0163,Bithumb,EDGEX,1778118455395,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0167,Bithumb,PROS,1778234036673,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0172,Bithumb,UP,1778665613218,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0178,Bithumb,AIGENSYN,1779069608691,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0180,Bithumb,OPG,1779415020971,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0185,Bithumb,BILL,1779945392784,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0188,Bithumb,HNT,1780278321341,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0190,Bithumb,SLX,1780282764819,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0195,Bithumb,CTR,1780969204416,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0199,Bithumb,SPACE,1781574190673,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0201,Bithumb,SPX,1781576534857,v1,SPX,1.0,False,True,,1736229600005,first_fundingHistory_record,1736208000000,1794614399999,1h,74.0,73.0
+H0214,Bithumb,RE,1781837518527,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0222,Bithumb,ARX,1782454077770,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0224,Bithumb,CAP,1782784166976,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0230,Bithumb,NEX,1783050376087,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0231,Bithumb,MPLX,1783050376087,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0233,Bithumb,ICNT,1783403124840,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0238,Bithumb,DRV,1784006823211,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0242,Bithumb,CHECK,1784776554183,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0244,Bithumb,BANK,1785118761117,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0247,Bithumb,GEOD,1785124162185,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0249,Bithumb,O,1785208013249,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0251,Bithumb,AEON,1785302598365,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0252,Bithumb,RLUSD,1785302598365,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0256,Bithumb,GRVT,1785464649159,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0261,Bithumb,USDG,1785819887661,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0262,Bithumb,META2,1785819887661,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0264,Bithumb,QUID,1785838684927,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0266,Bithumb,UB,1785979145234,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0268,Bithumb,BSB,1786070336891,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0276,Bithumb,DOS,1786411057040,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0287,Bithumb,NEXO,1787276710165,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0291,Bithumb,PROM,1787535796976,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0294,Bithumb,EURC,1787883088327,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0295,Bithumb,FOLD,1787883088327,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0301,Bithumb,USELESS,1788834885472,v1,USELESS,1.0,False,False,,1788886800031,first_fundingHistory_record,1788825600000,1794614399999,1h,59.0,58.0
+H0303,Bithumb,CP,1788838272014,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0312,Bithumb,AVA,1789609940176,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0316,Bithumb,PYUSD,1790571091315,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0317,Bithumb,Q,1790571091315,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0321,Bithumb,US,1790910887784,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0323,Bithumb,POD,1791273130553,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0324,Bithumb,BR,1791273130553,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0326,Bithumb,CASHCAT,1791425764778,v1,CASHCAT,1.0,False,True,,1783746000014,first_fundingHistory_record,1783728000000,1794614399999,15m,293.0,73.0
+H0327,Bithumb,AIA,1791425764778,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0329,Bithumb,PONS,1791428210321,v1,PONS,1.0,False,True,,1788148800052,first_fundingHistory_record,1788134400000,1794614399999,15m,293.0,73.0
+H0331,Bithumb,XDP,1791541897936,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0332,Bithumb,ZEST,1791772911597,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0334,Bithumb,KGEN,1791795306958,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0336,Bithumb,ACU,1792032548398,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0339,Bithumb,CT,1792396708563,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0340,Bithumb,PYBOBO,1792547678223,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0342,Bithumb,AT,1792583216964,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0343,Bithumb,AXIS,1792801926850,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0348,Bithumb,MAGMA,1793861440904,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0350,Bithumb,CARDS,1794287634555,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+H0351,Bithumb,HYPE,1794287634555,v1,HYPE,1.0,False,True,,1733392800004,first_fundingHistory_record,1733356800000,1794614399999,5m,877.0,73.0
+H0354,Bithumb,DNA,1794545202581,v1,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0001,Upbit,ID,1707279190000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0002,Upbit,ALT,1709001908000,v2,ALT,1.0,False,True,,1706194800108,first_fundingHistory_record,1706140800000,1794614399999,8h,10.0,73.0
+V0003,Upbit,PYTH,1709001908000,v2,PYTH,1.0,False,True,,1700002800033,first_fundingHistory_record,1699920000000,1794614399999,8h,10.0,73.0
+V0004,Upbit,MNT,1711516404000,v2,MNT,1.0,False,False,,1712282400106,first_fundingHistory_record,1712275200000,1794614399999,8h,0.0,0.0
+V0005,Upbit,POKT,1711516404000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0006,Upbit,BIGTIME,1713850330000,v2,BIGTIME,1.0,False,True,,1697047200118,first_fundingHistory_record,1696982400000,1794614399999,8h,10.0,73.0
+V0007,Upbit,AKT,1713850330000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0008,Upbit,ZETA,1714714570000,v2,ZETA,1.0,False,True,,1706835600381,first_fundingHistory_record,1706832000000,1794614399999,8h,10.0,73.0
+V0009,Upbit,OMNI,1714714570000,v2,OMNI,1.0,True,True,,1714359600177,first_fundingHistory_record,1714348800000,1758844799999,8h,10.0,73.0
+V0010,Upbit,OAS,1716432751000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0011,Upbit,AUCTION,1716974113000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0012,Upbit,STG,1717054195000,v2,STG,1.0,True,True,,1698336000046,first_fundingHistory_record,1698278400000,1754351999999,8h,10.0,73.0
+V0013,Upbit,BEAM,1717136905000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0014,Upbit,TAIKO,1717580091000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0015,Upbit,USDT,1717741261000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0016,Upbit,ONDO,1718334413000,v2,ONDO,1.0,False,True,,1705762800040,first_fundingHistory_record,1705708800000,1794614399999,8h,10.0,73.0
+V0017,Upbit,GAS,1718617515000,v2,GAS,1.0,False,True,,1698159600153,first_fundingHistory_record,1698105600000,1794614399999,8h,10.0,73.0
+V0018,Upbit,GAME2,1718617515000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0019,Upbit,NEO,1718617515000,v2,NEO,1.0,False,True,,1699542000315,first_fundingHistory_record,1699488000000,1794614399999,8h,10.0,73.0
+V0020,Upbit,SOL,1718617515000,v2,SOL,1.0,False,True,,1683849600048,first_fundingHistory_record,1677888000000,1794614399999,8h,10.0,73.0
+V0021,Upbit,TT,1718617515000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0022,Upbit,ZRO,1718863362000,v2,ZRO,1.0,False,True,,1694055600082,first_fundingHistory_record,1694044800000,1794614399999,8h,10.0,73.0
+V0023,Upbit,BLAST,1719220985000,v2,BLAST,1.0,True,False,,1719417600152,first_fundingHistory_record,1719360000000,1779753599999,8h,4.0,18.0
+V0024,Upbit,JUP,1720075338000,v2,JUP,1.0,False,True,,1701565200070,first_fundingHistory_record,1701561600000,1794614399999,8h,10.0,73.0
+V0025,Upbit,ENS,1720514430000,v2,ENS,1.0,False,True,,1704466800188,first_fundingHistory_record,1704412800000,1794614399999,8h,11.0,73.0
+V0026,Upbit,GAL,1720664548000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0027,Upbit,PENDLE,1722925975000,v2,PENDLE,1.0,False,True,,1698336000046,first_fundingHistory_record,1698278400000,1794614399999,4h,19.0,73.0
+V0028,Upbit,ATH,1723602067000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0029,Upbit,BRETT,1724139466000,v2,BRETT,1.0,False,True,,1718110800088,first_fundingHistory_record,1718064000000,1794614399999,4h,19.0,73.0
+V0030,Upbit,PEPE,1724139466000,v2,kPEPE,1000.0,False,True,,1683849600048,first_fundingHistory_record,1683244800000,1794614399999,4h,19.0,73.0
+V0031,Upbit,USDC,1724977021000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0032,Upbit,UXLINK,1725357874000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0033,Upbit,BIGTIME,1725516141000,v2,BIGTIME,1.0,False,True,,1697047200118,first_fundingHistory_record,1696982400000,1794614399999,4h,19.0,73.0
+V0034,Upbit,CKB,1726202178000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0035,Upbit,MEW,1726728292000,v2,MEW,1.0,True,True,,1721750400045,first_fundingHistory_record,1721692800000,1778025599999,4h,19.0,73.0
+V0036,Upbit,W,1727851021000,v2,W,1.0,False,True,,1707328800192,first_fundingHistory_record,1707264000000,1794614399999,4h,19.0,73.0
+V0037,Upbit,CARV,1728961577000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0038,Upbit,INJ,1729154873000,v2,INJ,1.0,False,True,,1683849600048,first_fundingHistory_record,1682553600000,1794614399999,4h,20.0,73.0
+V0039,Upbit,MEW,1729491901000,v2,MEW,1.0,True,True,,1721750400045,first_fundingHistory_record,1721692800000,1778025599999,4h,19.0,73.0
+V0040,Upbit,BONK,1729576427000,v2,kBONK,1000.0,False,True,,1700438400148,first_fundingHistory_record,1700352000000,1794614399999,4h,19.0,73.0
+V0041,Upbit,UNI,1729579046000,v2,UNI,1.0,False,True,,1691794800106,first_fundingHistory_record,1691712000000,1794614399999,4h,19.0,73.0
+V0042,Upbit,SAFE,1729751550000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0043,Upbit,DRIFT,1731044699000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0044,Upbit,AGLD,1731478500000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0045,Upbit,AHT,1731478500000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0046,Upbit,ARPA,1731478500000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0047,Upbit,ASTR,1731478500000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0048,Upbit,BNT,1731478500000,v2,BNT,1.0,True,True,,1696780800057,first_fundingHistory_record,1696723200000,1743811199999,4h,19.0,73.0
+V0049,Upbit,EGLD,1731478500000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0050,Upbit,FIL,1731478500000,v2,FIL,1.0,False,True,,1699934400431,first_fundingHistory_record,1699920000000,1794614399999,4h,19.0,73.0
+V0051,Upbit,LWA,1731478500000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0052,Upbit,NEAR,1731478500000,v2,NEAR,1.0,False,True,,1698858000031,first_fundingHistory_record,1698796800000,1794614399999,4h,19.0,73.0
+V0053,Upbit,OXT,1731478500000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0054,Upbit,RAD,1731478500000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0055,Upbit,XLM,1731478500000,v2,XLM,1.0,False,False,,1732330800022,first_fundingHistory_record,1732320000000,1794614399999,4h,18.0,0.0
+V0056,Upbit,AGLD,1731478800000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0057,Upbit,PEPE,1731549154000,v2,kPEPE,1000.0,False,True,,1683849600048,first_fundingHistory_record,1683244800000,1794614399999,4h,19.0,73.0
+V0058,Upbit,JASMY,1732070949000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0059,Upbit,NCT,1732070949000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0060,Upbit,BONK,1732071338000,v2,kBONK,1000.0,False,True,,1700438400148,first_fundingHistory_record,1700352000000,1794614399999,4h,19.0,73.0
+V0061,Upbit,PUFFER,1733367705000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0062,Upbit,SWELL,1733367705000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0063,Upbit,RENDER,1733367957000,v2,RENDER,1.0,False,True,,1722423600012,first_fundingHistory_record,1722384000000,1794614399999,4h,19.0,73.0
+V0064,Upbit,MOVE,1733720658000,v2,MOVE,1.0,False,False,,1733893200032,first_fundingHistory_record,1733875200000,1794614399999,4h,17.0,25.0
+V0065,Upbit,ME,1733822655000,v2,ME,1.0,False,False,,1733842800055,first_fundingHistory_record,1733788800000,1794614399999,4h,18.0,67.0
+V0066,Upbit,MOCA,1734314208000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0067,Upbit,VANA,1734336695000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0068,Upbit,SONIC,1736235084000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0069,Upbit,VTHO,1737453601000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0070,Upbit,ANIME,1737624964000,v2,ANIME,1.0,False,True,,1737475200106,first_fundingHistory_record,1737417600000,1794614399999,4h,19.0,73.0
+V0071,Upbit,VIRTUAL,1738311459000,v2,VIRTUAL,1.0,False,True,,1734325200134,first_fundingHistory_record,1734307200000,1794614399999,4h,20.0,73.0
+V0072,Upbit,BERA,1738817802000,v2,BERA,1.0,False,False,,1738850400048,first_fundingHistory_record,1738800000000,1794614399999,4h,17.0,63.0
+V0073,Upbit,JTO,1738817933000,v2,JTO,1.0,False,True,,1701968400024,first_fundingHistory_record,1701907200000,1794614399999,4h,20.0,73.0
+V0074,Upbit,SCR,1738817933000,v2,SCR,1.0,True,True,,1728446400049,first_fundingHistory_record,1728432000000,1778025599999,4h,20.0,73.0
+V0075,Upbit,LAYER,1739258473000,v2,LAYER,1.0,False,False,,1739289600035,first_fundingHistory_record,1739232000000,1794614399999,4h,17.0,64.0
+V0076,Upbit,TRUMP,1739427846000,v2,TRUMP,1.0,False,True,,1737180000140,first_fundingHistory_record,1737158400000,1794614399999,4h,19.0,73.0
+V0077,Upbit,JTO,1740114000000,v2,JTO,1.0,False,True,,1701968400024,first_fundingHistory_record,1701907200000,1794614399999,4h,19.0,73.0
+V0078,Upbit,ARKM,1740114602000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0079,Upbit,COW,1740472795000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0080,Upbit,KAITO,1741142839000,v2,KAITO,1.0,False,True,,1740060000075,first_fundingHistory_record,1740009600000,1794614399999,4h,19.0,73.0
+V0081,Upbit,ARKM,1741673705000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0082,Upbit,ORCA,1742533049000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0083,Upbit,WAL,1743058555000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0084,Upbit,COMP,1743491100000,v2,COMP,1.0,False,True,,1689638400105,first_fundingHistory_record,1689552000000,1794614399999,4h,19.0,73.0
+V0085,Upbit,FIL,1743750282000,v2,FIL,1.0,False,True,,1699934400431,first_fundingHistory_record,1699920000000,1794614399999,4h,19.0,73.0
+V0086,Upbit,WCT,1744781950000,v2,WCT,1.0,False,True,,1744729200096,first_fundingHistory_record,1744675200000,1794614399999,4h,19.0,73.0
+V0087,Upbit,SHELL,1744783004000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0088,Upbit,DEEP,1744783004000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0089,Upbit,DEEP,1745297912000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0090,Upbit,SIGN,1745907902000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0091,Upbit,TIA,1746689175000,v2,TIA,1.0,False,True,,1697756400093,first_fundingHistory_record,1697673600000,1794614399999,4h,19.0,73.0
+V0092,Upbit,IO,1746689175000,v2,IO,1.0,False,True,,1718161200066,first_fundingHistory_record,1718150400000,1794614399999,4h,19.0,73.0
+V0093,Upbit,PENGU,1746770400000,v2,PENGU,1.0,False,True,,1734447600051,first_fundingHistory_record,1734393600000,1794614399999,4h,19.0,73.0
+V0094,Upbit,NXPC,1747187322000,v2,NXPC,1.0,False,False,,1747299600016,first_fundingHistory_record,1747267200000,1794614399999,4h,12.0,41.0
+V0095,Upbit,OM,1747795529000,v2,OM,1.0,True,True,,1739721600015,first_fundingHistory_record,1739664000000,1771891199999,4h,19.0,73.0
+V0096,Upbit,ACS,1747795536000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0097,Upbit,GO,1747795536000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0098,Upbit,OBSR,1747795536000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0099,Upbit,QTCON,1747795536000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0100,Upbit,RLY,1747795536000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0101,Upbit,SOON,1747967652000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0102,Upbit,KERNEL,1747968530000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0103,Upbit,HYPER,1748331890000,v2,HYPER,1.0,False,True,,1745337600048,first_fundingHistory_record,1745280000000,1794614399999,4h,19.0,73.0
+V0104,Upbit,RED,1748331890000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0105,Upbit,SOPH,1748332921000,v2,SOPH,1.0,False,False,,1748444400044,first_fundingHistory_record,1748390400000,1794614399999,4h,12.0,42.0
+V0106,Upbit,FLOCK,1748574377000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0107,Upbit,FORT,1748574377000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0108,Upbit,LPT,1748574900000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0109,Upbit,POKT,1748574900000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0110,Upbit,LA,1749106999000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0111,Upbit,RVN,1749107001000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0112,Upbit,EPT,1749530470000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0113,Upbit,AXL,1749530472000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0114,Upbit,HAEDAL,1750064683000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0115,Upbit,ALT,1750064685000,v2,ALT,1.0,False,True,,1706194800108,first_fundingHistory_record,1706140800000,1794614399999,4h,19.0,73.0
+V0116,Upbit,RAY,1750293303000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0117,Upbit,NEWT,1750749953000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0118,Upbit,SAHARA,1750905604000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0119,Upbit,MOODENG,1751518021000,v2,MOODENG,1.0,False,True,,1729850400122,first_fundingHistory_record,1729814400000,1794614399999,4h,20.0,73.0
+V0120,Upbit,BABY,1752118200000,v2,BABY,1.0,False,True,,1744426800069,first_fundingHistory_record,1744416000000,1794614399999,4h,19.0,73.0
+V0121,Upbit,HYPER,1752118201000,v2,HYPER,1.0,False,True,,1745337600048,first_fundingHistory_record,1745280000000,1794614399999,4h,19.0,73.0
+V0122,Upbit,ENA,1752208979000,v2,ENA,1.0,False,True,,1712066400220,first_fundingHistory_record,1712016000000,1794614399999,4h,20.0,73.0
+V0123,Upbit,ERA,1752742897000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0124,Upbit,SYRUP,1753409990000,v2,SYRUP,1.0,False,True,,1750917600042,first_fundingHistory_record,1750896000000,1794614399999,4h,19.0,73.0
+V0125,Upbit,HUMA,1753409991000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0126,Upbit,OP,1753676665000,v2,OP,1.0,False,True,,1683849600048,first_fundingHistory_record,1677974400000,1794614399999,4h,20.0,73.0
+V0127,Upbit,OMNI,1753779000000,v2,OMNI,1.0,True,True,,1714359600177,first_fundingHistory_record,1714348800000,1758844799999,4h,20.0,73.0
+V0128,Upbit,PROVE,1754450460000,v2,PROVE,1.0,False,False,,1754452800091,first_fundingHistory_record,1754438400000,1794614399999,4h,19.0,72.0
+V0129,Upbit,IP,1754618979000,v2,IP,1.0,True,True,,1739440800004,first_fundingHistory_record,1739404800000,1782777599999,4h,19.0,73.0
+V0130,Upbit,CYBER,1754983800000,v2,CYBER,1.0,True,False,,1693447200065,first_fundingHistory_record,1693440000000,1744415999999,4h,0.0,73.0
+V0131,Upbit,API3,1755588600000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0132,Upbit,AERO,1755822600000,v2,AERO,1.0,False,False,,1762844400040,first_fundingHistory_record,1762819200000,1794614399999,4h,19.0,0.0
+V0133,Upbit,TREE,1756357200000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0134,Upbit,WLFI,1756699750000,v2,WLFI,1.0,False,True,,1755946800030,first_fundingHistory_record,1755907200000,1794614399999,4h,20.0,73.0
+V0135,Upbit,USD1,1756699751000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0136,Upbit,RED,1757058300000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0137,Upbit,FLOCK,1757385600000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0138,Upbit,WLD,1757413269000,v2,WLD,1.0,False,True,,1690207200105,first_fundingHistory_record,1690156800000,1794614399999,4h,19.0,73.0
+V0139,Upbit,OPEN,1757478156000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0140,Upbit,LINEA,1757490005000,v2,LINEA,1.0,False,True,,1756720800070,first_fundingHistory_record,1756684800000,1794614399999,4h,19.0,73.0
+V0141,Upbit,HOLO,1757582625000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0142,Upbit,PUMP,1757585727000,v2,PUMP,1.0,False,True,,1752120000033,first_fundingHistory_record,1752105600000,1794614399999,4h,19.0,73.0
+V0143,Upbit,AVNT,1757903400000,v2,AVNT,1.0,False,False,,1758441600018,first_fundingHistory_record,1758412800000,1794614399999,4h,18.0,0.0
+V0144,Upbit,ZKC,1757928300000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0145,Upbit,TOSHI,1758076222000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0146,Upbit,EUL,1758076223000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0147,Upbit,PLUME,1758076223000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0148,Upbit,BARD,1758189006000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0149,Upbit,LA,1758189751000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0150,Upbit,ETHFI,1758251400000,v2,ETHFI,1.0,False,True,,1710982800191,first_fundingHistory_record,1710979200000,1794614399999,4h,19.0,73.0
+V0151,Upbit,RESOLV,1758251400000,v2,RESOLV,1.0,False,True,,1749567600028,first_fundingHistory_record,1749513600000,1794614399999,4h,19.0,73.0
+V0152,Upbit,INIT,1758251400000,v2,INIT,1.0,False,True,,1745496000015,first_fundingHistory_record,1745452800000,1794614399999,4h,19.0,73.0
+V0153,Upbit,SPK,1758251400000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0154,Upbit,SUN,1758508200000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0155,Upbit,0G,1758516600000,v2,0G,1.0,False,False,,1758538800090,first_fundingHistory_record,1758499200000,1794614399999,4h,20.0,66.0
+V0156,Upbit,FLUID,1758701400000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0157,Upbit,IN,1758701401000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0158,Upbit,B3,1758701401000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0159,Upbit,XPL,1758765438000,v2,XPL,1.0,False,True,,1755856800030,first_fundingHistory_record,1755820800000,1794614399999,4h,19.0,73.0
+V0160,Upbit,MIRA,1758879076000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0161,Upbit,SUPER,1759136031000,v2,SUPER,1.0,False,True,,1701021600237,first_fundingHistory_record,1700956800000,1794614399999,4h,20.0,73.0
+V0162,Upbit,ORDER,1759136043000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0163,Upbit,FF,1759138472000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0164,Upbit,SOMI,1759292781000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0165,Upbit,2Z,1759364130000,v2,2Z,1.0,False,False,,1759413600020,first_fundingHistory_record,1759363200000,1794614399999,4h,16.0,59.0
+V0166,Upbit,DOOD,1759811700000,v2,DOOD,1.0,True,True,,1746799200033,first_fundingHistory_record,1746748800000,1782431999999,4h,20.0,73.0
+V0167,Upbit,IN,1760076000000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0168,Upbit,YGG,1760504400000,v2,YGG,1.0,False,True,,1691337600190,first_fundingHistory_record,1691280000000,1794614399999,4h,19.0,73.0
+V0169,Upbit,ZORA,1760668200000,v2,ZORA,1.0,False,True,,1745420400032,first_fundingHistory_record,1745366400000,1794614399999,4h,19.0,73.0
+V0170,Upbit,ZBT,1760691606000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0171,Upbit,BIO,1760942100000,v2,BIO,1.0,False,True,,1735912800035,first_fundingHistory_record,1735862400000,1794614399999,4h,19.0,73.0
+V0172,Upbit,F,1761023400000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0173,Upbit,CPOOL,1761110400000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0174,Upbit,ORDER,1761286500000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0175,Upbit,KERNEL,1761634800000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,
+V0176,Upbit,ENSO,1761719456000,v2,,,,False,no Hyperliquid perp with this name (current meta universe incl. delisted),,,,,,,

@@ -1,0 +1,2 @@
+pc_url,title,categories,first_seen_ms,published_ms,seen_minus_published_ms,poll_interval_s,http_elapsed_ms,region,is_listing,symbols,forward_event_id,binance_spot_time_rtt_ms,binance_fapi_time_rtt_ms,test_order_status,book_capture_event_id
+https://feed.bithumb.com/notice/1655673,카바(KAVA) 입출금 일시 중지 안내,입출금,1794653911463,1794652552000,1359463,1.0,1133,"AR-Chubut (Esquel), residential ISP AS27983, macOS laptop",False,,FT1655673,,,,

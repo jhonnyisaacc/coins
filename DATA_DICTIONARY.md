@@ -502,3 +502,121 @@ Written by `scripts/12_upbit_poll.py`, going forward only. One row per notice fi
 | `poll_interval_s` | float | Target poll interval |
 | `http_elapsed_ms` | int | Round trip of the request that saw it |
 | `region` | str | Where the poller runs |
+
+# v3 additions (collection_batch "v3", 2026-11-13)
+
+v3 rows carry `collection_batch = "v3"`. v1 and v2 rows are unchanged, and `scripts/15_check_dataset.py` compares them with main commit f1cc253. The one exception is `dex_pool_status.liquidity_usd_at_ann`, which v3 fills only where it was empty. Large v3 tables are in `<table>_v3_<year>` files, by the year of the event's announcement (UTC). Event ids `V0456` and up are v3 events.
+
+## Announcement time precision
+| source | `announcement_source` | precision |
+|---|---|---|
+| Upbit notices API | `upbit_notice` | 1 second (`first_listed_at` has no milliseconds) |
+| Binance CMS | `binance_cms`, `binance_cms_hodler_airdrops`, `binance_cms_launchpool` | 1 ms (`releaseDate`). binance_poll_log compares it with when the post became visible |
+| OKX announcements API | `okx_api` | 1 ms (`pTime`) |
+| Bybit announcements API | `bybit_api` | 1 s in practice (`publishTime`, or `dateTimestamp` when missing) |
+| Bithumb official API / page | `bithumb_official_api_published_at`, `bithumb_page_via_wayback` | 1 second, KST (`published_at` / `publicationDateTime`) |
+| CryptoListing.ws (v1 Bithumb) | `clw_public_feed` | Third-party detection time, not official |
+| CoinSentry | `coinsentry_listing_announced`, `coinsentry_listing_live` | Our own webhook receive time, not official |
+| Coinbase Exchange status page | `coinbase_exchange_status_first_update` | 1 ms, time of the first incident update. `coinbase_first_daily_candle(no announcement time)` rows have day precision |
+
+## New columns and rows on existing tables
+| table | column | type | description |
+|---|---|---|---|
+| events, events_metrics, events_source_list | rows `V0456`+ | | OKX and Bybit spot listings and Binance USD-M perp listings from 2024-01-01 to 2025-10-31, plus Bithumb listings from Wayback captures where found. `announcement_time_official` is True for these: official APIs, or Bithumb's own page served by the Wayback Machine (`announcement_source = bithumb_page_via_wayback`) |
+| aggtrades_index | v3 rows | | Tick windows for v3 events (Binance spot and USD-M perp where each existed at the announcement) |
+| dex_pool_status | `liquidity_usd_at_ann` | float | Now filled where the free RPC could read the pool's token balances at the last block before the announcement (per-pool contracts only) |
+| dex_pool_status | `liquidity_at_ann_method` | str | `balanceOf at block N, valued at nearest swap price` |
+| excluded_events | v3 rows | | Every event, venue or source v3 could not cover, with the reason |
+
+## upbit_poll_log, binance_poll_log, bithumb_poll_log (forward-only)
+One row per notice first seen after the poller started. Notices present at startup count as seen, not new.
+| column | type | description |
+|---|---|---|
+| `notice_id` / `code` / `pc_url` | str | Notice key (Upbit id, Binance article code, Bithumb notice URL) |
+| `title`, `category` / `categories` | str | As published |
+| `first_seen_ms` | Int64 | Poller's clock (UTC ms) when the notice first appeared in the API response |
+| `notice_first_listed_ms`, `notice_listed_ms` | Int64 | Upbit `first_listed_at` and `listed_at` |
+| `release_date_ms` | Int64 | Binance `releaseDate` |
+| `published_ms` | Int64 | Bithumb `published_at` (KST, 1 s) |
+| `seen_minus_first_listed_ms`, `seen_minus_release_ms`, `seen_minus_published_ms` | Int64 | `first_seen_ms` minus the notice's own time: detection latency including clock offset and the poll interval |
+| `poll_interval_s` | float | Configured interval |
+| `http_elapsed_ms` | Int64 | Round trip of the poll that saw the notice |
+| `region` | str | Where the poller ran (provider, region, host type) |
+| `is_listing` | bool | Title matched the listing pattern |
+| `symbols` | str | Parsed symbols, `|`-separated |
+| `forward_event_id` | str | `FU<id>`, `FB<code>`, `FT<id>`: the key used in book_snapshots for forward captures |
+| `binance_spot_time_rtt_ms`, `binance_fapi_time_rtt_ms` | Int64 | Round trip of `api/v3/time` and `fapi/v1/time`, measured right after a listing notice |
+| `test_order_status` | str | Why no test-order round trip is recorded (the endpoints are SIGNED) |
+| `book_capture_event_id` | str | Set when a book capture started |
+
+## book_snapshots
+| column | type | description |
+|---|---|---|
+| `event_id` | str | Event key (forward captures use `forward_event_id`) |
+| `venue`, `market` | str | `binance_perp` or `binance_spot`; `<SYM>USDT` |
+| `timestamp_ms` | Int64 | Snapshot time |
+| `side` | str | `bid` or `ask` |
+| `level` | int | `pct_band`: band in percent from the reference price (1..5). `price_level`: book level (1 = best) |
+| `level_kind` | str | `pct_band` (historical archive) or `price_level` (forward REST and websocket captures) |
+| `price` | float | Level price. Empty for `pct_band` |
+| `qty` | float | `pct_band`: cumulative base quantity within the band. `price_level`: quantity at that level |
+| `notional_usd` | float | `pct_band`: cumulative notional within the band (archive field). `price_level`: price × qty |
+| `source` | str | `data.binance.vision/futures/um/daily/bookDepth`, `rest_depth_limit100`, `ws_depth20_100ms` |
+
+Historical rows exist only for USD-M perps. data.binance.vision has no spot bookDepth or bookTicker archive, and futures bookTicker stops in 2024-03. The archive writes one snapshot about every 30 s with 1-second timestamps, and the window is 60 s before to 90 s after the announcement, widened by one snapshot on each side.
+
+## book_index
+One row per (event, venue, market): `n_snapshots`, `first_snapshot_ms`, `last_snapshot_ms`, `last_snapshot_before_ann_ms`, `source`, `level_kind`, `window`. Forward captures add `rows`, and `source` states whether the REST call worked.
+
+## funding_history_v3_<year>
+Same columns as funding_history, for events that had a USDT perp at the announcement (or list one) and had no funding rows before. These are v3 events and the v1/v2 Binance, OKX, Bybit and Coinbase events that were missing funding. The window is 60 min before to 72 h after the announcement. `venue` is `binance_perp`, `bybit_perp` or `okx_perp`. For OKX, `funding_rate` is `realizedRate` (falling back to `fundingRate`) and the interval is inferred.
+
+## perp_status_v3
+One row per v3 event: `binance_perp_at_ann`, `bybit_perp_at_ann`, `binance_spot_at_ann` (1m candles in the 3 h before the announcement), `binance_perp_onboard_ms`, `perp_venue` (where the perp candles come from; the listed perp itself for Binance perp listings), `had_usdt_perp_at_ann`.
+
+## perp_candles_1m_v3_<year>, spot_candles_1m_v3_<year>, aggtrades_v3_<year>
+Same columns as perp_candles_1m, spot_candles_1m and aggtrades, for v3 events. Candles run from 60 min before to 72 h after the announcement. Ticks run from 60 s before to 90 s after.
+
+## aggtrades_suspect_ticks
+One row per flagged tick. Nothing was deleted from the aggtrades tables.
+| column | type | description |
+|---|---|---|
+| `event_id`, `venue`, `symbol`, `agg_trade_id` | | Key of the tick in its aggtrades table |
+| `price`, `prev_price`, `next_price` | float | The tick and its neighbours in the same series (ordered by `timestamp_ms`, then `agg_trade_id`) |
+| `dev_prev`, `dev_next` | float | `price / prev_price - 1` and `price / next_price - 1` |
+| `timestamp_ms` | Int64 | Tick time |
+| `source_table` | str | aggtrades table that holds the tick |
+| `suspect_tick` | bool | Always True |
+| `rule` | str | `|p/prev-1|>0.20 and |p/next-1|>0.20` |
+
+## delisted_daily_candles
+DAILY candles. They are not comparable with the 1-minute metrics. Coverage runs from the announcement day to 30 days after, for events whose listing market returned no 1-minute candles.
+| column | type | description |
+|---|---|---|
+| `event_id` | str | Event key |
+| `source` | str | `binance_spot_1d`, `binance_perp_1d` (exact `<SYM>USDT` market) or `coingecko_market_chart` (OHLC built from CoinGecko price points) |
+| `market` | str | Binance symbol or CoinGecko id |
+| `timestamp_ms` | Int64 | Day open (UTC) |
+| `open`, `high`, `low`, `close` | float | USD(T) prices |
+| `volume` | float | Binance quote volume, or CoinGecko 24 h USD volume |
+| `interval` | str | `1d` |
+
+## dex_swaps
+One row per swap from 2 minutes before to 10 minutes after the announcement, read with `eth_getLogs` from free public RPCs. Covers Ethereum, Base and recent BSC windows.
+| column | type | description |
+|---|---|---|
+| `event_id`, `chain`, `pool_address` | str | As in dex_pool_status (for Uniswap v4 and PancakeSwap Infinity, `pool_address` is the pool id) |
+| `timestamp_ms` | Int64 | Block time (1-second precision) |
+| `block`, `log_index`, `tx_hash` | | On-chain position |
+| `side` | str | `buy` when the coin left the pool, `sell` when it entered |
+| `base_amount`, `quote_amount` | float | Absolute token amounts (decimals applied) |
+| `amount_usd` | float | Quote amount in USD (stablecoin = 1; WETH/ETH and WBNB/BNB at the Binance 1m close), else base amount × dex_candles close |
+| `price` | float | Quote per base |
+| `quote_token` | str | Quote token address (`0x000…` = native) |
+| `usd_source` | str | How `amount_usd` was valued |
+
+## perp_limits_snapshots (forward-only, daily)
+One row per USDT perpetual per venue per UTC day: `snapshot_date`, `snapshot_ms`, `venue`, `symbol`, `status`, `onboard_ms`, `max_leverage` (Bybit only; Binance needs a signed call), `max_leverage_source`, `max_order_qty`, `max_market_order_qty`, `position_limit_notional_usd` (Bybit's largest risk-limit tier), `tier1_notional_usd`, `tier1_max_leverage`, `funding_interval_hours`, `funding_interval_source`, `funding_cap`, `funding_floor`, `required_margin_percent`, `maint_margin_percent`, `market_take_bound` (Binance).
+
+## bithumb_wayback_notices
+Every notice object found in Wayback captures of feed.bithumb.com/notice pages: `notice_id`, `title`, `category`, `published_kst` (Bithumb's `publicationDateTime`), `capture_url`, `capture_timestamp`.

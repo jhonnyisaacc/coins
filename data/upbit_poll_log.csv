@@ -1,1 +1,3 @@
-notice_id,title,category,first_seen_ms,notice_first_listed_ms,notice_listed_ms,seen_minus_first_listed_ms,poll_interval_s,http_elapsed_ms,region
+notice_id,title,category,first_seen_ms,notice_first_listed_ms,notice_listed_ms,seen_minus_first_listed_ms,poll_interval_s,http_elapsed_ms,region,is_listing,symbols,forward_event_id,binance_spot_time_rtt_ms,binance_fapi_time_rtt_ms,test_order_status,book_capture_event_id
+6776,카바(KAVA) 입출금 일시 중단 안내,입출금,1794652621755,1794652615000,1794652615000,6755,0.5,443,"AR-Chubut (Esquel), residential ISP AS27983, macOS laptop",False,,FU6776,,,,
+6777,카바(KAVA) 유의 촉구 안내,거래,1794654007592,1794654000000,1794654000000,7592,0.5,557,"AR-Chubut (Esquel), residential ISP AS27983, macOS laptop",False,,FU6777,,,,

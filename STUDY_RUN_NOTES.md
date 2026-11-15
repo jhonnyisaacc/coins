@@ -39,7 +39,7 @@ Run from the repo root with `.venv/bin/python` (requests pandas numpy pyarrow we
 10. `scripts/15_check_dataset.py` must print `all dataset checks passed`.
 
 ## Running the pollers on a server in Seoul or Tokyo
-The collection host so far is a laptop in Argentina, about 0.4–0.6 s from Upbit and Binance. That latency is in every `first_seen_ms`, so use a host near the exchanges for measurements you plan to act on: AWS `ap-northeast-2` (Seoul) for Upbit and Bithumb, `ap-northeast-1` (Tokyo) for Binance, or one Seoul host for all three.
+The collection host so far is a laptop in South America, about 0.4–0.6 s from Upbit and Binance. That latency is in every `first_seen_ms`, so use a host near the exchanges for measurements you plan to act on: AWS `ap-northeast-2` (Seoul) for Upbit and Bithumb, `ap-northeast-1` (Tokyo) for Binance, or one Seoul host for all three.
 1. Create a small Linux VM (1 vCPU is enough) with Python 3.11+, and keep the clock synced: `timedatectl set-ntp true` (chrony on Amazon Linux). `first_seen_ms` is only as good as the clock.
 2. `git clone` the repo, then `python3 -m venv .venv && .venv/bin/pip install requests pandas pyarrow websocket-client`.
 3. Start each poller under systemd or tmux, with a region string that names the provider, region and host type:

@@ -86,7 +86,7 @@ Every table that got new rows has a `collection_batch` column (`v1` or `v2`). v1
 - **DEX**: `dex_pool_status` covers 602 event–chain rows. 274 of the 353 Korean events have a pool on at least one of Solana, Base, BSC or Ethereum. `dex_candles` holds 1,313 one-minute candles for 94 events. See the limits below.
 - **Binance spot listings with a perp already trading**, 2024-01 to today: 46 new events plus 20 v1 events. Announcements come from catalog 48, covering both "Binance Will List" and the HODLer Airdrops, Launchpool and Megadrop posts (`announcement_source` says which). They come with perp aggTrades, perp candles in `perp_candles_1m_other_v2_<year>` and funding.
 - **Coinbase**, 2024-01 to today: 227 listings, timed by the first update of the official Coinbase Exchange status-page incident ("Coinbase will add support for…"). 142 are new events. `coinbase_full_trading_ms` is the full-trading update, and `coinbase_usd_product_status_now` flags the 11 listings delisted since. Each comes with Binance aggTrades and perp candles where those markets existed.
-- **Upbit poll log**: `scripts/12_upbit_poll.py` writes `data/upbit_poll_log.csv` going forward. The current host is a macOS laptop in Esquel, Chubut, Argentina, on a residential ISP (AS27983). Latency from Korea or a nearby cloud region will be much lower.
+- **Upbit poll log**: `scripts/12_upbit_poll.py` writes `data/upbit_poll_log.csv` going forward. The current host is a laptop on a residential connection in South America. Latency from Korea or a nearby cloud region will be much lower.
 
 **Sources that failed or were partial**
 - **Bithumb 2024-01 to 2025-10: not collected.** feed.bithumb.com returns 403 to automated reads. The official API (`feed-api.bithumb.com/v1/notices`) returns only the latest notices. No browser session was available, and the Wayback Machine was offline. Only DNA got an official time.
@@ -106,7 +106,7 @@ v3 rows carry `collection_batch = "v3"`. No v1 or v2 row changed. The only excep
   - `12_upbit_poll.py` is extended, and `16_binance_poll.py` (catalog 48, `first_seen_ms` next to `releaseDate`) and `17_bithumb_poll.py` (official notices API) are new.
   - On a listing notice, each poller records the round trip of Binance's spot and USD-M `time` endpoints and starts a book capture.
   - Binance's test-order endpoints need an API key, so that round trip is logged as unavailable.
-  - The logs start 2026-11-13 and hold no listing yet. The first rows show Upbit serving a notice 6.8 s after its `first_listed_at`, and Bithumb's API serving one 22.7 min after its `published_at`, both from Argentina.
+  - The logs start 2026-11-13 and hold no listing yet. The first rows show Upbit serving a notice 6.8 s after its `first_listed_at`, and Bithumb's API serving one 22.7 min after its `published_at`, both from South America.
   - The runbook for Seoul or Tokyo is in `STUDY_RUN_NOTES.md`.
 - **2. Order books (partial).**
   - data.binance.vision publishes `bookDepth` (cumulative depth within ±1–5%, plus ±0.2% in newer files, about every 30 s) for USD-M perps only. `book_snapshots` has it for 542 of 564 perp tick windows; the other 22 have no archive file.

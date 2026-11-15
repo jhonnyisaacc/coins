@@ -1,5 +1,5 @@
 """Historical order-book depth around announcements from data.binance.vision/data/futures/um/daily/bookDepth (cumulative
-depth and notional within +-1..5% of price, one snapshot every ~30-60 s, 1-second timestamps). Spot has no bookDepth or
+depth and notional within +-1..5% of price, plus +-0.2% in newer files, one snapshot every ~30-60 s, 1-second timestamps). Spot has no bookDepth or
 bookTicker archive, and futures bookTicker stops in 2024-03, so only USD-M perps are covered. Window: 60 s before to 90 s
 after the announcement, widened by one snapshot on each side so the book just before the announcement is kept.
 Events: every (event, binance_perp) pair in the v2 publication's aggtrades_index (raw/v2pub) plus extra/v3/aggtrades_index(_bithumb) if present.
@@ -21,7 +21,7 @@ def day(sym,d):
         if r.status_code!=200: pd.DataFrame({'missing':[r.status_code]}).to_parquet(fn); return None
         z=zipfile.ZipFile(io.BytesIO(r.content)); df=pd.read_csv(z.open(z.namelist()[0]))
         ts=(pd.to_datetime(df.timestamp,utc=True)-pd.Timestamp(0,tz='UTC'))//pd.Timedelta(milliseconds=1)
-        pd.DataFrame({'timestamp_ms':ts,'percentage':df.percentage.astype(int),'depth_qty':df.depth.astype(float),'notional_usd':df.notional.astype(float)}).to_parquet(fn)
+        pd.DataFrame({'timestamp_ms':ts,'percentage':df.percentage.astype(float),'depth_qty':df.depth.astype(float),'notional_usd':df.notional.astype(float)}).to_parquet(fn)
     d=pd.read_parquet(fn)
     if 'missing' in d: return None
     if d.timestamp_ms.max()<1e11: d['timestamp_ms']=d.timestamp_ms*1000; d.to_parquet(fn)

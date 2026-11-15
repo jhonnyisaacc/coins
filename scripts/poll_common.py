@@ -61,11 +61,11 @@ def capture_books(event_id,symbols,seconds=300):
     """Non-blocking: one thread per Binance spot and USD-M perp market of each symbol."""
     os.makedirs(BOOK_DIR,exist_ok=True)
     def work(venue,sym):
-        rest,status=_rest_depth(venue,sym)
+        started=now(); rest,status=_rest_depth(venue,sym)
         ws=[]
         if status=='ok': _ws_depth(venue,sym,seconds,ws)
         df=pd.DataFrame(rest+ws)
-        meta=dict(event_id=event_id,venue=venue,market=sym,rest_status=status,captured_at_ms=now(),rows=len(df))
+        meta=dict(event_id=event_id,venue=venue,market=sym,rest_status=status,started_at_ms=started,captured_at_ms=now(),rows=len(df))
         if len(df):
             df.insert(0,'event_id',event_id); df.insert(1,'venue',venue); df.insert(2,'market',sym)
             df.to_parquet(f'{BOOK_DIR}/{event_id}_{venue}_{sym}.parquet',index=False)

@@ -19,7 +19,9 @@ def symbols_of(n):
     s=re.findall(r'\(([A-Z0-9]{1,12})\)',n['title'])
     m=re.search(r'디지털 자산 추가 \(([^)]*)\)',n['title'])
     if m: s+=re.findall(r'[A-Z0-9]{1,12}',m.group(1))
-    return [x for x in dict.fromkeys(re.sub(r'(?<=[A-Z])2$','',x) for x in s) if x not in ('KRW','BTC','USDT')]
+    out=[]
+    for x in s: out+=[x,re.sub(r'(?<=[A-Z])2$','',x)]
+    return [x for x in dict.fromkeys(out) if x not in ('KRW','BTC','USDT')]
 def to_row(n,ts,el):
     fl=iso(n.get('first_listed_at'))
     return dict(notice_id=n['id'],title=n['title'],category=n.get('category'),first_seen_ms=ts,notice_first_listed_ms=fl,

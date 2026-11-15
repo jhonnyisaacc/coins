@@ -64,7 +64,7 @@ Every timestamp is UTC epoch milliseconds in an integer column whose name ends i
 | book_index | 564 | Book coverage per event and venue |
 | aggtrades_suspect_ticks | 64 | Isolated prints more than 20% away from both neighbours, flagged and kept |
 | delisted_daily_candles | 1,353 | DAILY candles for events with no 1-minute candles on the listing market. Not comparable with the 1-minute metrics |
-| dex_swaps | 69,985 | On-chain swaps, 2 min before to 10 min after, for 57 events (Ethereum, Base, recent BSC) |
+| dex_swaps | 69,832 | On-chain swaps, 2 min before to 10 min after, for 57 events (Ethereum, Base, recent BSC) |
 | perp_limits_snapshots | grows daily | Binance and Bybit USDT-perp limits: leverage, order and position caps, funding interval and caps |
 | bithumb_wayback_notices | 2,564 | Every Bithumb notice found in Wayback captures of feed.bithumb.com, with Bithumb's own publication time |
 
@@ -109,7 +109,7 @@ v3 rows carry `collection_batch = "v3"`. No v1 or v2 row changed. The only excep
   - The logs start 2026-11-13 and hold no listing yet. The first rows show Upbit serving a notice 6.8 s after its `first_listed_at`, and Bithumb's API serving one 22.7 min after its `published_at`, both from Argentina.
   - The runbook for Seoul or Tokyo is in `STUDY_RUN_NOTES.md`.
 - **2. Order books (partial).**
-  - data.binance.vision publishes `bookDepth` (cumulative depth within ±1–5%, about every 30 s) for USD-M perps only. `book_snapshots` has it for 542 of 564 perp tick windows; the other 22 have no archive file.
+  - data.binance.vision publishes `bookDepth` (cumulative depth within ±1–5%, plus ±0.2% in newer files, about every 30 s) for USD-M perps only. `book_snapshots` has it for 542 of 564 perp tick windows; the other 22 have no archive file.
   - There is no spot book archive, and futures `bookTicker` stops in 2024-03.
   - Forward REST depth plus 5 minutes of `depth20@100ms` start automatically on each new listing notice.
 - **3. Funding gaps (done, OKX partial).**
@@ -127,7 +127,7 @@ v3 rows carry `collection_batch = "v3"`. No v1 or v2 row changed. The only excep
   - `delisted_daily_candles` covers 45 of 84 events: Binance spot or USD-M daily candles for the exact market, else CoinGecko.
   - CryptoCompare now needs an API key, and CoinGecko's public API serves only the last 365 days.
 - **7. DEX on-chain (partial).**
-  - `dex_swaps` holds 69,985 swaps for 57 events, read with `eth_getLogs` from keyless public RPCs: Ethereum 30 of 33 pools, Base 31 of 31, BSC 9 of 44.
+  - `dex_swaps` holds 69,832 swaps for 57 events, read with `eth_getLogs` from keyless public RPCs: Ethereum 30 of 33 pools, Base 31 of 31, BSC 9 of 44.
   - Swap prices match `dex_candles` within 4% in 54 of 55 pools. The exception is a single swap in a 77%-fee pool.
   - `liquidity_usd_at_ann` is filled for 41 pools from token balances at the last block before the announcement.
 - **8. Short-side limits (done, forward-only).** `perp_limits_snapshots` takes one snapshot per UTC day (1,480 perps on 2026-11-13). Binance max leverage needs a signed call, so it stays empty.

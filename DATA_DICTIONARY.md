@@ -556,7 +556,7 @@ One row per notice first seen after the poller started. Notices present at start
 | `venue`, `market` | str | `binance_perp` or `binance_spot`; `<SYM>USDT` |
 | `timestamp_ms` | Int64 | Snapshot time |
 | `side` | str | `bid` or `ask` |
-| `level` | int | `pct_band`: band in percent from the reference price (1..5). `price_level`: book level (1 = best) |
+| `level` | float | `pct_band`: band in percent from the reference price (1 to 5, plus 0.2 in newer archive files). `price_level`: book level (1 = best) |
 | `level_kind` | str | `pct_band` (historical archive) or `price_level` (forward REST and websocket captures) |
 | `price` | float | Level price. Empty for `pct_band` |
 | `qty` | float | `pct_band`: cumulative base quantity within the band. `price_level`: quantity at that level |
@@ -566,7 +566,7 @@ One row per notice first seen after the poller started. Notices present at start
 Historical rows exist only for USD-M perps. data.binance.vision has no spot bookDepth or bookTicker archive, and futures bookTicker stops in 2024-03. The archive writes one snapshot about every 30 s with 1-second timestamps, and the window is 60 s before to 90 s after the announcement, widened by one snapshot on each side.
 
 ## book_index
-One row per (event, venue, market): `n_snapshots`, `first_snapshot_ms`, `last_snapshot_ms`, `last_snapshot_before_ann_ms`, `source`, `level_kind`, `window`. Forward captures add `rows`, and `source` states whether the REST call worked.
+One row per (event, venue, market): `n_snapshots`, `first_snapshot_ms`, `last_snapshot_ms` (for forward captures, the capture's start and end), `last_snapshot_before_ann_ms`, `source`, `level_kind`, `window`. Forward captures add `rows`, and `source` states whether the REST call worked.
 
 ## funding_history_v3_<year>
 Same columns as funding_history, for events that had a USDT perp at the announcement (or list one) and had no funding rows before. These are v3 events and the v1/v2 Binance, OKX, Bybit and Coinbase events that were missing funding. The window is 60 min before to 72 h after the announcement. `venue` is `binance_perp`, `bybit_perp` or `okx_perp`. For OKX, `funding_rate` is `realizedRate` (falling back to `fundingRate`) and the interval is inferred.

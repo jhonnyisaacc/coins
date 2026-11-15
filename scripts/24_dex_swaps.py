@@ -12,7 +12,8 @@ checked per pool against the sqrtPriceX96 move. price = quote per base; amount_u
 WBNB/BNB = Binance 1m close), else base amount x dex_candles close (usd_source says which).
 liquidity_usd_at_ann: token balances of the pool contract at the last block before the announcement (eth_call balanceOf at
 that block), valued the same way. Only for per-pool contracts (v2/v3 families); singleton managers hold every pool's tokens.
-Solana and Curve pools are logged as not covered.
+Logs are fetched by whole blocks (last block at or before ann-120 s through the first block after ann+600 s); the build trims
+swaps to exactly ann-120 s..ann+600 s. Solana and Curve pools are logged as not covered.
 Output: extra/v3/dex_swaps.parquet, extra/v3/dex_swaps_status.parquet."""
 import sys, os, json, glob, time, pandas as pd, requests
 from concurrent.futures import ThreadPoolExecutor

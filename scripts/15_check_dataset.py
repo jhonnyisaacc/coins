@@ -1,7 +1,7 @@
 """Dataset checks: row_counts.json matches the files, every file in data/ is under 50 MB, *_ms columns are integers,
 event ids are unique, v1 rows equal the v1 commit except the documented official-time columns, and v1/v2 rows equal the v2
 publication (main commit f1cc253): shared tables row by row (dex_pool_status may only fill an empty liquidity_usd_at_ann),
-every other v1/v2 data file byte for byte. v3 tables must carry collection_batch = v3. Exit 1 on any failure."""
+every other v1/v2 data file byte for byte, and each shared table's CSV equals its Parquet. *_ms values compare exactly. v3 tables must carry collection_batch = v3. Exit 1 on any failure."""
 import sys, os, re, glob, json, subprocess, io, numpy as np, pandas as pd
 V1_COMMIT='e27214a'; V2_COMMIT='f1cc253'; LIMIT=50e6; ALLOWED={'announcement_ms','announcement_source','ann_source'}
 SHARED=['events','events_metrics','events_source_list','aggtrades_index','excluded_events','dex_pool_status']
@@ -30,6 +30,9 @@ ev=pd.read_parquet('data/events.parquet')
 if ev.event_id.duplicated().any(): fail.append('events: duplicate event_id')
 def same(x,y):
     xn,yn=x.isna(),y.isna()
+    if x.name and str(x.name).endswith('_ms'):
+        eq=pd.to_numeric(x,errors='coerce').astype('Int64').fillna(-1).to_numpy()==pd.to_numeric(y,errors='coerce').astype('Int64').fillna(-1).to_numpy()
+        return (xn&yn)|(~xn&~yn&eq)
     try: eq=np.isclose(pd.to_numeric(x).astype(float).fillna(0),pd.to_numeric(y).astype(float).fillna(0),rtol=1e-12,atol=0)
     except Exception: eq=x.astype(object).where(~xn,None)==y.astype(object).where(~yn,None)
     return (xn&yn)|(~xn&~yn&eq)
@@ -49,6 +52,14 @@ for t in ['events','events_metrics','events_source_list','korean_perp_status','a
     compare(t,V1_COMMIT,['v1'],allowed=ALLOWED)
 for t in SHARED:
     compare(t,V2_COMMIT,['v1','v2'],fill_only=('liquidity_usd_at_ann',) if t=='dex_pool_status' else ())
+for t in SHARED:
+    pq=pd.read_parquet(f'data/{t}.parquet'); cv=pd.read_csv(f'data/{t}.csv',low_memory=False)
+    blank=lambda d: d.apply(lambda c: c.replace({'':pd.NA,'nan':pd.NA}) if not pd.api.types.is_numeric_dtype(c) and not pd.api.types.is_bool_dtype(c) else c)
+    pq,cv=blank(pq),blank(cv)
+    if len(pq)!=len(cv) or list(pq.columns)!=list(cv.columns): fail.append(f'{t}: csv and parquet differ in shape'); continue
+    for c in pq.columns:
+        n=int((~same(pq[c].reset_index(drop=True),cv[c].reset_index(drop=True))).sum())
+        if n: fail.append(f'{t}.{c}: {n} csv values differ from parquet')
 for line in git('ls-tree','-r',V2_COMMIT,'data/').decode().splitlines():
     meta,path=line.split('\t'); blob=meta.split()[2]; name=os.path.basename(path).split('.')[0]
     if name in SHARED or path in LIVE: continue

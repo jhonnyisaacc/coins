@@ -49,10 +49,10 @@
  "book_snapshots": 39304,
  "book_index": 564,
  "delisted_daily_candles": 1353,
- "dex_swaps": 69985,
+ "dex_swaps": 69832,
  "aggtrades_suspect_ticks": 64,
  "bithumb_wayback_notices": 2564,
  "binance_poll_log": 0,
- "bithumb_poll_log": 1,
+ "bithumb_poll_log": 2,
  "perp_limits_snapshots": 1480
 }

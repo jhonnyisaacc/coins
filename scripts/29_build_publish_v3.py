@@ -95,21 +95,23 @@ bk=[]; bi=[]
 bd=rd('book_depth_bands')
 if len(bd):
     bk.append(pd.DataFrame({'event_id':bd.event_id,'venue':bd.venue,'market':bd.market,'timestamp_ms':bd.timestamp_ms,
-        'side':np.where(bd.percentage<0,'bid','ask'),'level':bd.percentage.abs().astype(int),'level_kind':'pct_band','price':np.nan,
+        'side':np.where(bd.percentage<0,'bid','ask'),'level':bd.percentage.abs().astype(float),'level_kind':'pct_band','price':np.nan,
         'qty':bd.depth_qty,'notional_usd':bd.notional_usd,'source':'data.binance.vision/futures/um/daily/bookDepth'}))
 bix=rd('book_depth_index')
 if len(bix): bi.append(bix.assign(level_kind='pct_band',window='ann-60s..ann+90s, widened by one snapshot each side'))
 for f in sorted(glob.glob('raw/forward/book/*.parquet')):
-    d=pd.read_parquet(f); d['level_kind']='price_level'; d['notional_usd']=d.price*d.qty; bk.append(d)
+    d=pd.read_parquet(f); d['level_kind']='price_level'; d['notional_usd']=d.price*d.qty; d['level']=d.level.astype(float); bk.append(d)
 for f in sorted(glob.glob('raw/forward/book/*.json')):
     m=json.load(open(f)); bi.append(pd.DataFrame([dict(event_id=m['event_id'],venue=m['venue'],market=m['market'],n_snapshots=None,rows=m['rows'],
-        source=f"forward capture: REST depth limit 100 + ws depth20@100ms for 300 s ({m['rest_status']})",level_kind='price_level',first_snapshot_ms=m['captured_at_ms'])]))
+        source=f"forward capture: REST depth limit 100 + ws depth20@100ms for 300 s ({m['rest_status']})",level_kind='price_level',first_snapshot_ms=m.get('started_at_ms'),last_snapshot_ms=m['captured_at_ms'])]))
 save((pd.concat(bk,ignore_index=True) if bk else pd.DataFrame(columns=['event_id','venue','market','timestamp_ms','side','level','level_kind','price','qty','notional_usd','source'])).assign(collection_batch='v3'),'book_snapshots')
 save((pd.concat(bi,ignore_index=True) if bi else pd.DataFrame()).assign(collection_batch='v3'),'book_index')
 
 dl=rd('delisted_daily_candles')
 save(dl.assign(interval='1d',collection_batch='v3'),'delisted_daily_candles')
-sw=rd('dex_swaps'); save(sw.assign(collection_batch='v3'),'dex_swaps')
+sw=rd('dex_swaps')
+if len(sw): a=sw.event_id.map(ANN).astype(float); sw=sw[(sw.timestamp_ms>=a-120000)&(sw.timestamp_ms<=a+600000)]
+save(sw.assign(collection_batch='v3'),'dex_swaps')
 dx=base('dex_pool_status'); dst=rd('dex_swaps_status')
 if 'liquidity_at_ann_method' not in dx: dx['liquidity_at_ann_method']=pd.Series(pd.NA,index=dx.index,dtype='string')
 if len(dst) and 'liquidity_usd_at_ann' in dst:

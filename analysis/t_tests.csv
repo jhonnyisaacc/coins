@@ -3,9 +3,9 @@ row counts against row_counts.json,pass,56 tables compared; mismatches: none
 "events_metrics reproduction (delayed entry, close of the candle after the trigger minute)",pass,"1274 (event, entry) pairs with stored candles; 1256 covered by the stored window through +24 h (726 events, 7536 returns); 1256 match exactly (|diff| < 1e-9); mismatches: none; 18 not covered (trading open more than about 48 h after the announcement, beyond the stored +72 h window)"
 suspect ticks with and without,pass,"64 flagged ticks removed in the ""without"" run; 450 tick result rows compared; rows that changed: 0"
 both stop versions computed,pass,"mean of pessimistic minus exact fill, +20% stop, pp: Bithumb 60m -0.24; Bithumb 240m -0.28; Bithumb 1440m -0.29; Upbit BTC/USDT only 60m +0.07; Upbit BTC/USDT only 240m +0.15; Upbit BTC/USDT only 1440m +0.25; Upbit KRW 60m -0.07; Upbit KRW 240m -0.06; Upbit KRW 1440m +0.03"
-"period split (v1 against v2+v3, n >= 20 each)",pass,"293 strategies; 34 survive; labels: single period 96, no 85, n<20 in one period 55, survives 34, negative in both 23"
-calendar-year split of survivors,pass,survivors with a non-positive median in a year with n >= 20: 3 of 34
-outlier removal,pass,survivors whose median or mean turns non-positive without outlier_flag: 0 of 34
-top-5 removal,pass,survivors whose mean turns non-positive without their 5 best events: 8 of 34
+"period split (v1 against v2+v3, n >= 20 each)",pass,"293 strategies; 32 survive; labels: single period 102, no 81, n<20 in one period 55, survives 32, negative in both 23"
+calendar-year split of survivors,pass,survivors with a non-positive median in a year with n >= 20: 2 of 32
+outlier removal,pass,survivors whose median or mean turns non-positive without outlier_flag: 0 of 32
+top-5 removal,pass,survivors whose mean turns non-positive without their 5 best events: 6 of 32
 Bithumb official against third-party times,pass,"54 of 64 v1 Bithumb events matched to an archived official notice; third-party minus official: median 1.35 s, p10 0.96 s, p90 1.85 s"
 reference values compared,pass,"93 reference values checked: 61 match within rounding, 32 differ (each explained in the appendix)"

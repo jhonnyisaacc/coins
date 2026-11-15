@@ -132,7 +132,7 @@ The Upbit KRW 2 s result by year: 2024 {{a_tick_long#kgroup=Upbit KRW&&L=2&&hold
 
 **Bithumb's window between the announcement and the open, on the perp (official times).** The median lag is {{a_bithumb_window#metric=long&&split=all#lag_median_min#.0f}} minutes. The long and short run from the delayed entry after the announcement to the close of the minute before the open. Peak and trough are the highest high and lowest low inside the window, gross. The last hour is a long from about 60 minutes before the open to the open.
 {{table#a_bithumb_window#split=all~2024~2025#metric:Measure,split:Split,n:n,median:Median,mean:Mean,win:Win %,p10:p10,p90:p90,worst:Worst}}
-Neither side of the window pays after costs (measured).
+Neither side of the window is a reliable trade (measured). The long's median is {{a_bithumb_window#metric=long&&split=all#median}}% with a win rate of {{a_bithumb_window#metric=long&&split=all#win#.0f}}%, and its positive mean of {{a_bithumb_window#metric=long&&split=all#mean}}% comes from a few large moves. The short loses on both the median and the mean.
 
 **Shorts after the open (perp, funding included).**
 {{table#a_short_open#grp=Upbit KRW~Bithumb&&split=all&&stop=none~+20%#grp:Group,hold_min:Hold min,stop:Stop,mode:Fill,n:n,median:Median,mean:Mean,win:Win %,p10:p10,worst:Worst}}
@@ -153,7 +153,7 @@ Binance max leverage is missing because the endpoint is signed. Bybit's limits (
 
 **Robustness.**
 {{table#a_robust##strategy:Strategy,split_by:Split by,value:Value,n:n,median:Median,mean:Mean,win:Win %,worst:Worst}}
-BTC candles exist only for v2 Korean events, so the excess-over-BTC rows cover part of the sample (stated in the Value column).
+BTC candles cover the v1 and v2 Korean events but not v3, so for Bithumb the excess-over-BTC rows cover only the v1 events (stated in the Value column).
 
 ### B. Other exchanges
 
@@ -189,7 +189,7 @@ The full table, {{z_csv_rows#file=strategy_table.csv#rows#int}} strategies with 
 
 **Order-book depth (USD-M perp, cumulative depth within the band, USD thousands).** The depth is the last snapshot at or before the announcement. The changes compare the first three snapshots after it. Treat depth as an upper bound on size, not as an impact model.
 {{table#d_book#side=ask&&band_pct=1#kgroup:Group,period:Period,depth_k_n:n,depth_k_median:Median,depth_k_p25:p25,depth_k_p10:p10,after1_s_median:1st after s,change1_median_pct:Change %,after2_s_median:2nd after s,change2_median_pct:Change %,after3_s_median:3rd after s,change3_median_pct:Change %}}
-Within ±2% and ±5%, and the bid side, are in `analysis/d_book.csv`. On Upbit KRW, ask depth within 1% changes a median {{d_book#kgroup=Upbit KRW&&side=ask&&band_pct=1&&period=all#change2_median_pct#.0f}}% by the second snapshot, about {{d_book#kgroup=Upbit KRW&&side=ask&&band_pct=1&&period=all#after2_s_median#.0f}} s after the notice (measured). Coinbase and Bybit books do not change. The 2026 books are thinner than 2024–2025 for every Korean group (measured).
+Within ±2% and ±5%, and the bid side, are in `analysis/d_book.csv`. On Upbit KRW, ask depth within 1% changes a median {{d_book#kgroup=Upbit KRW&&side=ask&&band_pct=1&&period=all#change2_median_pct#.0f}}% by the second snapshot, about {{d_book#kgroup=Upbit KRW&&side=ask&&band_pct=1&&period=all#after2_s_median#.0f}} s after the notice (measured). Coinbase and Bybit books do not change. The 2026 books are thinner than 2024–2025 for Upbit KRW and Upbit BTC/USDT (measured). For Bithumb the 2024–2025 rows (official times) and the 2026 rows (third-party times) are different event sets, so the comparison is only indicative.
 
 **Fillable size from ticks (USD thousands).** This is the whole market's flow, not one participant's fill: USD traded in the first 5 s from the first trade at or after announcement + L, until price first exceeds that trade's price by 2%.
 {{table#d_fillable#window_s=5&&cap_pct=2&&kgroup=Upbit KRW~Bithumb official~Upbit BTC/USDT only~Binance spot~Coinbase spot#kgroup:Group,venue:Venue,L:Latency s,usd_k_n:n,usd_k_median:Median,usd_k_p25:p25,usd_k_p10:p10}}
@@ -225,7 +225,7 @@ The Upbit KRW rows have n {{d_dex_gross#kgroup=Upbit KRW&&L=0#n#n}}. The DEX edg
 {{table#e_survivorship##source:Source,horizon:Horizon,n:n,median:Median,mean:Mean,win:Win %,worst:Worst}}
 Share of events with no opening candles on the listing market:
 {{table#e_no_open_candles##group:Group,n:n,no_open_candles:No opening candles,share_pct:Share %}}
-Direction (inferred): the missing coins do not fall more on day one than the included coins, but they fall further over the following month. A short-side result is understated for them, and a long-side result overstated. The size is limited by how few they are, about {{e_no_open_candles#group=Upbit KRW#share_pct#.0f}}% of Upbit KRW and {{e_no_open_candles#group=Bithumb spot#share_pct#.0f}}% of Bithumb events.
+Direction (inferred): on the only horizon both groups share, day one, the missing coins do no worse than the included ones (median {{e_survivorship#source=delisted_daily_candles&&horizon=d1#median}}% against {{e_survivorship#source=included, 1m candles&&horizon=d1#median}}%). The included events have 1-minute candles only to +72 h, so there is no included D+7 or D+30 to compare with. The missing coins keep falling afterwards (D+30 median {{e_survivorship#source=delisted_daily_candles&&horizon=d30#median}}%), so leaving them out most likely understates the short side and overstates the long side. The size is limited by how few they are, about {{e_no_open_candles#group=Upbit KRW#share_pct#.0f}}% of Upbit KRW and {{e_no_open_candles#group=Bithumb spot#share_pct#.0f}}% of Bithumb events.
 
 **Concentration, drawdown and losing streaks.**
 {{table#e_concentration##strategy:Strategy,n:n,median:Median,mean:Mean,worst:Worst,top5_share:Top-5 share %,mean_ex_top5:Mean without top 5,median_ex_top5:Median without top 5,max_drawdown_pp:Max drawdown pp,longest_losing_streak:Longest losing streak,losses_beyond_50:Losses beyond -50%}}

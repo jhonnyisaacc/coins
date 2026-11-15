@@ -344,7 +344,7 @@ The Upbit KRW 2 s result by year: 2024 6.1%, 2025 0.3%, 2026 0.0% (measured). Bi
 | last_hour_long | 2024.0 | 54 | -0.6 | -1.4 | 27.8 | -4.3 | 1.3 | -20.6 |
 | last_hour_long | 2025.0 | 87 | -1.0 | -0.6 | 35.6 | -5.2 | 3.6 | -25.0 |
 
-Neither side of the window pays after costs (measured).
+Neither side of the window is a reliable trade (measured). The long's median is -0.3% with a win rate of 48%, and its positive mean of 1.2% comes from a few large moves. The short loses on both the median and the mean.
 
 **Shorts after the open (perp, funding included).**
 
@@ -429,12 +429,6 @@ Entry-time grid, 24 h short (an entry before the open must still be after the an
 | Upbit KRW | open +60m | +20% | 138 | 3.5 | 0.8 | 60.1 | -28.5 |
 | Upbit KRW | open +240m | none | 138 | 3.4 | -0.3 | 60.1 | -116.6 |
 | Upbit KRW | open +240m | +20% | 138 | 2.1 | 0.1 | 58.0 | -29.9 |
-| Bithumb | announcement +0m | none | 197 | 3.1 | -1.1 | 61.9 | -383.3 |
-| Bithumb | announcement +0m | +20% | 197 | 2.3 | 0.5 | 57.4 | -88.8 |
-| Bithumb | announcement +15m | none | 197 | 2.6 | -1.1 | 59.9 | -368.0 |
-| Bithumb | announcement +15m | +20% | 197 | 1.7 | -0.4 | 53.8 | -86.4 |
-| Bithumb | announcement +60m | none | 197 | 2.7 | -0.6 | 57.9 | -340.7 |
-| Bithumb | announcement +60m | +20% | 197 | 1.9 | 0.4 | 54.8 | -77.5 |
 | Bithumb | open -60m | none | 181 | 3.1 | 0.3 | 61.9 | -139.6 |
 | Bithumb | open -60m | +20% | 181 | 3.0 | 2.0 | 60.2 | -63.4 |
 | Bithumb | open -15m | none | 181 | 3.9 | 0.6 | 64.6 | -132.6 |
@@ -447,6 +441,12 @@ Entry-time grid, 24 h short (an entry before the open must still be after the an
 | Bithumb | open +60m | +20% | 181 | 2.2 | 0.6 | 59.7 | -40.0 |
 | Bithumb | open +240m | none | 181 | 2.2 | 0.1 | 61.9 | -116.6 |
 | Bithumb | open +240m | +20% | 181 | 2.0 | 0.7 | 60.8 | -25.2 |
+| Bithumb official | announcement +0m | none | 156 | 2.8 | -1.3 | 62.8 | -383.3 |
+| Bithumb official | announcement +0m | +20% | 156 | 2.2 | 0.1 | 57.7 | -88.8 |
+| Bithumb official | announcement +15m | none | 156 | 2.5 | -1.1 | 60.3 | -368.0 |
+| Bithumb official | announcement +15m | +20% | 156 | 1.5 | -1.0 | 53.2 | -86.4 |
+| Bithumb official | announcement +60m | none | 156 | 2.5 | -0.4 | 59.0 | -340.7 |
+| Bithumb official | announcement +60m | +20% | 156 | 1.8 | 0.3 | 55.8 | -77.5 |
 
 On Upbit KRW, entries from 15 minutes before the open to the open are best. Later entries and entries at the announcement are worse (measured).
 
@@ -522,7 +522,7 @@ Binance max leverage is missing because the endpoint is signed. Bybit's limits (
 | Upbit KRW short open 24h no stop | excess over BTC (short minus short BTC) | 138 of 138 events have BTC candles | 138 | 5.3 | 0.3 | 69.6 | -136.9 |
 | Upbit KRW short open 24h no stop | same events, raw | 138 events | 138 | 5.6 | 0.2 | 64.5 | -142.9 |
 
-BTC candles exist only for v2 Korean events, so the excess-over-BTC rows cover part of the sample (stated in the Value column).
+BTC candles cover the v1 and v2 Korean events but not v3, so for Bithumb the excess-over-BTC rows cover only the v1 events (stated in the Value column).
 
 ### B. Other exchanges
 
@@ -684,8 +684,6 @@ The full table, 293 strategies with per-year results, concentration, drawdown an
 | Upbit KRW | short | trading open +1m on perp | 1440m | stop +20% pessimistic | 138 | 5.5 | 3.1 | 62.3 | -21.2 | -33.5 | 2.9 | 5.7 | 36.9 | 74.8 | 4.0 |
 | Upbit KRW | short | open +15m +1m on perp | 1440m | stop +20% pessimistic | 138 | 4.5 | 2.8 | 62.3 | -21.3 | -30.0 | 2.9 | 4.9 | 39.6 | 87.1 | 5.0 |
 | Upbit KRW | short | open +60m +1m on perp | 1440m | stop +20% pessimistic | 138 | 3.5 | 0.8 | 60.1 | -22.0 | -28.5 | 2.8 | 4.7 | 108.6 | 100.3 | 5.0 |
-| Bithumb | short | announcement +0m +1m on perp | 1440m | stop +20% pessimistic | 197 | 2.3 | 0.5 | 57.4 | -21.2 | -88.8 | 3.4 | 2.2 | 168.8 | 234.9 | 8.0 |
-| Bithumb | short | announcement +60m +1m on perp | 1440m | stop +20% pessimistic | 197 | 1.9 | 0.4 | 54.8 | -20.8 | -77.5 | 2.9 | 1.8 | 266.8 | 274.8 | 14.0 |
 | Upbit KRW | short | announcement +60m +1m on perp | 1440m | stop +20% pessimistic | 149 | 4.2 | 1.2 | 58.4 | -21.3 | -33.3 | 1.5 | 4.6 | 91.8 | 116.1 | 4.0 |
 | Bithumb | short | trading open +1m on perp | 240m | stop none | 182 | 1.7 | 0.9 | 63.2 | -7.7 | -59.6 | 2.4 | 1.5 | 74.4 | 90.8 | 6.0 |
 | Bithumb | short | open +240m +1m on perp | 1440m | stop +20% pessimistic | 181 | 2.0 | 0.7 | 60.8 | -20.3 | -25.2 | 3.0 | 1.4 | 89.8 | 123.4 | 4.0 |
@@ -753,7 +751,7 @@ The full table, 293 strategies with per-year results, concentration, drawdown an
 | Upbit KRW | 2024-2025 | 80 | 195.5 | 110.9 | 55.9 | 10.0 | -6.2 | 45.0 | -67.0 | 69.0 | -54.3 |
 | Upbit KRW | 2026.0 | 43 | 57.3 | 27.8 | 20.7 | 6.0 | -8.0 | 44.0 | -55.0 | 65.0 | -46.2 |
 
-Within ±2% and ±5%, and the bid side, are in `analysis/d_book.csv`. On Upbit KRW, ask depth within 1% changes a median -64% by the second snapshot, about 44 s after the notice (measured). Coinbase and Bybit books do not change. The 2026 books are thinner than 2024–2025 for every Korean group (measured).
+Within ±2% and ±5%, and the bid side, are in `analysis/d_book.csv`. On Upbit KRW, ask depth within 1% changes a median -64% by the second snapshot, about 44 s after the notice (measured). Coinbase and Bybit books do not change. The 2026 books are thinner than 2024–2025 for Upbit KRW and Upbit BTC/USDT (measured). For Bithumb the 2024–2025 rows (official times) and the 2026 rows (third-party times) are different event sets, so the comparison is only indicative.
 
 **Fillable size from ticks (USD thousands).** This is the whole market's flow, not one participant's fill: USD traded in the first 5 s from the first trade at or after announcement + L, until price first exceeds that trade's price by 2%.
 
@@ -877,7 +875,7 @@ Share of events with no opening candles on the listing market:
 | Upbit BTC/USDT only | 85 | 14.0 | 16.5 |
 | Upbit KRW | 204 | 14.0 | 6.9 |
 
-Direction (inferred): the missing coins do not fall more on day one than the included coins, but they fall further over the following month. A short-side result is understated for them, and a long-side result overstated. The size is limited by how few they are, about 7% of Upbit KRW and 9% of Bithumb events.
+Direction (inferred): on the only horizon both groups share, day one, the missing coins do no worse than the included ones (median -0.6% against -3.1%). The included events have 1-minute candles only to +72 h, so there is no included D+7 or D+30 to compare with. The missing coins keep falling afterwards (D+30 median -18.6%), so leaving them out most likely understates the short side and overstates the long side. The size is limited by how few they are, about 7% of Upbit KRW and 9% of Bithumb events.
 
 **Concentration, drawdown and losing streaks.**
 
@@ -1024,10 +1022,10 @@ The logs settle nothing yet. They hold no listing notice, they were polled from 
 | events_metrics reproduction (delayed entry, close of the candle after the trigger minute) | pass | 1274 (event, entry) pairs with stored candles; 1256 covered by the stored window through +24 h (726 events, 7536 returns); 1256 match exactly (|diff| < 1e-9); mismatches: none; 18 not covered (trading open more than about 48 h after the announcement, beyond the stored +72 h window) |
 | suspect ticks with and without | pass | 64 flagged ticks removed in the "without" run; 450 tick result rows compared; rows that changed: 0 |
 | both stop versions computed | pass | mean of pessimistic minus exact fill, +20% stop, pp: Bithumb 60m -0.24; Bithumb 240m -0.28; Bithumb 1440m -0.29; Upbit BTC/USDT only 60m +0.07; Upbit BTC/USDT only 240m +0.15; Upbit BTC/USDT only 1440m +0.25; Upbit KRW 60m -0.07; Upbit KRW 240m -0.06; Upbit KRW 1440m +0.03 |
-| period split (v1 against v2+v3, n >= 20 each) | pass | 293 strategies; 34 survive; labels: single period 96, no 85, n<20 in one period 55, survives 34, negative in both 23 |
-| calendar-year split of survivors | pass | survivors with a non-positive median in a year with n >= 20: 3 of 34 |
-| outlier removal | pass | survivors whose median or mean turns non-positive without outlier_flag: 0 of 34 |
-| top-5 removal | pass | survivors whose mean turns non-positive without their 5 best events: 8 of 34 |
+| period split (v1 against v2+v3, n >= 20 each) | pass | 293 strategies; 32 survive; labels: single period 102, no 81, n<20 in one period 55, survives 32, negative in both 23 |
+| calendar-year split of survivors | pass | survivors with a non-positive median in a year with n >= 20: 2 of 32 |
+| outlier removal | pass | survivors whose median or mean turns non-positive without outlier_flag: 0 of 32 |
+| top-5 removal | pass | survivors whose mean turns non-positive without their 5 best events: 6 of 32 |
 | Bithumb official against third-party times | pass | 54 of 64 v1 Bithumb events matched to an archived official notice; third-party minus official: median 1.35 s, p10 0.96 s, p90 1.85 s |
 | reference values compared | pass | 93 reference values checked: 61 match within rounding, 32 differ (each explained in the appendix) |
 
@@ -1108,7 +1106,7 @@ Data row counts are in `row_counts.json` and are checked in section 5. The expec
 | a_open_long.csv | 162 |
 | a_perp_limits.csv | 6 |
 | a_robust.csv | 52 |
-| a_short_grid.csv | 756 |
+| a_short_grid.csv | 738 |
 | a_short_no_funding.csv | 4 |
 | a_short_open.csv | 441 |
 | a_short_open_funding_touch.csv | 9 |
@@ -1155,7 +1153,7 @@ Data row counts are in `row_counts.json` and are checked in section 5. The expec
 | t_metrics_reproduction.csv | 1,274 |
 | t_reference_diff.csv | 93 |
 | t_tests.csv | 10 |
-| trades_a.csv | 15,316 |
+| trades_a.csv | 15,070 |
 | trades_b.csv | 11,621 |
 
 

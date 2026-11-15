@@ -5,7 +5,7 @@ a_delayed_long.csv,200
 a_open_long.csv,162
 a_perp_limits.csv,6
 a_robust.csv,52
-a_short_grid.csv,756
+a_short_grid.csv,738
 a_short_no_funding.csv,4
 a_short_open.csv,441
 a_short_open_funding_touch.csv,9
@@ -52,5 +52,5 @@ t_data_facts.csv,11
 t_metrics_reproduction.csv,1274
 t_reference_diff.csv,93
 t_tests.csv,10
-trades_a.csv,15316
+trades_a.csv,15070
 trades_b.csv,11621

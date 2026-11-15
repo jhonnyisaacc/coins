@@ -1,7 +1,8 @@
 """Final report section 4A: Korean listings (Upbit KRW, Upbit BTC/USDT-only, Bithumb). Reads data/ only.
 Writes analysis/a_*.csv and analysis/trades_a.csv (one row per event and strategy, used by 20_final_c_strategy.py).
-Bithumb rows timed from the announcement use announcement_time_official = True (v3, 2024-2025) as the base and report the
-v1 third-party times separately; entries timed from the trading open pool v1 and v3."""
+Bithumb rows timed from the announcement (ticks, delayed longs, the announcement-to-open window and short entries at the
+announcement) use announcement_time_official = True (v3, 2024-2025) only and report the v1 third-party times separately;
+entries timed from the trading open pool v1 and v3."""
 import sys; sys.path.insert(0,'scripts')
 import numpy as np, pandas as pd
 from final_common import *
@@ -112,12 +113,14 @@ def short_grid(D, groupcol, groups, grid, holds, stops):
         a=int(r.announcement_ms)
         for base,off in grid:
             if base=='open' and pd.isna(r.trading_open_ms): continue
+            if base=='announcement' and r.exchange=='Bithumb' and not r.bithumb_official: continue
+            grp=('Bithumb official' if base=='announcement' and r.exchange=='Bithumb' else getattr(r,groupcol))
             trig=(a if base=='announcement' else int(r.trading_open_ms))+off*MIN
             if trig<a: continue
             for h in holds:
                 for st,mode in stops:
                     x=short_trade(C,F,trig,h,st,mode)
-                    if x: out.append(dict(event_id=r.event_id,grp=getattr(r,groupcol),venue=C['venue'],entry=f'{base} {off:+d}m',hold_min=h,
+                    if x: out.append(dict(event_id=r.event_id,grp=grp,venue=C['venue'],entry=f'{base} {off:+d}m',hold_min=h,
                                           stop='none' if st is None else f'+{int(st*100)}%',mode=mode,ret=x['ret'],funding=x['funding'],stopped=x['stopped'],max_up=x.get('max_up')))
     return pd.DataFrame(out).merge(ev[['event_id','period','year','outlier_flag']],on='event_id'), nofund
 

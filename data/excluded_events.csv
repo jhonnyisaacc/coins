@@ -1313,3 +1313,1073 @@ V0176,Upbit,ENSO,dex,announcement older than the 180-day GeckoTerminal public OH
 ,,,hyperliquid_trades,hyperliquid_trades not built: Hyperliquid serves no public historical trades (recentTrades only; the node-data S3 archive is requester-pays),v2
 ,,,dex_trades,dex_trades (per swap) not built: GeckoTerminal public trades cover the last 24 h only and no keyed indexer/RPC archive was used; 1m pool candles are in dex_candles for events inside the 180-day window,v2
 ,CoinSentry,,coinsentry_latency,not extended: WORKER_BASE_URL / WORKER_READ_TOKEN not available in this environment,v2
+V0457,Bybit,VPR,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0458,Bybit,COM,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0459,Bybit,ZKF,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0460,Bybit,XAI,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0462,Bybit,SQR,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0463,Bybit,APP,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0464,Bybit,DUEL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0465,Bybit,HON,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0466,Bybit,ONDO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0467,Bybit,MYRO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0468,Bybit,SAROS,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0470,Bybit,FAR,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0471,Bybit,GTAI,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0472,Bybit,DMAIL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0473,Bybit,JUP,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0475,Bybit,AFG,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0476,OKX,JUP,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0477,Bybit,FIRE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0478,Bybit,MXM,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0479,Bybit,ZETA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0480,Bybit,MAVIA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0481,Bybit,PURSE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0482,Bybit,MINU,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0483,Bybit,LENDS,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0485,Bybit,BCUT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0486,Bybit,HTX,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0489,Bybit,SQT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0490,Bybit,DECHAT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0491,Bybit,PORTAL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0492,Bybit,BBL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0493,Bybit,QORPO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0495,Bybit,AEG,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0496,Bybit,SCA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0498,Bybit,STAR,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0499,Bybit,AEVO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0500,Bybit,NIBI,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0502,Bybit,ETHFI,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0503,Bybit,ZK,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0503,Bybit,ZK,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0504,Bybit,AURY,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0505,Bybit,NGL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0506,Bybit,FLT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0507,Bybit,ZEND,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0508,Bybit,NAKA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0509,Bybit,APRS,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0510,Bybit,WEN,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0511,Bybit,GMRX,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0512,Bybit,DEGEN,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0513,Bybit,BRAWL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0514,Bybit,USDE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0515,Bybit,MFER,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0516,Bybit,BONUS,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0517,Bybit,W,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0518,Bybit,VENOM,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0519,Bybit,MOJO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0521,Bybit,G3,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0522,Bybit,ESE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0523,Bybit,MASA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0524,Bybit,BLOCK,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0525,Bybit,FOXY,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0526,Bybit,SHARK,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0527,Bybit,PRCL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0528,Bybit,OMNI,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0529,Bybit,BRETT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0531,OKX,SAFE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0532,Bybit,LL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0533,Bybit,EXVG,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0534,Bybit,PBUX,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0535,Bybit,MSTAR,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0537,Bybit,GUMMY,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0538,Bybit,SVL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0539,Bybit,WIF,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged",v3
+V0540,Bybit,KMNO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0541,Bybit,ZENT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0542,Bybit,TAI,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0542,Bybit,TAI,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged",v3
+V0543,Bybit,SPEC,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0544,Bybit,ZERO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0545,Bybit,BUBBLE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0546,Bybit,GALAXIS,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0547,Bybit,PONKE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0549,Bybit,BB,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0550,Bybit,LFT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0551,Bybit,DRIFT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0552,Bybit,SQD,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0554,Bybit,NUTS,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0555,Bybit,MON,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0555,Bybit,MON,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0556,Bybit,ELIX,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0557,Bybit,INTX,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0558,Bybit,APTR,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0559,Bybit,RUBY,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0560,Bybit,MOG,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0561,Bybit,ULTI,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0562,Bybit,TAIKO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0564,Bybit,AARK,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0565,Bybit,IO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0566,Bybit,HLG,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0567,Bybit,ATH,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0568,Bybit,COOKIE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0569,Bybit,XZK,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0570,Bybit,ZRO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0572,Bybit,NRN,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0573,Bybit,BLAST,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0574,Bybit,ZEX,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0575,Bybit,TST,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0576,Bybit,MCG,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0577,Bybit,PTC,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0578,Bybit,WELL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0579,Bybit,DOP1,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0580,OKX,UXLINK,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0580,OKX,UXLINK,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0581,Bybit,UXLINK,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0582,Bybit,PIXFI,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0582,Bybit,PIXFI,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged",v3
+V0583,Bybit,AVAIL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0584,Bybit,NEIRO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0585,Bybit,DOGS,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0587,Binance,1MBABYDOGE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0589,Binance,HMSTR,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0596,Bybit,EGP1,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0597,Bybit,DAPP,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0602,Bybit,CARV,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0603,Bybit,ZAP,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0604,Bybit,DEEP,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0605,Bybit,BBSOL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0606,Bybit,PUFF,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0607,Bybit,X,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0608,OKX,EURC,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0608,OKX,EURC,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0613,Binance,MOODENG,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged",v3
+V0614,Bybit,COOK,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0619,Bybit,BBQ,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0624,Binance,DRIFT,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged",v3
+V0628,Bybit,NS,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0629,OKX,MAJOR,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0629,OKX,MAJOR,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0630,Binance,HIPPO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0633,Bybit,CMETH,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0636,OKX,OL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0636,OKX,OL,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged",v3
+V0637,Bybit,STOP,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0640,Bybit,OL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0643,OKX,MORPHO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0649,Bybit,ZRC,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0650,Binance,1000WHY,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0651,Binance,1000CHEEMS,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0653,Bybit,SUPRA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0656,Bybit,PAAL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0657,OKX,MOVE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0660,Bybit,MOVE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0661,Bybit,MOZ,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0662,Bybit,ZEREBRO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0664,Binance,RAYSOL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0665,Binance,KOMA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0668,Bybit,SEND,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0674,Bybit,LUNAI,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0675,Bybit,VANA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0676,OKX,PENGU,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0677,Bybit,PENGU,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0678,Bybit,FLUID,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0679,Bybit,STREAM,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0681,Bybit,FUEL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0688,Bybit,ALCH,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0691,Bybit,MNRY,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0692,OKX,SONIC,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0697,Bybit,SONIC,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0699,Bybit,GAME,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0704,OKX,DUCK,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0704,OKX,DUCK,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0705,Bybit,LAVA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0707,OKX,NC,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0707,OKX,NC,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0708,Bybit,J,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0710,Bybit,GPS,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0712,Bybit,SOLV,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0715,Bybit,TRUMP,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0715,Bybit,TRUMP,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged",v3
+V0716,Binance,TRUMP,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged",v3
+V0719,Bybit,PLUME,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0720,Bybit,N3,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0721,OKX,ANIME,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0723,Bybit,ANIME,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0727,Bybit,PINEYE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0729,Bybit,BERA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0730,OKX,BERA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0731,Bybit,AVL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0732,Bybit,DIAM,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0733,Bybit,B3,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0735,OKX,IP,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0736,Bybit,LAYER,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0737,Bybit,G7,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0738,OKX,PI,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0744,OKX,KAITO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0748,Binance,BMT,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged",v3
+V0751,Bybit,BR,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0754,Bybit,WAL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0755,OKX,PARTI,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0756,Bybit,AMI,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0758,Bybit,PARTI,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0759,Bybit,CORN,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0764,Bybit,KILO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0768,Bybit,PUMP,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0768,Bybit,PUMP,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0772,OKX,WCT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0773,OKX,PROMPT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0775,Bybit,BABY1,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0777,Bybit,FHE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0778,Binance,PROMPT,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged",v3
+V0781,Bybit,WCT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0783,Binance,AERGO,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0785,Binance,BANK,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0786,Bybit,EPT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0795,Binance,AIOT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0798,Binance,SXT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0801,Binance,B2,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0803,Bybit,OBOL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0804,OKX,JITOSOL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0808,Binance,SKYAI,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0810,Binance,AGT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0811,Bybit,PFVS,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0812,Binance,SOON,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0813,OKX,SOPH,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0814,OKX,HUMA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0815,Bybit,ELDE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0820,Bybit,ODOS,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0823,OKX,USDG,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0824,OKX,RESOLV,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0825,Binance,1000000BOB,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0830,OKX,SPK,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0831,Bybit,SPK,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0832,Binance,MYX,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0833,OKX,SAHARA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0834,Binance,NEWT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0835,Bybit,H,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0838,Bybit,XO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0839,Bybit,ICNT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0840,Bybit,FRAG,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0841,Binance,BULLA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0842,Binance,IDOL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0843,Binance,PUMP,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0844,Binance,CROSS,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0845,Binance,AIN,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0847,Binance,VELVET,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0848,Bybit,ERA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0850,OKX,ASP,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0851,Bybit,TA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0855,Binance,TAG,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0857,Binance,ESPORTS,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0858,Binance,YALA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0860,Bybit,K,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0861,Binance,AIO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0862,Binance,XNY,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0865,Binance,XPL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0866,Binance,WLFI,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0867,Binance,SOMI,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0868,Bybit,CAMP,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0868,Bybit,CAMP,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged",v3
+V0869,Binance,BAS,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0870,Binance,LINEA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0872,Binance,ARIA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0873,Binance,TAKE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0875,Bybit,ART,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0879,Binance,XPIN,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0882,Binance,STBL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0884,Bybit,LBTC,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0885,Binance,0G,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0887,Binance,TRADOOR,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0888,Bybit,XAN,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0892,Binance,AKE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0894,Bybit,RLUSD,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0896,Bybit,2Z,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0897,Binance,GIGGLE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0898,Binance,MON,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0899,Binance,YB,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0902,Bybit,RECALL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0903,Binance,LAB,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0904,Binance,RIVER,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0906,Bybit,COMMON,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0907,Binance,AT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0908,Binance,KITE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0909,Binance,CC,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0910,Bithumb,ZBC,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0910,Bithumb,ZBC,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0915,Bithumb,MANTA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0917,Bithumb,ARK,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged",v3
+V0920,Bithumb,JUP,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0924,Bithumb,TT,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0924,Bithumb,TT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0925,Bithumb,STRK,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0930,Bithumb,GRS,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0930,Bithumb,GRS,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0932,Bithumb,W,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0944,Bithumb,ZK,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0945,Bithumb,ZRO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0947,Bithumb,BLAST,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0947,Bithumb,BLAST,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0951,Bithumb,AVAIL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0956,Bithumb,FIDA,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0957,Bithumb,UXLINK,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0961,Bithumb,OMNI,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0964,Bithumb,MVL,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged",v3
+V0971,Bithumb,TON,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0978,Bithumb,NEIRO,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0980,Bithumb,SUNDOG,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0981,Bithumb,MOVE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0988,Bithumb,GOAT,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0998,Bithumb,STRIKE,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V0998,Bithumb,STRIKE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V1001,Bithumb,DRIFT,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V1004,Bithumb,HPO,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V1004,Bithumb,HPO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V1015,Bithumb,BERA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V1017,Bithumb,IP,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V1018,Bithumb,LAYER,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V1021,Bithumb,KAITO,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V1027,Bithumb,ELX,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V1031,Bithumb,ACX,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V1034,Bithumb,WAL,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V1041,Bithumb,PUMP,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V1044,Bithumb,AI16Z,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V1049,Bithumb,NXPC,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V1052,Bithumb,BLUE,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V1053,Bithumb,SOON,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V1062,Bithumb,SPK,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V1069,Bithumb,H,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V1070,Bithumb,OM,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V1071,Bithumb,HYPER,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged",v3
+V1072,Bithumb,RESOLV,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V1073,Bithumb,ES,trading_open,no 1m candles on listing market within 10 days of announcement (delisted / never opened / API returns nothing),v3
+V1073,Bithumb,ES,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V1074,Bithumb,ERA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V1091,Bithumb,ZKC,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V1097,Bithumb,0G,flag,"outlier (peak > +200% or |24h| > 100%), kept but flagged",v3
+V1103,Bithumb,MIRA,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V1105,Bithumb,FF,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V1107,Bithumb,2Z,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V1114,Bithumb,ZBT,announcement,coin not trading on any external venue in the 3h before the announcement (new token),v3
+V0883,Bybit,XUSD,aggtrades,binance_spot XUSDUSDT: no ticks in -60s..+90s (missing (REST empty; archive: data.binance.vision/spot/daily/aggTrades)),v3
+V0931,Bithumb,SC,aggtrades,binance_perp SCUSDT: no ticks in -60s..+90s (missing),v3
+V0969,Bithumb,RAY,aggtrades,binance_perp RAYUSDT: no ticks in -60s..+90s (missing),v3
+H0007,OKX,ALLO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0124,OKX,OFC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0134,OKX,USDS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0169,OKX,PROS,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0183,OKX,AI,funding,no funding rows: venue returned no funding in window [binance_perp],v3
+H0202,OKX,GRAM,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0203,OKX,RE,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0219,OKX,NES,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0220,OKX,CARDS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0227,OKX,DATA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0245,OKX,AEON,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0254,OKX,GRVT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0296,OKX,CP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0315,OKX,XDP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0319,OKX,CT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0450,OKX,XAMGN,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0451,OKX,XBAC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0452,OKX,XSKDD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0453,OKX,XADI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0454,OKX,XNVDL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0455,OKX,XABBV,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0456,OKX,XBIDU,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0457,OKX,XSKUU,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0458,OKX,XIBKR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0459,OKX,XCEG,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0460,OKX,XFLEX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0461,OKX,XGE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0462,OKX,XMPWR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0463,OKX,XMP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0464,OKX,XCVNA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0465,OKX,XGILD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0049,Binance,U,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0053,Binance,AIA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0072,Binance,INTC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0073,Binance,HOOD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0098,Binance,EWY,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0100,Binance,CFG,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0101,Binance,EWJ,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0105,Binance,PAYP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0109,Binance,XAUt,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0118,Binance,QQQ,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0119,Binance,SPY,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0120,Binance,AAPL,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0121,Binance,TSM,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0122,Binance,MU,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0123,Binance,SNDK,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0130,Binance,MSFT,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0131,Binance,AVGO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0132,Binance,BABA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0204,Binance,RE,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+X0445,Binance,APPB,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0446,Binance,BSPB,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0447,Binance,GEVB,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0448,Binance,SKDDB,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0449,Binance,SKUUB,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0004,Upbit,TRUST,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0058,Upbit,ELSA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0089,Upbit,CFG,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0093,Upbit,EDGE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0115,Upbit,USDS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0145,Upbit,XCN,funding,no funding rows: venue returned no funding in window [binance_perp],v3
+H0148,Upbit,BLEND,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0164,Upbit,B3,funding,no funding rows: venue returned no funding in window [binance_perp],v3
+H0166,Upbit,PROS,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0171,Upbit,UP2,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0179,Upbit,TRAC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0189,Upbit,SLX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0209,Upbit,GRAM,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0212,Upbit,OSMO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0213,Upbit,AMP2,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0217,Upbit,ARX,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0226,Upbit,AI,funding,no funding rows: venue returned no funding in window [binance_perp],v3
+H0228,Upbit,MPLX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0229,Upbit,NEX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0237,Upbit,DRV,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0246,Upbit,GEOD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0253,Upbit,USDG,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0263,Upbit,QUID,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0289,Upbit,NEXO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0290,Upbit,FOLD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0292,Upbit,NCT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0293,Upbit,EURC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0307,Upbit,BFC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0310,Upbit,PYUSD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0311,Upbit,JPYC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0322,Upbit,POD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0337,Upbit,PUFFER,funding,no funding rows: venue returned no funding in window [binance_perp],v3
+H0341,Upbit,AXIS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0347,Upbit,CARDS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0353,Upbit,SANC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0012,Bybit,PIEVERSE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0015,Bybit,GAIB,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0026,Bybit,ALMANAK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0042,Bybit,WHITEWHALE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0063,Bybit,PYBOBO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0065,Bybit,USAT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0066,Bybit,BIRB,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0077,Bybit,PENGUIN,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0092,Bybit,BSB,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0142,Bybit,BLEND,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0197,Bybit,SPCXX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0216,Bybit,ARX,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0221,Bybit,CAP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0234,Bybit,GROVE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0255,Bybit,GRVT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0281,Bybit,KII,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0346,Bybit,KOR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0354,Coinbase,AI,funding,no funding rows: venue returned no funding in window [binance_perp],v3
+X0355,Coinbase,ZKP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0357,Coinbase,MEZO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0358,Coinbase,WHUF,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0359,Coinbase,DIEM,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0361,Coinbase,SUP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0363,Coinbase,BLEND,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0364,Coinbase,CT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0365,Coinbase,OPG,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0367,Coinbase,CTR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0368,Coinbase,GRVT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0370,Coinbase,FUN1,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0372,Coinbase,WMTX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0373,Coinbase,PROS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0374,Coinbase,RE,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+X0379,Coinbase,O,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0383,Coinbase,RLS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0388,Coinbase,ALIGN,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0389,Coinbase,THQ,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0391,Coinbase,DRV,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0392,Coinbase,RAY,funding,no funding rows: venue returned no funding in window [binance_perp],v3
+X0393,Coinbase,EDGEX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0396,Coinbase,CAP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0399,Coinbase,RITUAL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0401,Coinbase,RNBW,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0404,Coinbase,GROVE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0405,Coinbase,BASECAT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0406,Coinbase,BILL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0407,Coinbase,JUPITER,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0408,Coinbase,BLUECHIP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0409,Coinbase,DRB,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0411,Coinbase,ARX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0412,Coinbase,IRYS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0413,Coinbase,CHECK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0417,Coinbase,NEX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0421,Coinbase,IMU,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0423,Coinbase,ELSA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0429,Coinbase,CP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0430,Coinbase,BOBBOB,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0432,Coinbase,KAIO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0434,Coinbase,AXIS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0435,Coinbase,FIGHT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0436,Coinbase,CARD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0438,Coinbase,UP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0440,Coinbase,LMTS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0443,Coinbase,TRIA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0444,Coinbase,GEOD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+X0466,Coinbase,PEARL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0149,Bithumb,BLEND,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0163,Bithumb,EDGEX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0167,Bithumb,PROS,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0172,Bithumb,UP,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0190,Bithumb,SLX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0230,Bithumb,NEX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0231,Bithumb,MPLX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0238,Bithumb,DRV,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0242,Bithumb,CHECK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0247,Bithumb,GEOD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0251,Bithumb,AEON,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0256,Bithumb,GRVT,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+H0261,Bithumb,USDG,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0264,Bithumb,QUID,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0287,Bithumb,NEXO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0294,Bithumb,EURC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0295,Bithumb,FOLD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0316,Bithumb,PYUSD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0323,Bithumb,POD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0340,Bithumb,PYBOBO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0350,Bithumb,CARDS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0005,Upbit,POKT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0007,Upbit,AKT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0010,Upbit,OAS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0014,Upbit,TAIKO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0015,Upbit,USDT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0018,Upbit,GAME2,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0021,Upbit,TT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0022,Upbit,ZRO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0023,Upbit,BLAST,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0030,Upbit,PEPE,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+V0037,Upbit,CARV,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0040,Upbit,BONK,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+V0045,Upbit,AHT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0051,Upbit,LWA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0057,Upbit,PEPE,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+V0059,Upbit,NCT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0060,Upbit,BONK,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+V0064,Upbit,MOVE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0067,Upbit,VANA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0068,Upbit,SONIC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0070,Upbit,ANIME,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0072,Upbit,BERA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0075,Upbit,LAYER,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0083,Upbit,WAL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0094,Upbit,NXPC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0096,Upbit,ACS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0097,Upbit,GO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0098,Upbit,OBSR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0099,Upbit,QTCON,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0100,Upbit,RLY,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0101,Upbit,SOON,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0105,Upbit,SOPH,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0107,Upbit,FORT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0109,Upbit,POKT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0123,Upbit,ERA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0141,Upbit,HOLO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0144,Upbit,ZKC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0145,Upbit,TOSHI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0146,Upbit,EUL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0156,Upbit,FLUID,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0160,Upbit,MIRA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0163,Upbit,FF,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0165,Upbit,2Z,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0170,Upbit,ZBT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0173,Upbit,CPOOL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0179,Coinbase,HONEY,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0183,Coinbase,ZETA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0186,Coinbase,AERO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0187,Coinbase,VELO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0190,Coinbase,RENDER,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0194,Coinbase,MOBILE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0201,Coinbase,AKT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0208,Coinbase,TNSR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0209,Coinbase,SHDW,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0212,Coinbase,OMNI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0213,Coinbase,KARRAT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0215,Coinbase,SAFE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0216,Coinbase,NEON,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0218,Coinbase,DRIFT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0221,Coinbase,PIRATE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0225,Coinbase,CORECHAIN,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0226,Coinbase,BLAST,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0228,Coinbase,A8,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0230,Coinbase,LRDS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0231,Coinbase,SD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0234,Coinbase,ACX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0237,Coinbase,POL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0243,Coinbase,ALEO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0244,Coinbase,ZETACHAIN,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0245,Coinbase,WELL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0246,Coinbase,COW,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0259,Coinbase,PEPE,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+V0262,Coinbase,FLOKI,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+V0265,Coinbase,MOVE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0266,Coinbase,MOG,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0271,Coinbase,GIGA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0287,Coinbase,TOSHI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0288,Coinbase,VVV,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0294,Coinbase,B3,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0310,Coinbase,SYRUP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0315,Coinbase,FAI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0320,Coinbase,DOGINME,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0321,Coinbase,KEYCAT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0323,Coinbase,EDGE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0331,Coinbase,CLANKER,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0332,Coinbase,ZORA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0334,Coinbase,MANTLE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0348,Coinbase,LA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0363,Coinbase,SKY,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0364,Coinbase,USDS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0369,Coinbase,JITOSOL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0370,Coinbase,MPLX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0373,Coinbase,BNKR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0375,Coinbase,RSC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0378,Coinbase,MAMO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0379,Coinbase,EUL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0380,Coinbase,PROVE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0412,Coinbase,TROLL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0413,Coinbase,CFG,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0418,Coinbase,AUDD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0419,Coinbase,XSGD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0423,Coinbase,NOICE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0424,Coinbase,SYND,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0435,Coinbase,KTA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0447,Coinbase,LIGHTER,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0452,Coinbase,WRON,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0454,Coinbase,OUSD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0455,Coinbase,PEARL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0456,Bybit,AIOZ,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0457,Bybit,VPR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0458,Bybit,COM,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0459,Bybit,ZKF,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0460,Bybit,XAI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0461,Bybit,VIC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0462,Bybit,SQR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0463,Bybit,APP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0464,Bybit,DUEL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0465,Bybit,HON,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0466,Bybit,ONDO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0467,Bybit,MYRO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0468,Bybit,SAROS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0469,Bybit,MANTA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0470,Bybit,FAR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0471,Bybit,GTAI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0472,Bybit,DMAIL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0473,Bybit,JUP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0475,Bybit,AFG,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0476,OKX,JUP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0477,Bybit,FIRE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0478,Bybit,MXM,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0479,Bybit,ZETA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0480,Bybit,MAVIA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0481,Bybit,PURSE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0482,Bybit,MINU,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0483,Bybit,LENDS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0485,Bybit,BCUT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0486,Bybit,HTX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0487,OKX,STRK,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+V0488,Bybit,CSPR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0489,Bybit,SQT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0490,Bybit,DECHAT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0491,Bybit,PORTAL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0492,Bybit,BBL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0493,Bybit,QORPO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0495,Bybit,AEG,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0496,Bybit,SCA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0498,Bybit,STAR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0499,Bybit,AEVO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0500,Bybit,NIBI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0502,Bybit,ETHFI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0503,Bybit,ZK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0504,Bybit,AURY,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0505,Bybit,NGL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0506,Bybit,FLT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0507,Bybit,ZEND,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0508,Bybit,NAKA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0509,Bybit,APRS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0510,Bybit,WEN,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0511,Bybit,GMRX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0512,Bybit,DEGEN,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0513,Bybit,BRAWL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0514,Bybit,USDE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0515,Bybit,MFER,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0516,Bybit,BONUS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0517,Bybit,W,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0518,Bybit,VENOM,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0519,Bybit,MOJO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0521,Bybit,G3,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0522,Bybit,ESE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0523,Bybit,MASA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0524,Bybit,BLOCK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0525,Bybit,FOXY,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0526,Bybit,SHARK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0527,Bybit,PRCL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0528,Bybit,OMNI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0529,Bybit,BRETT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0530,Bybit,MEW,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+V0531,OKX,SAFE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0532,Bybit,LL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0533,Bybit,EXVG,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0534,Bybit,PBUX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0535,Bybit,MSTAR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0537,Bybit,GUMMY,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0538,Bybit,SVL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0540,Bybit,KMNO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0541,Bybit,ZENT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0542,Bybit,TAI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0543,Bybit,SPEC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0544,Bybit,ZERO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0545,Bybit,BUBBLE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0546,Bybit,GALAXIS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0547,Bybit,PONKE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0549,Bybit,BB,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0550,Bybit,LFT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0551,Bybit,DRIFT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0552,Bybit,SQD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0554,Bybit,NUTS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0555,Bybit,MON,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0556,Bybit,ELIX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0557,Bybit,INTX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0558,Bybit,APTR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0559,Bybit,RUBY,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0560,Bybit,MOG,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0561,Bybit,ULTI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0562,Bybit,TAIKO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0563,Bybit,AURORA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0564,Bybit,AARK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0565,Bybit,IO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0566,Bybit,HLG,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0567,Bybit,ATH,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0568,Bybit,COOKIE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0569,Bybit,XZK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0570,Bybit,ZRO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0572,Bybit,NRN,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0573,Bybit,BLAST,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0574,Bybit,ZEX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0575,Bybit,TST,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0576,Bybit,MCG,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0577,Bybit,PTC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0578,Bybit,WELL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0579,Bybit,DOP1,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0580,OKX,UXLINK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0581,Bybit,UXLINK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0582,Bybit,PIXFI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0583,Bybit,AVAIL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0584,Bybit,NEIRO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0585,Bybit,DOGS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0596,Bybit,EGP1,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0597,Bybit,DAPP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0602,Bybit,CARV,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0603,Bybit,ZAP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0604,Bybit,DEEP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0605,Bybit,BBSOL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0606,Bybit,PUFF,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0607,Bybit,X,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0608,OKX,EURC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0614,Bybit,COOK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0619,Bybit,BBQ,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0628,Bybit,NS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0629,OKX,MAJOR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0633,Bybit,CMETH,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0636,OKX,OL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0637,Bybit,STOP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0640,Bybit,OL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0643,OKX,MORPHO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0649,Bybit,ZRC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0653,Bybit,SUPRA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0656,Bybit,PAAL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0657,OKX,MOVE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0660,Bybit,MOVE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0661,Bybit,MOZ,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0662,Bybit,ZEREBRO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0668,Bybit,SEND,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0674,Bybit,LUNAI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0675,Bybit,VANA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0676,OKX,PENGU,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0677,Bybit,PENGU,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0678,Bybit,FLUID,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0679,Bybit,STREAM,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0681,Bybit,FUEL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0688,Bybit,ALCH,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0691,Bybit,MNRY,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0692,OKX,SONIC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0697,Bybit,SONIC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0699,Bybit,GAME,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0704,OKX,DUCK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0705,Bybit,LAVA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0707,OKX,NC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0708,Bybit,J,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0710,Bybit,GPS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0712,Bybit,SOLV,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0715,Bybit,TRUMP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0719,Bybit,PLUME,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0720,Bybit,N3,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0721,OKX,ANIME,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0723,Bybit,ANIME,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0727,Bybit,PINEYE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0729,Bybit,BERA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0730,OKX,BERA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0731,Bybit,AVL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0732,Bybit,DIAM,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0733,Bybit,B3,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0736,Bybit,LAYER,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0737,Bybit,G7,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0738,OKX,PI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0744,OKX,KAITO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0751,Bybit,BR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0754,Bybit,WAL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0755,OKX,PARTI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0756,Bybit,AMI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0757,OKX,NAVX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0758,Bybit,PARTI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0759,Bybit,CORN,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0762,OKX,FLUID,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0764,Bybit,KILO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0768,Bybit,PUMP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0772,OKX,WCT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0773,OKX,PROMPT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0775,Bybit,BABY1,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0777,Bybit,FHE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0781,Bybit,WCT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0786,Bybit,EPT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0801,Binance,B2,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0803,Bybit,OBOL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0804,OKX,JITOSOL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0811,Bybit,PFVS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0813,OKX,SOPH,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0814,OKX,HUMA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0815,Bybit,ELDE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0820,Bybit,ODOS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0823,OKX,USDG,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0824,OKX,RESOLV,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0830,OKX,SPK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0831,Bybit,SPK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0833,OKX,SAHARA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0835,Bybit,H,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0838,Bybit,XO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0839,Bybit,ICNT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0840,Bybit,FRAG,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0848,Bybit,ERA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0850,OKX,ASP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0851,Bybit,TA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0860,Bybit,K,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0868,Bybit,CAMP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0875,Bybit,ART,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0883,Bybit,XUSD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0884,Bybit,LBTC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0888,Bybit,XAN,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0894,Bybit,RLUSD,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0896,Bybit,2Z,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0902,Bybit,RECALL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0905,Bybit,SYND,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0906,Bybit,COMMON,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0910,Bithumb,ZBC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0912,Bithumb,WAXL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0915,Bithumb,MANTA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0920,Bithumb,JUP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0924,Bithumb,TT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0925,Bithumb,STRK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0928,Bithumb,HUNT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0929,Bithumb,IQ,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0930,Bithumb,GRS,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0932,Bithumb,W,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0933,Bithumb,AKT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0936,Bithumb,AIOZ,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0937,Bithumb,BONK,funding,no funding rows: OKX funding-rate-history keeps only recent months [okx_perp],v3
+V0944,Bithumb,ZK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0945,Bithumb,ZRO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0947,Bithumb,BLAST,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0951,Bithumb,AVAIL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0964,Bithumb,MVL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0965,Bithumb,TOKAMAK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0981,Bithumb,MOVE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0996,Bithumb,AHT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V0998,Bithumb,STRIKE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1003,Bithumb,GAME2,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1004,Bithumb,HPO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1005,Bithumb,CBK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1007,Bithumb,DKA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1008,Bithumb,BOUNTY,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1010,Bithumb,ARDR,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1015,Bithumb,BERA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1018,Bithumb,LAYER,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1021,Bithumb,KAITO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1027,Bithumb,ELX,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1028,Bithumb,OBT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1034,Bithumb,WAL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1037,Bithumb,AMP,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1043,Bithumb,XYO,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1049,Bithumb,NXPC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1052,Bithumb,BLUE,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1053,Bithumb,SOON,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1059,Bithumb,LA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1060,Bithumb,POKT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1062,Bithumb,SPK,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1064,Bithumb,FORT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1073,Bithumb,ES,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1074,Bithumb,ERA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1086,Bithumb,EUL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1091,Bithumb,ZKC,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1092,Bithumb,TOSHI,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1103,Bithumb,MIRA,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1105,Bithumb,FF,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1107,Bithumb,2Z,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1114,Bithumb,ZBT,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+V1117,Bithumb,CPOOL,funding,"no funding rows: no USDT perp on Binance, Bybit or OKX around the announcement",v3
+H0145,,,book_snapshots,binance_perp XCNUSDT: missing: no bookDepth archive file,v3
+H0164,,,book_snapshots,binance_perp B3USDT: missing: no bookDepth archive file,v3
+H0328,,,book_snapshots,binance_perp PONSUSDT: missing: no bookDepth archive file,v3
+H0337,,,book_snapshots,binance_perp PUFFERUSDT: missing: no bookDepth archive file,v3
+H0327,,,book_snapshots,binance_perp AIAUSDT: missing: no bookDepth archive file,v3
+H0329,,,book_snapshots,binance_perp PONSUSDT: missing: no bookDepth archive file,v3
+H0226,,,book_snapshots,binance_perp AIUSDT: missing: no bookDepth archive file,v3
+V0054,,,book_snapshots,binance_perp RADUSDT: missing: no bookDepth archive file,v3
+V0090,,,book_snapshots,binance_perp SIGNUSDT: missing: no bookDepth archive file,v3
+V0116,,,book_snapshots,binance_perp RAYUSDT: missing: no bookDepth archive file,v3
+V0337,,,book_snapshots,binance_perp SXTUSDT: missing: no bookDepth archive file,v3
+V0341,,,book_snapshots,binance_perp SXTUSDT: missing: no bookDepth archive file,v3
+X0392,,,book_snapshots,binance_perp RAYUSDT: missing: no bookDepth archive file,v3
+X0354,,,book_snapshots,binance_perp AIUSDT: missing: no bookDepth archive file,v3
+V0805,,,book_snapshots,binance_perp SXTUSDT: missing: no bookDepth archive file,v3
+V0806,,,book_snapshots,binance_perp SIGNUSDT: missing: no bookDepth archive file,v3
+V0931,,,book_snapshots,binance_perp SCUSDT: missing: no bookDepth archive file,v3
+V0969,,,book_snapshots,binance_perp RAYUSDT: missing: no bookDepth archive file,v3
+V1045,,,book_snapshots,binance_perp SIGNUSDT: missing: no bookDepth archive file,v3
+V1046,,,book_snapshots,binance_perp HAEDALUSDT: missing: no bookDepth archive file,v3
+V1048,,,book_snapshots,binance_perp EPTUSDT: missing: no bookDepth archive file,v3
+V1050,,,book_snapshots,binance_perp SXTUSDT: missing: no bookDepth archive file,v3
+H0189,,,dex_swaps,solana raydium-clmm 2xTYsR7ptW2ekt8XyyezeKXHaja79pCCxJmAhP4PzuGj: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0189,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0x1a96f5b1dc28fd3c9e3772c255e5541b8635c20db1c88f0f5156c5be94ad58cb: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0198,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0x0636066cec43597b2eb9e743a7c0e82c58c6bffaba22dae7bc5b012d37d6c751: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0200,,,dex_swaps,solana raydium 9t1H1uDJ558iMPNkEPSN1fqkpC4XSPQ6cqSf6uEsTfTR: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0205,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0xa6181157bed24d033cd3482f8718171603dd6a53a85fb9315d85014632bf87db: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0207,,,dex_swaps,solana orca 3ndjN1nJVUKGrJBc1hhVpER6kWTZKHdyDrPyCJyX3CXK: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0217,,,dex_swaps,solana meteora FrrzSeT56FHgMruMaEWsC5qL1wFZecMFs2stUypAyJvw: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0217,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0xf6170c9b48765c56dae252b10e87e9ac51330846fdb613b922f894bc9968a48f: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0228,,,dex_swaps,solana raydium-clmm BxRhW4q1wTRwJkJ1C4NR4yJCRL2uusoju4g1bVenspZK: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0228,,,dex_swaps,"bsc pancakeswap-v3-bsc 0xcacd3583c7ef55126099be733b12672c60e2ab23: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0229,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0xae74941d0ff92e1e6c26a11fa0762ef29b87786e60daf62be00477288ec41abd: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0241,,,dex_swaps,"bsc pancakeswap-v3-bsc 0x1a9b68ca1dcacb106c4b853e2d9c915f0cfe2e56: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0246,,,dex_swaps,solana raydium-clmm BkX9RSHoDJGkU7pbHiksv3DprdLM3KWGoDSfGN9cGJ5d: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0250,,,dex_swaps,solana metadao CUPoiqkK4hxyCiJcLC4yE9AtJP1MoV1vFV2vx3jqwWeS: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0253,,,dex_swaps,solana orca 9RqDTfwCx2SgxsvKpspQHc38HUo3B6hRd3oR9JR966Ps: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0260,,,dex_swaps,solana meteora GRkGpkFd4Vw4xUCSquvvfr3o9MaE2L6ncVAetfuWejQR: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0265,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0x7469666fbe1935485b983f7eeb6b9a736cebe38788dbdebcdf6fd8fce28e226e: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0267,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0x3bca91b9b847cff6f4b666fa1d966981678975e13fd69d647bd11bed99f5fa14: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0269,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0x26a8e4591b7a0efcd45a577ad0d54aa64a99efaf2546ad4d5b0454c99eb70eab: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0270,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0x9cfea9ef82f26857c3426487774c088330555da6113c61ac7fb8b30d0ae434b3: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0272,,,dex_swaps,"bsc pancakeswap-v3-bsc 0x049f1009bc8c5d0048732fe2f95c27c240214634: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0273,,,dex_swaps,"bsc pancakeswap-v3-bsc 0x64fa53217bde4179f54c9706de431b73814e92db: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0274,,,dex_swaps,"bsc pancakeswap-v3-bsc 0x80968a476e0235a026fd1f33aaac5a3b7b76110f: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0277,,,dex_swaps,"bsc pancakeswap-v3-bsc 0xcbeaad783ffd2cea125e9d9b2ec21e639d20fa59: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0279,,,dex_swaps,"bsc pancakeswap-v3-bsc 0x83e98cac01259a0d00729cfb722810472c421459: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0284,,,dex_swaps,solana raydium-clmm CTpkCQufppiECZJesCkvy1nETmVQQMFK41EoFjw1x4WG: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0284,,,dex_swaps,"bsc pancakeswap-v3-bsc 0x09f9789cf2dba13e6e1ce8cfdcd3f751d2917fc5: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0286,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0x473e34fad874524a146022cfd7c9df2af73988adeea0f21629dbb8c301305a17: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0288,,,dex_swaps,eth curve 0x971add32ea87f10bd192671630be3be8a11b8623: not covered: no decoder for curve,v3
+H0293,,,dex_swaps,solana orca ArisQNcbjXPJD7RgPRvysatX3xcfHPTbcTkfD8kDoZ9i: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0304,,,dex_swaps,solana raydium Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0304,,,dex_swaps,"bsc pancakeswap-v3-bsc 0x1b87567de134dbe30e29953c477f1cbc3d626b6b: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(54, 'C",v3
+H0306,,,dex_swaps,solana orca 8t6NQAZQSEMhxtjdU1Cxf2eJiJjFMUkb1LKpATgwT8MY: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0310,,,dex_swaps,solana orca 9tXiuRRw7kbejLhZXtxDxYs2REe43uH2e7k1kocgdM9B: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0325,,,dex_swaps,"eth uniswap-v4-ethereum 0xde9207a409e92b8ce53435694f78390358acfd1d8ed710ef55a53aa0daf6c4b0: error ConnectionError(ProtocolError('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer')))",v3
+H0333,,,dex_swaps,eth curve 0xdb6925ea42897ca786a045b252d95aa7370f44b4: not covered: no decoder for curve,v3
+H0347,,,dex_swaps,solana raydium-clmm HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0180,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0x0636066cec43597b2eb9e743a7c0e82c58c6bffaba22dae7bc5b012d37d6c751: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0185,,,dex_swaps,solana orca Goxk6GWnWQRXDJBc5nwz18FasV5NuB82nFCeYWod41xU: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0185,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0x673dbd89b4de73f139ccca01f515536d386bc993c35efb3abf0a4d4b02b6dd20: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0188,,,dex_swaps,solana raydium 91axdGmMoqQQg2MPUXKxT3bdqX4p2RMLXqZSQgXn2JpM: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0190,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0x1a96f5b1dc28fd3c9e3772c255e5541b8635c20db1c88f0f5156c5be94ad58cb: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0199,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0x2feb1d95d9c23134e33e7a587bd38cdbeb99802243d9217149a4eb0903f9a7ee: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0201,,,dex_swaps,solana raydium 9t1H1uDJ558iMPNkEPSN1fqkpC4XSPQ6cqSf6uEsTfTR: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0222,,,dex_swaps,solana meteora FrrzSeT56FHgMruMaEWsC5qL1wFZecMFs2stUypAyJvw: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0222,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0xf6170c9b48765c56dae252b10e87e9ac51330846fdb613b922f894bc9968a48f: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0224,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0x3bca91b9b847cff6f4b666fa1d966981678975e13fd69d647bd11bed99f5fa14: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0230,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0xae74941d0ff92e1e6c26a11fa0762ef29b87786e60daf62be00477288ec41abd: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0231,,,dex_swaps,solana raydium-clmm BxRhW4q1wTRwJkJ1C4NR4yJCRL2uusoju4g1bVenspZK: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0231,,,dex_swaps,"bsc pancakeswap-v3-bsc 0xcacd3583c7ef55126099be733b12672c60e2ab23: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0244,,,dex_swaps,"bsc pancakeswap-v3-bsc 0xee6ff918a1f68b5d2fdecb14b367fa2eb5c6951c: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0247,,,dex_swaps,solana raydium-clmm BkX9RSHoDJGkU7pbHiksv3DprdLM3KWGoDSfGN9cGJ5d: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0249,,,dex_swaps,"bsc pancakeswap-v3-bsc 0x1a9b68ca1dcacb106c4b853e2d9c915f0cfe2e56: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0251,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0x25042161f871a34e77a7af1aff74aa1a0dc9b4c661fd53c7504948ad97f8d13f: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0256,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0x7469666fbe1935485b983f7eeb6b9a736cebe38788dbdebcdf6fd8fce28e226e: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0261,,,dex_swaps,solana orca 9RqDTfwCx2SgxsvKpspQHc38HUo3B6hRd3oR9JR966Ps: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0262,,,dex_swaps,solana metadao CUPoiqkK4hxyCiJcLC4yE9AtJP1MoV1vFV2vx3jqwWeS: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0268,,,dex_swaps,"bsc pancakeswap-infinity-clmm 0x26a8e4591b7a0efcd45a577ad0d54aa64a99efaf2546ad4d5b0454c99eb70eab: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0276,,,dex_swaps,"bsc pancakeswap-v3-bsc 0xcbeaad783ffd2cea125e9d9b2ec21e639d20fa59: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0291,,,dex_swaps,"bsc pancakeswap-v3-bsc 0x83e98cac01259a0d00729cfb722810472c421459: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0294,,,dex_swaps,solana orca ArisQNcbjXPJD7RgPRvysatX3xcfHPTbcTkfD8kDoZ9i: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0301,,,dex_swaps,solana raydium Q2sPHPdUWFMg7M7wwrQKLrn619cAucfRsmhVJffodSp: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0301,,,dex_swaps,"bsc pancakeswap-v3-bsc 0x1b87567de134dbe30e29953c477f1cbc3d626b6b: not covered: eth_getLogs error https://bsc-mainnet.public.blastapi.io: {'code': -32000, 'message': 'Your request has been rate-limited due to unusually",v3
+H0312,,,dex_swaps,solana raydium ATEQDF6jZwBfqy5jYzLEfjMNxzdk9k32XDmVFjGZEBsc: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0316,,,dex_swaps,solana orca 9tXiuRRw7kbejLhZXtxDxYs2REe43uH2e7k1kocgdM9B: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0340,,,dex_swaps,solana byreal 86zmTigoureLp9JwS2m8NghfWxbo6SJe1moHLqM2xVkt: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0350,,,dex_swaps,solana raydium-clmm HnhpJPJgBG2KwniMTNW8cVBHvk1hFog3RC3kjnyc23tD: not covered: public Solana RPC has no time-indexed history; paging signatures back to the announcement is not feasible on the free tier,v3
+H0206,,,dex_liquidity_at_ann,eth uniswap-v4-ethereum: singleton pool manager: per-pool reserves are not a token balance,v3
+H0237,,,dex_liquidity_at_ann,base uniswap-v4-base: singleton pool manager: per-pool reserves are not a token balance,v3
+H0237,,,dex_liquidity_at_ann,eth uniswap-v4-ethereum: singleton pool manager: per-pool reserves are not a token balance,v3
+H0243,,,dex_liquidity_at_ann,eth uniswap-v4-ethereum: singleton pool manager: per-pool reserves are not a token balance,v3
+H0272,,,dex_liquidity_at_ann,eth uniswap-v4-ethereum: singleton pool manager: per-pool reserves are not a token balance,v3
+H0273,,,dex_liquidity_at_ann,eth uniswap-v4-ethereum: singleton pool manager: per-pool reserves are not a token balance,v3
+H0277,,,dex_liquidity_at_ann,eth uniswap-v4-ethereum: singleton pool manager: per-pool reserves are not a token balance,v3
+H0285,,,dex_liquidity_at_ann,eth uniswap-v4-ethereum: singleton pool manager: per-pool reserves are not a token balance,v3
+H0288,,,dex_liquidity_at_ann,base uniswap-v4-base: singleton pool manager: per-pool reserves are not a token balance,v3
+H0290,,,dex_liquidity_at_ann,eth uniswap-v4-ethereum: singleton pool manager: per-pool reserves are not a token balance,v3
+H0306,,,dex_liquidity_at_ann,eth uniswap-v4-ethereum: singleton pool manager: per-pool reserves are not a token balance,v3
+H0311,,,dex_liquidity_at_ann,eth uniswap-v4-ethereum: singleton pool manager: per-pool reserves are not a token balance,v3
+H0322,,,dex_liquidity_at_ann,base uniswap-v4-base: singleton pool manager: per-pool reserves are not a token balance,v3
+H0338,,,dex_liquidity_at_ann,bsc pancakeswap-infinity-clmm: singleton pool manager: per-pool reserves are not a token balance,v3
+H0341,,,dex_liquidity_at_ann,base uniswap-v4-base: singleton pool manager: per-pool reserves are not a token balance,v3
+H0199,,,dex_liquidity_at_ann,eth uniswap-v4-ethereum: singleton pool manager: per-pool reserves are not a token balance,v3
+H0224,,,dex_liquidity_at_ann,eth uniswap-v4-ethereum: singleton pool manager: per-pool reserves are not a token balance,v3
+H0238,,,dex_liquidity_at_ann,base uniswap-v4-base: singleton pool manager: per-pool reserves are not a token balance,v3
+H0238,,,dex_liquidity_at_ann,eth uniswap-v4-ethereum: singleton pool manager: per-pool reserves are not a token balance,v3
+H0295,,,dex_liquidity_at_ann,eth uniswap-v4-ethereum: singleton pool manager: per-pool reserves are not a token balance,v3
+H0323,,,dex_liquidity_at_ann,base uniswap-v4-base: singleton pool manager: per-pool reserves are not a token balance,v3
+H0324,,,dex_liquidity_at_ann,base uniswap-v4-base: singleton pool manager: per-pool reserves are not a token balance,v3
+H0332,,,dex_liquidity_at_ann,bsc pancakeswap-infinity-clmm: singleton pool manager: per-pool reserves are not a token balance,v3
+H0332,,,dex_liquidity_at_ann,eth uniswap-v4-ethereum: singleton pool manager: per-pool reserves are not a token balance,v3
+H0334,,,dex_liquidity_at_ann,bsc pancakeswap-infinity-clmm: singleton pool manager: per-pool reserves are not a token balance,v3
+H0336,,,dex_liquidity_at_ann,bsc pancakeswap-infinity-clmm: singleton pool manager: per-pool reserves are not a token balance,v3
+H0336,,,dex_liquidity_at_ann,eth uniswap-v4-ethereum: singleton pool manager: per-pool reserves are not a token balance,v3
+H0339,,,dex_liquidity_at_ann,bsc pancakeswap-infinity-clmm: singleton pool manager: per-pool reserves are not a token balance,v3
+H0343,,,dex_liquidity_at_ann,base uniswap-v4-base: singleton pool manager: per-pool reserves are not a token balance,v3
+X0466,Coinbase,PEARL,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0005,Upbit,POKT,delisted_daily,CoinGecko public API serves only the last 365 days,v3
+V0010,Upbit,OAS,delisted_daily,CoinGecko public API serves only the last 365 days,v3
+V0018,Upbit,GAME2,delisted_daily,CoinGecko public API serves only the last 365 days,v3
+V0021,Upbit,TT,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0023,Upbit,BLAST,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0051,Upbit,LWA,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0097,Upbit,GO,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0099,Upbit,QTCON,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0100,Upbit,RLY,delisted_daily,CoinGecko public API serves only the last 365 days,v3
+V0187,Coinbase,VELO,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0194,Coinbase,MOBILE,delisted_daily,CoinGecko public API serves only the last 365 days,v3
+V0221,Coinbase,PIRATE,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0226,Coinbase,BLAST,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0234,Coinbase,ACX,delisted_daily,CoinGecko public API serves only the last 365 days,v3
+V0418,Coinbase,AUDD,delisted_daily,CoinGecko public API serves only the last 365 days,v3
+V0419,Coinbase,XSGD,delisted_daily,CoinGecko public API serves only the last 365 days,v3
+V0447,Coinbase,LIGHTER,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0454,Coinbase,OUSD,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0455,Coinbase,PEARL,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0503,Bybit,ZK,delisted_daily,CoinGecko public API serves only the last 365 days,v3
+V0555,Bybit,MON,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0580,OKX,UXLINK,delisted_daily,CoinGecko public API serves only the last 365 days,v3
+V0608,OKX,EURC,delisted_daily,CoinGecko public API serves only the last 365 days,v3
+V0629,OKX,MAJOR,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0704,OKX,DUCK,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0707,OKX,NC,delisted_daily,CoinGecko public API serves only the last 365 days,v3
+V0768,Bybit,PUMP,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0783,Binance,AERGO,delisted_daily,CoinGecko public API serves only the last 365 days,v3
+V0910,Bithumb,ZBC,delisted_daily,CoinGecko public API serves only the last 365 days,v3
+V0924,Bithumb,TT,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0930,Bithumb,GRS,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0947,Bithumb,BLAST,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V0980,Bithumb,SUNDOG,delisted_daily,CoinGecko public API serves only the last 365 days,v3
+V0998,Bithumb,STRIKE,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V1004,Bithumb,HPO,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V1027,Bithumb,ELX,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V1041,Bithumb,PUMP,delisted_daily,not on Binance; CoinGecko id unknown or symbol ambiguous,v3
+V1073,Bithumb,ES,delisted_daily,CoinGecko public API serves only the last 365 days,v3
+,,,test_order,Binance /api/v3/order/test and /fapi/v1/order/test are SIGNED (need an API key): test-order round trip not recorded; pollers log test_order_status,v3
+,Binance,,book_snapshots,"data.binance.vision has no spot bookDepth/bookTicker archive and futures bookTicker stops in 2024-03: historical books are USD-M perp bookDepth bands only (+-1..5%, ~30-60 s cadence), not price levels",v3
+,,,book_snapshots_forward,forward REST depth + 5-minute websocket captures exist only for listing notices seen by the pollers after they started (2026-11-13),v3
+,Hyperliquid,,hyperliquid_archive,"Hyperliquid historical archive (s3://hyperliquid-archive, s3://hl-mainnet-node-data) is requester-pays: anonymous reads are denied, so no 1m candles or trades from it",v3
+,OKX,,funding,OKX public funding-rate-history keeps only recent months; older OKX perp windows have no funding,v3
+,Bithumb,,source,"Bithumb 2024-2025 from Wayback captures of feed.bithumb.com/notice: {""cdx_rows"": 3256, ""cdx_200_not_block_sized"": 2120, ""list_pages"": 134, ""notice_ids"": 1446, ""fetched"": 1576, ""empty_fetch"": 2, ""no_next_data"": 0, ""usable_pages"": 1574, ""distinct_notices"": 2564, ""listing_notices"": 444, ""failed_months"": [], ""published_kst_min"": ""2020-03-20 14:22:22"", ""published_kst_max"": ""2026-10-31 07:30:00""}",v3
+,,,delisted_daily,CryptoCompare histoday now needs an API key (401); CoinGecko public market_chart serves only the last 365 days,v3
+,Solana,,dex_swaps,Solana pools not covered: the free public RPC has no time-indexed history and paging signatures back months is not feasible at its rate limit; no free indexer without a key,v3
+,BSC,,dex_swaps,BSC: free RPCs either prune history (bloXroute keeps a few weeks; drpc free plan has only recent state) or rate-limit eth_getLogs; only recent BSC windows are covered,v3
+,Binance,,perp_limits,"Binance per-symbol max leverage and notional brackets come from fapi/v1/leverageBracket, which is SIGNED; max_leverage is empty for Binance rows",v3

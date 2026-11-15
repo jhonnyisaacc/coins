@@ -1,0 +1,7 @@
+ogroup,venue,snapshot_date,n_symbols_listed_now,max_leverage_median,position_limit_usd_median,position_limit_usd_p10,tier1_notional_usd_median,funding_cap_median,funding_interval_h_median
+Bithumb,binance_perp,2026-11-13,202,,,,,2.0,4.0
+Bithumb,bybit_perp,2026-11-13,192,25.0,2500000.0,2000000.0,5000.0,2.0,4.0
+Upbit BTC/USDT only,binance_perp,2026-11-13,64,,,,,2.0,4.0
+Upbit BTC/USDT only,bybit_perp,2026-11-13,61,25.0,2500000.0,1250000.0,5000.0,2.0,4.0
+Upbit KRW,binance_perp,2026-11-13,166,,,,,2.0,4.0
+Upbit KRW,bybit_perp,2026-11-13,164,25.0,2500000.0,2500000.0,5000.0,2.0,4.0

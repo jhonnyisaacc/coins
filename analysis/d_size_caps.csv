@@ -1,0 +1,6 @@
+strategy,inputs,min_input_k,cap_k
+Upbit KRW fast long,"2026 ask depth within 1%, p25 = 27.8k; 5 s flow at 1 s latency before +2%, Binance spot, p25 = 26.8k",26.787027081999998,10.0
+Bithumb fast long (paper only),"2024-2025 ask depth within 1%, p25 = 119.1k; 2026 ask depth within 1% (third-party-time events), p25 = 18.4k; 5 s flow at 1 s latency before +2%, Binance spot, p25 = 74.7k",18.391495149999997,5.0
+Upbit KRW short after the open,"2026 bid depth within 1% before the announcement, p25 = 36.9k",36.855250275,15.0
+Bithumb short after the open,"2026 bid depth within 1% before the announcement (third-party-time events), p25 = 27.8k",27.79189996,10.0
+Binance spot with prior perp fast long,"2026 ask depth within 1%, p25 = 16.5k",16.5286636,5.0

@@ -53,3 +53,25 @@ The collection host so far is a laptop in South America, about 0.4–0.6 s from 
 4. Add a daily cron for the perp limits: `5 0 * * * cd ~/coins && .venv/bin/python scripts/25_perp_limits_snapshot.py >> out/25.log 2>&1`.
 5. Every week, copy `data/*_poll_log.csv`, `data/perp_limits_snapshots.csv` and `raw/forward/book/` back, rerun the v3 build, and commit on a `chore/` branch through a PR (never directly to main).
 6. Each log line has a UTC timestamp, and every 10 minutes the poller writes a heartbeat with poll and error counts. A gap in heartbeats means the poller was down for that interval, so treat no rows in that gap as "not observed", not "no notice".
+
+## Final report
+
+The final report needs only `data/` and no network access.
+
+1. Run every analysis script in name order:
+   ```
+   for f in scripts/20_final_*.py; do .venv/bin/python "$f" || break; done
+   ```
+   - `20_final_a_korean.py`: Korean listings (section 4A). It writes `analysis/a_*.csv` and `analysis/trades_a.csv`.
+   - `20_final_b_other.py`: Binance spot, Binance perp, OKX, Bybit and Coinbase (4B). It writes `analysis/b_*.csv` and `analysis/trades_b.csv`.
+   - `20_final_c_strategy.py`: the strategy table (4C), `analysis/strategy_table.csv`.
+   - `20_final_d_liquidity.py`: order books, fillable size, DEX swaps and size caps (4D).
+   - `20_final_e_risk.py`: survivorship, concentration and worst events (4E).
+   - `20_final_f_hyperliquid.py`: Hyperliquid coverage and coarse shorts (4F).
+   - `20_final_g_latency.py`: the poll logs so far (4G).
+   - `20_final_h_patterns.py`: other patterns (4H).
+   - `20_final_t_tests.py`: the tests (section 5) and the comparison with `scripts/final_reference_values.csv`.
+   - `20_final_z_report.py`: renders `docs/FINAL_REPORT.md` from `scripts/final_report_template.md` and writes the `final_report` key of `data/summary.json`.
+2. Run `.venv/bin/python scripts/15_check_dataset.py`. It must print `all dataset checks passed`.
+
+Edit the template, not the rendered report. A placeholder that matches no CSV row, or more than one, stops the render.

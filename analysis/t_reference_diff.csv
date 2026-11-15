@@ -1,0 +1,94 @@
+item,reference,ours,difference,status,cause
+Upbit KRW tick 1 s 5 min: n,132.0,133.0,1.0,differs,"H0051 is included here: its Binance spot ticks give an entry at +1 s and candles give the exit, but the ticks stop before +60 s, so it has no speed profile. The reference appears to require the full tick window (it reports 132 for both)."
+Upbit KRW tick 0.5 s 5 min: median,16.5,16.120416770032264,-0.37958322996773575,differs,"One extra event (H0051, see the n row) shifts the median."
+Upbit KRW tick 0.5 s 5 min: mean,29.0,28.773578138814873,-0.22642186118512697,differs,One extra event (H0051).
+Upbit KRW tick 1 s 5 min: median,9.1,9.063461538461537,-0.03653846153846274,match,
+Upbit KRW tick 1 s 5 min: mean,20.9,20.7468786633023,-0.15312133669769779,differs,One extra event (H0051).
+Upbit KRW tick 1 s 5 min: win rate,75.0,74.43609022556392,-0.5639097744360839,match,
+Upbit KRW tick 1 s 5 min: worst,-17.3,-17.343660815111374,-0.0436608151113731,match,
+Upbit KRW tick 1 s 5 min v1: median,5.6,4.970469798657718,-0.6295302013422814,differs,"H0051 is a v1 event (n 53 here against 52), which moves the v1 median."
+Upbit KRW tick 1 s 5 min v2+v3: median,12.2,12.212677032547115,0.012677032547115274,match,
+Upbit KRW tick 2 s 5 min: median,1.2,0.9810276679841806,-0.21897233201581934,differs,One extra event (H0051).
+Upbit KRW tick 1 s 5 min 2026: median,6.5,6.30235690235692,-0.19764309764307963,differs,H0051 (2026) is included here.
+Upbit KRW move: median at 2 s,15.0,15.041905048332271,0.04190504833227138,match,
+Upbit KRW move: median at 60 s,18.8,18.842394585651412,0.04239458565141163,match,
+Upbit KRW move: share of 60 s move at 1 s,21.0,21.318451554023515,0.31845155402351466,match,
+Upbit KRW move: time to half the move,1.05,1.0459999999999998,-0.004000000000000226,match,
+Upbit BTC/USDT tick 0.5 s 5 min: median,1.6,1.5026095126337573,-0.09739048736624278,match,
+Upbit KRW delayed long 60 min: median,-1.37,-1.3727368896205068,-0.002736889620506666,match,
+Upbit KRW delayed long 24 h: median,-8.85,-8.851413228540899,-0.001413228540899425,match,
+Upbit KRW missed move: median,21.4,21.412796242783685,0.012796242783686296,match,
+Bithumb official tick 1 s 5 min: median,2.1,2.1541954590325716,0.0541954590325715,match,
+Bithumb official tick 1 s 5 min: mean,4.3,4.306377938854036,0.006377938854035925,match,
+Bithumb official tick 1 s 5 min 2024: median,0.3,0.27146555930991406,-0.028534440690085927,match,
+Bithumb official tick 1 s 5 min 2025: median,4.3,4.299382225212557,-0.0006177747874431816,match,
+Bithumb official move: median at 60 s,5.6,5.62032364712024,0.020323647120240373,match,
+Bithumb official 2025: first +2% print (s),2.5,2.484,-0.016000000000000014,match,
+Bithumb third-party: drift in the 60 s before,5.8,5.3985171455050995,-0.4014828544949003,differs,Same 37 events. The reference may take the price at -60 s from the first trade in the tick window rather than the last trade at or before -60 s; not confirmed.
+Bithumb official delayed long 24 h: median,-5.0,-4.999848378180632,0.0001516218193682306,match,
+Upbit KRW long at the open 60 min: median,-7.15,-7.1533693580762225,-0.003369358076222184,match,
+Upbit KRW long at the open 24 h: median,-17.83,-17.828464419475655,0.0015355805243437715,match,
+Bithumb long at the open 24 h: median,-9.86,-8.897409296840518,0.9625907031594814,differs,"Not explained. n (248) and the mean (-9.78) match the reference, so the event set is the same; the median here is computed directly from events_metrics.start_lst_n1440. No variant tried (high-of-candle entry, external venue) reproduces -9.86."
+Upbit KRW new tokens long at the open 24 h: median,-37.3,-37.302591828181356,-0.002591828181358835,match,
+Bithumb window: long median,-0.52,-0.2732628916234154,0.24673710837658464,differs,Not explained. Same 141 events and the same mean (1.17). Exiting at the open of the opening minute instead of the close of the minute before gives the same median here.
+Bithumb window: short median,-0.98,-1.268440351455628,-0.28844035145562796,differs,Follows the long difference; the means match (-2.78 against -2.79).
+Bithumb window: last hour mean,-0.27,-0.9191172872698543,-0.6491172872698543,differs,"Definition: here the entry is the delayed entry after the minute 61 minutes before the open, so the hour includes one extra minute of costs-free drift; an open-to-open variant gives a mean of -0.84. The reference definition of this leg is not stated."
+Upbit KRW short open 24 h +20% stop pessimistic: median,5.51,5.5090287069386985,-0.0009712930613012816,match,
+Upbit KRW short open 24 h +20% stop pessimistic: mean,3.15,3.148528536819448,-0.001471463180551691,match,
+Upbit KRW short open 24 h +20% stop pessimistic: worst,-33.5,-33.496311505862664,0.0036884941373358515,match,
+Upbit KRW short open 24 h no stop: worst,-143.0,-142.87339472815142,0.12660527184857528,match,
+Upbit KRW short 24 h: funding paid mean,3.5,3.4008995724637687,-0.09910042753623127,differs,"Not explained. Summing over [entry, exit] or from the trading open instead of (entry, exit] gives the same 3.40 here, so the cause is upstream of the window (for example a different funding table or interval handling)."
+Upbit KRW short 24 h: funding paid median,1.49,1.2585035,-0.2314965,differs,See the mean row.
+Upbit KRW short 24 h: touches +20%,19.0,18.84057971014493,-0.1594202898550705,match,
+Bithumb short open 24 h +20% stop pessimistic: median,3.52,3.5249167011244404,0.004916701124440426,match,
+Bithumb short open 24 h +20% stop pessimistic: worst,-61.9,-61.92672722268098,-0.026727222680982266,match,
+Upbit KRW short open -15 min 24 h: median,5.4,5.430965950253556,0.030965950253555974,match,
+Upbit KRW short announcement 24 h: mean,-2.1,-2.0950457904352917,0.004954209564708378,match,
+Bybit limits: median max leverage,25.0,25.0,0.0,match,
+Bybit limits: median position limit USD,2500000.0,2500000.0,0.0,match,
+Binance spot prior perp tick 1 s: median,7.5,7.544438578925283,0.044438578925283245,match,
+Binance spot prior perp: first +2% print (s),2.3,2.281,-0.018999999999999684,match,
+Binance spot prior perp short from spot open 24 h +20% pessimistic: median,7.6,7.55269581895757,-0.047304181042429505,match,
+HODLer Airdrops stopped short: median,11.2,11.17240823653088,-0.027591763469120067,match,
+Binance perp listing tick 1 s on spot: n,35.0,36.0,1.0,differs,"One more event here has a spot tick entry and an exit candle (35 events have a full 60 s speed profile, matching the reference)."
+Binance perp listing tick 1 s on spot: mean,11.0,12.183583634162721,1.183583634162721,differs,The extra event (see the n row) is a large winner.
+Binance perp listing short 24 h no stop: n,257.0,259.0,2.0,differs,Inferred: two more events here have a 24 h return in events_metrics; the reference may have dropped events without funding rows or without candles.
+Binance perp listing short 24 h +20% pessimistic: median,-0.1,-0.08213319275499795,0.01786680724500206,match,
+Binance perp listing: touches +20% in 24 h,41.0,40.853658536585364,-0.14634146341463605,match,
+OKX long at the open 24 h: median,-5.5,-5.47277565275237,0.02722434724763012,match,
+OKX short external perp 24 h: n,23.0,22.0,-1.0,differs,"Inferred: the short here uses events_metrics.start_ext_ only when the external venue at the open is a Binance or Bybit USDT perp. v1 OKX and Bybit events have no stored perp candles, so a short on a perp that existed but was not the first external venue cannot be priced from data/. The reference likely priced those from another source."
+OKX short external perp 24 h: median,6.7,7.756851292446161,1.0568512924461606,differs,See the n row.
+Bybit long at the open 24 h: median,-13.3,-13.280115273775216,0.019884726224784544,match,
+Bybit short external perp 24 h: n,57.0,46.0,-11.0,differs,See the OKX n row: same venue rule.
+Bybit short external perp 24 h: median,1.5,1.9008917870397763,0.40089178703977635,differs,See the OKX n row.
+Coinbase short full trading 24 h: median,3.5,3.5205630275593727,0.02056302755937267,match,
+Coinbase long on Coinbase at the open 24 h: median,-5.1,-5.08412698412699,0.0158730158730096,match,
+Upbit KRW perp ask depth within 1%: median USD k,128.0,128.0869565,0.08695650000001365,match,
+Upbit KRW perp ask depth within 1% 2026: p25 USD k,33.0,27.849533765,-5.150466235,differs,Inferred: the reference may use a different quantile method or the closest snapshot rather than the last one at or before the announcement; the median (57) matches.
+Bithumb official ask depth within 1%: median USD k,194.0,194.49343525,0.49343525000000454,match,
+Upbit KRW depth change at the second snapshot,-64.0,-63.611582571098154,0.38841742890184605,match,
+Upbit KRW spot 5 s flow before +2%: median USD k,129.0,127.39073757000001,-1.609262429999987,differs,"Inferred: the window here starts at the first trade at or after the announcement and stops before the first trade above +2%; counting the first trade strictly after the announcement, or including the crossing trade, moves the median by about 1%."
+Upbit KRW perp 5 s flow before +2%: median USD k,224.0,224.23930502000002,0.23930502000001752,match,
+Upbit KRW spot 5 s flow at 1 s: p25 USD k,27.0,26.787027081999998,-0.21297291800000195,match,
+DEX: events with enough swaps,31.0,31.0,0.0,match,
+DEX: onset lag against Binance (s),2.1,2.108,0.008000000000000007,match,
+DEX: Upbit KRW volume in the first 60 s (USD),123000.0,123032.5455455,32.545545500004664,match,
+DEX: buy impact under 1k (%),0.06,0.03056242014616295,-0.029437579853837048,differs,"Inferred: impact here is each buy's price against the previous swap of either side in the same pool, ordered by block and log index. A previous-buy or previous-block reference gives larger values."
+DEX: buy impact 5k-20k (%),0.94,0.8254241199614154,-0.11457588003858454,differs,See the under-1k row.
+DEX: buy impact 20k-100k (%),4.18,2.8642699837036156,-1.315730016296384,differs,See the under-1k row; buys of 100k or more are a separate bucket here.
+DEX: measured over constant-product ratio (5k or more),0.64,0.5873072574040046,-0.052692742595995434,differs,See the under-1k row.
+DEX: liquidity today over liquidity at the announcement,0.87,0.8721021968196547,0.0021021968196547336,match,
+DEX: Upbit KRW gross to +5 min at the first swap,11.8,11.793249234245584,-0.006750765754416577,match,
+Survivorship: delisted D+1 median,0.4,-0.5738880918220945,-0.9738880918220946,differs,"Here an event needs a daily candle on the announcement day itself (39 events at D+1 against 45). The reference likely started from the first available daily candle, which adds six events that began trading after that day."
+Survivorship: delisted D+30 median,-18.6,-18.60776313785871,-0.0077631378587099675,match,
+Survivorship: included D+1 n,451.0,847.0,396.0,differs,"Here every event with 1-minute candles covering the next UTC day is included (Binance spot candles first, else the perp). The reference set of 451 is smaller; its rule is not stated."
+Concentration: Upbit KRW long 1 s top-5 share,30.0,29.66341857260348,-0.33658142739652064,match,
+Concentration: Upbit KRW short with stop drawdown,75.0,74.76243971319792,-0.2375602868020792,match,
+Concentration: Upbit KRW short without stop top-5 share,528.0,527.6895782667049,-0.31042173329512934,match,
+Suspect ticks removed,64.0,64.0,0.0,match,
+HL: Upbit KRW events with an HL perp at the announcement,69.0,69.0,0.0,match,
+HL: events with a perp on HL alone,6.0,6.0,0.0,match,
+HL: Upbit KRW coarse short median,3.9,3.653322189092614,-0.24667781090738572,differs,"Inferred: entry and exit candles. Here the exit is the close of the HL candle containing entry + 24 h, so with 4 h candles the hold runs up to 28 h."
+HL: Binance 1m entry at the open on the same events: mean,2.1,0.8797126362543378,-1.2202873637456624,differs,Same 61 events and the same 1-minute short as section A; the reference set of 61 may differ by a few events.
+HL: 24 h volume against Binance,0.09,0.05501446874127763,-0.03498553125872236,differs,Inferred: here volume is the median per-event ratio of sum(volume x close) on HL candles to the same on Binance 1-minute candles over the first 24 h after the open. A ratio of totals or of means gives a larger value.
+Events still without funding,562.0,563.0,1.0,match,

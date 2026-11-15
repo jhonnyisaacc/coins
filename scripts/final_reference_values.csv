@@ -1,0 +1,94 @@
+item,reference,file,filters,column,cause
+Upbit KRW tick 1 s 5 min: n,132,a_tick_long,kgroup=Upbit KRW&&L=1&&hold_min=5&&drop_suspect=False&&split=all,n,"H0051 is included here: its Binance spot ticks give an entry at +1 s and candles give the exit, but the ticks stop before +60 s, so it has no speed profile. The reference appears to require the full tick window (it reports 132 for both)."
+Upbit KRW tick 0.5 s 5 min: median,16.5,a_tick_long,kgroup=Upbit KRW&&L=0.5&&hold_min=5&&drop_suspect=False&&split=all,median,"One extra event (H0051, see the n row) shifts the median."
+Upbit KRW tick 0.5 s 5 min: mean,29.0,a_tick_long,kgroup=Upbit KRW&&L=0.5&&hold_min=5&&drop_suspect=False&&split=all,mean,"One extra event (H0051)."
+Upbit KRW tick 1 s 5 min: median,9.1,a_tick_long,kgroup=Upbit KRW&&L=1&&hold_min=5&&drop_suspect=False&&split=all,median,
+Upbit KRW tick 1 s 5 min: mean,20.9,a_tick_long,kgroup=Upbit KRW&&L=1&&hold_min=5&&drop_suspect=False&&split=all,mean,"One extra event (H0051)."
+Upbit KRW tick 1 s 5 min: win rate,75,a_tick_long,kgroup=Upbit KRW&&L=1&&hold_min=5&&drop_suspect=False&&split=all,win,
+Upbit KRW tick 1 s 5 min: worst,-17.3,a_tick_long,kgroup=Upbit KRW&&L=1&&hold_min=5&&drop_suspect=False&&split=all,worst,
+Upbit KRW tick 1 s 5 min v1: median,5.6,a_tick_long,kgroup=Upbit KRW&&L=1&&hold_min=5&&drop_suspect=False&&split=v1,median,"H0051 is a v1 event (n 53 here against 52), which moves the v1 median."
+Upbit KRW tick 1 s 5 min v2+v3: median,12.2,a_tick_long,kgroup=Upbit KRW&&L=1&&hold_min=5&&drop_suspect=False&&split=v2+v3,median,
+Upbit KRW tick 2 s 5 min: median,1.2,a_tick_long,kgroup=Upbit KRW&&L=2&&hold_min=5&&drop_suspect=False&&split=all,median,"One extra event (H0051)."
+Upbit KRW tick 1 s 5 min 2026: median,6.5,a_tick_long,kgroup=Upbit KRW&&L=1&&hold_min=5&&drop_suspect=False&&split=2026,median,"H0051 (2026) is included here."
+Upbit KRW move: median at 2 s,15.0,a_speed,kgroup=Upbit KRW&&split=all,m2_median,
+Upbit KRW move: median at 60 s,18.8,a_speed,kgroup=Upbit KRW&&split=all,m60_median,
+Upbit KRW move: share of 60 s move at 1 s,21,a_speed,kgroup=Upbit KRW&&split=all,share_m1_median,
+Upbit KRW move: time to half the move,1.05,a_speed,kgroup=Upbit KRW&&split=all,t_half_median_s,
+Upbit BTC/USDT tick 0.5 s 5 min: median,1.6,a_tick_long,kgroup=Upbit BTC/USDT only&&L=0.5&&hold_min=5&&drop_suspect=False&&split=all,median,"n is 60 here against 59: one more event has an entry tick and an exit candle. Four events with entries have ticks that end before +60 s."
+Upbit KRW delayed long 60 min: median,-1.37,a_delayed_long,kgroup=Upbit KRW&&metric=n60&&split=all,median,
+Upbit KRW delayed long 24 h: median,-8.85,a_delayed_long,kgroup=Upbit KRW&&metric=n1440&&split=all,median,
+Upbit KRW missed move: median,21.4,a_delayed_long,kgroup=Upbit KRW&&metric=missed_move&&split=all,median,
+Bithumb official tick 1 s 5 min: median,2.1,a_tick_long,kgroup=Bithumb official&&L=1&&hold_min=5&&drop_suspect=False&&split=all,median,
+Bithumb official tick 1 s 5 min: mean,4.3,a_tick_long,kgroup=Bithumb official&&L=1&&hold_min=5&&drop_suspect=False&&split=all,mean,
+Bithumb official tick 1 s 5 min 2024: median,0.3,a_tick_long,kgroup=Bithumb official&&L=1&&hold_min=5&&drop_suspect=False&&split=2024,median,
+Bithumb official tick 1 s 5 min 2025: median,4.3,a_tick_long,kgroup=Bithumb official&&L=1&&hold_min=5&&drop_suspect=False&&split=2025,median,
+Bithumb official move: median at 60 s,5.6,a_speed,kgroup=Bithumb official&&split=all,m60_median,
+Bithumb official 2025: first +2% print (s),2.5,a_speed,kgroup=Bithumb official&&split=2025,t_first2_median_s,
+Bithumb third-party: drift in the 60 s before,5.8,a_speed,kgroup=Bithumb third-party&&split=all,drift_pre60_median,"Same 37 events. The reference may take the price at -60 s from the first trade in the tick window rather than the last trade at or before -60 s; not confirmed."
+Bithumb official delayed long 24 h: median,-5.00,a_delayed_long,kgroup=Bithumb official&&metric=n1440&&split=all,median,
+Upbit KRW long at the open 60 min: median,-7.15,a_open_long,ogroup=Upbit KRW&&metric=start_lst_n60&&subset=all&&split=all,median,
+Upbit KRW long at the open 24 h: median,-17.83,a_open_long,ogroup=Upbit KRW&&metric=start_lst_n1440&&subset=all&&split=all,median,
+Bithumb long at the open 24 h: median,-9.86,a_open_long,ogroup=Bithumb&&metric=start_lst_n1440&&subset=all&&split=all,median,"Not explained. n (248) and the mean (-9.78) match the reference, so the event set is the same; the median here is computed directly from events_metrics.start_lst_n1440. No variant tried (high-of-candle entry, external venue) reproduces -9.86."
+Upbit KRW new tokens long at the open 24 h: median,-37.3,a_open_long,ogroup=Upbit KRW&&metric=start_lst_n1440&&subset=new_token&&split=all,median,
+Bithumb window: long median,-0.52,a_bithumb_window,metric=long&&split=all,median,"Not explained. Same 141 events and the same mean (1.17). Exiting at the open of the opening minute instead of the close of the minute before gives the same median here."
+Bithumb window: short median,-0.98,a_bithumb_window,metric=short&&split=all,median,"Follows the long difference; the means match (-2.78 against -2.79)."
+Bithumb window: last hour mean,-0.27,a_bithumb_window,metric=last_hour_long&&split=all,mean,"Definition: here the entry is the delayed entry after the minute 61 minutes before the open, so the hour includes one extra minute of costs-free drift; an open-to-open variant gives a mean of -0.84. The reference definition of this leg is not stated."
+Upbit KRW short open 24 h +20% stop pessimistic: median,5.51,a_short_open,grp=Upbit KRW&&hold_min=1440&&stop=+20%&&mode=pessimistic&&split=all,median,
+Upbit KRW short open 24 h +20% stop pessimistic: mean,3.15,a_short_open,grp=Upbit KRW&&hold_min=1440&&stop=+20%&&mode=pessimistic&&split=all,mean,
+Upbit KRW short open 24 h +20% stop pessimistic: worst,-33.5,a_short_open,grp=Upbit KRW&&hold_min=1440&&stop=+20%&&mode=pessimistic&&split=all,worst,
+Upbit KRW short open 24 h no stop: worst,-143,a_short_open,grp=Upbit KRW&&hold_min=1440&&stop=none&&split=all,worst,
+Upbit KRW short 24 h: funding paid mean,3.50,a_short_open_funding_touch,grp=Upbit KRW&&hold_min=1440,funding_paid_mean,"Not explained. Summing over [entry, exit] or from the trading open instead of (entry, exit] gives the same 3.40 here, so the cause is upstream of the window (for example a different funding table or interval handling)."
+Upbit KRW short 24 h: funding paid median,1.49,a_short_open_funding_touch,grp=Upbit KRW&&hold_min=1440,funding_paid_median,"See the mean row."
+Upbit KRW short 24 h: touches +20%,19,a_short_open_funding_touch,grp=Upbit KRW&&hold_min=1440,touch20,
+Bithumb short open 24 h +20% stop pessimistic: median,3.52,a_short_open,grp=Bithumb&&hold_min=1440&&stop=+20%&&mode=pessimistic&&split=all,median,
+Bithumb short open 24 h +20% stop pessimistic: worst,-61.9,a_short_open,grp=Bithumb&&hold_min=1440&&stop=+20%&&mode=pessimistic&&split=all,worst,
+Upbit KRW short open -15 min 24 h: median,5.4,a_short_grid,grp=Upbit KRW&&entry=open -15m&&hold_min=1440&&stop=none&&split=all,median,
+Upbit KRW short announcement 24 h: mean,-2.1,a_short_grid,grp=Upbit KRW&&entry=announcement +0m&&hold_min=1440&&stop=none&&split=all,mean,
+Bybit limits: median max leverage,25,a_perp_limits,ogroup=Upbit KRW&&venue=bybit_perp,max_leverage_median,
+Bybit limits: median position limit USD,2500000,a_perp_limits,ogroup=Upbit KRW&&venue=bybit_perp,position_limit_usd_median,
+Binance spot prior perp tick 1 s: median,7.5,b_tick_long,group=Binance spot with prior perp&&L=1&&hold_min=5&&split=all,median,
+Binance spot prior perp: first +2% print (s),2.3,b_speed,group=Binance spot with prior perp&&split=all,t_first2_median_s,
+Binance spot prior perp short from spot open 24 h +20% pessimistic: median,7.6,b_short,group=Binance spot with prior perp&&entry=spot open +1m on perp&&sub=all&&hold_min=1440&&stop=+20%&&mode=pessimistic&&split=all,median,
+HODLer Airdrops stopped short: median,11.2,b_short,group=Binance spot with prior perp&&entry=spot open +1m on perp&&sub=HODLer Airdrops&&hold_min=1440&&stop=+20%&&mode=pessimistic&&split=all,median,
+Binance perp listing tick 1 s on spot: n,35,b_tick_long,group=Binance perp listing (spot ticks)&&L=1&&hold_min=5&&split=all,n,"One more event here has a spot tick entry and an exit candle (35 events have a full 60 s speed profile, matching the reference)."
+Binance perp listing tick 1 s on spot: mean,11.0,b_tick_long,group=Binance perp listing (spot ticks)&&L=1&&hold_min=5&&split=all,mean,"The extra event (see the n row) is a large winner."
+Binance perp listing short 24 h no stop: n,257,b_short,group=Binance perp listing&&entry=perp open +1m on listed perp (events_metrics)&&sub=all&&hold_min=1440&&stop=none&&split=all,n,"Inferred: two more events here have a 24 h return in events_metrics; the reference may have dropped events without funding rows or without candles."
+Binance perp listing short 24 h +20% pessimistic: median,-0.1,b_short,group=Binance perp listing&&entry=perp open +1m on listed perp&&sub=all&&hold_min=1440&&stop=+20%&&mode=pessimistic&&split=all,median,
+Binance perp listing: touches +20% in 24 h,41,b_short_funding_touch,group=Binance perp listing&&entry=perp open +1m on listed perp&&sub=all&&hold_min=1440,touch20,
+OKX long at the open 24 h: median,-5.5,b_delayed,group=OKX spot&&metric=start_lst_n1440&&split=all,median,
+OKX short external perp 24 h: n,23,b_short,group=OKX spot&&entry=open +1m on external perp (events_metrics)&&sub=all&&hold_min=1440&&stop=none&&split=all,n,"Inferred: the short here uses events_metrics.start_ext_ only when the external venue at the open is a Binance or Bybit USDT perp. v1 OKX and Bybit events have no stored perp candles, so a short on a perp that existed but was not the first external venue cannot be priced from data/. The reference likely priced those from another source."
+OKX short external perp 24 h: median,6.7,b_short,group=OKX spot&&entry=open +1m on external perp (events_metrics)&&sub=all&&hold_min=1440&&stop=none&&split=all,median,"See the n row."
+Bybit long at the open 24 h: median,-13.3,b_delayed,group=Bybit spot&&metric=start_lst_n1440&&split=all,median,
+Bybit short external perp 24 h: n,57,b_short,group=Bybit spot&&entry=open +1m on external perp (events_metrics)&&sub=all&&hold_min=1440&&stop=none&&split=all,n,"See the OKX n row: same venue rule."
+Bybit short external perp 24 h: median,1.5,b_short,group=Bybit spot&&entry=open +1m on external perp (events_metrics)&&sub=all&&hold_min=1440&&stop=none&&split=all,median,"See the OKX n row."
+Coinbase short full trading 24 h: median,3.5,b_short,group=Coinbase&&entry=full trading +1m on Binance perp&&sub=all&&hold_min=1440&&stop=none&&split=all,median,
+Coinbase long on Coinbase at the open 24 h: median,-5.1,b_delayed,group=Coinbase&&metric=start_lst_n1440&&split=all,median,
+Upbit KRW perp ask depth within 1%: median USD k,128,d_book,kgroup=Upbit KRW&&side=ask&&band_pct=1&&period=all,depth_k_median,
+Upbit KRW perp ask depth within 1% 2026: p25 USD k,33,d_book,kgroup=Upbit KRW&&side=ask&&band_pct=1&&period=2026,depth_k_p25,"Inferred: the reference may use a different quantile method or the closest snapshot rather than the last one at or before the announcement; the median (57) matches."
+Bithumb official ask depth within 1%: median USD k,194,d_book,kgroup=Bithumb official&&side=ask&&band_pct=1&&period=all,depth_k_median,
+Upbit KRW depth change at the second snapshot,-64,d_book,kgroup=Upbit KRW&&side=ask&&band_pct=1&&period=all,change2_median_pct,
+Upbit KRW spot 5 s flow before +2%: median USD k,129,d_fillable,kgroup=Upbit KRW&&venue=binance_spot&&L=0&&window_s=5&&cap_pct=2,usd_k_median,"Inferred: the window here starts at the first trade at or after the announcement and stops before the first trade above +2%; counting the first trade strictly after the announcement, or including the crossing trade, moves the median by about 1%."
+Upbit KRW perp 5 s flow before +2%: median USD k,224,d_fillable,kgroup=Upbit KRW&&venue=binance_perp&&L=0&&window_s=5&&cap_pct=2,usd_k_median,
+Upbit KRW spot 5 s flow at 1 s: p25 USD k,27,d_fillable,kgroup=Upbit KRW&&venue=binance_spot&&L=1&&window_s=5&&cap_pct=2,usd_k_p25,
+DEX: events with enough swaps,31,d_dex_summary,kgroup=all,n_enough,
+DEX: onset lag against Binance (s),2.1,d_dex_summary,kgroup=all,dex_minus_binance_median_s,
+DEX: Upbit KRW volume in the first 60 s (USD),123000,d_dex_summary,kgroup=Upbit KRW,vol60_median_usd,
+DEX: buy impact under 1k (%),0.06,d_dex_impact,bucket=<1k,impact_median_pct,"Inferred: impact here is each buy's price against the previous swap of either side in the same pool, ordered by block and log index. A previous-buy or previous-block reference gives larger values."
+DEX: buy impact 5k-20k (%),0.94,d_dex_impact,bucket=5k-20k,impact_median_pct,"See the under-1k row."
+DEX: buy impact 20k-100k (%),4.18,d_dex_impact,bucket=20k-100k,impact_median_pct,"See the under-1k row; buys of 100k or more are a separate bucket here."
+DEX: measured over constant-product ratio (5k or more),0.64,d_dex_impact,bucket=<1k,measured_over_cp_ratio_ge5k,"See the under-1k row."
+DEX: liquidity today over liquidity at the announcement,0.87,d_dex_impact,bucket=<1k,liq_now_over_at_ann_median,
+DEX: Upbit KRW gross to +5 min at the first swap,11.8,d_dex_gross,kgroup=Upbit KRW&&L=0,gross_median_pct,
+Survivorship: delisted D+1 median,0.4,e_survivorship,source=delisted_daily_candles&&horizon=d1,median,"Here an event needs a daily candle on the announcement day itself (39 events at D+1 against 45). The reference likely started from the first available daily candle, which adds six events that began trading after that day."
+Survivorship: delisted D+30 median,-18.6,e_survivorship,source=delisted_daily_candles&&horizon=d30,median,
+Survivorship: included D+1 n,451,e_survivorship,"source=included, 1m candles&&horizon=d1",n,"Here every event with 1-minute candles covering the next UTC day is included (Binance spot candles first, else the perp). The reference set of 451 is smaller; its rule is not stated."
+Concentration: Upbit KRW long 1 s top-5 share,30,e_concentration,strategy=Upbit KRW | long | tick 1s | 5m,top5_share,
+Concentration: Upbit KRW short with stop drawdown,75,e_concentration,strategy=Upbit KRW | short | trading open +1m on perp | 1440m | stop +20% pessimistic,max_drawdown_pp,
+Concentration: Upbit KRW short without stop top-5 share,528,e_concentration,strategy=Upbit KRW | short | trading open +1m on perp | 1440m | stop none,top5_share,
+Suspect ticks removed,64,t_tests,test=suspect ticks with and without,detail,
+HL: Upbit KRW events with an HL perp at the announcement,69,f_coverage,group=Upbit KRW&&year=all,hl_perp_at_ann,
+HL: events with a perp on HL alone,6,f_coverage,group=All Korean&&year=all,hl_only,
+HL: Upbit KRW coarse short median,3.9,f_short,"grp=Upbit KRW&&measure=HL coarse short, events also on Binance&&split=all",median,"Inferred: entry and exit candles. Here the exit is the close of the HL candle containing entry + 24 h, so with 4 h candles the hold runs up to 28 h."
+HL: Binance 1m entry at the open on the same events: mean,2.1,f_short,grp=Upbit KRW&&measure=Binance 1m entry at the open&&split=all,mean,"Same 61 events and the same 1-minute short as section A; the reference set of 61 may differ by a few events."
+HL: 24 h volume against Binance,0.09,f_funding_volume,grp=Upbit KRW,hl_over_binance_vol24_median,"Inferred: here volume is the median per-event ratio of sum(volume x close) on HL candles to the same on Binance 1-minute candles over the first 24 h after the open. A ratio of totals or of means gives a larger value."
+Events still without funding,562,t_data_facts,key=events_still_without_funding,value,"Counted here as events whose exclusion reason mentions funding and that have no row in any funding table. One more event than the prompt's figure; the difference is the counting rule (for example an event with an OKX row only)."

@@ -1,5 +1,7 @@
 # Listing pump study: public dataset
 
+**Start with the [final research report](docs/FINAL_REPORT.md).** It gives the verdict, the measurements behind it, the tests, and a playbook for the approaches that held up. It is research, not investment advice.
+
 How do coins move after an exchange announces a new listing, and after trading opens? This dataset covers 1,494 listing events on Upbit, Bithumb, Binance (spot and USD-M perps), OKX, Bybit and Coinbase, plus 1-minute candles, funding history and tick-level trades around them. The original 467 events (v1) run from Nov 2025 to Nov 2026. The v2 collection adds 364 events from Jan 2024 onwards, plus Hyperliquid and DEX tables. The v3 collection adds 663 events from 2024 to 2025 (Bithumb, OKX, Bybit and Binance perp listings), on-chain DEX swaps, order-book depth, funding gaps and forward-only latency logs. See [v2 collection](#v2-collection-2026-11-13) and [v3 collection](#v3-collection-2026-11-14).
 
 It is research data only. No trades were placed, and none of it is investment advice.

@@ -1,0 +1,9 @@
+strategy,event_id,ret,ret_pct,symbol,exchange,year
+Binance perp listing | short | perp open +1m on listed perp (events_metrics) | 1440m | stop none,V0716,-2.368700209132229,-236.8700209132229,TRUMP,Binance,2025
+Bithumb | short | trading open +1m on perp | 1440m | stop none,V1071,-1.4287339472815144,-142.87339472815142,HYPER,Bithumb,2025
+Upbit KRW | short | trading open +1m on perp | 1440m | stop none,V0121,-1.4287339472815144,-142.87339472815142,HYPER,Upbit,2025
+Bithumb | short | trading open +1m on perp | 1440m | stop +20% pessimistic,H0244,-0.6192672722268098,-61.92672722268098,BANK,Bithumb,2026
+Upbit KRW | short | trading open +1m on perp | 1440m | stop +20% pessimistic,V0069,-0.33496311505862664,-33.496311505862664,VTHO,Upbit,2025
+Binance spot with prior perp | short | spot open +1m on perp | 1440m | stop +20% pessimistic,V0444,-0.25553540531880814,-25.553540531880813,SAPIEN,Binance,2025
+Upbit KRW | long | tick 1s | 5m,V0024,-0.17343660815111372,-17.343660815111374,JUP,Upbit,2024
+Bithumb official | long | tick 1s | 5m,V1020,-0.14040626359286645,-14.040626359286644,GNO,Bithumb,2025

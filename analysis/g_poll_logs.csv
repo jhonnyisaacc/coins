@@ -1,0 +1,6 @@
+table,rows,title,is_listing,lag_s,poll_interval_s,http_elapsed_ms,region,binance_spot_time_rtt_ms,test_order_status
+upbit_poll_log,2,카바(KAVA) 입출금 일시 중단 안내,False,6.755,0.5,443.0,"South America, residential, laptop",,
+upbit_poll_log,2,카바(KAVA) 유의 촉구 안내,False,7.592,0.5,557.0,"South America, residential, laptop",,
+bithumb_poll_log,2,카바(KAVA) 입출금 일시 중지 안내,False,1359.463,1.0,1133.0,"South America, residential, laptop",,
+bithumb_poll_log,2,카바(KAVA) 유의촉구 안내,False,2296.948,1.0,1117.0,"South America, residential, laptop",,
+binance_poll_log,0,,,,,,,,

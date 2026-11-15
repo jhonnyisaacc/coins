@@ -1,0 +1,12 @@
+key,value
+events_still_without_funding,563
+events_total,1494
+v2_events_after_oct_2025,11
+events_without_announcement_time,8
+suspect_ticks,64
+v1_first_date,2025-11-03
+v2_first_date,2024-01-16
+v3_first_date,2024-01-03
+v1_last_date,2026-11-13
+v2_last_date,2026-11-12
+v3_last_date,2025-10-31

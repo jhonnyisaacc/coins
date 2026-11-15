@@ -1,0 +1,32 @@
+pattern,measure,value,source
+funding as large as the edge,"Upbit KRW: funding paid by the short over 24 h, mean %",3.4008995724637687,a_short_open_funding_touch
+funding as large as the edge,"Upbit KRW: 24 h short after funding, stop none, mean %",0.22006977938504368,a_short_open
+funding as large as the edge,"Upbit KRW: 24 h short after funding, stop +20%, mean %",3.148528536819448,a_short_open
+funding as large as the edge,"Bithumb: funding paid by the short over 24 h, mean %",1.1649988011049726,a_short_open_funding_touch
+funding as large as the edge,"Bithumb: 24 h short after funding, stop none, mean %",0.5235671677063732,a_short_open
+funding as large as the edge,"Bithumb: 24 h short after funding, stop +20%, mean %",2.1550725290718344,a_short_open
+thinner books in 2026,"Upbit KRW: ask depth within 1% before the announcement, 2024-2025, median USD k",195.517312825,d_book
+thinner books in 2026,"Upbit KRW: ask depth within 1% before the announcement, 2026, median USD k",57.258935748999995,d_book
+thinner books in 2026,"Bithumb official: ask depth within 1% before the announcement, 2024-2025, median USD k",194.49343525,d_book
+thinner books in 2026,"Upbit BTC/USDT only: ask depth within 1% before the announcement, 2024-2025, median USD k",127.02085259,d_book
+thinner books in 2026,"Upbit BTC/USDT only: ask depth within 1% before the announcement, 2026, median USD k",29.8546596255,d_book
+the fast edge narrowing over time,"Upbit KRW: tick long 1 s, 5 min, 2024, median % (n=24)",8.348531257755287,a_tick_long
+the fast edge narrowing over time,"Upbit KRW: tick long 1 s, 5 min, 2025, median % (n=62)",13.274175918437368,a_tick_long
+the fast edge narrowing over time,"Upbit KRW: tick long 1 s, 5 min, 2026, median % (n=47)",6.30235690235692,a_tick_long
+the fast edge narrowing over time,"Upbit KRW: tick long 2 s, 5 min, 2024, median % (n=24)",6.051459306270713,a_tick_long
+the fast edge narrowing over time,"Upbit KRW: tick long 2 s, 5 min, 2025, median % (n=62)",0.2716592165424863,a_tick_long
+the fast edge narrowing over time,"Upbit KRW: tick long 2 s, 5 min, 2026, median % (n=47)",-0.02402633022489057,a_tick_long
+the fast edge narrowing over time,"Bithumb official: tick long 1 s, 5 min, 2024, median % (n=46)",0.27146555930991406,a_tick_long
+the fast edge narrowing over time,"Bithumb official: tick long 1 s, 5 min, 2025, median % (n=83)",4.299382225212557,a_tick_long
+the fast edge narrowing over time,"Bithumb official: tick long 2 s, 5 min, 2024, median % (n=46)",-1.4575481296878463,a_tick_long
+the fast edge narrowing over time,"Bithumb official: tick long 2 s, 5 min, 2025, median % (n=83)",2.058045977011492,a_tick_long
+when the move starts against the timestamp,"Upbit KRW: first +2% print, 2024, median s after the timestamp",0.941,a_speed
+when the move starts against the timestamp,"Upbit KRW: first +2% print, 2025, median s after the timestamp",1.019,a_speed
+when the move starts against the timestamp,"Upbit KRW: first +2% print, 2026, median s after the timestamp",0.81,a_speed
+when the move starts against the timestamp,"Bithumb official: first +2% print, 2024, median s after the timestamp",0.728,a_speed
+when the move starts against the timestamp,"Bithumb official: first +2% print, 2025, median s after the timestamp",2.484,a_speed
+when the move starts against the timestamp,"Binance spot with prior perp: first +2% print, median s after releaseDate",2.281,b_speed
+timestamps that arrive after the move,"Bithumb v1 third-party times: drift in the 60 s before, median %",5.3985171455050995,a_speed
+timestamps that precede the visible post,"Upbit API: our first sight minus first_listed_at, s (non-listing notices)",6.8;7.6,g_poll_logs
+newly listed perps too volatile to short with a stop,"Binance perp listings: share touching +20% within 24 h, %",40.853658536585364,b_short_funding_touch
+newly listed perps too volatile to short with a stop,"Binance perp listings: share touching +50% within 24 h, %",15.24390243902439,b_short_funding_touch
